@@ -1,0 +1,3527 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+<http:/www.list.lu/document8#char=0,1305>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"1305"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A07.txt>;
+ 	nif:isString 	"
+Funding is needed at each stage in the business life cycle and as the economic activity develops, other projects may require financing as well. Entrepreneurs must analyse a potential project in order to best ascertain its profitability as well as the funding that it will require. Based on these 2 factors, both the amount and type of financing can be determined. The business manager must then seek information on the financing options available with respect to a project or activity in order to determine if he should use his own capital or resort to third party funds or bank financing. There are many different banking solutions available depending on the type of project.
+Bank financing concerns any business set up in the form of a sole proprietorship or company that wishes to develop its commercial activity.
+The type of guarantee and the guarantee requirements vary depending on the type of bank financing sought and the risks involved. Receiving a guarantee enables the bank to ensure that there will be no problems with the financing and that it will be fully repaid. The bank first looks at the client�s solvency as well as the profitability of the project to be financed. Beyond this, the bank may request one or more of the following guarantees( mortgage, pledge, surety, moral commitment)
+"^^xsd:string .
+ 
+kr:_is_needed
+ 	a rdf:Property;
+ 	rdfs:label " is needed". 
+<http://www.list.lu/document8#Ollie/Subject_197>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "Funding"^^xsd:string ;
+ 	nif:beginIndex 	 "1"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "8"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Funding_197>;
+ 	kr: is_needed_at <http://www.list.lu/document8#Ollie/Object_198>. 
+
+<http://www.list.lu/document8#Ollie/Object_198>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "22"^^xsd:string ;
+ 	nif:beginIndex 	 "22"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "32"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/each_stage_198>.
+ 
+kr:_will_be_fully_repaid_first
+ 	a rdf:Property;
+ 	rdfs:label " will be fully repaid first". 
+<http://www.list.lu/document8#Ollie/Subject_225>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "it"^^xsd:string ;
+ 	nif:beginIndex 	 "85"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "87"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/it_225>;
+ 	kr: will_be_fully_repaid_first <http://www.list.lu/document8#Ollie/Object_226>. 
+
+<http://www.list.lu/document8#Ollie/Object_226>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "1080"^^xsd:string ;
+ 	nif:beginIndex 	 "1080"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1088"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_bank_226>.
+ 
+kr:_set_up
+ 	a rdf:Property;
+ 	rdfs:label " set up". 
+<http://www.list.lu/document8#Ollie/Subject_223>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "any business"^^xsd:string ;
+ 	nif:beginIndex 	 "702"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "714"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/any_business_223>;
+ 	kr: be_set_up_in <http://www.list.lu/document8#Ollie/Object_224>. 
+
+<http://www.list.lu/document8#Ollie/Object_224>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "725"^^xsd:string ;
+ 	nif:beginIndex 	 "725"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "758"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_form_of_a_sole_proprietorship_224>.
+ 
+kr:_must_then_seek
+ 	a rdf:Property;
+ 	rdfs:label " must then seek". 
+<http://www.list.lu/document8#Ollie/Subject_209>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "The business manager"^^xsd:string ;
+ 	nif:beginIndex 	 "365"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "385"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_business_manager_209>;
+ 	kr: must_then_seek <http://www.list.lu/document8#Ollie/Object_210>. 
+
+<http://www.list.lu/document8#Ollie/Object_210>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "401"^^xsd:string ;
+ 	nif:beginIndex 	 "401"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "412"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/information_210>.
+ 
+kr:_may_require
+ 	a rdf:Property;
+ 	rdfs:label " may require". 
+<http://www.list.lu/document8#Ollie/Subject_213>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "other projects"^^xsd:string ;
+ 	nif:beginIndex 	 "99"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "113"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/other_projects_213>;
+ 	kr: may_require <http://www.list.lu/document8#Ollie/Object_214>. 
+
+<http://www.list.lu/document8#Ollie/Object_214>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "126"^^xsd:string ;
+ 	nif:beginIndex 	 "126"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "135"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/financing_214>.
+ 
+kr:_will_be_may
+ 	a rdf:Property;
+ 	rdfs:label " will be may". 
+<http://www.list.lu/document8#Ollie/Subject_231>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "the bank"^^xsd:string ;
+ 	nif:beginIndex 	 "977"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "985"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_bank_231>;
+ 	kr: will_be_may <http://www.list.lu/document8#Ollie/Object_232>. 
+
+<http://www.list.lu/document8#Ollie/Object_232>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "1015"^^xsd:string ;
+ 	nif:beginIndex 	 "1015"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1026"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/no_problems_232>.
+ 
+kr:_will_be_no_problems_may
+ 	a rdf:Property;
+ 	rdfs:label " will be no problems may". 
+<http://www.list.lu/document8#Ollie/Subject_199>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "the bank"^^xsd:string ;
+ 	nif:beginIndex 	 "977"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "985"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_bank_199>;
+ 	kr: will_be_no_problems_may_with <http://www.list.lu/document8#Ollie/Object_200>. 
+
+<http://www.list.lu/document8#Ollie/Object_200>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "416"^^xsd:string ;
+ 	nif:beginIndex 	 "416"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "429"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_financing_200>.
+ 
+kr:_well_must_analyse
+ 	a rdf:Property;
+ 	rdfs:label " well must analyse". 
+<http://www.list.lu/document8#Ollie/Subject_227>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "a potential project"^^xsd:string ;
+ 	nif:beginIndex 	 "172"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "191"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_potential_project_227>;
+ 	kr: well_must_be_analyse_in <http://www.list.lu/document8#Ollie/Object_228>. 
+
+<http://www.list.lu/document8#Ollie/Object_228>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "195"^^xsd:string ;
+ 	nif:beginIndex 	 "195"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "200"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/order_228>.
+ 
+kr:_each_stage
+ 	a rdf:Property;
+ 	rdfs:label " each stage". 
+<http://www.list.lu/document8#Ollie/Subject_201>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "the economic activity"^^xsd:string ;
+ 	nif:beginIndex 	 "67"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "88"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_economic_activity_201>;
+ 	kr: be_each_stage_in <http://www.list.lu/document8#Ollie/Object_202>. 
+
+<http://www.list.lu/document8#Ollie/Object_202>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "36"^^xsd:string ;
+ 	nif:beginIndex 	 "36"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "59"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_business_life_cycle_202>.
+ 
+kr:_the_type
+ 	a rdf:Property;
+ 	rdfs:label " the type". 
+<http://www.list.lu/document8#Ollie/Subject_205>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "the risks"^^xsd:string ;
+ 	nif:beginIndex 	 "927"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "936"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_risks_205>;
+ 	kr: be_the_type_of <http://www.list.lu/document8#Ollie/Object_206>. 
+
+<http://www.list.lu/document8#Ollie/Object_206>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "575"^^xsd:string ;
+ 	nif:beginIndex 	 "575"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "589"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/bank_financing_206>.
+ 
+kr:_should_use_his_own_capital_or_resort
+ 	a rdf:Property;
+ 	rdfs:label " should use his own capital or resort". 
+<http://www.list.lu/document8#Ollie/Subject_221>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "he"^^xsd:string ;
+ 	nif:beginIndex 	 "37"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "39"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/he_221>;
+ 	kr: should_use_his_own_capital_or_resort_to <http://www.list.lu/document8#Ollie/Object_222>. 
+
+<http://www.list.lu/document8#Ollie/Object_222>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "554"^^xsd:string ;
+ 	nif:beginIndex 	 "554"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "589"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/third_party_funds_or_bank_financing_222>.
+ 
+kr:_The_type
+ 	a rdf:Property;
+ 	rdfs:label " The type". 
+<http://www.list.lu/document8#Ollie/Subject_203>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "the guarantee requirements"^^xsd:string ;
+ 	nif:beginIndex 	 "844"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "870"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_guarantee_requirements_203>;
+ 	kr: be_The_type_of <http://www.list.lu/document8#Ollie/Object_204>. 
+
+<http://www.list.lu/document8#Ollie/Object_204>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "830"^^xsd:string ;
+ 	nif:beginIndex 	 "830"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "839"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/guarantee_204>.
+ 
+kr:_will_may_request
+ 	a rdf:Property;
+ 	rdfs:label " will may request". 
+<http://www.list.lu/document8#Ollie/Subject_215>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "the bank"^^xsd:string ;
+ 	nif:beginIndex 	 "977"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "985"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_bank_215>;
+ 	kr: will_may_request <http://www.list.lu/document8#Ollie/Object_216>. 
+
+<http://www.list.lu/document8#Ollie/Object_216>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "-1"^^xsd:string ;
+ 	nif:beginIndex 	 "-1"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "82"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/one_or_more_of_the_following_guarantees_(mortgage,_pledge,_surety,_moral_commitment_216>.
+ 
+kr:_should_use
+ 	a rdf:Property;
+ 	rdfs:label " should use". 
+<http://www.list.lu/document8#Ollie/Subject_211>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "he"^^xsd:string ;
+ 	nif:beginIndex 	 "37"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "39"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/he_211>;
+ 	kr: should_use <http://www.list.lu/document8#Ollie/Object_212>. 
+
+<http://www.list.lu/document8#Ollie/Object_212>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "525"^^xsd:string ;
+ 	nif:beginIndex 	 "525"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "550"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/his_own_capital_or_resort_212>.
+ 
+kr:_concerns
+ 	a rdf:Property;
+ 	rdfs:label " concerns". 
+<http://www.list.lu/document8#Ollie/Subject_217>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "Bank financing"^^xsd:string ;
+ 	nif:beginIndex 	 "678"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "692"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Bank_financing_217>;
+ 	kr: concerns <http://www.list.lu/document8#Ollie/Object_218>. 
+
+<http://www.list.lu/document8#Ollie/Object_218>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "702"^^xsd:string ;
+ 	nif:beginIndex 	 "702"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "769"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/any_business_set_up_in_the_form_of_a_sole_proprietorship_or_company_218>.
+ 
+kr:_well_must_analyse_a_potential_project
+ 	a rdf:Property;
+ 	rdfs:label " well must analyse a potential project". 
+<http://www.list.lu/document8#Ollie/Subject_219>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "Entrepreneurs"^^xsd:string ;
+ 	nif:beginIndex 	 "145"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "158"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Entrepreneurs_219>;
+ 	kr: well_must_analyse_a_potential_project_in <http://www.list.lu/document8#Ollie/Object_220>. 
+
+<http://www.list.lu/document8#Ollie/Object_220>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "195"^^xsd:string ;
+ 	nif:beginIndex 	 "195"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "200"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/order_220>.
+ 
+kr:_should_use
+ 	a rdf:Property;
+ 	rdfs:label " should use". 
+<http://www.list.lu/document8#Ollie/Subject_229>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "his own capital or resort"^^xsd:string ;
+ 	nif:beginIndex 	 "525"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "550"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/his_own_capital_or_resort_229>;
+ 	kr: should_be_use_to <http://www.list.lu/document8#Ollie/Object_230>. 
+
+<http://www.list.lu/document8#Ollie/Object_230>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "554"^^xsd:string ;
+ 	nif:beginIndex 	 "554"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "589"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/third_party_funds_or_bank_financing_230>.
+ 
+kr:_well_must_analyse
+ 	a rdf:Property;
+ 	rdfs:label " well must analyse". 
+<http://www.list.lu/document8#Ollie/Subject_207>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "Entrepreneurs"^^xsd:string ;
+ 	nif:beginIndex 	 "145"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "158"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Entrepreneurs_207>;
+ 	kr: well_must_analyse <http://www.list.lu/document8#Ollie/Object_208>. 
+
+<http://www.list.lu/document8#Ollie/Object_208>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document8#char=0,1305>; 
+ 	nif:anchorOf 	 "172"^^xsd:string ;
+ 	nif:beginIndex 	 "172"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "191"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_potential_project_208>.
+ 
+<http:/www.list.lu/document6#char=0,1317>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"1317"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A05.txt>;
+ 	nif:isString 	"Before embarking on any business creation, takeover or expansion project, entrepreneurs must ask themselves how they are going to finance their investment.
+
+In this regard, government aid may represent a considerable advantage for a business. However, it should never form the basis of a financing plan.
+
+In addition, the success and continuity of a business depends on healthy financial management.
+
+This section provides comprehensive information on the different forms of bank and non-bank financing available for your business, accounting and financial management and the main types of government aid available.
+Starting up a business, investing in research and development, purchasing equipment or developing the business actvity in Luxembourg are all projects that require substantial funding.
+
+The SNCI is a public-law banking establishment specialised in the medium and long term financing of Luxembourg based companies. It grants various types of loans which depend on the size of the business and the project to be financed.
+
+Although the loans granted by the SNCI do not fully cover the financing of a project, they generally cover 25 % of industrial projects and may even cover 75 % of the investments required in the case of start ups of young craftsmen, traders, accommodation and restaurant operators.
+"^^xsd:string .
+ 
+kr:_required
+ 	a rdf:Property;
+ 	rdfs:label " required". 
+<http://www.list.lu/document6#Ollie/Subject_307>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "the investments"^^xsd:string ;
+ 	nif:beginIndex 	 "1198"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1213"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_investments_307>;
+ 	kr: be_required_in <http://www.list.lu/document6#Ollie/Object_308>. 
+
+<http://www.list.lu/document6#Ollie/Object_308>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "1226"^^xsd:string ;
+ 	nif:beginIndex 	 "1226"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1266"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_case_of_start_ups_of_young_craftsmen_308>.
+ 
+kr:_grants
+ 	a rdf:Property;
+ 	rdfs:label " grants". 
+<http://www.list.lu/document6#Ollie/Subject_297>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "It"^^xsd:string ;
+ 	nif:beginIndex 	 "929"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "931"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/It_297>;
+ 	kr: grants <http://www.list.lu/document6#Ollie/Object_298>. 
+
+<http://www.list.lu/document6#Ollie/Object_298>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "939"^^xsd:string ;
+ 	nif:beginIndex 	 "939"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "961"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/various_types_of_loans_298>.
+ 
+kr:_may_represent_a_considerable_advantage_However
+ 	a rdf:Property;
+ 	rdfs:label " may represent a considerable advantage However". 
+<http://www.list.lu/document6#Ollie/Subject_305>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "government aid"^^xsd:string ;
+ 	nif:beginIndex 	 "173"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "187"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/government_aid_305>;
+ 	kr: may_represent_a_considerable_advantage_However_in <http://www.list.lu/document6#Ollie/Object_306>. 
+
+<http://www.list.lu/document6#Ollie/Object_306>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "160"^^xsd:string ;
+ 	nif:beginIndex 	 "160"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "171"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/this_regard_306>.
+ 
+<http://www.list.lu/document6#Ollie/Subject_313>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "financial management"^^xsd:string ;
+ 	nif:beginIndex 	 "378"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "398"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/financial_management_313>;
+ 	kr: be_the_main_types_of <http://www.list.lu/document6#Ollie/Object_314>. 
+
+<http://www.list.lu/document6#Ollie/Object_314>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "173"^^xsd:string ;
+ 	nif:beginIndex 	 "173"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "187"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/government_aid_314>.
+ 
+<http://www.list.lu/document6#Ollie/Subject_325>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "The SNCI"^^xsd:string ;
+ 	nif:beginIndex 	 "801"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "809"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_SNCI_325>;
+ 	kr: is <http://www.list.lu/document6#Ollie/Object_326>. 
+
+<http://www.list.lu/document6#Ollie/Object_326>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "-1"^^xsd:string ;
+ 	nif:beginIndex 	 "-1"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "316"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_public-law_banking_establishment_It_grants_various_types_of_loans_which_depend_on_the_size_of_the_business_and_the_project_to_be_financed._Although_the_loans_granted_by_the_SNCI_do_not_fully_cover_the_financing_of_a_project_they_generally_cover_25_%_of_industrial_projects_and_may_even_cover_75_%_of_the_investments_326>.
+ 
+kr:_generally_cover_may
+ 	a rdf:Property;
+ 	rdfs:label " generally cover may". 
+<http://www.list.lu/document6#Ollie/Subject_315>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "they"^^xsd:string ;
+ 	nif:beginIndex 	 "112"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "116"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/they_315>;
+ 	kr: generally_cover_may <http://www.list.lu/document6#Ollie/Object_316>. 
+
+<http://www.list.lu/document6#Ollie/Object_316>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "1143"^^xsd:string ;
+ 	nif:beginIndex 	 "1143"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1170"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/25_%_of_industrial_projects_316>.
+ 
+kr:_forms
+ 	a rdf:Property;
+ 	rdfs:label " forms". 
+<http://www.list.lu/document6#Ollie/Subject_323>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "different"^^xsd:string ;
+ 	nif:beginIndex 	 "456"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "465"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/different_323>;
+ 	kr: be_forms_of <http://www.list.lu/document6#Ollie/Object_324>. 
+
+<http://www.list.lu/document6#Ollie/Object_324>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "475"^^xsd:string ;
+ 	nif:beginIndex 	 "475"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "512"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/bank_and_non-bank_financing_available_324>.
+ 
+kr:_should_never_form
+ 	a rdf:Property;
+ 	rdfs:label " should never form". 
+<http://www.list.lu/document6#Ollie/Subject_291>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "it"^^xsd:string ;
+ 	nif:beginIndex 	 "252"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "254"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/it_291>;
+ 	kr: should_never_form <http://www.list.lu/document6#Ollie/Object_292>. 
+
+<http://www.list.lu/document6#Ollie/Object_292>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "273"^^xsd:string ;
+ 	nif:beginIndex 	 "273"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "302"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_basis_of_a_financing_plan_292>.
+ 
+kr:_to_finance
+ 	a rdf:Property;
+ 	rdfs:label " to finance". 
+<http://www.list.lu/document6#Ollie/Subject_327>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "they"^^xsd:string ;
+ 	nif:beginIndex 	 "112"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "116"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/they_327>;
+ 	kr: to_finance <http://www.list.lu/document6#Ollie/Object_328>. 
+
+<http://www.list.lu/document6#Ollie/Object_328>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "138"^^xsd:string ;
+ 	nif:beginIndex 	 "138"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "154"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/their_investment_328>.
+ 
+kr:_may_even_cover
+ 	a rdf:Property;
+ 	rdfs:label " may even cover". 
+<http://www.list.lu/document6#Ollie/Subject_295>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "they"^^xsd:string ;
+ 	nif:beginIndex 	 "112"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "116"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/they_295>;
+ 	kr: may_even_cover <http://www.list.lu/document6#Ollie/Object_296>. 
+
+<http://www.list.lu/document6#Ollie/Object_296>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "1190"^^xsd:string ;
+ 	nif:beginIndex 	 "1190"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1213"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/75_%_of_the_investments_296>.
+ 
+kr:_start_ups
+ 	a rdf:Property;
+ 	rdfs:label " start ups". 
+<http://www.list.lu/document6#Ollie/Subject_329>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "traders"^^xsd:string ;
+ 	nif:beginIndex 	 "1268"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1275"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/traders_329>;
+ 	kr: be_start_ups_of <http://www.list.lu/document6#Ollie/Object_330>. 
+
+<http://www.list.lu/document6#Ollie/Object_330>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "1251"^^xsd:string ;
+ 	nif:beginIndex 	 "1251"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1266"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/young_craftsmen_330>.
+ 
+kr:_granted
+ 	a rdf:Property;
+ 	rdfs:label " granted". 
+<http://www.list.lu/document6#Ollie/Subject_309>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "the loans"^^xsd:string ;
+ 	nif:beginIndex 	 "1045"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1054"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_loans_309>;
+ 	kr: be_granted_by <http://www.list.lu/document6#Ollie/Object_310>. 
+
+<http://www.list.lu/document6#Ollie/Object_310>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "1066"^^xsd:string ;
+ 	nif:beginIndex 	 "1066"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1074"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_SNCI_310>.
+ 
+<http://www.list.lu/document6#Ollie/Subject_331>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "This section"^^xsd:string ;
+ 	nif:beginIndex 	 "401"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "413"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/This_section_331>;
+ 	kr: depends_in <http://www.list.lu/document6#Ollie/Object_332>. 
+
+<http://www.list.lu/document6#Ollie/Object_332>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "318"^^xsd:string ;
+ 	nif:beginIndex 	 "318"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "358"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_success_and_continuity_of_a_business_332>.
+ 
+kr:_may_represent_a_considerable_advantage_However
+ 	a rdf:Property;
+ 	rdfs:label " may represent a considerable advantage However". 
+<http://www.list.lu/document6#Ollie/Subject_303>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "government aid"^^xsd:string ;
+ 	nif:beginIndex 	 "173"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "187"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/government_aid_303>;
+ 	kr: may_represent_a_considerable_advantage_However_for <http://www.list.lu/document6#Ollie/Object_304>. 
+
+<http://www.list.lu/document6#Ollie/Object_304>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "231"^^xsd:string ;
+ 	nif:beginIndex 	 "231"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "241"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_business_304>.
+ 
+kr:_are_going_to_finance
+ 	a rdf:Property;
+ 	rdfs:label " are going to finance". 
+<http://www.list.lu/document6#Ollie/Subject_317>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "they"^^xsd:string ;
+ 	nif:beginIndex 	 "112"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "116"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/they_317>;
+ 	kr: are_going_to_finance <http://www.list.lu/document6#Ollie/Object_318>. 
+
+<http://www.list.lu/document6#Ollie/Object_318>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "138"^^xsd:string ;
+ 	nif:beginIndex 	 "138"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "154"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/their_investment_318>.
+ 
+kr:_provides_comprehensive_information_on_the_different_forms_of_bank_and_non-bank_financing_available_for_your_business
+ 	a rdf:Property;
+ 	rdfs:label " provides comprehensive information on the different forms of bank and non-bank financing available for your business". 
+<http://www.list.lu/document6#Ollie/Subject_301>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "This section"^^xsd:string ;
+ 	nif:beginIndex 	 "401"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "413"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/This_section_301>;
+ 	kr: provides_comprehensive_information_on_the_different_forms_of_bank_and_non-bank_financing_available_for_your_business <http://www.list.lu/document6#Ollie/Object_302>. 
+
+<http://www.list.lu/document6#Ollie/Object_302>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "753"^^xsd:string ;
+ 	nif:beginIndex 	 "753"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "798"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/all_projects_that_require_substantial_funding_302>.
+ 
+kr:_provides_Starting_up_a_business_,_investing_in_research_and_development_,_purchasing_equipment_or_developing_the_business_actvity_in_Luxembourg_are_all_projects_that_require_substantial_funding
+ 	a rdf:Property;
+ 	rdfs:label " provides Starting up a business , investing in research and development , purchasing equipment or developing the business actvity in Luxembourg are all projects that require substantial funding". 
+<http://www.list.lu/document6#Ollie/Subject_299>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "This section"^^xsd:string ;
+ 	nif:beginIndex 	 "401"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "413"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/This_section_299>;
+ 	kr: provides_Starting_up_a_business_,_investing_in_research_and_development_,_purchasing_equipment_or_developing_the_business_actvity_in_Luxembourg_are_all_projects_that_require_substantial_funding <http://www.list.lu/document6#Ollie/Object_300>. 
+
+<http://www.list.lu/document6#Ollie/Object_300>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "423"^^xsd:string ;
+ 	nif:beginIndex 	 "423"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "448"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/comprehensive_information_300>.
+ 
+kr:_depends
+ 	a rdf:Property;
+ 	rdfs:label " depends". 
+<http://www.list.lu/document6#Ollie/Subject_283>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "the success and continuity of a business"^^xsd:string ;
+ 	nif:beginIndex 	 "318"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "358"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_success_and_continuity_of_a_business_283>;
+ 	kr: depends_in <http://www.list.lu/document6#Ollie/Object_284>. 
+
+<http://www.list.lu/document6#Ollie/Object_284>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "308"^^xsd:string ;
+ 	nif:beginIndex 	 "308"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "316"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/addition_284>.
+ 
+kr:_do_not_fully_cover
+ 	a rdf:Property;
+ 	rdfs:label " do not fully cover". 
+<http://www.list.lu/document6#Ollie/Subject_293>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "the loans granted by the SNCI"^^xsd:string ;
+ 	nif:beginIndex 	 "1045"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1074"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_loans_granted_by_the_SNCI_293>;
+ 	kr: do_not_fully_cover <http://www.list.lu/document6#Ollie/Object_294>. 
+
+<http://www.list.lu/document6#Ollie/Object_294>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "1094"^^xsd:string ;
+ 	nif:beginIndex 	 "1094"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1120"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_financing_of_a_project_294>.
+ 
+kr:_must_ask
+ 	a rdf:Property;
+ 	rdfs:label " must ask". 
+<http://www.list.lu/document6#Ollie/Subject_287>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "entrepreneurs"^^xsd:string ;
+ 	nif:beginIndex 	 "74"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "87"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/entrepreneurs_287>;
+ 	kr: must_ask <http://www.list.lu/document6#Ollie/Object_288>. 
+
+<http://www.list.lu/document6#Ollie/Object_288>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "97"^^xsd:string ;
+ 	nif:beginIndex 	 "97"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "107"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/themselves_288>.
+ 
+kr:_may_represent_However
+ 	a rdf:Property;
+ 	rdfs:label " may represent However". 
+<http://www.list.lu/document6#Ollie/Subject_319>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "a considerable advantage"^^xsd:string ;
+ 	nif:beginIndex 	 "202"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "226"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_considerable_advantage_319>;
+ 	kr: may_be_represent_However_for <http://www.list.lu/document6#Ollie/Object_320>. 
+
+<http://www.list.lu/document6#Ollie/Object_320>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "231"^^xsd:string ;
+ 	nif:beginIndex 	 "231"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "241"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_business_320>.
+ 
+kr:_the_main_types
+ 	a rdf:Property;
+ 	rdfs:label " the main types". 
+<http://www.list.lu/document6#Ollie/Subject_311>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "available"^^xsd:string ;
+ 	nif:beginIndex 	 "503"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "512"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/available_311>;
+ 	kr: be_the_main_types_of <http://www.list.lu/document6#Ollie/Object_312>. 
+
+<http://www.list.lu/document6#Ollie/Object_312>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "173"^^xsd:string ;
+ 	nif:beginIndex 	 "173"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "187"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/government_aid_312>.
+ 
+kr:_depends
+ 	a rdf:Property;
+ 	rdfs:label " depends". 
+<http://www.list.lu/document6#Ollie/Subject_285>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "the success and continuity of a business"^^xsd:string ;
+ 	nif:beginIndex 	 "318"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "358"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_success_and_continuity_of_a_business_285>;
+ 	kr: depends_on <http://www.list.lu/document6#Ollie/Object_286>. 
+
+<http://www.list.lu/document6#Ollie/Object_286>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "370"^^xsd:string ;
+ 	nif:beginIndex 	 "370"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "398"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/healthy_financial_management_286>.
+ 
+kr:_may_represent_However
+ 	a rdf:Property;
+ 	rdfs:label " may represent However". 
+<http://www.list.lu/document6#Ollie/Subject_289>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "government aid"^^xsd:string ;
+ 	nif:beginIndex 	 "173"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "187"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/government_aid_289>;
+ 	kr: may_represent_However <http://www.list.lu/document6#Ollie/Object_290>. 
+
+<http://www.list.lu/document6#Ollie/Object_290>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "202"^^xsd:string ;
+ 	nif:beginIndex 	 "202"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "226"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_considerable_advantage_290>.
+ 
+kr:_depend
+ 	a rdf:Property;
+ 	rdfs:label " depend". 
+<http://www.list.lu/document6#Ollie/Subject_335>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "loans"^^xsd:string ;
+ 	nif:beginIndex 	 "956"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "961"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/loans_335>;
+ 	kr: depend_on <http://www.list.lu/document6#Ollie/Object_336>. 
+
+<http://www.list.lu/document6#Ollie/Object_336>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "978"^^xsd:string ;
+ 	nif:beginIndex 	 "978"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1033"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_size_of_the_business_and_the_project_to_be_financed_336>.
+ 
+kr:_the_basis
+ 	a rdf:Property;
+ 	rdfs:label " the basis". 
+<http://www.list.lu/document6#Ollie/Subject_333>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "it"^^xsd:string ;
+ 	nif:beginIndex 	 "252"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "254"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/it_333>;
+ 	kr: be_the_basis_of <http://www.list.lu/document6#Ollie/Object_334>. 
+
+<http://www.list.lu/document6#Ollie/Object_334>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "286"^^xsd:string ;
+ 	nif:beginIndex 	 "286"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "302"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_financing_plan_334>.
+ 
+kr:_may_represent_However
+ 	a rdf:Property;
+ 	rdfs:label " may represent However". 
+<http://www.list.lu/document6#Ollie/Subject_321>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "a considerable advantage"^^xsd:string ;
+ 	nif:beginIndex 	 "202"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "226"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_considerable_advantage_321>;
+ 	kr: may_be_represent_However_in <http://www.list.lu/document6#Ollie/Object_322>. 
+
+<http://www.list.lu/document6#Ollie/Object_322>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,1317>; 
+ 	nif:anchorOf 	 "160"^^xsd:string ;
+ 	nif:beginIndex 	 "160"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "171"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/this_regard_322>.
+ 
+<http:/www.list.lu/document1#char=0,494>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"494"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A00.txt>;
+ 	nif:isString 	"In order to protect jobs and thus prevent redundancies, Luxembourg labour law allows businesses to resort to temporary involuntary layoff under certain conditions.
+
+A business can apply for involuntary and temporary layoff to the national employment administration in the event of an interruption to or a significant reduction in its activity due to a natural disaster affecting its production equipment or to road or infrastructure works seriously impeding client access to the establishment.
+"^^xsd:string .
+ 
+kr:_to_resort
+ 	a rdf:Property;
+ 	rdfs:label " to resort". 
+<http://www.list.lu/document1#Ollie/Subject_341>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document1#char=0,494>; 
+ 	nif:anchorOf 	 "businesses"^^xsd:string ;
+ 	nif:beginIndex 	 "85"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "95"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/businesses_341>;
+ 	kr: to_resort_under <http://www.list.lu/document1#Ollie/Object_342>. 
+
+<http://www.list.lu/document1#Ollie/Object_342>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document1#char=0,494>; 
+ 	nif:anchorOf 	 "144"^^xsd:string ;
+ 	nif:beginIndex 	 "144"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "162"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/certain_conditions_342>.
+ 
+kr:_to_resort
+ 	a rdf:Property;
+ 	rdfs:label " to resort". 
+<http://www.list.lu/document1#Ollie/Subject_339>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document1#char=0,494>; 
+ 	nif:anchorOf 	 "businesses"^^xsd:string ;
+ 	nif:beginIndex 	 "85"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "95"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/businesses_339>;
+ 	kr: to_resort_to <http://www.list.lu/document1#Ollie/Object_340>. 
+
+<http://www.list.lu/document1#Ollie/Object_340>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document1#char=0,494>; 
+ 	nif:anchorOf 	 "109"^^xsd:string ;
+ 	nif:beginIndex 	 "109"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "137"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/temporary_involuntary_layoff_340>.
+ 
+kr:_can_apply
+ 	a rdf:Property;
+ 	rdfs:label " can apply". 
+<http://www.list.lu/document1#Ollie/Subject_337>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document1#char=0,494>; 
+ 	nif:anchorOf 	 "A business"^^xsd:string ;
+ 	nif:beginIndex 	 "165"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "175"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/A_business_337>;
+ 	kr: can_apply_for <http://www.list.lu/document1#Ollie/Object_338>. 
+
+<http://www.list.lu/document1#Ollie/Object_338>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document1#char=0,494>; 
+ 	nif:anchorOf 	 "190"^^xsd:string ;
+ 	nif:beginIndex 	 "190"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "222"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/involuntary_and_temporary_layoff_338>.
+ 
+<http:/www.list.lu/document9#char=0,2095>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"2095"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A08.txt>;
+ 	nif:isString 	"rowdfunding is a means for an entrepreneur to present and finance a project via an internet platform. This type of financing can be seen as a particular type of mezzanine financing.
+
+As an example, crowdfunding can allow an entrepreneur to collect contributions from many investors in order to finance a start up company or a given project via a simple internet platform. In return for their contributions, the investors may receive shares in the company and become silent partners. On the other hand, the entrepreneur is not required to provide the investors with the right to oversee business management. At the same time, the entrepreneur avoids having to go through long administrative financing procedures.
+
+From the investors' point of view, the investment is only remunerated if the project is successful and the funds invested through crowdfunding are not protected against loss.
+The contact between the potential investor and the beneficiary of the capital is generally established through an internet platform provider who specialises in crowdfunding. The entrepreneur can publish his project on the platform in search for investors.
+
+The beneficiary of the capital will usually set a minimum amount of contributions that are necessary for the project to be launched
+Once the amount is set, it will usually be collected through the contributions of a large number of individual investors. The risk of failure is thereby supported by the crowd of investors.
+
+The contribution per investor may vary depending on the project and its amount may be subject to a mandatory minimum amount.
+In return for his contribution to the company, the crowdfunder receives a counterpart which can take many forms such as exploitation rights, free samples or profit-sharing.
+
+It must be noted that the contributions must be invested in the project concerned and will be reimbursed by the platform if the minimum necessary amount set is not reached. The contributions cannot be used to finance other projects. During the initial phase, the platform provider acts as a fiduciary agent between the parties.
+"^^xsd:string .
+ 
+kr:_to_provide
+ 	a rdf:Property;
+ 	rdfs:label " to provide". 
+<http://www.list.lu/document9#Ollie/Subject_117>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "the entrepreneur"^^xsd:string ;
+ 	nif:beginIndex 	 "502"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "518"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_entrepreneur_117>;
+ 	kr: to_provide <http://www.list.lu/document9#Ollie/Object_118>. 
+
+<http://www.list.lu/document9#Ollie/Object_118>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "407"^^xsd:string ;
+ 	nif:beginIndex 	 "407"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "420"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_investors_118>.
+ 
+kr:_can_publish_his_project
+ 	a rdf:Property;
+ 	rdfs:label " can publish his project". 
+<http://www.list.lu/document9#Ollie/Subject_75>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "The entrepreneur"^^xsd:string ;
+ 	nif:beginIndex 	 "1062"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1078"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_entrepreneur_75>;
+ 	kr: can_publish_his_project_in <http://www.list.lu/document9#Ollie/Object_76>. 
+
+<http://www.list.lu/document9#Ollie/Object_76>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "1122"^^xsd:string ;
+ 	nif:beginIndex 	 "1122"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1128"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/search_76>.
+ 
+kr:_may_receive_shares
+ 	a rdf:Property;
+ 	rdfs:label " may receive shares". 
+<http://www.list.lu/document9#Ollie/Subject_83>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "the investors"^^xsd:string ;
+ 	nif:beginIndex 	 "407"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "420"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_investors_83>;
+ 	kr: may_receive_shares_in <http://www.list.lu/document9#Ollie/Object_84>. 
+
+<http://www.list.lu/document9#Ollie/Object_84>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "443"^^xsd:string ;
+ 	nif:beginIndex 	 "443"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "454"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_company_84>.
+ 
+kr:_may_become
+ 	a rdf:Property;
+ 	rdfs:label " may become". 
+<http://www.list.lu/document9#Ollie/Subject_115>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "the investors"^^xsd:string ;
+ 	nif:beginIndex 	 "407"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "420"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_investors_115>;
+ 	kr: may_become <http://www.list.lu/document9#Ollie/Object_116>. 
+
+<http://www.list.lu/document9#Ollie/Object_116>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "466"^^xsd:string ;
+ 	nif:beginIndex 	 "466"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "481"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/silent_partners_116>.
+ 
+kr:_may_receive_shares
+ 	a rdf:Property;
+ 	rdfs:label " may receive shares". 
+<http://www.list.lu/document9#Ollie/Subject_81>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "the investors"^^xsd:string ;
+ 	nif:beginIndex 	 "407"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "420"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_investors_81>;
+ 	kr: may_receive_shares_in <http://www.list.lu/document9#Ollie/Object_82>. 
+
+<http://www.list.lu/document9#Ollie/Object_82>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "375"^^xsd:string ;
+ 	nif:beginIndex 	 "375"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "381"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/return_82>.
+ 
+kr:_to_finance
+ 	a rdf:Property;
+ 	rdfs:label " to finance". 
+<http://www.list.lu/document9#Ollie/Subject_89>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "a start"^^xsd:string ;
+ 	nif:beginIndex 	 "302"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "309"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_start_89>;
+ 	kr: to_be_finance_via <http://www.list.lu/document9#Ollie/Object_90>. 
+
+<http://www.list.lu/document9#Ollie/Object_90>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "344"^^xsd:string ;
+ 	nif:beginIndex 	 "344"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "370"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_simple_internet_platform_90>.
+ 
+<http://www.list.lu/document9#Ollie/Subject_101>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "shares"^^xsd:string ;
+ 	nif:beginIndex 	 "433"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "439"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/shares_101>;
+ 	kr: may_be_receive_in <http://www.list.lu/document9#Ollie/Object_102>. 
+
+<http://www.list.lu/document9#Ollie/Object_102>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "443"^^xsd:string ;
+ 	nif:beginIndex 	 "443"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "454"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_company_102>.
+ 
+kr:_receives
+ 	a rdf:Property;
+ 	rdfs:label " receives". 
+<http://www.list.lu/document9#Ollie/Subject_73>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "the crowdfunder"^^xsd:string ;
+ 	nif:beginIndex 	 "1640"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1655"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_crowdfunder_73>;
+ 	kr: receives <http://www.list.lu/document9#Ollie/Object_74>. 
+
+<http://www.list.lu/document9#Ollie/Object_74>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "1665"^^xsd:string ;
+ 	nif:beginIndex 	 "1665"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1764"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_counterpart_which_can_take_many_forms_such_as_exploitation_rights,_free_samples_or_profit-sharing_74>.
+ 
+kr:_can_publish
+ 	a rdf:Property;
+ 	rdfs:label " can publish". 
+<http://www.list.lu/document9#Ollie/Subject_95>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "his project"^^xsd:string ;
+ 	nif:beginIndex 	 "1091"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1102"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/his_project_95>;
+ 	kr: can_be_publish_in <http://www.list.lu/document9#Ollie/Object_96>. 
+
+<http://www.list.lu/document9#Ollie/Object_96>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "1122"^^xsd:string ;
+ 	nif:beginIndex 	 "1122"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1128"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/search_96>.
+ 
+kr:_are_not_protected
+ 	a rdf:Property;
+ 	rdfs:label " are not protected". 
+<http://www.list.lu/document9#Ollie/Subject_51>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "the funds invested through crowdfunding"^^xsd:string ;
+ 	nif:beginIndex 	 "816"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "855"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_funds_invested_through_crowdfunding_51>;
+ 	kr: are_not_protected_against <http://www.list.lu/document9#Ollie/Object_52>. 
+
+<http://www.list.lu/document9#Ollie/Object_52>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "882"^^xsd:string ;
+ 	nif:beginIndex 	 "882"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "886"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/loss_52>.
+ 
+kr:_avoids
+ 	a rdf:Property;
+ 	rdfs:label " avoids". 
+<http://www.list.lu/document9#Ollie/Subject_57>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "the entrepreneur"^^xsd:string ;
+ 	nif:beginIndex 	 "502"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "518"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_entrepreneur_57>;
+ 	kr: avoids_at <http://www.list.lu/document9#Ollie/Object_58>. 
+
+<http://www.list.lu/document9#Ollie/Object_58>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "610"^^xsd:string ;
+ 	nif:beginIndex 	 "610"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "623"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_same_time_58>.
+ 
+kr:_specialises
+ 	a rdf:Property;
+ 	rdfs:label " specialises". 
+<http://www.list.lu/document9#Ollie/Subject_105>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "an internet platform provider"^^xsd:string ;
+ 	nif:beginIndex 	 "999"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1028"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/an_internet_platform_provider_105>;
+ 	kr: specialises_in <http://www.list.lu/document9#Ollie/Object_106>. 
+
+<http://www.list.lu/document9#Ollie/Object_106>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "198"^^xsd:string ;
+ 	nif:beginIndex 	 "198"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "210"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/crowdfunding_106>.
+ 
+kr:_to_provide
+ 	a rdf:Property;
+ 	rdfs:label " to provide". 
+<http://www.list.lu/document9#Ollie/Subject_103>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "the investors"^^xsd:string ;
+ 	nif:beginIndex 	 "407"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "420"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_investors_103>;
+ 	kr: to_be_provide_with <http://www.list.lu/document9#Ollie/Object_104>. 
+
+<http://www.list.lu/document9#Ollie/Object_104>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "565"^^xsd:string ;
+ 	nif:beginIndex 	 "565"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "605"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_right_to_oversee_business_management_104>.
+ 
+kr:_may_receive
+ 	a rdf:Property;
+ 	rdfs:label " may receive". 
+<http://www.list.lu/document9#Ollie/Subject_99>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "shares"^^xsd:string ;
+ 	nif:beginIndex 	 "433"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "439"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/shares_99>;
+ 	kr: may_be_receive_in <http://www.list.lu/document9#Ollie/Object_100>. 
+
+<http://www.list.lu/document9#Ollie/Object_100>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "375"^^xsd:string ;
+ 	nif:beginIndex 	 "375"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "381"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/return_100>.
+ 
+kr:_can_publish_his_project
+ 	a rdf:Property;
+ 	rdfs:label " can publish his project". 
+<http://www.list.lu/document9#Ollie/Subject_77>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "The entrepreneur"^^xsd:string ;
+ 	nif:beginIndex 	 "1062"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1078"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_entrepreneur_77>;
+ 	kr: can_publish_his_project_on <http://www.list.lu/document9#Ollie/Object_78>. 
+
+<http://www.list.lu/document9#Ollie/Object_78>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "1106"^^xsd:string ;
+ 	nif:beginIndex 	 "1106"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1118"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_platform_78>.
+ 
+kr:_to_collect
+ 	a rdf:Property;
+ 	rdfs:label " to collect". 
+<http://www.list.lu/document9#Ollie/Subject_93>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "contributions"^^xsd:string ;
+ 	nif:beginIndex 	 "248"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "261"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/contributions_93>;
+ 	kr: to_be_collect_from <http://www.list.lu/document9#Ollie/Object_94>. 
+
+<http://www.list.lu/document9#Ollie/Object_94>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "267"^^xsd:string ;
+ 	nif:beginIndex 	 "267"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "281"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/many_investors_94>.
+ 
+kr:_is_not_required
+ 	a rdf:Property;
+ 	rdfs:label " is not required". 
+<http://www.list.lu/document9#Ollie/Subject_49>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "the entrepreneur"^^xsd:string ;
+ 	nif:beginIndex 	 "502"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "518"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_entrepreneur_49>;
+ 	kr: is_not_required_on <http://www.list.lu/document9#Ollie/Object_50>. 
+
+<http://www.list.lu/document9#Ollie/Object_50>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "486"^^xsd:string ;
+ 	nif:beginIndex 	 "486"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "500"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_other_hand_50>.
+ 
+kr:_can_allow
+ 	a rdf:Property;
+ 	rdfs:label " can allow". 
+<http://www.list.lu/document9#Ollie/Subject_69>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "crowdfunding"^^xsd:string ;
+ 	nif:beginIndex 	 "198"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "210"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/crowdfunding_69>;
+ 	kr: can_allow <http://www.list.lu/document9#Ollie/Object_70>. 
+
+<http://www.list.lu/document9#Ollie/Object_70>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "221"^^xsd:string ;
+ 	nif:beginIndex 	 "221"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "370"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/an_entrepreneur_to_collect_contributions_from_many_investors_in_order_to_finance_a_start_up_company_or_a_given_project_via_a_simple_internet_platform_70>.
+ 
+<http://www.list.lu/document9#Ollie/Subject_113>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "the project"^^xsd:string ;
+ 	nif:beginIndex 	 "786"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "797"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_project_113>;
+ 	kr: is <http://www.list.lu/document9#Ollie/Object_114>. 
+
+<http://www.list.lu/document9#Ollie/Object_114>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "801"^^xsd:string ;
+ 	nif:beginIndex 	 "801"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "811"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/successful_114>.
+ 
+kr:_may_receive
+ 	a rdf:Property;
+ 	rdfs:label " may receive". 
+<http://www.list.lu/document9#Ollie/Subject_71>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "the investors"^^xsd:string ;
+ 	nif:beginIndex 	 "407"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "420"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_investors_71>;
+ 	kr: may_receive <http://www.list.lu/document9#Ollie/Object_72>. 
+
+<http://www.list.lu/document9#Ollie/Object_72>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "433"^^xsd:string ;
+ 	nif:beginIndex 	 "433"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "439"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/shares_72>.
+ 
+kr:_can_publish
+ 	a rdf:Property;
+ 	rdfs:label " can publish". 
+<http://www.list.lu/document9#Ollie/Subject_67>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "The entrepreneur"^^xsd:string ;
+ 	nif:beginIndex 	 "1062"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1078"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_entrepreneur_67>;
+ 	kr: can_publish <http://www.list.lu/document9#Ollie/Object_68>. 
+
+<http://www.list.lu/document9#Ollie/Object_68>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "1091"^^xsd:string ;
+ 	nif:beginIndex 	 "1091"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1102"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/his_project_68>.
+ 
+kr:_is
+ 	a rdf:Property;
+ 	rdfs:label " is". 
+<http://www.list.lu/document9#Ollie/Subject_111>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "rowdfunding"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "11"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/rowdfunding_111>;
+ 	kr: is <http://www.list.lu/document9#Ollie/Object_112>. 
+
+<http://www.list.lu/document9#Ollie/Object_112>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "15"^^xsd:string ;
+ 	nif:beginIndex 	 "15"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "22"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_means_112>.
+ 
+kr:_receives_a_counterpart_which_can_take_many_forms_such_as_exploitation_rights_,_free_samples_or_profit-sharing
+ 	a rdf:Property;
+ 	rdfs:label " receives a counterpart which can take many forms such as exploitation rights , free samples or profit-sharing". 
+<http://www.list.lu/document9#Ollie/Subject_55>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "the crowdfunder"^^xsd:string ;
+ 	nif:beginIndex 	 "1640"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1655"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_crowdfunder_55>;
+ 	kr: receives_a_counterpart_which_can_take_many_forms_such_as_exploitation_rights_,_free_samples_or_profit-sharing_in <http://www.list.lu/document9#Ollie/Object_56>. 
+
+<http://www.list.lu/document9#Ollie/Object_56>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "375"^^xsd:string ;
+ 	nif:beginIndex 	 "375"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "381"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/return_56>.
+ 
+kr:_will_usually_be_collected
+ 	a rdf:Property;
+ 	rdfs:label " will usually be collected". 
+<http://www.list.lu/document9#Ollie/Subject_45>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "it"^^xsd:string ;
+ 	nif:beginIndex 	 "561"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "563"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/it_45>;
+ 	kr: will_usually_be_collected_through <http://www.list.lu/document9#Ollie/Object_46>. 
+
+<http://www.list.lu/document9#Ollie/Object_46>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "1338"^^xsd:string ;
+ 	nif:beginIndex 	 "1338"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1397"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_contributions_of_a_large_number_of_individual_investors_46>.
+ 
+kr:_is_generally_established
+ 	a rdf:Property;
+ 	rdfs:label " is generally established". 
+<http://www.list.lu/document9#Ollie/Subject_39>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "The contact"^^xsd:string ;
+ 	nif:beginIndex 	 "888"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "899"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_contact_39>;
+ 	kr: is_generally_established_through <http://www.list.lu/document9#Ollie/Object_40>. 
+
+<http://www.list.lu/document9#Ollie/Object_40>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "999"^^xsd:string ;
+ 	nif:beginIndex 	 "999"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1060"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/an_internet_platform_provider_who_specialises_in_crowdfunding_40>.
+ 
+kr:_forms
+ 	a rdf:Property;
+ 	rdfs:label " forms". 
+<http://www.list.lu/document9#Ollie/Subject_109>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "many"^^xsd:string ;
+ 	nif:beginIndex 	 "267"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "271"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/many_109>;
+ 	kr: be_forms_as <http://www.list.lu/document9#Ollie/Object_110>. 
+
+<http://www.list.lu/document9#Ollie/Object_110>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "1713"^^xsd:string ;
+ 	nif:beginIndex 	 "1713"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1764"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/exploitation_rights,_free_samples_or_profit-sharing_110>.
+ 
+kr:_avoids
+ 	a rdf:Property;
+ 	rdfs:label " avoids". 
+<http://www.list.lu/document9#Ollie/Subject_59>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "the entrepreneur"^^xsd:string ;
+ 	nif:beginIndex 	 "502"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "518"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_entrepreneur_59>;
+ 	kr: avoids_from <http://www.list.lu/document9#Ollie/Object_60>. 
+
+<http://www.list.lu/document9#Ollie/Object_60>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "-1"^^xsd:string ;
+ 	nif:beginIndex 	 "-1"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "28"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_investors_'_point_of_view_60>.
+ 
+kr:_is_a_means
+ 	a rdf:Property;
+ 	rdfs:label " is a means". 
+<http://www.list.lu/document9#Ollie/Subject_53>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "rowdfunding"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "11"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/rowdfunding_53>;
+ 	kr: is_a_means_for <http://www.list.lu/document9#Ollie/Object_54>. 
+
+<http://www.list.lu/document9#Ollie/Object_54>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "27"^^xsd:string ;
+ 	nif:beginIndex 	 "27"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "100"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/an_entrepreneur_to_present_and_finance_a_project_via_an_internet_platform_54>.
+ 
+kr:_can_publish
+ 	a rdf:Property;
+ 	rdfs:label " can publish". 
+<http://www.list.lu/document9#Ollie/Subject_97>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "his project"^^xsd:string ;
+ 	nif:beginIndex 	 "1091"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1102"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/his_project_97>;
+ 	kr: can_be_publish_on <http://www.list.lu/document9#Ollie/Object_98>. 
+
+<http://www.list.lu/document9#Ollie/Object_98>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "1106"^^xsd:string ;
+ 	nif:beginIndex 	 "1106"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1118"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_platform_98>.
+ 
+kr:_a_particular_type
+ 	a rdf:Property;
+ 	rdfs:label " a particular type". 
+<http://www.list.lu/document9#Ollie/Subject_87>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "This type of financing"^^xsd:string ;
+ 	nif:beginIndex 	 "102"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "124"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/This_type_of_financing_87>;
+ 	kr: be_a_particular_type_of <http://www.list.lu/document9#Ollie/Object_88>. 
+
+<http://www.list.lu/document9#Ollie/Object_88>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "161"^^xsd:string ;
+ 	nif:beginIndex 	 "161"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "180"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/mezzanine_financing_88>.
+ 
+kr:_must_be_invested
+ 	a rdf:Property;
+ 	rdfs:label " must be invested". 
+<http://www.list.lu/document9#Ollie/Subject_47>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "the contributions"^^xsd:string ;
+ 	nif:beginIndex 	 "1338"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1355"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_contributions_47>;
+ 	kr: must_be_invested_in <http://www.list.lu/document9#Ollie/Object_48>. 
+
+<http://www.list.lu/document9#Ollie/Object_48>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "786"^^xsd:string ;
+ 	nif:beginIndex 	 "786"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "797"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_project_48>.
+ 
+kr:_invested
+ 	a rdf:Property;
+ 	rdfs:label " invested". 
+<http://www.list.lu/document9#Ollie/Subject_85>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "the funds"^^xsd:string ;
+ 	nif:beginIndex 	 "816"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "825"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_funds_85>;
+ 	kr: be_invested_through <http://www.list.lu/document9#Ollie/Object_86>. 
+
+<http://www.list.lu/document9#Ollie/Object_86>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "198"^^xsd:string ;
+ 	nif:beginIndex 	 "198"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "210"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/crowdfunding_86>.
+ 
+kr:_is_thereby_supported
+ 	a rdf:Property;
+ 	rdfs:label " is thereby supported". 
+<http://www.list.lu/document9#Ollie/Subject_41>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "The risk of failure"^^xsd:string ;
+ 	nif:beginIndex 	 "1399"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1418"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_risk_of_failure_41>;
+ 	kr: is_thereby_supported_by <http://www.list.lu/document9#Ollie/Object_42>. 
+
+<http://www.list.lu/document9#Ollie/Object_42>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "1443"^^xsd:string ;
+ 	nif:beginIndex 	 "1443"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1465"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_crowd_of_investors_42>.
+ 
+kr:_to_provide_the_investors
+ 	a rdf:Property;
+ 	rdfs:label " to provide the investors". 
+<http://www.list.lu/document9#Ollie/Subject_107>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "the entrepreneur"^^xsd:string ;
+ 	nif:beginIndex 	 "502"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "518"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_entrepreneur_107>;
+ 	kr: to_provide_the_investors_with <http://www.list.lu/document9#Ollie/Object_108>. 
+
+<http://www.list.lu/document9#Ollie/Object_108>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "565"^^xsd:string ;
+ 	nif:beginIndex 	 "565"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "605"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_right_to_oversee_business_management_108>.
+ 
+kr:_acts
+ 	a rdf:Property;
+ 	rdfs:label " acts". 
+<http://www.list.lu/document9#Ollie/Subject_61>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "the platform provider"^^xsd:string ;
+ 	nif:beginIndex 	 "2026"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "2047"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_platform_provider_61>;
+ 	kr: acts_as <http://www.list.lu/document9#Ollie/Object_62>. 
+
+<http://www.list.lu/document9#Ollie/Object_62>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "2056"^^xsd:string ;
+ 	nif:beginIndex 	 "2056"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "2073"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_fiduciary_agent_62>.
+ 
+kr:_can_allow_an_entrepreneur_to_collect_contributions_from_many_investors_in_order_to_finance_a_start_up_company_or_a_given_project_via_a_simple_internet_platform
+ 	a rdf:Property;
+ 	rdfs:label " can allow an entrepreneur to collect contributions from many investors in order to finance a start up company or a given project via a simple internet platform". 
+<http://www.list.lu/document9#Ollie/Subject_79>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "crowdfunding"^^xsd:string ;
+ 	nif:beginIndex 	 "198"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "210"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/crowdfunding_79>;
+ 	kr: can_allow_an_entrepreneur_to_collect_contributions_from_many_investors_in_order_to_finance_a_start_up_company_or_a_given_project_via_a_simple_internet_platform_as <http://www.list.lu/document9#Ollie/Object_80>. 
+
+<http://www.list.lu/document9#Ollie/Object_80>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "186"^^xsd:string ;
+ 	nif:beginIndex 	 "186"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "196"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/an_example_80>.
+ 
+kr:_will_usually_set
+ 	a rdf:Property;
+ 	rdfs:label " will usually set". 
+<http://www.list.lu/document9#Ollie/Subject_65>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "The beneficiary of the capital"^^xsd:string ;
+ 	nif:beginIndex 	 "1145"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1175"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_beneficiary_of_the_capital_65>;
+ 	kr: will_usually_set <http://www.list.lu/document9#Ollie/Object_66>. 
+
+<http://www.list.lu/document9#Ollie/Object_66>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "1193"^^xsd:string ;
+ 	nif:beginIndex 	 "1193"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1226"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_minimum_amount_of_contributions_66>.
+ 
+kr:_can_be_seen
+ 	a rdf:Property;
+ 	rdfs:label " can be seen". 
+<http://www.list.lu/document9#Ollie/Subject_43>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "This type of financing"^^xsd:string ;
+ 	nif:beginIndex 	 "102"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "124"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/This_type_of_financing_43>;
+ 	kr: can_be_seen_as <http://www.list.lu/document9#Ollie/Object_44>. 
+
+<http://www.list.lu/document9#Ollie/Object_44>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "140"^^xsd:string ;
+ 	nif:beginIndex 	 "140"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "180"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_particular_type_of_mezzanine_financing_44>.
+ 
+kr:_acts
+ 	a rdf:Property;
+ 	rdfs:label " acts". 
+<http://www.list.lu/document9#Ollie/Subject_63>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "the platform provider"^^xsd:string ;
+ 	nif:beginIndex 	 "2026"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "2047"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_platform_provider_63>;
+ 	kr: acts_during <http://www.list.lu/document9#Ollie/Object_64>. 
+
+<http://www.list.lu/document9#Ollie/Object_64>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "2007"^^xsd:string ;
+ 	nif:beginIndex 	 "2007"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "2024"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_initial_phase_64>.
+ 
+kr:_can_allow
+ 	a rdf:Property;
+ 	rdfs:label " can allow". 
+<http://www.list.lu/document9#Ollie/Subject_91>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "an entrepreneur to collect contributions from many investors in order to finance a start up company or a given project via a simple internet platform"^^xsd:string ;
+ 	nif:beginIndex 	 "221"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "370"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/an_entrepreneur_to_collect_contributions_from_many_investors_in_order_to_finance_a_start_up_company_or_a_given_project_via_a_simple_internet_platform_91>;
+ 	kr: can_be_allow_as <http://www.list.lu/document9#Ollie/Object_92>. 
+
+<http://www.list.lu/document9#Ollie/Object_92>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document9#char=0,2095>; 
+ 	nif:anchorOf 	 "186"^^xsd:string ;
+ 	nif:beginIndex 	 "186"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "196"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/an_example_92>.
+ 
+<http:/www.list.lu/document7#char=0,1035>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"1035"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A06.txt>;
+ 	nif:isString 	"Before making any financing decision, research should be carried out into the most suitable type and source of financing as regarding the creation or takeover of a business, an investment or the financing of working capital needs.
+
+Financing plays a key role in the success of a project or investment and its importance is often underestimated by entrepreneurs. Around half of all businesses created disappear after just a few years, often for financial reasons. It is therefore necessary to carry out prior in-depth analysis to determine your bank and non-bank financing requirements and sources.
+Bank and non-bank financing concerns any business set up in the form of a sole proprietorship or company that wishes to develop its commercial activity.
+The sources and types of financing used will differ depending on the phase of the business� life cycle. A young business does not have the same requirements nor does it have access to the same sources and types of financing as a business that has been in existence for several years.
+"^^xsd:string .
+ 
+kr:_is_therefore
+ 	a rdf:Property;
+ 	rdfs:label " is therefore". 
+<http://www.list.lu/document7#Ollie/Subject_21>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "It"^^xsd:string ;
+ 	nif:beginIndex 	 "463"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "465"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/It_21>;
+ 	kr: is_therefore <http://www.list.lu/document7#Ollie/Object_22>. 
+
+<http://www.list.lu/document7#Ollie/Object_22>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "479"^^xsd:string ;
+ 	nif:beginIndex 	 "479"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "488"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/necessary_22>.
+ 
+kr:_access
+ 	a rdf:Property;
+ 	rdfs:label " access". 
+<http://www.list.lu/document7#Ollie/Subject_23>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "it"^^xsd:string ;
+ 	nif:beginIndex 	 "85"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "87"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/it_23>;
+ 	kr: be_access_to <http://www.list.lu/document7#Ollie/Object_24>. 
+
+<http://www.list.lu/document7#Ollie/Object_24>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "935"^^xsd:string ;
+ 	nif:beginIndex 	 "935"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "974"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_same_sources_and_types_of_financing_24>.
+ 
+kr:_plays
+ 	a rdf:Property;
+ 	rdfs:label " plays". 
+<http://www.list.lu/document7#Ollie/Subject_11>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "Financing"^^xsd:string ;
+ 	nif:beginIndex 	 "232"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "241"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Financing_11>;
+ 	kr: plays <http://www.list.lu/document7#Ollie/Object_12>. 
+
+<http://www.list.lu/document7#Ollie/Object_12>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "248"^^xsd:string ;
+ 	nif:beginIndex 	 "248"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "258"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_key_role_12>.
+ 
+kr:_disappear
+ 	a rdf:Property;
+ 	rdfs:label " disappear". 
+<http://www.list.lu/document7#Ollie/Subject_17>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "Around half of all businesses"^^xsd:string ;
+ 	nif:beginIndex 	 "362"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "391"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Around_half_of_all_businesses_17>;
+ 	kr: disappear_for <http://www.list.lu/document7#Ollie/Object_18>. 
+
+<http://www.list.lu/document7#Ollie/Object_18>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "444"^^xsd:string ;
+ 	nif:beginIndex 	 "444"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "461"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/financial_reasons_18>.
+ 
+kr:_does_not_have
+ 	a rdf:Property;
+ 	rdfs:label " does not have". 
+<http://www.list.lu/document7#Ollie/Subject_5>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "A young business"^^xsd:string ;
+ 	nif:beginIndex 	 "855"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "871"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/A_young_business_5>;
+ 	kr: does_not_have <http://www.list.lu/document7#Ollie/Object_6>. 
+
+<http://www.list.lu/document7#Ollie/Object_6>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "886"^^xsd:string ;
+ 	nif:beginIndex 	 "886"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "907"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_same_requirements_6>.
+ 
+kr:_is_often_underestimated
+ 	a rdf:Property;
+ 	rdfs:label " is often underestimated". 
+<http://www.list.lu/document7#Ollie/Subject_1>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "its importance"^^xsd:string ;
+ 	nif:beginIndex 	 "305"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "319"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/its_importance_1>;
+ 	kr: is_often_underestimated_by <http://www.list.lu/document7#Ollie/Object_2>. 
+
+<http://www.list.lu/document7#Ollie/Object_2>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "347"^^xsd:string ;
+ 	nif:beginIndex 	 "347"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "360"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/entrepreneurs_2>.
+ 
+kr:_does_have
+ 	a rdf:Property;
+ 	rdfs:label " does have". 
+<http://www.list.lu/document7#Ollie/Subject_7>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "it"^^xsd:string ;
+ 	nif:beginIndex 	 "85"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "87"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/it_7>;
+ 	kr: does_have <http://www.list.lu/document7#Ollie/Object_8>. 
+
+<http://www.list.lu/document7#Ollie/Object_8>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "925"^^xsd:string ;
+ 	nif:beginIndex 	 "925"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "931"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/access_8>.
+ 
+kr:_should_be_carried_out_an_investment_or_the_financing_of_working_capital_needs_._Financing_plays_a_key_role_in_the_success_of_a_project_or_investment_and_its_importance_is_often_underestimated_by_entrepreneurs_._Around_half_of_all_businesses_created_disappear_after_just_a_few_years_,_often_for_financial_reasons_._It_is_therefore_necessary_to_carry_out_prior_in-depth_analysis_to_determine_your_bank_and_non-bank_financing_requirements_and_sources_._Bank_and_non-bank_financing_concerns_any_business_set_up_in_the_form_of_a_sole_proprietorship_or_company_that_wishes_to_develop_its_commercial_activity_._The_sources_and_types_of_financing_used_will_differ_depending_on_the_phase_of_the_business_�_life_cycle_._A_young_business_does_not_have_the_same_requirements
+ 	a rdf:Property;
+ 	rdfs:label " should be carried out an investment or the financing of working capital needs . Financing plays a key role in the success of a project or investment and its importance is often underestimated by entrepreneurs . Around half of all businesses created disappear after just a few years , often for financial reasons . It is therefore necessary to carry out prior in-depth analysis to determine your bank and non-bank financing requirements and sources . Bank and non-bank financing concerns any business set up in the form of a sole proprietorship or company that wishes to develop its commercial activity . The sources and types of financing used will differ depending on the phase of the business � life cycle . A young business does not have the same requirements". 
+<http://www.list.lu/document7#Ollie/Subject_3>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "research"^^xsd:string ;
+ 	nif:beginIndex 	 "38"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "46"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/research_3>;
+ 	kr: should_be_carried_out_an_investment_or_the_financing_of_working_capital_needs_._Financing_plays_a_key_role_in_the_success_of_a_project_or_investment_and_its_importance_is_often_underestimated_by_entrepreneurs_._Around_half_of_all_businesses_created_disappear_after_just_a_few_years_,_often_for_financial_reasons_._It_is_therefore_necessary_to_carry_out_prior_in-depth_analysis_to_determine_your_bank_and_non-bank_financing_requirements_and_sources_._Bank_and_non-bank_financing_concerns_any_business_set_up_in_the_form_of_a_sole_proprietorship_or_company_that_wishes_to_develop_its_commercial_activity_._The_sources_and_types_of_financing_used_will_differ_depending_on_the_phase_of_the_business_�_life_cycle_._A_young_business_does_not_have_the_same_requirements_into <http://www.list.lu/document7#Ollie/Object_4>. 
+
+<http://www.list.lu/document7#Ollie/Object_4>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "74"^^xsd:string ;
+ 	nif:beginIndex 	 "74"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "120"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_most_suitable_type_and_source_of_financing_4>.
+ 
+kr:_disappear
+ 	a rdf:Property;
+ 	rdfs:label " disappear". 
+<http://www.list.lu/document7#Ollie/Subject_15>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "Around half of all businesses"^^xsd:string ;
+ 	nif:beginIndex 	 "362"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "391"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Around_half_of_all_businesses_15>;
+ 	kr: disappear_after <http://www.list.lu/document7#Ollie/Object_16>. 
+
+<http://www.list.lu/document7#Ollie/Object_16>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "421"^^xsd:string ;
+ 	nif:beginIndex 	 "421"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "432"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_few_years_16>.
+ 
+kr:_to_carry_out
+ 	a rdf:Property;
+ 	rdfs:label " to carry out". 
+<http://www.list.lu/document7#Ollie/Subject_25>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "It"^^xsd:string ;
+ 	nif:beginIndex 	 "463"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "465"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/It_25>;
+ 	kr: to_carry_out <http://www.list.lu/document7#Ollie/Object_26>. 
+
+<http://www.list.lu/document7#Ollie/Object_26>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "502"^^xsd:string ;
+ 	nif:beginIndex 	 "502"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "525"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/prior_in-depth_analysis_26>.
+ 
+kr:_set_up
+ 	a rdf:Property;
+ 	rdfs:label " set up". 
+<http://www.list.lu/document7#Ollie/Subject_13>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "any business"^^xsd:string ;
+ 	nif:beginIndex 	 "635"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "647"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/any_business_13>;
+ 	kr: be_set_up_in <http://www.list.lu/document7#Ollie/Object_14>. 
+
+<http://www.list.lu/document7#Ollie/Object_14>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "658"^^xsd:string ;
+ 	nif:beginIndex 	 "658"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "691"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_form_of_a_sole_proprietorship_14>.
+ 
+kr:_concerns
+ 	a rdf:Property;
+ 	rdfs:label " concerns". 
+<http://www.list.lu/document7#Ollie/Subject_9>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "Bank and non-bank financing"^^xsd:string ;
+ 	nif:beginIndex 	 "598"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "625"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Bank_and_non-bank_financing_9>;
+ 	kr: concerns <http://www.list.lu/document7#Ollie/Object_10>. 
+
+<http://www.list.lu/document7#Ollie/Object_10>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "635"^^xsd:string ;
+ 	nif:beginIndex 	 "635"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "702"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/any_business_set_up_in_the_form_of_a_sole_proprietorship_or_company_10>.
+ 
+kr:_should_be_carried_out
+ 	a rdf:Property;
+ 	rdfs:label " should be carried out". 
+<http://www.list.lu/document7#Ollie/Subject_19>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "research"^^xsd:string ;
+ 	nif:beginIndex 	 "38"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "46"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/research_19>;
+ 	kr: should_be_carried_out <http://www.list.lu/document7#Ollie/Object_20>. 
+
+<http://www.list.lu/document7#Ollie/Object_20>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,1035>; 
+ 	nif:anchorOf 	 "-1"^^xsd:string ;
+ 	nif:beginIndex 	 "-1"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "732"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/an_investment_or_the_financing_of_working_capital_needs._Financing_plays_a_key_role_in_the_success_of_a_project_or_investment_and_its_importance_is_often_underestimated_by_entrepreneurs._Around_half_of_all_businesses_created_disappear_after_just_a_few_years,_often_for_financial_reasons._It_is_therefore_necessary_to_carry_out_prior_in-depth_analysis_to_determine_your_bank_and_non-bank_financing_requirements_and_sources._Bank_and_non-bank_financing_concerns_any_business_set_up_in_the_form_of_a_sole_proprietorship_or_company_that_wishes_to_develop_its_commercial_activity._The_sources_and_types_of_financing_used_will_differ_depending_on_the_phase_of_the_business_�_life_cycle._A_young_business_does_not_have_the_same_requirements_20>.
+ 
+<http:/www.list.lu/document5#char=0,1289>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"1289"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A04.txt>;
+ 	nif:isString 	"Luxembourg is very attached to the importance of sustainable development of the national economy and the environmental protection.
+The law on environmental protection contains specific provisions with regard to classified establishments which need an operating licence known as commodo authorization, the fight against air pollution, waste management and water protection.
+Moreover, businesses interested in investing in environmental protection can benefit from public aid.
+A building permit is required for all construction, transformation or demolition works of buildings.
+The delivery procedure of building permits may vary as it is determined by the building regulations which are specific to each commune.
+The building regulations, together with the general development plan (PAG) and, where applicable, the special development plan (PAP), are aimed at achieving a harmonious and sustainable development of the territory of the commune. They particularly aim to improve public safety, health and hygiene and also ensure a certain aesthetic harmony and balance of house facades.
+Building permits are only delivered if the project is compliant with the building regulations, the PAG and the PAP.
+
+Building permit applications should be submitted to the mayor of the commune concerned.
+"^^xsd:string .
+ 
+kr:_is_compliant
+ 	a rdf:Property;
+ 	rdfs:label " is compliant". 
+<http://www.list.lu/document5#Ollie/Subject_253>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "the project"^^xsd:string ;
+ 	nif:beginIndex 	 "1123"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1134"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_project_253>;
+ 	kr: is_compliant_with <http://www.list.lu/document5#Ollie/Object_254>. 
+
+<http://www.list.lu/document5#Ollie/Object_254>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "651"^^xsd:string ;
+ 	nif:beginIndex 	 "651"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "675"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_building_regulations_254>.
+ 
+kr:_is_required
+ 	a rdf:Property;
+ 	rdfs:label " is required". 
+<http://www.list.lu/document5#Ollie/Subject_233>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "A building permit"^^xsd:string ;
+ 	nif:beginIndex 	 "475"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "492"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/A_building_permit_233>;
+ 	kr: is_required_for <http://www.list.lu/document5#Ollie/Object_234>. 
+
+<http://www.list.lu/document5#Ollie/Object_234>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "509"^^xsd:string ;
+ 	nif:beginIndex 	 "509"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "574"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/all_construction,_transformation_or_demolition_works_of_buildings_234>.
+ 
+kr:_known
+ 	a rdf:Property;
+ 	rdfs:label " known". 
+<http://www.list.lu/document5#Ollie/Subject_251>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "an operating licence"^^xsd:string ;
+ 	nif:beginIndex 	 "248"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "268"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/an_operating_licence_251>;
+ 	kr: be_known_as <http://www.list.lu/document5#Ollie/Object_252>. 
+
+<http://www.list.lu/document5#Ollie/Object_252>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "278"^^xsd:string ;
+ 	nif:beginIndex 	 "278"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "299"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/commodo_authorization_252>.
+ 
+kr:_particularly_aim_to_improve
+ 	a rdf:Property;
+ 	rdfs:label " particularly aim to improve". 
+<http://www.list.lu/document5#Ollie/Subject_255>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "They"^^xsd:string ;
+ 	nif:beginIndex 	 "943"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "947"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/They_255>;
+ 	kr: particularly_aim_to_improve <http://www.list.lu/document5#Ollie/Object_256>. 
+
+<http://www.list.lu/document5#Ollie/Object_256>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "976"^^xsd:string ;
+ 	nif:beginIndex 	 "976"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1009"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/public_safety,_health_and_hygiene_256>.
+ 
+kr:_contains_specific_provisions
+ 	a rdf:Property;
+ 	rdfs:label " contains specific provisions". 
+<http://www.list.lu/document5#Ollie/Subject_243>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "The law"^^xsd:string ;
+ 	nif:beginIndex 	 "131"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "138"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_law_243>;
+ 	kr: contains_specific_provisions_with <http://www.list.lu/document5#Ollie/Object_244>. 
+
+<http://www.list.lu/document5#Ollie/Object_244>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "201"^^xsd:string ;
+ 	nif:beginIndex 	 "201"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "207"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/regard_244>.
+ 
+kr:_is_very_attached_The_building_regulations_together
+ 	a rdf:Property;
+ 	rdfs:label " is very attached The building regulations together". 
+<http://www.list.lu/document5#Ollie/Subject_235>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "Luxembourg"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "10"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Luxembourg_235>;
+ 	kr: is_very_attached_The_building_regulations_together_to <http://www.list.lu/document5#Ollie/Object_236>. 
+
+<http://www.list.lu/document5#Ollie/Object_236>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "31"^^xsd:string ;
+ 	nif:beginIndex 	 "31"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "129"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_importance_of_sustainable_development_of_the_national_economy_and_the_environmental_protection_236>.
+ 
+kr:_contains
+ 	a rdf:Property;
+ 	rdfs:label " contains". 
+<http://www.list.lu/document5#Ollie/Subject_247>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "The law"^^xsd:string ;
+ 	nif:beginIndex 	 "131"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "138"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_law_247>;
+ 	kr: contains <http://www.list.lu/document5#Ollie/Object_248>. 
+
+<http://www.list.lu/document5#Ollie/Object_248>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "176"^^xsd:string ;
+ 	nif:beginIndex 	 "176"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "195"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/specific_provisions_248>.
+ 
+kr:_is_determined
+ 	a rdf:Property;
+ 	rdfs:label " is determined". 
+<http://www.list.lu/document5#Ollie/Subject_239>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "it"^^xsd:string ;
+ 	nif:beginIndex 	 "197"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "199"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/it_239>;
+ 	kr: is_determined_by <http://www.list.lu/document5#Ollie/Object_240>. 
+
+<http://www.list.lu/document5#Ollie/Object_240>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "651"^^xsd:string ;
+ 	nif:beginIndex 	 "651"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "710"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_building_regulations_which_are_specific_to_each_commune_240>.
+ 
+kr:_is_very_attached_The_building_regulations_together
+ 	a rdf:Property;
+ 	rdfs:label " is very attached The building regulations together". 
+<http://www.list.lu/document5#Ollie/Subject_237>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "Luxembourg"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "10"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Luxembourg_237>;
+ 	kr: is_very_attached_The_building_regulations_together_with <http://www.list.lu/document5#Ollie/Object_238>. 
+
+<http://www.list.lu/document5#Ollie/Object_238>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "-1"^^xsd:string ;
+ 	nif:beginIndex 	 "-1"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "535"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_general_development_plan_(PAG_)_and,_where_applicable,_the_special_development_plan_(PAP_),_are_aimed_at_achieving_a_harmonious_and_sustainable_development_of_the_territory_of_the_commune._They_particularly_aim_to_improve_public_safety,_health_and_hygiene_and_also_ensure_a_certain_aesthetic_harmony_and_balance_of_house_facades._Building_permits_are_only_delivered_if_the_project_is_compliant_with_the_building_regulations,_the_PAG_and_the_PAP._Building_permit_applications_should_be_submitted_to_the_mayor_of_the_commune_concerned_238>.
+ 
+kr:_also_ensure
+ 	a rdf:Property;
+ 	rdfs:label " also ensure". 
+<http://www.list.lu/document5#Ollie/Subject_245>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "They"^^xsd:string ;
+ 	nif:beginIndex 	 "943"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "947"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/They_245>;
+ 	kr: also_ensure <http://www.list.lu/document5#Ollie/Object_246>. 
+
+<http://www.list.lu/document5#Ollie/Object_246>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "1026"^^xsd:string ;
+ 	nif:beginIndex 	 "1026"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1082"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_certain_aesthetic_harmony_and_balance_of_house_facades_246>.
+ 
+kr:_is_very_attached_together
+ 	a rdf:Property;
+ 	rdfs:label " is very attached together". 
+<http://www.list.lu/document5#Ollie/Subject_257>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "Luxembourg"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "10"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Luxembourg_257>;
+ 	kr: is_very_attached_together <http://www.list.lu/document5#Ollie/Object_258>. 
+
+<http://www.list.lu/document5#Ollie/Object_258>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "712"^^xsd:string ;
+ 	nif:beginIndex 	 "712"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "736"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_building_regulations_258>.
+ 
+kr:_can_benefit
+ 	a rdf:Property;
+ 	rdfs:label " can benefit". 
+<http://www.list.lu/document5#Ollie/Subject_249>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "the fight against air pollution, waste management and water protection. Moreover, businesses interested in investing in environmental protection"^^xsd:string ;
+ 	nif:beginIndex 	 "-1"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "143"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_fight_against_air_pollution,_waste_management_and_water_protection._Moreover,_businesses_interested_in_investing_in_environmental_protection_249>;
+ 	kr: can_benefit_from <http://www.list.lu/document5#Ollie/Object_250>. 
+
+<http://www.list.lu/document5#Ollie/Object_250>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "463"^^xsd:string ;
+ 	nif:beginIndex 	 "463"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "473"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/public_aid_250>.
+ 
+<http://www.list.lu/document5#Ollie/Subject_259>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "the project"^^xsd:string ;
+ 	nif:beginIndex 	 "1123"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1134"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_project_259>;
+ 	kr: is <http://www.list.lu/document5#Ollie/Object_260>. 
+
+<http://www.list.lu/document5#Ollie/Object_260>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "1138"^^xsd:string ;
+ 	nif:beginIndex 	 "1138"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1147"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/compliant_260>.
+ 
+kr:_should_be_submitted
+ 	a rdf:Property;
+ 	rdfs:label " should be submitted". 
+<http://www.list.lu/document5#Ollie/Subject_241>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "the PAP. Building permit applications"^^xsd:string ;
+ 	nif:beginIndex 	 "-1"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "36"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_PAP._Building_permit_applications_241>;
+ 	kr: should_be_submitted_to <http://www.list.lu/document5#Ollie/Object_242>. 
+
+<http://www.list.lu/document5#Ollie/Object_242>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,1289>; 
+ 	nif:anchorOf 	 "1253"^^xsd:string ;
+ 	nif:beginIndex 	 "1253"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1277"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_mayor_of_the_commune_242>.
+ 
+<http:/www.list.lu/document3#char=0,536>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"536"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A02.txt>;
+ 	nif:isString 	"The access to most commercial, craft and industrial activities, as well as certain liberal professions, is subject to obtaining a business permit.
+However, some liberal professions are not subject to a business permit but require other authorisations.
+The same applies to activities which are subject to specific registration or accreditation.
+As to certain activities which are essentially intellectual in nature (other than liberal professions), they do not require any authorisation if they are carried out in the person's own name.
+"^^xsd:string .
+ 
+kr:_is_However
+ 	a rdf:Property;
+ 	rdfs:label " is However". 
+<http://www.list.lu/document3#Ollie/Subject_37>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,536>; 
+ 	nif:anchorOf 	 "The access"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "10"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_access_37>;
+ 	kr: is_However <http://www.list.lu/document3#Ollie/Object_38>. 
+
+<http://www.list.lu/document3#Ollie/Object_38>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,536>; 
+ 	nif:anchorOf 	 "107"^^xsd:string ;
+ 	nif:beginIndex 	 "107"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "114"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/subject_38>.
+ 
+kr:_The_access
+ 	a rdf:Property;
+ 	rdfs:label " The access". 
+<http://www.list.lu/document3#Ollie/Subject_35>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,536>; 
+ 	nif:anchorOf 	 "subject"^^xsd:string ;
+ 	nif:beginIndex 	 "107"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "114"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/subject_35>;
+ 	kr: be_The_access_to <http://www.list.lu/document3#Ollie/Object_36>. 
+
+<http://www.list.lu/document3#Ollie/Object_36>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,536>; 
+ 	nif:anchorOf 	 "19"^^xsd:string ;
+ 	nif:beginIndex 	 "19"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "62"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/commercial,_craft_and_industrial_activities_36>.
+ 
+kr:_are_carried_out
+ 	a rdf:Property;
+ 	rdfs:label " are carried out". 
+<http://www.list.lu/document3#Ollie/Subject_27>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,536>; 
+ 	nif:anchorOf 	 "they"^^xsd:string ;
+ 	nif:beginIndex 	 "448"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "452"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/they_27>;
+ 	kr: are_carried_out_in <http://www.list.lu/document3#Ollie/Object_28>. 
+
+<http://www.list.lu/document3#Ollie/Object_28>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,536>; 
+ 	nif:anchorOf 	 "-1"^^xsd:string ;
+ 	nif:beginIndex 	 "-1"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "21"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_person_'s_own_name_28>.
+ 
+kr:_are_not_subject
+ 	a rdf:Property;
+ 	rdfs:label " are not subject". 
+<http://www.list.lu/document3#Ollie/Subject_33>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,536>; 
+ 	nif:anchorOf 	 "some liberal professions"^^xsd:string ;
+ 	nif:beginIndex 	 "156"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "180"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/some_liberal_professions_33>;
+ 	kr: are_not_subject_to <http://www.list.lu/document3#Ollie/Object_34>. 
+
+<http://www.list.lu/document3#Ollie/Object_34>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,536>; 
+ 	nif:anchorOf 	 "128"^^xsd:string ;
+ 	nif:beginIndex 	 "128"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "145"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_business_permit_34>.
+ 
+kr:_do_not_require
+ 	a rdf:Property;
+ 	rdfs:label " do not require". 
+<http://www.list.lu/document3#Ollie/Subject_31>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,536>; 
+ 	nif:anchorOf 	 "they"^^xsd:string ;
+ 	nif:beginIndex 	 "448"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "452"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/they_31>;
+ 	kr: do_not_require <http://www.list.lu/document3#Ollie/Object_32>. 
+
+<http://www.list.lu/document3#Ollie/Object_32>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,536>; 
+ 	nif:anchorOf 	 "468"^^xsd:string ;
+ 	nif:beginIndex 	 "468"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "485"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/any_authorisation_32>.
+ 
+kr:_applies
+ 	a rdf:Property;
+ 	rdfs:label " applies". 
+<http://www.list.lu/document3#Ollie/Subject_29>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,536>; 
+ 	nif:anchorOf 	 "not subject"^^xsd:string ;
+ 	nif:beginIndex 	 "185"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "196"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/not_subject_29>;
+ 	kr: applies_to <http://www.list.lu/document3#Ollie/Object_30>. 
+
+<http://www.list.lu/document3#Ollie/Object_30>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,536>; 
+ 	nif:anchorOf 	 "272"^^xsd:string ;
+ 	nif:beginIndex 	 "272"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "342"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/activities_which_are_subject_to_specific_registration_or_accreditation_30>.
+ 
+<http:/www.list.lu/document10#char=0,1300>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"1300"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A09.txt>;
+ 	nif:isString 	"Mezzanine financing generally takes the form of a medium-term subordinated loan and involves two parties: an investor and a business. Mezzanine financing represents an alternative to traditional borrowing methods, and the borrowed capital may be structured as either equity capital or loan capital. In general, this form of financing is obtained for a term of 7 to 10 years. It is usually repaid in full at the end of the contractual period.
+
+As it is becoming increasingly difficult to obtain credit from banks, which must comply with ever-stricter risk evaluation requirements, this form of fund-raising is attracting renewed interest in the business world.
+Businesses with lower funding requirements may make use of crowdfunding, a sub-form of mezzanine financing.
+
+In general, prior to contributing any funds, potential investors carry out an in-depth audit of the business either themselves or via a rating agency. In return for their investment, investors look for a share in the business' profits.
+However, if the business fails to generate a profit, the lender does not receive any remuneration.
+It is important to note that in general, if the borrowing business defaults, the invested capital will be lost. However, in most cases, this risk is offset by an appropriate share of the profits.
+"^^xsd:string .
+ 
+kr:_involves
+ 	a rdf:Property;
+ 	rdfs:label " involves". 
+<http://www.list.lu/document10#Ollie/Subject_173>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "Mezzanine financing"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "19"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Mezzanine_financing_173>;
+ 	kr: involves <http://www.list.lu/document10#Ollie/Object_174>. 
+
+<http://www.list.lu/document10#Ollie/Object_174>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "93"^^xsd:string ;
+ 	nif:beginIndex 	 "93"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "104"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/two_parties_174>.
+ 
+kr:_is_offset
+ 	a rdf:Property;
+ 	rdfs:label " is offset". 
+<http://www.list.lu/document10#Ollie/Subject_149>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "this risk"^^xsd:string ;
+ 	nif:beginIndex 	 "1240"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1249"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/this_risk_149>;
+ 	kr: is_offset_by <http://www.list.lu/document10#Ollie/Object_150>. 
+
+<http://www.list.lu/document10#Ollie/Object_150>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "1263"^^xsd:string ;
+ 	nif:beginIndex 	 "1263"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1298"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/an_appropriate_share_of_the_profits_150>.
+ 
+<http://www.list.lu/document10#Ollie/Subject_143>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "the invested capital"^^xsd:string ;
+ 	nif:beginIndex 	 "1181"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1201"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_invested_capital_143>;
+ 	kr: will_be_lost_However_in <http://www.list.lu/document10#Ollie/Object_144>. 
+
+<http://www.list.lu/document10#Ollie/Object_144>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "1228"^^xsd:string ;
+ 	nif:beginIndex 	 "1228"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1238"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/most_cases_144>.
+ 
+kr:_is_obtained
+ 	a rdf:Property;
+ 	rdfs:label " is obtained". 
+<http://www.list.lu/document10#Ollie/Subject_145>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "this form of financing"^^xsd:string ;
+ 	nif:beginIndex 	 "311"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "333"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/this_form_of_financing_145>;
+ 	kr: is_obtained_for <http://www.list.lu/document10#Ollie/Object_146>. 
+
+<http://www.list.lu/document10#Ollie/Object_146>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "350"^^xsd:string ;
+ 	nif:beginIndex 	 "350"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "373"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_term_of_7_to_10_years_146>.
+ 
+kr:_may_make_a_sub-form_of_mezzanine_financing
+ 	a rdf:Property;
+ 	rdfs:label " may make a sub-form of mezzanine financing". 
+<http://www.list.lu/document10#Ollie/Subject_159>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "Businesses"^^xsd:string ;
+ 	nif:beginIndex 	 "660"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "670"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Businesses_159>;
+ 	kr: may_make_a_sub-form_of_mezzanine_financing <http://www.list.lu/document10#Ollie/Object_160>. 
+
+<http://www.list.lu/document10#Ollie/Object_160>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "712"^^xsd:string ;
+ 	nif:beginIndex 	 "712"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "731"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/use_of_crowdfunding_160>.
+ 
+kr:_is_usually_repaid
+ 	a rdf:Property;
+ 	rdfs:label " is usually repaid". 
+<http://www.list.lu/document10#Ollie/Subject_131>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "It"^^xsd:string ;
+ 	nif:beginIndex 	 "375"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "377"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/It_131>;
+ 	kr: is_usually_repaid_at <http://www.list.lu/document10#Ollie/Object_132>. 
+
+<http://www.list.lu/document10#Ollie/Object_132>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "407"^^xsd:string ;
+ 	nif:beginIndex 	 "407"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "440"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_end_of_the_contractual_period_132>.
+ 
+<http://www.list.lu/document10#Ollie/Subject_191>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "It"^^xsd:string ;
+ 	nif:beginIndex 	 "375"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "377"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/It_191>;
+ 	kr: is <http://www.list.lu/document10#Ollie/Object_192>. 
+
+<http://www.list.lu/document10#Ollie/Object_192>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "1110"^^xsd:string ;
+ 	nif:beginIndex 	 "1110"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1119"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/important_192>.
+ 
+kr:_is_usually_repaid
+ 	a rdf:Property;
+ 	rdfs:label " is usually repaid". 
+<http://www.list.lu/document10#Ollie/Subject_133>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "It"^^xsd:string ;
+ 	nif:beginIndex 	 "375"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "377"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/It_133>;
+ 	kr: is_usually_repaid_in <http://www.list.lu/document10#Ollie/Object_134>. 
+
+<http://www.list.lu/document10#Ollie/Object_134>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "399"^^xsd:string ;
+ 	nif:beginIndex 	 "399"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "403"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/full_134>.
+ 
+kr:_fails_to_generate
+ 	a rdf:Property;
+ 	rdfs:label " fails to generate". 
+<http://www.list.lu/document10#Ollie/Subject_179>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "the business"^^xsd:string ;
+ 	nif:beginIndex 	 "640"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "652"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_business_179>;
+ 	kr: fails_to_generate <http://www.list.lu/document10#Ollie/Object_180>. 
+
+<http://www.list.lu/document10#Ollie/Object_180>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "1048"^^xsd:string ;
+ 	nif:beginIndex 	 "1048"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1056"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_profit_180>.
+ 
+kr:_will_be_lost_However
+ 	a rdf:Property;
+ 	rdfs:label " will be lost However". 
+<http://www.list.lu/document10#Ollie/Subject_139>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "the borrowing business defaults"^^xsd:string ;
+ 	nif:beginIndex 	 "1148"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1179"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_borrowing_business_defaults_139>;
+ 	kr: will_be_lost_However_in <http://www.list.lu/document10#Ollie/Object_140>. 
+
+<http://www.list.lu/document10#Ollie/Object_140>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "1228"^^xsd:string ;
+ 	nif:beginIndex 	 "1228"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1238"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/most_cases_140>.
+ 
+<http://www.list.lu/document10#Ollie/Subject_141>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "the invested capital"^^xsd:string ;
+ 	nif:beginIndex 	 "1181"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1201"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_invested_capital_141>;
+ 	kr: will_be_lost_However_in <http://www.list.lu/document10#Ollie/Object_142>. 
+
+<http://www.list.lu/document10#Ollie/Object_142>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "20"^^xsd:string ;
+ 	nif:beginIndex 	 "20"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "27"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/general_142>.
+ 
+kr:_use
+ 	a rdf:Property;
+ 	rdfs:label " use". 
+<http://www.list.lu/document10#Ollie/Subject_195>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "Businesses"^^xsd:string ;
+ 	nif:beginIndex 	 "660"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "670"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Businesses_195>;
+ 	kr: be_use_of <http://www.list.lu/document10#Ollie/Object_196>. 
+
+<http://www.list.lu/document10#Ollie/Object_196>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "719"^^xsd:string ;
+ 	nif:beginIndex 	 "719"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "731"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/crowdfunding_196>.
+ 
+kr:_may_make_use_of_crowdfunding
+ 	a rdf:Property;
+ 	rdfs:label " may make use of crowdfunding". 
+<http://www.list.lu/document10#Ollie/Subject_167>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "Businesses"^^xsd:string ;
+ 	nif:beginIndex 	 "660"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "670"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Businesses_167>;
+ 	kr: may_make_use_of_crowdfunding <http://www.list.lu/document10#Ollie/Object_168>. 
+
+<http://www.list.lu/document10#Ollie/Object_168>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "885"^^xsd:string ;
+ 	nif:beginIndex 	 "885"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "895"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/themselves_168>.
+ 
+kr:_a_sub-form
+ 	a rdf:Property;
+ 	rdfs:label " a sub-form". 
+<http://www.list.lu/document10#Ollie/Subject_193>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "Businesses"^^xsd:string ;
+ 	nif:beginIndex 	 "660"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "670"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Businesses_193>;
+ 	kr: be_a_sub-form_of <http://www.list.lu/document10#Ollie/Object_194>. 
+
+<http://www.list.lu/document10#Ollie/Object_194>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "747"^^xsd:string ;
+ 	nif:beginIndex 	 "747"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "766"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/mezzanine_financing_194>.
+ 
+<http://www.list.lu/document10#Ollie/Subject_177>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "financing"^^xsd:string ;
+ 	nif:beginIndex 	 "10"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "19"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/financing_177>;
+ 	kr: represents_may <http://www.list.lu/document10#Ollie/Object_178>. 
+
+<http://www.list.lu/document10#Ollie/Object_178>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "165"^^xsd:string ;
+ 	nif:beginIndex 	 "165"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "179"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/an_alternative_178>.
+ 
+kr:_may_make_use_of_crowdfunding
+ 	a rdf:Property;
+ 	rdfs:label " may make use of crowdfunding". 
+<http://www.list.lu/document10#Ollie/Subject_165>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "Businesses"^^xsd:string ;
+ 	nif:beginIndex 	 "660"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "670"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Businesses_165>;
+ 	kr: may_make_use_of_crowdfunding <http://www.list.lu/document10#Ollie/Object_166>. 
+
+<http://www.list.lu/document10#Ollie/Object_166>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "733"^^xsd:string ;
+ 	nif:beginIndex 	 "733"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "766"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_sub-form_of_mezzanine_financing_166>.
+ 
+kr:_look_However
+ 	a rdf:Property;
+ 	rdfs:label " look However". 
+<http://www.list.lu/document10#Ollie/Subject_183>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "investors"^^xsd:string ;
+ 	nif:beginIndex 	 "824"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "833"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/investors_183>;
+ 	kr: look_However_for <http://www.list.lu/document10#Ollie/Object_184>. 
+
+<http://www.list.lu/document10#Ollie/Object_184>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "971"^^xsd:string ;
+ 	nif:beginIndex 	 "971"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "978"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_share_184>.
+ 
+kr:_to_obtain
+ 	a rdf:Property;
+ 	rdfs:label " to obtain". 
+<http://www.list.lu/document10#Ollie/Subject_189>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "credit"^^xsd:string ;
+ 	nif:beginIndex 	 "494"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "500"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/credit_189>;
+ 	kr: to_be_obtain_from <http://www.list.lu/document10#Ollie/Object_190>. 
+
+<http://www.list.lu/document10#Ollie/Object_190>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "-1"^^xsd:string ;
+ 	nif:beginIndex 	 "-1"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "70"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/banks_which_must_comply_with_ever-stricter_risk_evaluation_requirements_190>.
+ 
+kr:_may_be_structured
+ 	a rdf:Property;
+ 	rdfs:label " may be structured". 
+<http://www.list.lu/document10#Ollie/Subject_135>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "the borrowed capital"^^xsd:string ;
+ 	nif:beginIndex 	 "218"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "238"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_borrowed_capital_135>;
+ 	kr: may_be_structured_as <http://www.list.lu/document10#Ollie/Object_136>. 
+
+<http://www.list.lu/document10#Ollie/Object_136>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "267"^^xsd:string ;
+ 	nif:beginIndex 	 "267"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "297"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/equity_capital_or_loan_capital_136>.
+ 
+kr:_represents_an_alternative_may
+ 	a rdf:Property;
+ 	rdfs:label " represents an alternative may". 
+<http://www.list.lu/document10#Ollie/Subject_155>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "financing"^^xsd:string ;
+ 	nif:beginIndex 	 "10"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "19"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/financing_155>;
+ 	kr: represents_an_alternative_may_to <http://www.list.lu/document10#Ollie/Object_156>. 
+
+<http://www.list.lu/document10#Ollie/Object_156>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "183"^^xsd:string ;
+ 	nif:beginIndex 	 "183"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "212"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/traditional_borrowing_methods_156>.
+ 
+kr:_may_make_general_,_prior_to_contributing_any_funds_,_potential_investors_carry_out_an_in-depth_audit_of_the_business_either_themselves
+ 	a rdf:Property;
+ 	rdfs:label " may make general , prior to contributing any funds , potential investors carry out an in-depth audit of the business either themselves". 
+<http://www.list.lu/document10#Ollie/Subject_161>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "Businesses"^^xsd:string ;
+ 	nif:beginIndex 	 "660"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "670"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Businesses_161>;
+ 	kr: may_make_general_,_prior_to_contributing_any_funds_,_potential_investors_carry_out_an_in-depth_audit_of_the_business_either_themselves <http://www.list.lu/document10#Ollie/Object_162>. 
+
+<http://www.list.lu/document10#Ollie/Object_162>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "733"^^xsd:string ;
+ 	nif:beginIndex 	 "733"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "766"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_sub-form_of_mezzanine_financing_162>.
+ 
+kr:_represents_an_alternative_may
+ 	a rdf:Property;
+ 	rdfs:label " represents an alternative may". 
+<http://www.list.lu/document10#Ollie/Subject_153>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "an investor and a business"^^xsd:string ;
+ 	nif:beginIndex 	 "106"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "132"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/an_investor_and_a_business_153>;
+ 	kr: represents_an_alternative_may_to <http://www.list.lu/document10#Ollie/Object_154>. 
+
+<http://www.list.lu/document10#Ollie/Object_154>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "183"^^xsd:string ;
+ 	nif:beginIndex 	 "183"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "212"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/traditional_borrowing_methods_154>.
+ 
+kr:_generally_takes
+ 	a rdf:Property;
+ 	rdfs:label " generally takes". 
+<http://www.list.lu/document10#Ollie/Subject_171>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "Mezzanine financing"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "19"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Mezzanine_financing_171>;
+ 	kr: generally_takes <http://www.list.lu/document10#Ollie/Object_172>. 
+
+<http://www.list.lu/document10#Ollie/Object_172>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "36"^^xsd:string ;
+ 	nif:beginIndex 	 "36"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "79"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_form_of_a_medium-term_subordinated_loan_172>.
+ 
+kr:_carry_out
+ 	a rdf:Property;
+ 	rdfs:label " carry out". 
+<http://www.list.lu/document10#Ollie/Subject_181>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "potential investors"^^xsd:string ;
+ 	nif:beginIndex 	 "814"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "833"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/potential_investors_181>;
+ 	kr: carry_out <http://www.list.lu/document10#Ollie/Object_182>. 
+
+<http://www.list.lu/document10#Ollie/Object_182>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "844"^^xsd:string ;
+ 	nif:beginIndex 	 "844"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "877"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/an_in-depth_audit_of_the_business_182>.
+ 
+kr:_may_make_a_sub-form_of_mezzanine_financing
+ 	a rdf:Property;
+ 	rdfs:label " may make a sub-form of mezzanine financing". 
+<http://www.list.lu/document10#Ollie/Subject_157>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "Businesses"^^xsd:string ;
+ 	nif:beginIndex 	 "660"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "670"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Businesses_157>;
+ 	kr: may_make_a_sub-form_of_mezzanine_financing <http://www.list.lu/document10#Ollie/Object_158>. 
+
+<http://www.list.lu/document10#Ollie/Object_158>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "885"^^xsd:string ;
+ 	nif:beginIndex 	 "885"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "895"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/themselves_158>.
+ 
+kr:_will_be_lost_However
+ 	a rdf:Property;
+ 	rdfs:label " will be lost However". 
+<http://www.list.lu/document10#Ollie/Subject_137>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "the borrowing business defaults"^^xsd:string ;
+ 	nif:beginIndex 	 "1148"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1179"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_borrowing_business_defaults_137>;
+ 	kr: will_be_lost_However_in <http://www.list.lu/document10#Ollie/Object_138>. 
+
+<http://www.list.lu/document10#Ollie/Object_138>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "20"^^xsd:string ;
+ 	nif:beginIndex 	 "20"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "27"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/general_138>.
+ 
+kr:_does_not_receive
+ 	a rdf:Property;
+ 	rdfs:label " does not receive". 
+<http://www.list.lu/document10#Ollie/Subject_169>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "the lender"^^xsd:string ;
+ 	nif:beginIndex 	 "1058"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1068"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_lender_169>;
+ 	kr: does_not_receive <http://www.list.lu/document10#Ollie/Object_170>. 
+
+<http://www.list.lu/document10#Ollie/Object_170>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "1086"^^xsd:string ;
+ 	nif:beginIndex 	 "1086"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1102"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/any_remuneration_170>.
+ 
+kr:_carry_out_an_in-depth_audit_of_the_business
+ 	a rdf:Property;
+ 	rdfs:label " carry out an in-depth audit of the business". 
+<http://www.list.lu/document10#Ollie/Subject_185>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "potential investors"^^xsd:string ;
+ 	nif:beginIndex 	 "814"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "833"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/potential_investors_185>;
+ 	kr: carry_out_an_in-depth_audit_of_the_business_in <http://www.list.lu/document10#Ollie/Object_186>. 
+
+<http://www.list.lu/document10#Ollie/Object_186>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "20"^^xsd:string ;
+ 	nif:beginIndex 	 "20"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "27"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/general_186>.
+ 
+kr:_is_obtained
+ 	a rdf:Property;
+ 	rdfs:label " is obtained". 
+<http://www.list.lu/document10#Ollie/Subject_147>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "this form of financing"^^xsd:string ;
+ 	nif:beginIndex 	 "311"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "333"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/this_form_of_financing_147>;
+ 	kr: is_obtained_in <http://www.list.lu/document10#Ollie/Object_148>. 
+
+<http://www.list.lu/document10#Ollie/Object_148>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "20"^^xsd:string ;
+ 	nif:beginIndex 	 "20"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "27"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/general_148>.
+ 
+kr:_is_attracting
+ 	a rdf:Property;
+ 	rdfs:label " is attracting". 
+<http://www.list.lu/document10#Ollie/Subject_187>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "this form of fund-raising"^^xsd:string ;
+ 	nif:beginIndex 	 "580"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "605"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/this_form_of_fund-raising_187>;
+ 	kr: is_attracting <http://www.list.lu/document10#Ollie/Object_188>. 
+
+<http://www.list.lu/document10#Ollie/Object_188>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "620"^^xsd:string ;
+ 	nif:beginIndex 	 "620"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "636"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/renewed_interest_188>.
+ 
+kr:_generally_takes_the_form_of_a_medium-term_subordinated_loan
+ 	a rdf:Property;
+ 	rdfs:label " generally takes the form of a medium-term subordinated loan". 
+<http://www.list.lu/document10#Ollie/Subject_151>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "Mezzanine financing"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "19"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Mezzanine_financing_151>;
+ 	kr: generally_takes_the_form_of_a_medium-term_subordinated_loan_in <http://www.list.lu/document10#Ollie/Object_152>. 
+
+<http://www.list.lu/document10#Ollie/Object_152>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "923"^^xsd:string ;
+ 	nif:beginIndex 	 "923"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "929"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/return_152>.
+ 
+kr:_represents_may
+ 	a rdf:Property;
+ 	rdfs:label " represents may". 
+<http://www.list.lu/document10#Ollie/Subject_175>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "an investor and a business"^^xsd:string ;
+ 	nif:beginIndex 	 "106"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "132"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/an_investor_and_a_business_175>;
+ 	kr: represents_may <http://www.list.lu/document10#Ollie/Object_176>. 
+
+<http://www.list.lu/document10#Ollie/Object_176>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "165"^^xsd:string ;
+ 	nif:beginIndex 	 "165"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "179"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/an_alternative_176>.
+ 
+kr:_may_make_general_,_prior_to_contributing_any_funds_,_potential_investors_carry_out_an_in-depth_audit_of_the_business_either_themselves
+ 	a rdf:Property;
+ 	rdfs:label " may make general , prior to contributing any funds , potential investors carry out an in-depth audit of the business either themselves". 
+<http://www.list.lu/document10#Ollie/Subject_163>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "Businesses"^^xsd:string ;
+ 	nif:beginIndex 	 "660"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "670"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Businesses_163>;
+ 	kr: may_make_general_,_prior_to_contributing_any_funds_,_potential_investors_carry_out_an_in-depth_audit_of_the_business_either_themselves <http://www.list.lu/document10#Ollie/Object_164>. 
+
+<http://www.list.lu/document10#Ollie/Object_164>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document10#char=0,1300>; 
+ 	nif:anchorOf 	 "712"^^xsd:string ;
+ 	nif:beginIndex 	 "712"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "731"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/use_of_crowdfunding_164>.
+ 
+<http:/www.list.lu/document4#char=0,728>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"728"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A03.txt>;
+ 	nif:isString 	"Whether you are starting up a new business, taking over a business, entering a new phase of development or starting a new business activity within an existing business, you need to ask yourself fundamental questions concerning all aspects of your plans and provide the answers. The results of this vital thinking process must be formalized in a summary document called a business plan. Throughout an entrepreneurial project, the business plan is a vital strategic and communication tool.
+
+It is very important that the business plan is adapted to the needs and expectations of different audiences. When reading the document, each audience should have the feeling that the entrepreneur is presenting a coherent and sound project
+"^^xsd:string .
+ 
+kr:_are_starting_up_a_new_business_taking_over
+ 	a rdf:Property;
+ 	rdfs:label " are starting up a new business taking over". 
+<http://www.list.lu/document4#Ollie/Subject_275>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "you"^^xsd:string ;
+ 	nif:beginIndex 	 "8"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "11"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/you_275>;
+ 	kr: are_starting_up_a_new_business_taking_over <http://www.list.lu/document4#Ollie/Object_276>. 
+
+<http://www.list.lu/document4#Ollie/Object_276>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "56"^^xsd:string ;
+ 	nif:beginIndex 	 "56"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "66"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_business_276>.
+ 
+kr:_must_be_formalized
+ 	a rdf:Property;
+ 	rdfs:label " must be formalized". 
+<http://www.list.lu/document4#Ollie/Subject_263>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "The results of this vital thinking process"^^xsd:string ;
+ 	nif:beginIndex 	 "278"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "320"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_results_of_this_vital_thinking_process_263>;
+ 	kr: must_be_formalized_throughout <http://www.list.lu/document4#Ollie/Object_264>. 
+
+<http://www.list.lu/document4#Ollie/Object_264>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "397"^^xsd:string ;
+ 	nif:beginIndex 	 "397"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "423"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/an_entrepreneurial_project_264>.
+ 
+kr:_must_be_formalized
+ 	a rdf:Property;
+ 	rdfs:label " must be formalized". 
+<http://www.list.lu/document4#Ollie/Subject_261>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "The results of this vital thinking process"^^xsd:string ;
+ 	nif:beginIndex 	 "278"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "320"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_results_of_this_vital_thinking_process_261>;
+ 	kr: must_be_formalized_in <http://www.list.lu/document4#Ollie/Object_262>. 
+
+<http://www.list.lu/document4#Ollie/Object_262>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "343"^^xsd:string ;
+ 	nif:beginIndex 	 "343"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "361"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_summary_document_262>.
+ 
+kr:_provide
+ 	a rdf:Property;
+ 	rdfs:label " provide". 
+<http://www.list.lu/document4#Ollie/Subject_271>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "you"^^xsd:string ;
+ 	nif:beginIndex 	 "8"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "11"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/you_271>;
+ 	kr: provide <http://www.list.lu/document4#Ollie/Object_272>. 
+
+<http://www.list.lu/document4#Ollie/Object_272>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "265"^^xsd:string ;
+ 	nif:beginIndex 	 "265"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "276"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_answers_272>.
+ 
+<http://www.list.lu/document4#Ollie/Subject_281>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "the business plan"^^xsd:string ;
+ 	nif:beginIndex 	 "425"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "442"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_business_plan_281>;
+ 	kr: is <http://www.list.lu/document4#Ollie/Object_282>. 
+
+<http://www.list.lu/document4#Ollie/Object_282>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "446"^^xsd:string ;
+ 	nif:beginIndex 	 "446"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "486"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_vital_strategic_and_communication_tool_282>.
+ 
+kr:_is_adapted
+ 	a rdf:Property;
+ 	rdfs:label " is adapted". 
+<http://www.list.lu/document4#Ollie/Subject_265>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "the business plan"^^xsd:string ;
+ 	nif:beginIndex 	 "425"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "442"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_business_plan_265>;
+ 	kr: is_adapted_to <http://www.list.lu/document4#Ollie/Object_266>. 
+
+<http://www.list.lu/document4#Ollie/Object_266>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "547"^^xsd:string ;
+ 	nif:beginIndex 	 "547"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "596"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_needs_and_expectations_of_different_audiences_266>.
+ 
+kr:_is_very
+ 	a rdf:Property;
+ 	rdfs:label " is very". 
+<http://www.list.lu/document4#Ollie/Subject_279>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "It"^^xsd:string ;
+ 	nif:beginIndex 	 "489"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "491"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/It_279>;
+ 	kr: is_very <http://www.list.lu/document4#Ollie/Object_280>. 
+
+<http://www.list.lu/document4#Ollie/Object_280>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "500"^^xsd:string ;
+ 	nif:beginIndex 	 "500"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "509"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/important_280>.
+ 
+kr:_need_to_ask
+ 	a rdf:Property;
+ 	rdfs:label " need to ask". 
+<http://www.list.lu/document4#Ollie/Subject_269>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "you"^^xsd:string ;
+ 	nif:beginIndex 	 "8"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "11"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/you_269>;
+ 	kr: need_to_ask <http://www.list.lu/document4#Ollie/Object_270>. 
+
+<http://www.list.lu/document4#Ollie/Object_270>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "185"^^xsd:string ;
+ 	nif:beginIndex 	 "185"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "193"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/yourself_270>.
+ 
+kr:_should_have
+ 	a rdf:Property;
+ 	rdfs:label " should have". 
+<http://www.list.lu/document4#Ollie/Subject_267>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "each audience"^^xsd:string ;
+ 	nif:beginIndex 	 "625"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "638"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/each_audience_267>;
+ 	kr: should_have <http://www.list.lu/document4#Ollie/Object_268>. 
+
+<http://www.list.lu/document4#Ollie/Object_268>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "651"^^xsd:string ;
+ 	nif:beginIndex 	 "651"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "662"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_feeling_268>.
+ 
+kr:_is_presenting
+ 	a rdf:Property;
+ 	rdfs:label " is presenting". 
+<http://www.list.lu/document4#Ollie/Subject_273>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "the entrepreneur"^^xsd:string ;
+ 	nif:beginIndex 	 "668"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "684"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_entrepreneur_273>;
+ 	kr: is_presenting <http://www.list.lu/document4#Ollie/Object_274>. 
+
+<http://www.list.lu/document4#Ollie/Object_274>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "699"^^xsd:string ;
+ 	nif:beginIndex 	 "699"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "727"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_coherent_and_sound_project_274>.
+ 
+kr:_are_starting_up
+ 	a rdf:Property;
+ 	rdfs:label " are starting up". 
+<http://www.list.lu/document4#Ollie/Subject_277>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "you"^^xsd:string ;
+ 	nif:beginIndex 	 "8"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "11"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/you_277>;
+ 	kr: are_starting_up <http://www.list.lu/document4#Ollie/Object_278>. 
+
+<http://www.list.lu/document4#Ollie/Object_278>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,728>; 
+ 	nif:anchorOf 	 "28"^^xsd:string ;
+ 	nif:beginIndex 	 "28"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "42"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_new_business_278>.
+ 
+<http:/www.list.lu/document2#char=0,698>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"698"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A01.txt>;
+ 	nif:isString 	"Any business whose activity has come to a standstill or has been significantly reduced following a natural disaster qualifying as an event of force majeure, i.e. destroying or damaging the production equipment, may apply for involuntary and temporary layoff.
+
+The involuntary and temporary layoff scheme may also be granted in the event of an interruption or significant reduction in activity due to roadworks or infrastructure developments being carried out by the authorities for a duration of more than one month and seriously impeding customer access to the business, provided that the reduction in activity leads to a considerable decrease in turnover compared to a period of normal activity.
+"^^xsd:string .
+ 
+kr:_leads
+ 	a rdf:Property;
+ 	rdfs:label " leads". 
+<http://www.list.lu/document2#Ollie/Subject_121>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,698>; 
+ 	nif:anchorOf 	 "the reduction"^^xsd:string ;
+ 	nif:beginIndex 	 "586"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "599"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_reduction_121>;
+ 	kr: leads_to <http://www.list.lu/document2#Ollie/Object_122>. 
+
+<http://www.list.lu/document2#Ollie/Object_122>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,698>; 
+ 	nif:anchorOf 	 "621"^^xsd:string ;
+ 	nif:beginIndex 	 "621"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "644"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_considerable_decrease_122>.
+ 
+kr:_may_also_be_granted
+ 	a rdf:Property;
+ 	rdfs:label " may also be granted". 
+<http://www.list.lu/document2#Ollie/Subject_119>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,698>; 
+ 	nif:anchorOf 	 "The involuntary and temporary layoff scheme"^^xsd:string ;
+ 	nif:beginIndex 	 "260"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "303"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_involuntary_and_temporary_layoff_scheme_119>;
+ 	kr: may_also_be_granted_in <http://www.list.lu/document2#Ollie/Object_120>. 
+
+<http://www.list.lu/document2#Ollie/Object_120>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,698>; 
+ 	nif:anchorOf 	 "327"^^xsd:string ;
+ 	nif:beginIndex 	 "327"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "355"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_event_of_an_interruption_120>.
+ 
+kr:_being_carried_out
+ 	a rdf:Property;
+ 	rdfs:label " being carried out". 
+<http://www.list.lu/document2#Ollie/Subject_127>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,698>; 
+ 	nif:anchorOf 	 "roadworks or infrastructure developments"^^xsd:string ;
+ 	nif:beginIndex 	 "400"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "440"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/roadworks_or_infrastructure_developments_127>;
+ 	kr: being_carried_out_for <http://www.list.lu/document2#Ollie/Object_128>. 
+
+<http://www.list.lu/document2#Ollie/Object_128>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,698>; 
+ 	nif:anchorOf 	 "482"^^xsd:string ;
+ 	nif:beginIndex 	 "482"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "515"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_duration_of_more_than_one_month_128>.
+ 
+kr:_may_apply
+ 	a rdf:Property;
+ 	rdfs:label " may apply". 
+<http://www.list.lu/document2#Ollie/Subject_123>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,698>; 
+ 	nif:anchorOf 	 "Any business whose activity has come to a standstill"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "52"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Any_business_whose_activity_has_come_to_a_standstill_123>;
+ 	kr: may_apply_for <http://www.list.lu/document2#Ollie/Object_124>. 
+
+<http://www.list.lu/document2#Ollie/Object_124>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,698>; 
+ 	nif:anchorOf 	 "225"^^xsd:string ;
+ 	nif:beginIndex 	 "225"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "257"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/involuntary_and_temporary_layoff_124>.
+ 
+kr:_has_come
+ 	a rdf:Property;
+ 	rdfs:label " has come". 
+<http://www.list.lu/document2#Ollie/Subject_129>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,698>; 
+ 	nif:anchorOf 	 "whose activity"^^xsd:string ;
+ 	nif:beginIndex 	 "13"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "27"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/whose_activity_129>;
+ 	kr: has_come_to <http://www.list.lu/document2#Ollie/Object_130>. 
+
+<http://www.list.lu/document2#Ollie/Object_130>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,698>; 
+ 	nif:anchorOf 	 "40"^^xsd:string ;
+ 	nif:beginIndex 	 "40"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "52"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_standstill_130>.
+ 
+kr:_being_carried_out
+ 	a rdf:Property;
+ 	rdfs:label " being carried out". 
+<http://www.list.lu/document2#Ollie/Subject_125>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,698>; 
+ 	nif:anchorOf 	 "roadworks or infrastructure developments"^^xsd:string ;
+ 	nif:beginIndex 	 "400"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "440"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/roadworks_or_infrastructure_developments_125>;
+ 	kr: being_carried_out_by <http://www.list.lu/document2#Ollie/Object_126>. 
+
+<http://www.list.lu/document2#Ollie/Object_126>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,698>; 
+ 	nif:anchorOf 	 "462"^^xsd:string ;
+ 	nif:beginIndex 	 "462"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "477"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_authorities_126>.
+ 
+

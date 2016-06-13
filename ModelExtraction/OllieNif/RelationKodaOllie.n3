@@ -1,0 +1,1148 @@
+@prefix owl:  <http://www.w3.org/2002/07/owl#>.
+@prefix kr:  <http://www.list.lu/kr#>. 
+ 
+<http://www.list.lu/kr/document1#koda/310> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_8>. 
+<http://www.list.lu/kr/document1#koda/232> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_8>. 
+<http://dbpedia.org/resource/Business>	kr:disappear_after	 <http://dbpedia.org/ontology/Year>. 
+ 
+<http://www.list.lu/kr/document1#koda/310> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_125>. 
+<http://www.list.lu/kr/document1#koda/109> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_125>. 
+<http://dbpedia.org/resource/Business>	kr:can_benefit_from	 <http://dbpedia.org/resource/Social_support>. 
+ 
+<http://www.list.lu/kr/document1#koda/320> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_3>. 
+<http://www.list.lu/kr/document1#koda/246> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_3>. 
+<http://dbpedia.org/resource/Business>	kr:does_not_have	 <http://dbpedia.org/resource/Requirement>. 
+ 
+<http://www.list.lu/kr/document1#koda/320> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_8>. 
+<http://www.list.lu/kr/document1#koda/232> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_8>. 
+<http://dbpedia.org/resource/Business>	kr:disappear_after	 <http://dbpedia.org/ontology/Year>. 
+ 
+<http://www.list.lu/kr/document1#koda/320> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Subject_90>. 
+<http://www.list.lu/kr/document1#koda/33> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Object_90>. 
+<http://dbpedia.org/resource/Business>	kr:fails_to_generate	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/320> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_105>. 
+<http://www.list.lu/kr/document1#koda/50> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_105>. 
+<http://dbpedia.org/resource/Business>	kr:must_then_seek	 <http://dbpedia.org/resource/Information>. 
+ 
+<http://www.list.lu/kr/document1#koda/320> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_105>. 
+<http://www.list.lu/kr/document1#koda/271> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_105>. 
+<http://dbpedia.org/resource/Business>	kr:must_then_seek	 <http://dbpedia.org/resource/Information>. 
+ 
+<http://www.list.lu/kr/document1#koda/320> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_125>. 
+<http://www.list.lu/kr/document1#koda/109> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_125>. 
+<http://dbpedia.org/resource/Business>	kr:can_benefit_from	 <http://dbpedia.org/resource/Social_support>. 
+ 
+<http://www.list.lu/kr/document1#koda/320> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_142>. 
+<http://www.list.lu/kr/document1#koda/262> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_142>. 
+<http://dbpedia.org/resource/Business>	kr:depends_in	 <http://dbpedia.org/resource/Addition>. 
+ 
+<http://www.list.lu/kr/document1#koda/297> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_3>. 
+<http://www.list.lu/kr/document1#koda/246> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_3>. 
+<http://dbpedia.org/resource/Business>	kr:does_not_have	 <http://dbpedia.org/resource/Requirement>. 
+ 
+<http://www.list.lu/kr/document1#koda/297> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_8>. 
+<http://www.list.lu/kr/document1#koda/232> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_8>. 
+<http://dbpedia.org/resource/Business>	kr:disappear_after	 <http://dbpedia.org/ontology/Year>. 
+ 
+<http://www.list.lu/kr/document1#koda/297> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Subject_90>. 
+<http://www.list.lu/kr/document1#koda/33> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Object_90>. 
+<http://dbpedia.org/resource/Business>	kr:fails_to_generate	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/297> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_105>. 
+<http://www.list.lu/kr/document1#koda/50> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_105>. 
+<http://dbpedia.org/resource/Business>	kr:must_then_seek	 <http://dbpedia.org/resource/Information>. 
+ 
+<http://www.list.lu/kr/document1#koda/297> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_105>. 
+<http://www.list.lu/kr/document1#koda/271> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_105>. 
+<http://dbpedia.org/resource/Business>	kr:must_then_seek	 <http://dbpedia.org/resource/Information>. 
+ 
+<http://www.list.lu/kr/document1#koda/297> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_125>. 
+<http://www.list.lu/kr/document1#koda/109> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_125>. 
+<http://dbpedia.org/resource/Business>	kr:can_benefit_from	 <http://dbpedia.org/resource/Social_support>. 
+ 
+<http://www.list.lu/kr/document1#koda/297> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_142>. 
+<http://www.list.lu/kr/document1#koda/262> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_142>. 
+<http://dbpedia.org/resource/Business>	kr:depends_in	 <http://dbpedia.org/resource/Addition>. 
+ 
+<http://www.list.lu/kr/document1#koda/300> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Subject_63>. 
+<http://www.list.lu/kr/document1#koda/301> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Object_63>. 
+<http://dbpedia.org/resource/Roadworks>	kr:being_carried_out_by	 <http://dbpedia.org/resource/Authority>. 
+ 
+<http://www.list.lu/kr/document1#koda/303> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Subject_90>. 
+<http://www.list.lu/kr/document1#koda/33> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Object_90>. 
+<http://dbpedia.org/resource/Business>	kr:fails_to_generate	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/82> 	 owl:sameAs 	 <http://www.list.lu/kr/document3#ollie/Subject_17>. 
+<http://www.list.lu/kr/document1#koda/80> 	 owl:sameAs 	 <http://www.list.lu/kr/document3#ollie/Object_17>. 
+<http://dbpedia.org/resource/Profession>	kr:are_not_subject_to	 <http://dbpedia.org/resource/Business_license>. 
+ 
+<http://www.list.lu/kr/document1#koda/82> 	 owl:sameAs 	 <http://www.list.lu/kr/document3#ollie/Subject_17>. 
+<http://www.list.lu/kr/document1#koda/83> 	 owl:sameAs 	 <http://www.list.lu/kr/document3#ollie/Object_17>. 
+<http://dbpedia.org/resource/Profession>	kr:are_not_subject_to	 <http://dbpedia.org/resource/Business_license>. 
+ 
+<http://www.list.lu/kr/document1#koda/85> 	 owl:sameAs 	 <http://www.list.lu/kr/document3#ollie/Subject_17>. 
+<http://www.list.lu/kr/document1#koda/80> 	 owl:sameAs 	 <http://www.list.lu/kr/document3#ollie/Object_17>. 
+<http://dbpedia.org/resource/Profession>	kr:are_not_subject_to	 <http://dbpedia.org/resource/Business_license>. 
+ 
+<http://www.list.lu/kr/document1#koda/85> 	 owl:sameAs 	 <http://www.list.lu/kr/document3#ollie/Subject_17>. 
+<http://www.list.lu/kr/document1#koda/83> 	 owl:sameAs 	 <http://www.list.lu/kr/document3#ollie/Object_17>. 
+<http://dbpedia.org/resource/Profession>	kr:are_not_subject_to	 <http://dbpedia.org/resource/Business_license>. 
+ 
+<http://www.list.lu/kr/document1#koda/92> 	 owl:sameAs 	 <http://www.list.lu/kr/document3#ollie/Subject_17>. 
+<http://www.list.lu/kr/document1#koda/80> 	 owl:sameAs 	 <http://www.list.lu/kr/document3#ollie/Object_17>. 
+<http://dbpedia.org/resource/Profession>	kr:are_not_subject_to	 <http://dbpedia.org/resource/Business_license>. 
+ 
+<http://www.list.lu/kr/document1#koda/92> 	 owl:sameAs 	 <http://www.list.lu/kr/document3#ollie/Subject_17>. 
+<http://www.list.lu/kr/document1#koda/83> 	 owl:sameAs 	 <http://www.list.lu/kr/document3#ollie/Object_17>. 
+<http://dbpedia.org/resource/Profession>	kr:are_not_subject_to	 <http://dbpedia.org/resource/Business_license>. 
+ 
+<http://www.list.lu/kr/document1#koda/136> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_142>. 
+<http://www.list.lu/kr/document1#koda/262> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_142>. 
+<http://dbpedia.org/resource/Business>	kr:depends_in	 <http://dbpedia.org/resource/Addition>. 
+ 
+<http://www.list.lu/kr/document1#koda/140> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_3>. 
+<http://www.list.lu/kr/document1#koda/246> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_3>. 
+<http://dbpedia.org/resource/Business>	kr:does_not_have	 <http://dbpedia.org/resource/Requirement>. 
+ 
+<http://www.list.lu/kr/document1#koda/140> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_8>. 
+<http://www.list.lu/kr/document1#koda/232> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_8>. 
+<http://dbpedia.org/resource/Business>	kr:disappear_after	 <http://dbpedia.org/ontology/Year>. 
+ 
+<http://www.list.lu/kr/document1#koda/140> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Subject_90>. 
+<http://www.list.lu/kr/document1#koda/33> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Object_90>. 
+<http://dbpedia.org/resource/Business>	kr:fails_to_generate	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/140> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_105>. 
+<http://www.list.lu/kr/document1#koda/50> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_105>. 
+<http://dbpedia.org/resource/Business>	kr:must_then_seek	 <http://dbpedia.org/resource/Information>. 
+ 
+<http://www.list.lu/kr/document1#koda/140> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_105>. 
+<http://www.list.lu/kr/document1#koda/271> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_105>. 
+<http://dbpedia.org/resource/Business>	kr:must_then_seek	 <http://dbpedia.org/resource/Information>. 
+ 
+<http://www.list.lu/kr/document1#koda/140> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_125>. 
+<http://www.list.lu/kr/document1#koda/109> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_125>. 
+<http://dbpedia.org/resource/Business>	kr:can_benefit_from	 <http://dbpedia.org/resource/Social_support>. 
+ 
+<http://www.list.lu/kr/document1#koda/140> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_142>. 
+<http://www.list.lu/kr/document1#koda/262> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_142>. 
+<http://dbpedia.org/resource/Business>	kr:depends_in	 <http://dbpedia.org/resource/Addition>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_48>. 
+<http://www.list.lu/kr/document1#koda/216> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_48>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:can_be_publish_in	 <http://dbpedia.org/resource/Research>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/1> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/6> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/11> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/22> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/43> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/48> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/52> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Loan>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/54> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/62> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Loan>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/66> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Loan>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/72> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/160> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/161> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/175> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/218> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/221> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/225> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/235> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/240> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/242> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/247> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/261> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Financial_plan>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/266> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/282> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/287> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_127>. 
+<http://www.list.lu/kr/document1#koda/114> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_127>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:is_compliant_with	 <http://dbpedia.org/resource/Building_regulations_in_the_United_Kingdom>. 
+ 
+<http://www.list.lu/kr/document1#koda/149> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_127>. 
+<http://www.list.lu/kr/document1#koda/131> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_127>. 
+<http://dbpedia.org/resource/Sound_Project>	kr:is_compliant_with	 <http://dbpedia.org/resource/Building_regulations_in_the_United_Kingdom>. 
+ 
+<http://www.list.lu/kr/document1#koda/153> 	 owl:sameAs 	 <http://www.list.lu/kr/document4#ollie/Subject_134>. 
+<http://www.list.lu/kr/document1#koda/154> 	 owl:sameAs 	 <http://www.list.lu/kr/document4#ollie/Object_134>. 
+<http://dbpedia.org/resource/Audience>	kr:should_have	 <http://dbpedia.org/resource/Feeling>. 
+ 
+<http://www.list.lu/kr/document1#koda/155> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_25>. 
+<http://www.list.lu/kr/document1#koda/170> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_25>. 
+<http://dbpedia.org/resource/Entrepreneur>	kr:is_not_required_on	 <http://dbpedia.org/resource/Hand>. 
+ 
+<http://www.list.lu/kr/document1#koda/155> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_59>. 
+<http://www.list.lu/kr/document1#koda/168> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_59>. 
+<http://dbpedia.org/resource/Entrepreneur>	kr:to_provide	 <http://dbpedia.org/resource/Investor>. 
+ 
+<http://www.list.lu/kr/document1#koda/155> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_59>. 
+<http://www.list.lu/kr/document1#koda/172> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_59>. 
+<http://dbpedia.org/resource/Entrepreneur>	kr:to_provide	 <http://dbpedia.org/resource/Investor>. 
+ 
+<http://www.list.lu/kr/document1#koda/98> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_125>. 
+<http://www.list.lu/kr/document1#koda/109> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_125>. 
+<http://dbpedia.org/resource/Environmental_protection>	kr:can_benefit_from	 <http://dbpedia.org/resource/Social_support>. 
+ 
+<http://www.list.lu/kr/document1#koda/100> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_125>. 
+<http://www.list.lu/kr/document1#koda/109> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_125>. 
+<http://dbpedia.org/resource/Air_pollution>	kr:can_benefit_from	 <http://dbpedia.org/resource/Social_support>. 
+ 
+<http://www.list.lu/kr/document1#koda/101> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_125>. 
+<http://www.list.lu/kr/document1#koda/109> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_125>. 
+<http://dbpedia.org/resource/Waste_management>	kr:can_benefit_from	 <http://dbpedia.org/resource/Social_support>. 
+ 
+<http://www.list.lu/kr/document1#koda/105> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_125>. 
+<http://www.list.lu/kr/document1#koda/109> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_125>. 
+<http://dbpedia.org/resource/Water>	kr:can_benefit_from	 <http://dbpedia.org/resource/Social_support>. 
+ 
+<http://www.list.lu/kr/document1#koda/106> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_125>. 
+<http://www.list.lu/kr/document1#koda/109> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_125>. 
+<http://dbpedia.org/resource/Environmental_protection>	kr:can_benefit_from	 <http://dbpedia.org/resource/Social_support>. 
+ 
+<http://www.list.lu/kr/document1#koda/107> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_8>. 
+<http://www.list.lu/kr/document1#koda/232> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_8>. 
+<http://dbpedia.org/resource/Business>	kr:disappear_after	 <http://dbpedia.org/ontology/Year>. 
+ 
+<http://www.list.lu/kr/document1#koda/107> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_125>. 
+<http://www.list.lu/kr/document1#koda/109> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_125>. 
+<http://dbpedia.org/resource/Business>	kr:can_benefit_from	 <http://dbpedia.org/resource/Social_support>. 
+ 
+<http://www.list.lu/kr/document1#koda/108> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_125>. 
+<http://www.list.lu/kr/document1#koda/109> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_125>. 
+<http://dbpedia.org/resource/Environmental_protection>	kr:can_benefit_from	 <http://dbpedia.org/resource/Social_support>. 
+ 
+<http://www.list.lu/kr/document1#koda/110> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Subject_63>. 
+<http://www.list.lu/kr/document1#koda/301> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Object_63>. 
+<http://dbpedia.org/ontology/Work>	kr:being_carried_out_by	 <http://dbpedia.org/resource/Authority>. 
+ 
+<http://www.list.lu/kr/document1#koda/130> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_127>. 
+<http://www.list.lu/kr/document1#koda/114> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_127>. 
+<http://dbpedia.org/ontology/Project>	kr:is_compliant_with	 <http://dbpedia.org/resource/Building_regulations_in_the_United_Kingdom>. 
+ 
+<http://www.list.lu/kr/document1#koda/130> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_127>. 
+<http://www.list.lu/kr/document1#koda/131> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_127>. 
+<http://dbpedia.org/ontology/Project>	kr:is_compliant_with	 <http://dbpedia.org/resource/Building_regulations_in_the_United_Kingdom>. 
+ 
+<http://www.list.lu/kr/document1#koda/256> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_3>. 
+<http://www.list.lu/kr/document1#koda/246> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_3>. 
+<http://dbpedia.org/resource/Business>	kr:does_not_have	 <http://dbpedia.org/resource/Requirement>. 
+ 
+<http://www.list.lu/kr/document1#koda/256> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_8>. 
+<http://www.list.lu/kr/document1#koda/232> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_8>. 
+<http://dbpedia.org/resource/Business>	kr:disappear_after	 <http://dbpedia.org/ontology/Year>. 
+ 
+<http://www.list.lu/kr/document1#koda/256> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Subject_90>. 
+<http://www.list.lu/kr/document1#koda/33> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Object_90>. 
+<http://dbpedia.org/resource/Business>	kr:fails_to_generate	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/256> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_105>. 
+<http://www.list.lu/kr/document1#koda/50> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_105>. 
+<http://dbpedia.org/resource/Business>	kr:must_then_seek	 <http://dbpedia.org/resource/Information>. 
+ 
+<http://www.list.lu/kr/document1#koda/256> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_105>. 
+<http://www.list.lu/kr/document1#koda/271> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_105>. 
+<http://dbpedia.org/resource/Business>	kr:must_then_seek	 <http://dbpedia.org/resource/Information>. 
+ 
+<http://www.list.lu/kr/document1#koda/256> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_125>. 
+<http://www.list.lu/kr/document1#koda/109> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_125>. 
+<http://dbpedia.org/resource/Business>	kr:can_benefit_from	 <http://dbpedia.org/resource/Social_support>. 
+ 
+<http://www.list.lu/kr/document1#koda/256> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_142>. 
+<http://www.list.lu/kr/document1#koda/262> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_142>. 
+<http://dbpedia.org/resource/Business>	kr:depends_in	 <http://dbpedia.org/resource/Addition>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_48>. 
+<http://www.list.lu/kr/document1#koda/216> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_48>. 
+<http://dbpedia.org/ontology/Project>	kr:can_be_publish_in	 <http://dbpedia.org/resource/Research>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/1> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/6> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/11> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/22> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/43> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/48> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/52> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Loan>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/54> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/62> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Loan>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/66> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Loan>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/72> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/160> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/161> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/175> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/218> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/221> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/225> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/235> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/240> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/242> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/247> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/261> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Financial_plan>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/266> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/282> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/287> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_127>. 
+<http://www.list.lu/kr/document1#koda/114> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_127>. 
+<http://dbpedia.org/ontology/Project>	kr:is_compliant_with	 <http://dbpedia.org/resource/Building_regulations_in_the_United_Kingdom>. 
+ 
+<http://www.list.lu/kr/document1#koda/257> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_127>. 
+<http://www.list.lu/kr/document1#koda/131> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_127>. 
+<http://dbpedia.org/ontology/Project>	kr:is_compliant_with	 <http://dbpedia.org/resource/Building_regulations_in_the_United_Kingdom>. 
+ 
+<http://www.list.lu/kr/document1#koda/259> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/4> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/259> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/80> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business_license>. 
+ 
+<http://www.list.lu/kr/document1#koda/259> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/83> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business_license>. 
+ 
+<http://www.list.lu/kr/document1#koda/259> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/136> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/259> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/142> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business_plan>. 
+ 
+<http://www.list.lu/kr/document1#koda/259> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/219> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/259> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/248> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/259> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/260> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/259> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/263> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/259> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/272> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/259> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_153>. 
+<http://www.list.lu/kr/document1#koda/258> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_153>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_in	 <http://dbpedia.org/resource/Regard>. 
+ 
+<http://www.list.lu/kr/document1#koda/260> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_142>. 
+<http://www.list.lu/kr/document1#koda/262> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_142>. 
+<http://dbpedia.org/resource/Business>	kr:depends_in	 <http://dbpedia.org/resource/Addition>. 
+ 
+<http://www.list.lu/kr/document1#koda/263> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_142>. 
+<http://www.list.lu/kr/document1#koda/262> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_142>. 
+<http://dbpedia.org/resource/Business>	kr:depends_in	 <http://dbpedia.org/resource/Addition>. 
+ 
+<http://www.list.lu/kr/document1#koda/264> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_142>. 
+<http://www.list.lu/kr/document1#koda/262> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_142>. 
+<http://dbpedia.org/resource/Chingy>	kr:depends_in	 <http://dbpedia.org/resource/Addition>. 
+ 
+<http://www.list.lu/kr/document1#koda/265> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_157>. 
+<http://www.list.lu/kr/document1#koda/259> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_157>. 
+<http://dbpedia.org/resource/Provident_Financial>	kr:be_the_main_types_of	 <http://dbpedia.org/resource/Welfare>. 
+ 
+<http://www.list.lu/kr/document1#koda/265> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_157>. 
+<http://www.list.lu/kr/document1#koda/270> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_157>. 
+<http://dbpedia.org/resource/Provident_Financial>	kr:be_the_main_types_of	 <http://dbpedia.org/resource/Welfare>. 
+ 
+<http://www.list.lu/kr/document1#koda/266> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_44>. 
+<http://www.list.lu/kr/document1#koda/22> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_44>. 
+<http://dbpedia.org/resource/Finance>	kr:be_a_particular_type_of	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/266> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_44>. 
+<http://www.list.lu/kr/document1#koda/161> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_44>. 
+<http://dbpedia.org/resource/Finance>	kr:be_a_particular_type_of	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/266> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Subject_87>. 
+<http://www.list.lu/kr/document1#koda/2> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Object_87>. 
+<http://dbpedia.org/resource/Finance>	kr:involves	 <http://dbpedia.org/resource/Party>. 
+ 
+<http://www.list.lu/kr/document1#koda/269> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_125>. 
+<http://www.list.lu/kr/document1#koda/109> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_125>. 
+<http://dbpedia.org/resource/Management>	kr:can_benefit_from	 <http://dbpedia.org/resource/Social_support>. 
+ 
+<http://www.list.lu/kr/document1#koda/269> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_157>. 
+<http://www.list.lu/kr/document1#koda/259> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_157>. 
+<http://dbpedia.org/resource/Management>	kr:be_the_main_types_of	 <http://dbpedia.org/resource/Welfare>. 
+ 
+<http://www.list.lu/kr/document1#koda/269> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_157>. 
+<http://www.list.lu/kr/document1#koda/270> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_157>. 
+<http://dbpedia.org/resource/Management>	kr:be_the_main_types_of	 <http://dbpedia.org/resource/Welfare>. 
+ 
+<http://www.list.lu/kr/document1#koda/270> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/4> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/270> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/80> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business_license>. 
+ 
+<http://www.list.lu/kr/document1#koda/270> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/83> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business_license>. 
+ 
+<http://www.list.lu/kr/document1#koda/270> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/136> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/270> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/142> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business_plan>. 
+ 
+<http://www.list.lu/kr/document1#koda/270> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/219> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/270> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/248> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/270> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/260> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/270> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/263> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/270> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_152>. 
+<http://www.list.lu/kr/document1#koda/272> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_152>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_for	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/270> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_153>. 
+<http://www.list.lu/kr/document1#koda/258> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_153>. 
+<http://dbpedia.org/resource/Welfare>	kr:may_represent_a_considerable_advantage_However_in	 <http://dbpedia.org/resource/Regard>. 
+ 
+<http://www.list.lu/kr/document1#koda/272> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_142>. 
+<http://www.list.lu/kr/document1#koda/262> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_142>. 
+<http://dbpedia.org/resource/Business>	kr:depends_in	 <http://dbpedia.org/resource/Addition>. 
+ 
+<http://www.list.lu/kr/document1#koda/277> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_3>. 
+<http://www.list.lu/kr/document1#koda/246> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_3>. 
+<http://dbpedia.org/resource/Business>	kr:does_not_have	 <http://dbpedia.org/resource/Requirement>. 
+ 
+<http://www.list.lu/kr/document1#koda/277> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_8>. 
+<http://www.list.lu/kr/document1#koda/232> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_8>. 
+<http://dbpedia.org/resource/Business>	kr:disappear_after	 <http://dbpedia.org/ontology/Year>. 
+ 
+<http://www.list.lu/kr/document1#koda/277> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Subject_90>. 
+<http://www.list.lu/kr/document1#koda/33> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Object_90>. 
+<http://dbpedia.org/resource/Business>	kr:fails_to_generate	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/277> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_105>. 
+<http://www.list.lu/kr/document1#koda/50> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_105>. 
+<http://dbpedia.org/resource/Business>	kr:must_then_seek	 <http://dbpedia.org/resource/Information>. 
+ 
+<http://www.list.lu/kr/document1#koda/277> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_105>. 
+<http://www.list.lu/kr/document1#koda/271> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_105>. 
+<http://dbpedia.org/resource/Business>	kr:must_then_seek	 <http://dbpedia.org/resource/Information>. 
+ 
+<http://www.list.lu/kr/document1#koda/277> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_125>. 
+<http://www.list.lu/kr/document1#koda/109> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_125>. 
+<http://dbpedia.org/resource/Business>	kr:can_benefit_from	 <http://dbpedia.org/resource/Social_support>. 
+ 
+<http://www.list.lu/kr/document1#koda/277> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_142>. 
+<http://www.list.lu/kr/document1#koda/262> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_142>. 
+<http://dbpedia.org/resource/Business>	kr:depends_in	 <http://dbpedia.org/resource/Addition>. 
+ 
+<http://www.list.lu/kr/document1#koda/282> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_44>. 
+<http://www.list.lu/kr/document1#koda/22> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_44>. 
+<http://dbpedia.org/resource/Finance>	kr:be_a_particular_type_of	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/282> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_44>. 
+<http://www.list.lu/kr/document1#koda/161> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_44>. 
+<http://dbpedia.org/resource/Finance>	kr:be_a_particular_type_of	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/282> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Subject_87>. 
+<http://www.list.lu/kr/document1#koda/2> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Object_87>. 
+<http://dbpedia.org/resource/Finance>	kr:involves	 <http://dbpedia.org/resource/Party>. 
+ 
+<http://www.list.lu/kr/document1#koda/284> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Subject_90>. 
+<http://www.list.lu/kr/document1#koda/33> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Object_90>. 
+<http://dbpedia.org/resource/Business>	kr:fails_to_generate	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/285> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_127>. 
+<http://www.list.lu/kr/document1#koda/114> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_127>. 
+<http://dbpedia.org/ontology/Project>	kr:is_compliant_with	 <http://dbpedia.org/resource/Building_regulations_in_the_United_Kingdom>. 
+ 
+<http://www.list.lu/kr/document1#koda/285> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_127>. 
+<http://www.list.lu/kr/document1#koda/131> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_127>. 
+<http://dbpedia.org/ontology/Project>	kr:is_compliant_with	 <http://dbpedia.org/resource/Building_regulations_in_the_United_Kingdom>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/1> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/6> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/11> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/22> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/43> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/48> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/52> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Loan>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/54> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/62> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Loan>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/66> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Loan>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/72> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/160> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/161> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/175> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/218> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/221> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/225> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/235> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/240> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/242> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/247> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/261> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Financial_plan>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/266> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/282> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/290> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/287> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/218> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_44>. 
+<http://www.list.lu/kr/document1#koda/22> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_44>. 
+<http://dbpedia.org/resource/Finance>	kr:be_a_particular_type_of	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/218> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_44>. 
+<http://www.list.lu/kr/document1#koda/161> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_44>. 
+<http://dbpedia.org/resource/Finance>	kr:be_a_particular_type_of	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/218> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Subject_87>. 
+<http://www.list.lu/kr/document1#koda/2> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Object_87>. 
+<http://dbpedia.org/resource/Finance>	kr:involves	 <http://dbpedia.org/resource/Party>. 
+ 
+<http://www.list.lu/kr/document1#koda/219> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_142>. 
+<http://www.list.lu/kr/document1#koda/262> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_142>. 
+<http://dbpedia.org/resource/Business>	kr:depends_in	 <http://dbpedia.org/resource/Addition>. 
+ 
+<http://www.list.lu/kr/document1#koda/225> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_44>. 
+<http://www.list.lu/kr/document1#koda/22> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_44>. 
+<http://dbpedia.org/resource/Finance>	kr:be_a_particular_type_of	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/225> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_44>. 
+<http://www.list.lu/kr/document1#koda/161> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_44>. 
+<http://dbpedia.org/resource/Finance>	kr:be_a_particular_type_of	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/225> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Subject_87>. 
+<http://www.list.lu/kr/document1#koda/2> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Object_87>. 
+<http://dbpedia.org/resource/Finance>	kr:involves	 <http://dbpedia.org/resource/Party>. 
+ 
+<http://www.list.lu/kr/document1#koda/227> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_142>. 
+<http://www.list.lu/kr/document1#koda/262> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_142>. 
+<http://dbpedia.org/resource/Chingy>	kr:depends_in	 <http://dbpedia.org/resource/Addition>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_48>. 
+<http://www.list.lu/kr/document1#koda/216> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_48>. 
+<http://dbpedia.org/ontology/Project>	kr:can_be_publish_in	 <http://dbpedia.org/resource/Research>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/1> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/6> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/11> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/22> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/43> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/48> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/52> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Loan>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/54> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/62> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Loan>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/66> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Loan>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/72> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/160> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/161> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/175> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/218> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/221> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/225> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/235> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/240> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/242> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/247> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/261> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Financial_plan>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/266> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/282> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/287> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_127>. 
+<http://www.list.lu/kr/document1#koda/114> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_127>. 
+<http://dbpedia.org/ontology/Project>	kr:is_compliant_with	 <http://dbpedia.org/resource/Building_regulations_in_the_United_Kingdom>. 
+ 
+<http://www.list.lu/kr/document1#koda/229> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_127>. 
+<http://www.list.lu/kr/document1#koda/131> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_127>. 
+<http://dbpedia.org/ontology/Project>	kr:is_compliant_with	 <http://dbpedia.org/resource/Building_regulations_in_the_United_Kingdom>. 
+ 
+<http://www.list.lu/kr/document1#koda/231> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_8>. 
+<http://www.list.lu/kr/document1#koda/232> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_8>. 
+<http://dbpedia.org/resource/Business>	kr:disappear_after	 <http://dbpedia.org/ontology/Year>. 
+ 
+<http://www.list.lu/kr/document1#koda/235> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_44>. 
+<http://www.list.lu/kr/document1#koda/22> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_44>. 
+<http://dbpedia.org/resource/Finance>	kr:be_a_particular_type_of	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/235> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_44>. 
+<http://www.list.lu/kr/document1#koda/161> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_44>. 
+<http://dbpedia.org/resource/Finance>	kr:be_a_particular_type_of	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/235> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Subject_87>. 
+<http://www.list.lu/kr/document1#koda/2> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Object_87>. 
+<http://dbpedia.org/resource/Finance>	kr:involves	 <http://dbpedia.org/resource/Party>. 
+ 
+<http://www.list.lu/kr/document1#koda/236> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_102>. 
+<http://www.list.lu/kr/document1#koda/65> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_102>. 
+<http://dbpedia.org/resource/Requirement>	kr:be_The_type_of	 <http://dbpedia.org/resource/Guarantee_(filmmaking)>. 
+ 
+<http://www.list.lu/kr/document1#koda/236> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_102>. 
+<http://www.list.lu/kr/document1#koda/68> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_102>. 
+<http://dbpedia.org/resource/Requirement>	kr:be_The_type_of	 <http://dbpedia.org/resource/Guarantee_(filmmaking)>. 
+ 
+<http://www.list.lu/kr/document1#koda/236> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_102>. 
+<http://www.list.lu/kr/document1#koda/70> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_102>. 
+<http://dbpedia.org/resource/Requirement>	kr:be_The_type_of	 <http://dbpedia.org/resource/Guarantee_(filmmaking)>. 
+ 
+<http://www.list.lu/kr/document1#koda/236> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_102>. 
+<http://www.list.lu/kr/document1#koda/78> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_102>. 
+<http://dbpedia.org/resource/Requirement>	kr:be_The_type_of	 <http://dbpedia.org/resource/Guarantee_(filmmaking)>. 
+ 
+<http://www.list.lu/kr/document1#koda/240> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_44>. 
+<http://www.list.lu/kr/document1#koda/22> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_44>. 
+<http://dbpedia.org/resource/Finance>	kr:be_a_particular_type_of	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/240> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_44>. 
+<http://www.list.lu/kr/document1#koda/161> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_44>. 
+<http://dbpedia.org/resource/Finance>	kr:be_a_particular_type_of	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/240> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Subject_87>. 
+<http://www.list.lu/kr/document1#koda/2> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Object_87>. 
+<http://dbpedia.org/resource/Finance>	kr:involves	 <http://dbpedia.org/resource/Party>. 
+ 
+<http://www.list.lu/kr/document1#koda/242> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_44>. 
+<http://www.list.lu/kr/document1#koda/22> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_44>. 
+<http://dbpedia.org/resource/Finance>	kr:be_a_particular_type_of	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/242> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_44>. 
+<http://www.list.lu/kr/document1#koda/161> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_44>. 
+<http://dbpedia.org/resource/Finance>	kr:be_a_particular_type_of	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/242> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Subject_87>. 
+<http://www.list.lu/kr/document1#koda/2> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Object_87>. 
+<http://dbpedia.org/resource/Finance>	kr:involves	 <http://dbpedia.org/resource/Party>. 
+ 
+<http://www.list.lu/kr/document1#koda/244> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_3>. 
+<http://www.list.lu/kr/document1#koda/246> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_3>. 
+<http://dbpedia.org/resource/Business>	kr:does_not_have	 <http://dbpedia.org/resource/Requirement>. 
+ 
+<http://www.list.lu/kr/document1#koda/244> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_8>. 
+<http://www.list.lu/kr/document1#koda/232> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_8>. 
+<http://dbpedia.org/resource/Business>	kr:disappear_after	 <http://dbpedia.org/ontology/Year>. 
+ 
+<http://www.list.lu/kr/document1#koda/244> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Subject_90>. 
+<http://www.list.lu/kr/document1#koda/33> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Object_90>. 
+<http://dbpedia.org/resource/Business>	kr:fails_to_generate	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/244> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_105>. 
+<http://www.list.lu/kr/document1#koda/50> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_105>. 
+<http://dbpedia.org/resource/Business>	kr:must_then_seek	 <http://dbpedia.org/resource/Information>. 
+ 
+<http://www.list.lu/kr/document1#koda/244> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_105>. 
+<http://www.list.lu/kr/document1#koda/271> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_105>. 
+<http://dbpedia.org/resource/Business>	kr:must_then_seek	 <http://dbpedia.org/resource/Information>. 
+ 
+<http://www.list.lu/kr/document1#koda/244> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_125>. 
+<http://www.list.lu/kr/document1#koda/109> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_125>. 
+<http://dbpedia.org/resource/Business>	kr:can_benefit_from	 <http://dbpedia.org/resource/Social_support>. 
+ 
+<http://www.list.lu/kr/document1#koda/244> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_142>. 
+<http://www.list.lu/kr/document1#koda/262> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_142>. 
+<http://dbpedia.org/resource/Business>	kr:depends_in	 <http://dbpedia.org/resource/Addition>. 
+ 
+<http://www.list.lu/kr/document1#koda/247> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_44>. 
+<http://www.list.lu/kr/document1#koda/22> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_44>. 
+<http://dbpedia.org/resource/Finance>	kr:be_a_particular_type_of	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/247> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_44>. 
+<http://www.list.lu/kr/document1#koda/161> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_44>. 
+<http://dbpedia.org/resource/Finance>	kr:be_a_particular_type_of	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/247> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Subject_87>. 
+<http://www.list.lu/kr/document1#koda/2> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Object_87>. 
+<http://dbpedia.org/resource/Finance>	kr:involves	 <http://dbpedia.org/resource/Party>. 
+ 
+<http://www.list.lu/kr/document1#koda/248> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_142>. 
+<http://www.list.lu/kr/document1#koda/262> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_142>. 
+<http://dbpedia.org/resource/Business>	kr:depends_in	 <http://dbpedia.org/resource/Addition>. 
+ 
+<http://www.list.lu/kr/document1#koda/251> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_3>. 
+<http://www.list.lu/kr/document1#koda/246> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_3>. 
+<http://dbpedia.org/resource/Business>	kr:does_not_have	 <http://dbpedia.org/resource/Requirement>. 
+ 
+<http://www.list.lu/kr/document1#koda/251> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_8>. 
+<http://www.list.lu/kr/document1#koda/232> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_8>. 
+<http://dbpedia.org/resource/Business>	kr:disappear_after	 <http://dbpedia.org/ontology/Year>. 
+ 
+<http://www.list.lu/kr/document1#koda/251> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Subject_90>. 
+<http://www.list.lu/kr/document1#koda/33> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Object_90>. 
+<http://dbpedia.org/resource/Business>	kr:fails_to_generate	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/251> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_105>. 
+<http://www.list.lu/kr/document1#koda/50> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_105>. 
+<http://dbpedia.org/resource/Business>	kr:must_then_seek	 <http://dbpedia.org/resource/Information>. 
+ 
+<http://www.list.lu/kr/document1#koda/251> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_105>. 
+<http://www.list.lu/kr/document1#koda/271> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_105>. 
+<http://dbpedia.org/resource/Business>	kr:must_then_seek	 <http://dbpedia.org/resource/Information>. 
+ 
+<http://www.list.lu/kr/document1#koda/251> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_125>. 
+<http://www.list.lu/kr/document1#koda/109> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_125>. 
+<http://dbpedia.org/resource/Business>	kr:can_benefit_from	 <http://dbpedia.org/resource/Social_support>. 
+ 
+<http://www.list.lu/kr/document1#koda/251> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_142>. 
+<http://www.list.lu/kr/document1#koda/262> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_142>. 
+<http://dbpedia.org/resource/Business>	kr:depends_in	 <http://dbpedia.org/resource/Addition>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/1> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/6> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/11> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/22> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/43> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/48> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/52> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Loan>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/54> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/62> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Loan>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/66> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Loan>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/72> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/160> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/161> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/175> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/218> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/221> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/225> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/235> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/240> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/242> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/247> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/261> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Financial_plan>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/266> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/282> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_107>. 
+<http://www.list.lu/kr/document1#koda/287> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_107>. 
+<http://dbpedia.org/ontology/Project>	kr:may_require	 <http://dbpedia.org/resource/Finance>. 
+ 
+<http://www.list.lu/kr/document1#koda/43> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_44>. 
+<http://www.list.lu/kr/document1#koda/22> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_44>. 
+<http://dbpedia.org/resource/Finance>	kr:be_a_particular_type_of	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/43> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_44>. 
+<http://www.list.lu/kr/document1#koda/161> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_44>. 
+<http://dbpedia.org/resource/Finance>	kr:be_a_particular_type_of	 <http://dbpedia.org/resource/Mezzanine_capital>. 
+ 
+<http://www.list.lu/kr/document1#koda/43> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Subject_87>. 
+<http://www.list.lu/kr/document1#koda/2> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Object_87>. 
+<http://dbpedia.org/resource/Finance>	kr:involves	 <http://dbpedia.org/resource/Party>. 
+ 
+<http://www.list.lu/kr/document1#koda/44> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_3>. 
+<http://www.list.lu/kr/document1#koda/246> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_3>. 
+<http://dbpedia.org/resource/Business>	kr:does_not_have	 <http://dbpedia.org/resource/Requirement>. 
+ 
+<http://www.list.lu/kr/document1#koda/44> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_8>. 
+<http://www.list.lu/kr/document1#koda/232> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_8>. 
+<http://dbpedia.org/resource/Business>	kr:disappear_after	 <http://dbpedia.org/ontology/Year>. 
+ 
+<http://www.list.lu/kr/document1#koda/44> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Subject_90>. 
+<http://www.list.lu/kr/document1#koda/33> 	 owl:sameAs 	 <http://www.list.lu/kr/document10#ollie/Object_90>. 
+<http://dbpedia.org/resource/Business>	kr:fails_to_generate	 <http://dbpedia.org/resource/Business>. 
+ 
+<http://www.list.lu/kr/document1#koda/44> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_105>. 
+<http://www.list.lu/kr/document1#koda/50> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_105>. 
+<http://dbpedia.org/resource/Business>	kr:must_then_seek	 <http://dbpedia.org/resource/Information>. 
+ 
+<http://www.list.lu/kr/document1#koda/44> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Subject_105>. 
+<http://www.list.lu/kr/document1#koda/271> 	 owl:sameAs 	 <http://www.list.lu/kr/document8#ollie/Object_105>. 
+<http://dbpedia.org/resource/Business>	kr:must_then_seek	 <http://dbpedia.org/resource/Information>. 
+ 
+<http://www.list.lu/kr/document1#koda/44> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_125>. 
+<http://www.list.lu/kr/document1#koda/109> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_125>. 
+<http://dbpedia.org/resource/Business>	kr:can_benefit_from	 <http://dbpedia.org/resource/Social_support>. 
+ 
+<http://www.list.lu/kr/document1#koda/44> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Subject_142>. 
+<http://www.list.lu/kr/document1#koda/262> 	 owl:sameAs 	 <http://www.list.lu/kr/document6#ollie/Object_142>. 
+<http://dbpedia.org/resource/Business>	kr:depends_in	 <http://dbpedia.org/resource/Addition>. 
+ 
+<http://www.list.lu/kr/document1#koda/47> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Subject_48>. 
+<http://www.list.lu/kr/document1#koda/216> 	 owl:sameAs 	 <http://www.list.lu/kr/document9#ollie/Object_48>. 
+<http://dbpedia.org/resource/Project_management>	kr:can_be_publish_in	 <http://dbpedia.org/resource/Research>. 
+ 
+
