@@ -11,8 +11,8 @@ import lu.list.hermes.models.Corpus;
 import lu.list.hermes.util.HibernateUtil;
 import lu.list.hermes.controllers.*;
 
-public class LaunchAll {
-	final static Logger logger = Logger.getLogger(LaunchAll.class);
+public class LaunchWithOllie {
+	final static Logger logger = Logger.getLogger(LaunchWithOllie.class);
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

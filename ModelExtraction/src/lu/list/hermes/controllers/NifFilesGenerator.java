@@ -261,9 +261,9 @@ public class NifFilesGenerator {
 		 Iterator<Relation> iter = rels.iterator();
 		 String relat = "";
 		 while ((iter.hasNext()) && (iter.next().getIDr() < id)) {		  
-	    	if (iter.next().getrelation().equals(rel.getrelation()))
+	    	if (iter.next().getrelationNL().equals(rel.getrelationNL()))
 	    	{
-	    		relat = iter.next().getrelation();
+	    		relat = iter.next().getrelationNL();
 	    	}
 	      }
 	     session.getTransaction().commit();
@@ -307,7 +307,7 @@ public class NifFilesGenerator {
 		       String rexist = checkRelationExist(re);
 		       if (rexist.equals(""))
 		       { 
-		    	    NiftextS= nifEntitySubject(subject,Dc, "Ollie", re.getrelation(),(int)object.getiDe(), uri1);//Subject we should add something here
+		    	    NiftextS= nifEntitySubject(subject,Dc, "Ollie", re.getrelationNL(),(int)object.getiDe(), uri1);//Subject we should add something here
 			       
 		            String Relation = "kr:"+ re.getrelationNL().replaceAll("\\s", "_")+"\n \t"
 		    		 +"a rdf:Property;"+"\n \t"
@@ -320,7 +320,7 @@ public class NifFilesGenerator {
 		       }
 		       else 
 		       {
-		    	   NiftextS= nifEntitySubject(subject,Dc, "Ollie", re.getrelation(),(int)object.getiDe(), uri1);//Subject we should add something here
+		    	   NiftextS= nifEntitySubject(subject,Dc, "Ollie", re.getrelationNL(),(int)object.getiDe(), uri1);//Subject we should add something here
 		    	   NiftextO = nifEntityObject (object,Dc,"Ollie",uri2);//object
 			   
 		    	     sb.append(NiftextS);

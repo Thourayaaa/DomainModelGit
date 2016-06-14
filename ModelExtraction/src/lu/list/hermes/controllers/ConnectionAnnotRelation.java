@@ -144,7 +144,7 @@ public class ConnectionAnnotRelation {
 	+a1.getidAnn()+"> \t owl:sameAs \t <http://www.list.lu/kr/document"+iddo+"#ollie/Subject_"+idrel+">. \n"
 				+ "<http://www.list.lu/kr/document"+a2.getDocument().getCorpus().getIDc()+"#koda/"
 	+a2.getidAnn()+"> \t owl:sameAs \t <http://www.list.lu/kr/document"+iddo+"#ollie/Object_"+idrel+">. \n"
-						+"<"+a1.getdb() +">\t"+ "kr:"+rdao.getRelationById(idrel).getrelation().replaceAll("\\s", "_")+"\t <"+a2.getdb()+">. \n \n";
+						+"<"+a1.getdb() +">\t"+ "kr:"+rdao.getRelationById(idrel).getrelationNL().replaceAll("\\s", "_")+"\t <"+a2.getdb()+">. \n \n";
 				
 		return relationKoda;
 	}

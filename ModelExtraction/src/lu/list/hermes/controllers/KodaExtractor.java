@@ -38,8 +38,6 @@ public class KodaExtractor implements AnnotationExtractor {
 		this.UR = urKoda;
 		this.ontology = ontologyk;
 		
-		
-		
 	}
 
 	@Override
