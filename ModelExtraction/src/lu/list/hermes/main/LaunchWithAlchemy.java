@@ -11,8 +11,8 @@ import lu.list.hermes.models.Corpus;
 import lu.list.hermes.util.HibernateUtil;
 import lu.list.hermes.controllers.*;
 
-public class LaunchAll {
-	final static Logger logger = Logger.getLogger(LaunchAll.class);
+public class LaunchWithAlchemy {
+	final static Logger logger = Logger.getLogger(LaunchWithAlchemy.class);
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -53,9 +53,10 @@ public class LaunchAll {
 			} 
 		}
 		
-   //Ollie 
-		OllieExtractor ollie = new OllieExtractor("engmalt.linear-1.7.mco");
-		ollie.extractRelationsCorpus(idc);
+   //Alchemy
+		AlchemyExtractor alchem = new AlchemyExtractor();
+		
+		alchem.extractRelationsCorpus(idc);
 		KodaExtractor kextractor = new KodaExtractor("http://smartdocs.list.lu/kodaweb/rest/koda-1.0/annotate?ontology=","DBPEDIA_EN_EN");
 		kextractor.AnnoteCorpus(idc);
 		NifFilesGenerator nifGenerator = new NifFilesGenerator();

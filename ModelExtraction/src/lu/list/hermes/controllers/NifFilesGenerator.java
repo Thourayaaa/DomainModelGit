@@ -230,7 +230,7 @@ public class NifFilesGenerator {
 		 {
 			    // Annotation a, Document d, String tool
 	    	     Niftext = nifAnnotation (a,d,tool);
-         //concatener les résultats
+         //concatener les rï¿½sultats
 	            sb.append(Niftext);
 	     
 		 }
@@ -298,9 +298,8 @@ public class NifFilesGenerator {
 		    	  EntityRelDao edao = new EntityRelDao();
 		    	  EntityRel subject =  edao.getEntityRelByLabel("Subject", re);
 		    	  EntityRel object	= edao.getEntityRelByLabel("Object", re) ;
-		    	  System.out.print("what the fuck "+subject.getEntitytext());
-		    	 
-		    	  String uri1 = subject.geturient()+"_"+subject.getiDe();
+		    	 if (!(object == null) && !(subject == null))
+		    	 {  String uri1 = subject.geturient()+"_"+subject.getiDe();
 		    	  String uri2 = object.geturient()+"_"+object.getiDe();
 		    	
 		     
@@ -314,7 +313,7 @@ public class NifFilesGenerator {
 		    		 +"a rdf:Property;"+"\n \t"
 		    		 +"rdfs:label \""+re.getrelationNL()+"\". \n";
 		     
-		     NiftextO = nifEntityObject (object,Dc,"Ollie", uri2);			      //concatener les résultats
+		     NiftextO = nifEntityObject (object,Dc,"Ollie", uri2);			      //concatener les rï¿½sultats
 		     sb.append(Relation);
 		     sb.append(NiftextS);
 		     sb.append(NiftextO);
@@ -331,6 +330,7 @@ public class NifFilesGenerator {
                
 		     
 		      }}
+		      }
 			     String S = sb.toString();
 
 			     session.getTransaction().commit();

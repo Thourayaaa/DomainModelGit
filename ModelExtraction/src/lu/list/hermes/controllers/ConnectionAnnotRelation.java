@@ -82,7 +82,6 @@ public class ConnectionAnnotRelation {
 	    {
 	    	if (entity.getEntitytext().contains(a.getAnnotation()))
 	    	{
-	    		int iddoc = (int) entity.getRelation().getDocument().getIdDoc();
 	    		 ListSubjKoda.add((int)entity.getiDe());
 	    		 
 	    	}
@@ -109,7 +108,7 @@ public class ConnectionAnnotRelation {
 	{
 		logger.info("Search for objects in annotations : that is why i had to add a label to the entity table");
 
-		EntityRelDao edao =  new EntityRelDao();
+		 EntityRelDao edao =  new EntityRelDao();
 		 EntityRel obj = edao.getEntityRelById(ido);
 		 SessionFactory sf = HibernateUtil.getSessionFactory();
          Session session = sf.openSession();
@@ -117,15 +116,17 @@ public class ConnectionAnnotRelation {
          AnnotationDao adao = new AnnotationDao();
          List <Annotation> Listann = adao.getAllAnnotation();
          List<Integer> Listobj = new ArrayList<Integer>();
+         
          for (Annotation a : Listann)
 	
+         {    if (!(obj.getEntitytext() == null))
          {
              if (a.getAnnotation().contains(obj.getEntitytext()))
              {
             	 Listobj.add((int) a.getidAnn());
              }
-		
-         }
+        	 
+         }}
          
  	    session.getTransaction().commit();
          session.close();
@@ -172,17 +173,22 @@ public class ConnectionAnnotRelation {
          session.beginTransaction();
          AnnotationDao adao = new AnnotationDao();
          List <Annotation> Listann = allAnnotationOnce(corpusname) ;
-           StringBuilder sb = new StringBuilder();
-           sb.append(entete);
+           	     StringBuilder sbkoda = new StringBuilder();
+	     
+   		 StringBuilder sbolliekoda = new StringBuilder();
+   		 sbolliekoda.append(entete);
+   		 sbkoda.append(entete1);
+   		 
+         for (Annotation a : Listann) //this is for the subject research
+	
+         { StringBuilder sb = new StringBuilder();
+         
            StringBuilder sb1 = new StringBuilder();
-           sb1.append(entete1);
+        
 
 	        String RelKo ="";
 	        String Reldb = "";
-			
-         for (Annotation a : Listann) //this is for the subject research
-	
-         { 
+
         	 List <Integer> LsubjKoda = searchKodaSubject(a);
         	 if (!(LsubjKoda.isEmpty()))
         	 {
@@ -208,29 +214,33 @@ public class ConnectionAnnotRelation {
         					 sb.append(RelKo);
         					 sb1.append(Reldb);
         				}
-        				   String FinalRel = sb.toString();
-    					   PrintWriter out = new PrintWriter(pathrelKodaoll+"/RelationKodaOllie.n3");
-    			           out.println(FinalRel);
-    			           out.close();
-    			           
-    			           String FinalRelKoda = sb1.toString();
-       				    	PrintWriter out1 = new PrintWriter(pathOnlykoda+"/JustKodaRel.n3");
-       			           out1.println(FinalRelKoda);
-       			           out1.close();
-
+        				
+        			
+       				    	
     					        		
         			}
         		
+        			sbolliekoda.append(sb.toString());
+    				sbkoda.append(sb1.toString());
+    				sb.delete(0, sb.length());
+    				sb1.delete(0, sb1.length());
+
     				
 
         		 }
         		 
-        		 
         	 }
         	 
-        	 
-        	 
          }
+         
+         PrintWriter out = new PrintWriter(pathrelKodaoll+"/RelationKodaOllie.n3");
+         out.println(sbolliekoda.toString());
+         out.close();
+         
+             PrintWriter out1 = new PrintWriter(pathOnlykoda+"/JustKodaRel.n3");
+	           out1.println(sbkoda.toString());
+	           out1.close();
+
          session.getTransaction().commit();
          session.close();
  		

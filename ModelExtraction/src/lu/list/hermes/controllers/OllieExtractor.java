@@ -192,7 +192,7 @@ public class OllieExtractor implements RelationExtractor {
         	rdao.addRelation(relation);
         	edao.addEntityRel(entitysubj);
         	edao.addEntityRel(entityobj);
-        	 
+        	 relations.add(relation);
 
 		
         }

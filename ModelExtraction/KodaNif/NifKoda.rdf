@@ -2,2699 +2,606 @@
 @prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
 @prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-<http:/www.list.lu/document5#char=0,1289>
+<http:/www.list.lu/document2#char=0,297>
 	a	nif:RFC5147String , nif:Phrase , nif:Context ;
 	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
- 	nif:endIndex 	"1289"^^xsd:nonNegativeInteger s;
- 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A04.txt>;
- 	nif:isString 	"Luxembourg is very attached to the importance of sustainable development of the national economy and the environmental protection.
-The law on environmental protection contains specific provisions with regard to classified establishments which need an operating licence known as commodo authorization, the fight against air pollution, waste management and water protection.
-Moreover, businesses interested in investing in environmental protection can benefit from public aid.
-A building permit is required for all construction, transformation or demolition works of buildings.
-The delivery procedure of building permits may vary as it is determined by the building regulations which are specific to each commune.
-The building regulations, together with the general development plan (PAG) and, where applicable, the special development plan (PAP), are aimed at achieving a harmonious and sustainable development of the territory of the commune. They particularly aim to improve public safety, health and hygiene and also ensure a certain aesthetic harmony and balance of house facades.
-Building permits are only delivered if the project is compliant with the building regulations, the PAG and the PAP.
-
-Building permit applications should be submitted to the mayor of the commune concerned.
+ 	nif:endIndex 	"297"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/A02.txt>;
+ 	nif:isString 	" The core organization is the organization the project sponsor and the users belong to. This is where the project is embedded. It is a legal entity which determines strategies and requirements for projects. The core organization provides the necessary resources human, financial  for the project.
 "^^xsd:string .
  
-<http://www.list.lu/document5#Koda/119>
+<http://www.list.lu/document2#Koda/29>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "development plan"^^xsd:string ;
- 	nif:beginIndex 	 "764"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "764"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Development_plan>.
- 
-<http://www.list.lu/document5#Koda/130>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "the project"^^xsd:string ;
- 	nif:beginIndex 	 "1123"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1123"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
- 
-<http://www.list.lu/document5#Koda/128>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "facades"^^xsd:string ;
- 	nif:beginIndex 	 "1075"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1075"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Facade>.
- 
-<http://www.list.lu/document5#Koda/116>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "The delivery"^^xsd:string ;
- 	nif:beginIndex 	 "576"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "576"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/The_Delivery_(The_Office)>.
- 
-<http://www.list.lu/document5#Koda/100>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "air pollution"^^xsd:string ;
- 	nif:beginIndex 	 "319"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "319"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Air_pollution>.
- 
-<http://www.list.lu/document5#Koda/133>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "the commune"^^xsd:string ;
- 	nif:beginIndex 	 "930"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "930"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Commune>.
- 
-<http://www.list.lu/document5#Koda/129>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "Building permits"^^xsd:string ;
- 	nif:beginIndex 	 "1084"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1084"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Construction_permit>.
- 
-<http://www.list.lu/document5#Koda/97>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "the environmental protection"^^xsd:string ;
- 	nif:beginIndex 	 "101"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "101"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Environmental_protection>.
- 
-<http://www.list.lu/document5#Koda/96>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "the national economy"^^xsd:string ;
- 	nif:beginIndex 	 "76"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "76"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Economy>.
- 
-<http://www.list.lu/document5#Koda/94>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "Luxembourg"^^xsd:string ;
- 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "0"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Luxembourg>.
- 
-<http://www.list.lu/document5#Koda/102>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "commodo"^^xsd:string ;
- 	nif:beginIndex 	 "278"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "278"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Andrea_Commodi>.
- 
-<http://www.list.lu/document5#Koda/132>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "the mayor"^^xsd:string ;
- 	nif:beginIndex 	 "1253"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1253"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Mayor>.
- 
-<http://www.list.lu/document5#Koda/122>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "sustainable development"^^xsd:string ;
- 	nif:beginIndex 	 "49"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "49"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Sustainable_development>.
- 
-<http://www.list.lu/document5#Koda/114>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "the building regulations"^^xsd:string ;
- 	nif:beginIndex 	 "651"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "651"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Building_regulations_in_the_United_Kingdom>.
- 
-<http://www.list.lu/document5#Koda/117>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "procedure"^^xsd:string ;
- 	nif:beginIndex 	 "589"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "589"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/European_Court_of_Justice>.
- 
-<http://www.list.lu/document5#Koda/118>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "the commune"^^xsd:string ;
- 	nif:beginIndex 	 "930"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "930"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Commune>.
- 
-<http://www.list.lu/document5#Koda/106>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "protection"^^xsd:string ;
- 	nif:beginIndex 	 "119"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "119"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Environmental_protection>.
- 
-<http://www.list.lu/document5#Koda/124>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "public safety"^^xsd:string ;
- 	nif:beginIndex 	 "976"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "976"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Public_safety>.
- 
-<http://www.list.lu/document5#Koda/95>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "sustainable development"^^xsd:string ;
- 	nif:beginIndex 	 "49"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "49"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Sustainable_development>.
- 
-<http://www.list.lu/document5#Koda/115>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "each commune"^^xsd:string ;
- 	nif:beginIndex 	 "698"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "698"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Commune>.
- 
-<http://www.list.lu/document5#Koda/113>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "building permits"^^xsd:string ;
- 	nif:beginIndex 	 "602"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "602"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Construction_permit>.
- 
-<http://www.list.lu/document5#Koda/98>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "environmental protection"^^xsd:string ;
- 	nif:beginIndex 	 "105"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "105"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Environmental_protection>.
- 
-<http://www.list.lu/document5#Koda/105>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "water"^^xsd:string ;
- 	nif:beginIndex 	 "355"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "355"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Water>.
- 
-<http://www.list.lu/document5#Koda/131>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "the building regulations"^^xsd:string ;
- 	nif:beginIndex 	 "651"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "651"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Building_regulations_in_the_United_Kingdom>.
- 
-<http://www.list.lu/document5#Koda/112>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "building permit"^^xsd:string ;
- 	nif:beginIndex 	 "477"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "477"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Construction_permit>.
- 
-<http://www.list.lu/document5#Koda/125>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "health"^^xsd:string ;
- 	nif:beginIndex 	 "991"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "991"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Health>.
- 
-<http://www.list.lu/document5#Koda/121>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "building regulations"^^xsd:string ;
- 	nif:beginIndex 	 "655"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "655"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Building_regulations_in_the_United_Kingdom>.
- 
-<http://www.list.lu/document5#Koda/104>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "licence"^^xsd:string ;
- 	nif:beginIndex 	 "261"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "261"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/License>.
- 
-<http://www.list.lu/document5#Koda/103>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "authorization"^^xsd:string ;
- 	nif:beginIndex 	 "286"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "286"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Authorization>.
- 
-<http://www.list.lu/document5#Koda/99>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "regard"^^xsd:string ;
- 	nif:beginIndex 	 "201"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "201"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Regard>.
- 
-<http://www.list.lu/document5#Koda/134>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "Building permit"^^xsd:string ;
- 	nif:beginIndex 	 "1084"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1084"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Construction_permit>.
- 
-<http://www.list.lu/document5#Koda/109>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "public aid"^^xsd:string ;
- 	nif:beginIndex 	 "463"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "463"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Social_support>.
- 
-<http://www.list.lu/document5#Koda/110>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "works"^^xsd:string ;
- 	nif:beginIndex 	 "556"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "556"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Work>.
- 
-<http://www.list.lu/document5#Koda/107>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "businesses"^^xsd:string ;
- 	nif:beginIndex 	 "383"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "383"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document5#Koda/120>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "development plan"^^xsd:string ;
- 	nif:beginIndex 	 "764"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "764"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Development_plan>.
- 
-<http://www.list.lu/document5#Koda/108>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "environmental protection"^^xsd:string ;
- 	nif:beginIndex 	 "105"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "105"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Environmental_protection>.
- 
-<http://www.list.lu/document5#Koda/127>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "house"^^xsd:string ;
- 	nif:beginIndex 	 "1069"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1069"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/House>.
- 
-<http://www.list.lu/document5#Koda/101>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "waste management"^^xsd:string ;
- 	nif:beginIndex 	 "334"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "334"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Waste_management>.
- 
-<http://www.list.lu/document5#Koda/126>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "hygiene"^^xsd:string ;
- 	nif:beginIndex 	 "1002"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1002"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Hygiene>.
- 
-<http://www.list.lu/document5#Koda/111>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "buildings"^^xsd:string ;
- 	nif:beginIndex 	 "565"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "565"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Building>.
- 
-<http://www.list.lu/document5#Koda/123>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,1289>; 
- 	nif:anchorOf 	 "They"^^xsd:string ;
- 	nif:beginIndex 	 "943"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "943"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/They>.
- 
-<http:/www.list.lu/document3#char=0,536>
-	a	nif:RFC5147String , nif:Phrase , nif:Context ;
-	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
- 	nif:endIndex 	"536"^^xsd:nonNegativeInteger s;
- 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A02.txt>;
- 	nif:isString 	"The access to most commercial, craft and industrial activities, as well as certain liberal professions, is subject to obtaining a business permit.
-However, some liberal professions are not subject to a business permit but require other authorisations.
-The same applies to activities which are subject to specific registration or accreditation.
-As to certain activities which are essentially intellectual in nature (other than liberal professions), they do not require any authorisation if they are carried out in the person's own name.
-"^^xsd:string .
- 
-<http://www.list.lu/document3#Koda/92>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,536>; 
- 	nif:anchorOf 	 "professions"^^xsd:string ;
- 	nif:beginIndex 	 "91"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "91"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Profession>.
- 
-<http://www.list.lu/document3#Koda/91>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,536>; 
- 	nif:anchorOf 	 "name"^^xsd:string ;
- 	nif:beginIndex 	 "530"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "530"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Name>.
- 
-<http://www.list.lu/document3#Koda/93>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,536>; 
- 	nif:anchorOf 	 "person"^^xsd:string ;
- 	nif:beginIndex 	 "517"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "517"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Person>.
- 
-<http://www.list.lu/document3#Koda/79>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,536>; 
- 	nif:anchorOf 	 "craft"^^xsd:string ;
- 	nif:beginIndex 	 "31"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "31"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Craft>.
- 
-<http://www.list.lu/document3#Koda/80>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,536>; 
- 	nif:anchorOf 	 "a business permit"^^xsd:string ;
- 	nif:beginIndex 	 "128"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "128"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business_license>.
- 
-<http://www.list.lu/document3#Koda/85>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,536>; 
- 	nif:anchorOf 	 "professions"^^xsd:string ;
- 	nif:beginIndex 	 "91"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "91"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Profession>.
- 
-<http://www.list.lu/document3#Koda/88>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,536>; 
- 	nif:anchorOf 	 "certain activities"^^xsd:string ;
- 	nif:beginIndex 	 "350"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "350"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Activity>.
- 
-<http://www.list.lu/document3#Koda/83>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,536>; 
- 	nif:anchorOf 	 "a business permit"^^xsd:string ;
- 	nif:beginIndex 	 "128"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "128"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business_license>.
- 
-<http://www.list.lu/document3#Koda/89>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,536>; 
- 	nif:anchorOf 	 "nature"^^xsd:string ;
- 	nif:beginIndex 	 "407"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "407"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Nature>.
- 
-<http://www.list.lu/document3#Koda/82>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,536>; 
- 	nif:anchorOf 	 "professions"^^xsd:string ;
- 	nif:beginIndex 	 "91"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "91"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Profession>.
- 
-<http://www.list.lu/document3#Koda/81>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,536>; 
- 	nif:anchorOf 	 "activities"^^xsd:string ;
- 	nif:beginIndex 	 "52"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "52"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Activity>.
- 
-<http://www.list.lu/document3#Koda/84>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,536>; 
- 	nif:anchorOf 	 "other authorisations"^^xsd:string ;
- 	nif:beginIndex 	 "230"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "230"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Authorization>.
- 
-<http://www.list.lu/document3#Koda/87>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,536>; 
- 	nif:anchorOf 	 "activities"^^xsd:string ;
- 	nif:beginIndex 	 "52"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "52"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Activity>.
- 
-<http://www.list.lu/document3#Koda/86>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,536>; 
- 	nif:anchorOf 	 "The same"^^xsd:string ;
- 	nif:beginIndex 	 "252"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "252"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/The_Same>.
- 
-<http://www.list.lu/document3#Koda/90>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,536>; 
- 	nif:anchorOf 	 "any authorisation"^^xsd:string ;
- 	nif:beginIndex 	 "468"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "468"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Authorization>.
- 
-<http:/www.list.lu/document6#char=0,1317>
-	a	nif:RFC5147String , nif:Phrase , nif:Context ;
-	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
- 	nif:endIndex 	"1317"^^xsd:nonNegativeInteger s;
- 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A05.txt>;
- 	nif:isString 	"Before embarking on any business creation, takeover or expansion project, entrepreneurs must ask themselves how they are going to finance their investment.
-
-In this regard, government aid may represent a considerable advantage for a business. However, it should never form the basis of a financing plan.
-
-In addition, the success and continuity of a business depends on healthy financial management.
-
-This section provides comprehensive information on the different forms of bank and non-bank financing available for your business, accounting and financial management and the main types of government aid available.
-Starting up a business, investing in research and development, purchasing equipment or developing the business actvity in Luxembourg are all projects that require substantial funding.
-
-The SNCI is a public-law banking establishment specialised in the medium and long term financing of Luxembourg based companies. It grants various types of loans which depend on the size of the business and the project to be financed.
-
-Although the loans granted by the SNCI do not fully cover the financing of a project, they generally cover 25 % of industrial projects and may even cover 75 % of the investments required in the case of start ups of young craftsmen, traders, accommodation and restaurant operators.
-"^^xsd:string .
- 
-<http://www.list.lu/document6#Koda/288>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "a project"^^xsd:string ;
- 	nif:beginIndex 	 "1111"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1111"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
- 
-<http://www.list.lu/document6#Koda/286>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "the loans"^^xsd:string ;
- 	nif:beginIndex 	 "1045"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1045"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Loan>.
- 
-<http://www.list.lu/document6#Koda/270>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "government aid"^^xsd:string ;
- 	nif:beginIndex 	 "173"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "173"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Welfare>.
- 
-<http://www.list.lu/document6#Koda/289>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "the investments"^^xsd:string ;
- 	nif:beginIndex 	 "1198"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1198"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Investment>.
- 
-<http://www.list.lu/document6#Koda/290>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "projects"^^xsd:string ;
- 	nif:beginIndex 	 "757"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "757"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
- 
-<http://www.list.lu/document6#Koda/284>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "the business"^^xsd:string ;
- 	nif:beginIndex 	 "714"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "714"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document6#Koda/266>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "financing"^^xsd:string ;
- 	nif:beginIndex 	 "288"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "288"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Finance>.
- 
-<http://www.list.lu/document6#Koda/287>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "the financing"^^xsd:string ;
- 	nif:beginIndex 	 "1094"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1094"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Finance>.
- 
-<http://www.list.lu/document6#Koda/256>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "business"^^xsd:string ;
- 	nif:beginIndex 	 "24"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "24"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document6#Koda/263>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "a business"^^xsd:string ;
- 	nif:beginIndex 	 "231"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "231"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document6#Koda/272>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "a business"^^xsd:string ;
- 	nif:beginIndex 	 "231"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "231"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document6#Koda/280>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "banking establishment"^^xsd:string ;
- 	nif:beginIndex 	 "826"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "826"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Bank>.
- 
-<http://www.list.lu/document6#Koda/268>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "accounting and financial"^^xsd:string ;
- 	nif:beginIndex 	 "532"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "532"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Comparison_of_management_accounting_and_financial_accounting>.
- 
-<http://www.list.lu/document6#Koda/257>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "project"^^xsd:string ;
- 	nif:beginIndex 	 "65"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "65"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
- 
-<http://www.list.lu/document6#Koda/276>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "funding"^^xsd:string ;
- 	nif:beginIndex 	 "791"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "791"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Funding>.
- 
-<http://www.list.lu/document6#Koda/273>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "equipment"^^xsd:string ;
- 	nif:beginIndex 	 "690"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "690"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Equipment>.
- 
-<http://www.list.lu/document6#Koda/281>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "long term"^^xsd:string ;
- 	nif:beginIndex 	 "878"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "878"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Long-Term_Capital_Management>.
- 
-<http://www.list.lu/document6#Koda/285>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "the project"^^xsd:string ;
- 	nif:beginIndex 	 "1007"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1007"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
- 
-<http://www.list.lu/document6#Koda/271>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "information"^^xsd:string ;
- 	nif:beginIndex 	 "437"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "437"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Information>.
- 
-<http://www.list.lu/document6#Koda/283>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "loans"^^xsd:string ;
- 	nif:beginIndex 	 "956"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "956"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Loan>.
- 
-<http://www.list.lu/document6#Koda/265>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "financial management"^^xsd:string ;
- 	nif:beginIndex 	 "378"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "378"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Provident_Financial>.
- 
-<http://www.list.lu/document6#Koda/254>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "entrepreneurs"^^xsd:string ;
- 	nif:beginIndex 	 "74"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "74"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Entrepreneur>.
- 
-<http://www.list.lu/document6#Koda/269>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "management"^^xsd:string ;
- 	nif:beginIndex 	 "388"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "388"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Management>.
- 
-<http://www.list.lu/document6#Koda/255>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "their investment"^^xsd:string ;
- 	nif:beginIndex 	 "138"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "138"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Investment>.
- 
-<http://www.list.lu/document6#Koda/278>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "Luxembourg"^^xsd:string ;
- 	nif:beginIndex 	 "738"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "738"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Luxembourg>.
- 
-<http://www.list.lu/document6#Koda/277>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "business"^^xsd:string ;
- 	nif:beginIndex 	 "24"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "24"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document6#Koda/258>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "this regard"^^xsd:string ;
- 	nif:beginIndex 	 "160"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "160"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Regard>.
- 
-<http://www.list.lu/document6#Koda/264>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "success"^^xsd:string ;
- 	nif:beginIndex 	 "322"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "322"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Chingy>.
- 
-<http://www.list.lu/document6#Koda/262>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "addition"^^xsd:string ;
- 	nif:beginIndex 	 "308"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "308"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Addition>.
- 
-<http://www.list.lu/document6#Koda/282>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "financing"^^xsd:string ;
- 	nif:beginIndex 	 "288"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "288"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Finance>.
- 
-<http://www.list.lu/document6#Koda/260>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "a business"^^xsd:string ;
- 	nif:beginIndex 	 "231"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "231"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document6#Koda/253>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "takeover"^^xsd:string ;
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "the project sponsor"^^xsd:string ;
  	nif:beginIndex 	 "43"^^xsd:nonNegativeInteger ; 
  	nif:endIndex 	 "43"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Takeover>.
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Executive_sponsor>.
  
-<http://www.list.lu/document6#Koda/275>
+<http://www.list.lu/document2#Koda/30>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "all projects"^^xsd:string ;
- 	nif:beginIndex 	 "753"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "753"^^xsd:nonNegativeInteger ; 
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "The core"^^xsd:string ;
+ 	nif:beginIndex 	 "1"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/The_Core>.
+ 
+<http://www.list.lu/document2#Koda/28>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "the organization"^^xsd:string ;
+ 	nif:beginIndex 	 "26"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "26"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
+ 
+<http://www.list.lu/document2#Koda/31>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "organization"^^xsd:string ;
+ 	nif:beginIndex 	 "10"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "10"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
+ 
+<http://www.list.lu/document2#Koda/32>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "the project"^^xsd:string ;
+ 	nif:beginIndex 	 "43"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "43"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Executive_sponsor>.
+ 
+<http://www.list.lu/document2#Koda/34>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "projects"^^xsd:string ;
+ 	nif:beginIndex 	 "197"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "197"^^xsd:nonNegativeInteger ; 
  	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
  
-<http://www.list.lu/document6#Koda/267>
+<http://www.list.lu/document2#Koda/33>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "your business"^^xsd:string ;
- 	nif:beginIndex 	 "517"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "517"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "a legal entity"^^xsd:string ;
+ 	nif:beginIndex 	 "133"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "133"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Legal_personality>.
  
-<http://www.list.lu/document6#Koda/279>
+<http://www.list.lu/document2#Koda/37>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "companies"^^xsd:string ;
- 	nif:beginIndex 	 "918"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "918"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Company>.
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "The core"^^xsd:string ;
+ 	nif:beginIndex 	 "1"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/The_Core>.
  
-<http://www.list.lu/document6#Koda/261>
+<http://www.list.lu/document2#Koda/36>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "a financing plan"^^xsd:string ;
- 	nif:beginIndex 	 "286"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "286"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Financial_plan>.
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "the project"^^xsd:string ;
+ 	nif:beginIndex 	 "43"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "43"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Executive_sponsor>.
  
-<http://www.list.lu/document6#Koda/274>
+<http://www.list.lu/document2#Koda/38>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "Luxembourg"^^xsd:string ;
- 	nif:beginIndex 	 "738"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "738"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Luxembourg>.
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "organization"^^xsd:string ;
+ 	nif:beginIndex 	 "10"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "10"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
  
-<http://www.list.lu/document6#Koda/259>
+<http://www.list.lu/document2#Koda/35>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,1317>; 
- 	nif:anchorOf 	 "government aid"^^xsd:string ;
- 	nif:beginIndex 	 "173"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "173"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Welfare>.
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "the necessary resources"^^xsd:string ;
+ 	nif:beginIndex 	 "238"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "238"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Resource>.
  
-<http:/www.list.lu/document9#char=0,2095>
+<http:/www.list.lu/document7#char=0,295>
 	a	nif:RFC5147String , nif:Phrase , nif:Context ;
 	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
- 	nif:endIndex 	"2095"^^xsd:nonNegativeInteger s;
- 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A08.txt>;
- 	nif:isString 	"rowdfunding is a means for an entrepreneur to present and finance a project via an internet platform. This type of financing can be seen as a particular type of mezzanine financing.
-
-As an example, crowdfunding can allow an entrepreneur to collect contributions from many investors in order to finance a start up company or a given project via a simple internet platform. In return for their contributions, the investors may receive shares in the company and become silent partners. On the other hand, the entrepreneur is not required to provide the investors with the right to oversee business management. At the same time, the entrepreneur avoids having to go through long administrative financing procedures.
-
-From the investors' point of view, the investment is only remunerated if the project is successful and the funds invested through crowdfunding are not protected against loss.
-The contact between the potential investor and the beneficiary of the capital is generally established through an internet platform provider who specialises in crowdfunding. The entrepreneur can publish his project on the platform in search for investors.
-
-The beneficiary of the capital will usually set a minimum amount of contributions that are necessary for the project to be launched
-Once the amount is set, it will usually be collected through the contributions of a large number of individual investors. The risk of failure is thereby supported by the crowd of investors.
-
-The contribution per investor may vary depending on the project and its amount may be subject to a mandatory minimum amount.
-In return for his contribution to the company, the crowdfunder receives a counterpart which can take many forms such as exploitation rights, free samples or profit-sharing.
-
-It must be noted that the contributions must be invested in the project concerned and will be reimbursed by the platform if the minimum necessary amount set is not reached. The contributions cannot be used to finance other projects. During the initial phase, the platform provider acts as a fiduciary agent between the parties.
+ 	nif:endIndex 	"295"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/F09.txt>;
+ 	nif:isString 	"The roles are assigned to people based on the requirements of the project. Criteria include the experience required, the capacity needed, as well as the availability of prospective role holders. The final project organization and the role assignment are recorded in the project management plan.
 "^^xsd:string .
  
-<http://www.list.lu/document9#Koda/167>
+<http://www.list.lu/document7#Koda/39>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "internet"^^xsd:string ;
- 	nif:beginIndex 	 "83"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "83"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Internet>.
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "the requirements"^^xsd:string ;
+ 	nif:beginIndex 	 "42"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "42"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Requirement>.
  
-<http://www.list.lu/document9#Koda/180>
+<http://www.list.lu/document7#Koda/40>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "investors"^^xsd:string ;
- 	nif:beginIndex 	 "272"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "272"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Investor>.
- 
-<http://www.list.lu/document9#Koda/163>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "many investors"^^xsd:string ;
- 	nif:beginIndex 	 "267"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "267"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Investor>.
- 
-<http://www.list.lu/document9#Koda/193>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "investors"^^xsd:string ;
- 	nif:beginIndex 	 "272"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "272"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Investor>.
- 
-<http://www.list.lu/document9#Koda/196>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "beneficiary"^^xsd:string ;
- 	nif:beginIndex 	 "939"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "939"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Beneficiary>.
- 
-<http://www.list.lu/document9#Koda/213>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "other projects"^^xsd:string ;
- 	nif:beginIndex 	 "1984"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1984"^^xsd:nonNegativeInteger ; 
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "the project"^^xsd:string ;
+ 	nif:beginIndex 	 "62"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "62"^^xsd:nonNegativeInteger ; 
  	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
  
-<http://www.list.lu/document9#Koda/203>
+<http://www.list.lu/document7#Koda/48>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "its amount"^^xsd:string ;
- 	nif:beginIndex 	 "1536"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1536"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Quantity>.
- 
-<http://www.list.lu/document9#Koda/168>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "the investors"^^xsd:string ;
- 	nif:beginIndex 	 "407"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "407"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Investor>.
- 
-<http://www.list.lu/document9#Koda/198>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "failure"^^xsd:string ;
- 	nif:beginIndex 	 "1411"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1411"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Internet>.
- 
-<http://www.list.lu/document9#Koda/204>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "mandatory minimum"^^xsd:string ;
- 	nif:beginIndex 	 "1567"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1567"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Mandatory_sentencing>.
- 
-<http://www.list.lu/document9#Koda/207>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "free samples"^^xsd:string ;
- 	nif:beginIndex 	 "1734"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1734"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Product_sample>.
- 
-<http://www.list.lu/document9#Koda/212>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "amount"^^xsd:string ;
- 	nif:beginIndex 	 "1203"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1203"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Quantity>.
- 
-<http://www.list.lu/document9#Koda/185>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "investor"^^xsd:string ;
- 	nif:beginIndex 	 "272"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "272"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Investor>.
- 
-<http://www.list.lu/document9#Koda/191>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
  	nif:anchorOf 	 "project"^^xsd:string ;
- 	nif:beginIndex 	 "68"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "68"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
- 
-<http://www.list.lu/document9#Koda/169>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "the company"^^xsd:string ;
- 	nif:beginIndex 	 "443"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "443"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Company>.
- 
-<http://www.list.lu/document9#Koda/181>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "The contact"^^xsd:string ;
- 	nif:beginIndex 	 "888"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "888"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/The_Contact>.
- 
-<http://www.list.lu/document9#Koda/165>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "a given project"^^xsd:string ;
- 	nif:beginIndex 	 "324"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "324"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
- 
-<http://www.list.lu/document9#Koda/189>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "the amount"^^xsd:string ;
- 	nif:beginIndex 	 "1282"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1282"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Quantity>.
- 
-<http://www.list.lu/document9#Koda/176>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "the investment"^^xsd:string ;
- 	nif:beginIndex 	 "748"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "748"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Investment>.
- 
-<http://www.list.lu/document9#Koda/182>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "the beneficiary"^^xsd:string ;
- 	nif:beginIndex 	 "935"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "935"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Beneficiary>.
- 
-<http://www.list.lu/document9#Koda/162>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "crowdfunding"^^xsd:string ;
- 	nif:beginIndex 	 "198"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "198"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Crowd_funding>.
- 
-<http://www.list.lu/document9#Koda/202>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "the project"^^xsd:string ;
- 	nif:beginIndex 	 "786"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "786"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
- 
-<http://www.list.lu/document9#Koda/166>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "entrepreneur"^^xsd:string ;
- 	nif:beginIndex 	 "30"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "30"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Entrepreneur>.
- 
-<http://www.list.lu/document9#Koda/214>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "the parties"^^xsd:string ;
- 	nif:beginIndex 	 "2082"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "2082"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Party>.
- 
-<http://www.list.lu/document9#Koda/208>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "profit-sharing"^^xsd:string ;
- 	nif:beginIndex 	 "1750"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1750"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Profit_sharing>.
- 
-<http://www.list.lu/document9#Koda/209>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "exploitation"^^xsd:string ;
- 	nif:beginIndex 	 "1713"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1713"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Exploitation>.
- 
-<http://www.list.lu/document9#Koda/161>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "mezzanine financing"^^xsd:string ;
- 	nif:beginIndex 	 "161"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "161"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Mezzanine_capital>.
- 
-<http://www.list.lu/document9#Koda/184>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "internet"^^xsd:string ;
- 	nif:beginIndex 	 "83"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "83"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Internet>.
- 
-<http://www.list.lu/document9#Koda/171>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "the entrepreneur"^^xsd:string ;
- 	nif:beginIndex 	 "502"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "502"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Entrepreneur>.
- 
-<http://www.list.lu/document9#Koda/211>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "the project"^^xsd:string ;
- 	nif:beginIndex 	 "786"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "786"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
- 
-<http://www.list.lu/document9#Koda/158>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "a project"^^xsd:string ;
  	nif:beginIndex 	 "66"^^xsd:nonNegativeInteger ; 
  	nif:endIndex 	 "66"^^xsd:nonNegativeInteger ; 
  	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
  
-<http://www.list.lu/document9#Koda/201>
+<http://www.list.lu/document7#Koda/46>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "investor"^^xsd:string ;
- 	nif:beginIndex 	 "272"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "272"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Investor>.
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "the project management plan"^^xsd:string ;
+ 	nif:beginIndex 	 "266"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "266"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Project_management_plan>.
  
-<http://www.list.lu/document9#Koda/190>
+<http://www.list.lu/document7#Koda/49>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "a large number"^^xsd:string ;
- 	nif:beginIndex 	 "1359"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1359"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Large_numbers>.
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "organization"^^xsd:string ;
+ 	nif:beginIndex 	 "213"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "213"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
  
-<http://www.list.lu/document9#Koda/199>
+<http://www.list.lu/document7#Koda/42>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "the crowd"^^xsd:string ;
- 	nif:beginIndex 	 "1443"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1443"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Crowd_funding>.
- 
-<http://www.list.lu/document9#Koda/183>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "crowdfunding"^^xsd:string ;
- 	nif:beginIndex 	 "198"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "198"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Crowd_funding>.
- 
-<http://www.list.lu/document9#Koda/170>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "the other hand"^^xsd:string ;
- 	nif:beginIndex 	 "486"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "486"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Hand>.
- 
-<http://www.list.lu/document9#Koda/164>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "company"^^xsd:string ;
- 	nif:beginIndex 	 "313"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "313"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Company>.
- 
-<http://www.list.lu/document9#Koda/172>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "the investors"^^xsd:string ;
- 	nif:beginIndex 	 "407"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "407"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Investor>.
- 
-<http://www.list.lu/document9#Koda/187>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "his project"^^xsd:string ;
- 	nif:beginIndex 	 "1091"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1091"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
- 
-<http://www.list.lu/document9#Koda/192>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "Once"^^xsd:string ;
- 	nif:beginIndex 	 "1277"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1277"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/ONCE>.
- 
-<http://www.list.lu/document9#Koda/200>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "investors"^^xsd:string ;
- 	nif:beginIndex 	 "272"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "272"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Investor>.
- 
-<http://www.list.lu/document9#Koda/173>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "business management"^^xsd:string ;
- 	nif:beginIndex 	 "586"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "586"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Management>.
- 
-<http://www.list.lu/document9#Koda/160>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "financing"^^xsd:string ;
- 	nif:beginIndex 	 "115"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "115"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Finance>.
- 
-<http://www.list.lu/document9#Koda/175>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "financing"^^xsd:string ;
- 	nif:beginIndex 	 "115"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "115"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Finance>.
- 
-<http://www.list.lu/document9#Koda/178>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "the funds"^^xsd:string ;
- 	nif:beginIndex 	 "816"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "816"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Fundraising>.
- 
-<http://www.list.lu/document9#Koda/195>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "amount"^^xsd:string ;
- 	nif:beginIndex 	 "1203"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1203"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Quantity>.
- 
-<http://www.list.lu/document9#Koda/179>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "crowdfunding"^^xsd:string ;
- 	nif:beginIndex 	 "198"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "198"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Crowd_funding>.
- 
-<http://www.list.lu/document9#Koda/188>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "investors"^^xsd:string ;
- 	nif:beginIndex 	 "272"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "272"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Investor>.
- 
-<http://www.list.lu/document9#Koda/206>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "the company"^^xsd:string ;
- 	nif:beginIndex 	 "443"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "443"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Company>.
- 
-<http://www.list.lu/document9#Koda/197>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "The risk"^^xsd:string ;
- 	nif:beginIndex 	 "1399"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1399"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/List_of_The_X_Factor_finalists_(UK_series_8)>.
- 
-<http://www.list.lu/document9#Koda/205>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "amount"^^xsd:string ;
- 	nif:beginIndex 	 "1203"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1203"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Quantity>.
- 
-<http://www.list.lu/document9#Koda/177>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "the project"^^xsd:string ;
- 	nif:beginIndex 	 "786"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "786"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
- 
-<http://www.list.lu/document9#Koda/215>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "agent"^^xsd:string ;
- 	nif:beginIndex 	 "2068"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "2068"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Agent>.
- 
-<http://www.list.lu/document9#Koda/174>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "the entrepreneur"^^xsd:string ;
- 	nif:beginIndex 	 "502"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "502"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Entrepreneur>.
- 
-<http://www.list.lu/document9#Koda/159>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "internet"^^xsd:string ;
- 	nif:beginIndex 	 "83"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "83"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Internet>.
- 
-<http://www.list.lu/document9#Koda/186>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "The entrepreneur"^^xsd:string ;
- 	nif:beginIndex 	 "1062"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1062"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Peter_Molyneux>.
- 
-<http://www.list.lu/document9#Koda/210>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "rights"^^xsd:string ;
- 	nif:beginIndex 	 "1726"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1726"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Rights>.
- 
-<http://www.list.lu/document9#Koda/157>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "an entrepreneur"^^xsd:string ;
- 	nif:beginIndex 	 "27"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "27"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Entrepreneur>.
- 
-<http://www.list.lu/document9#Koda/194>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document9#char=0,2095>; 
- 	nif:anchorOf 	 "minimum"^^xsd:string ;
- 	nif:beginIndex 	 "1195"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1195"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Mandatory_sentencing>.
- 
-<http:/www.list.lu/document4#char=0,728>
-	a	nif:RFC5147String , nif:Phrase , nif:Context ;
-	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
- 	nif:endIndex 	"728"^^xsd:nonNegativeInteger s;
- 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A03.txt>;
- 	nif:isString 	"Whether you are starting up a new business, taking over a business, entering a new phase of development or starting a new business activity within an existing business, you need to ask yourself fundamental questions concerning all aspects of your plans and provide the answers. The results of this vital thinking process must be formalized in a summary document called a business plan. Throughout an entrepreneurial project, the business plan is a vital strategic and communication tool.
-
-It is very important that the business plan is adapted to the needs and expectations of different audiences. When reading the document, each audience should have the feeling that the entrepreneur is presenting a coherent and sound project
-"^^xsd:string .
- 
-<http://www.list.lu/document4#Koda/154>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "the feeling"^^xsd:string ;
- 	nif:beginIndex 	 "651"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "651"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Feeling>.
- 
-<http://www.list.lu/document4#Koda/150>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "the business plan"^^xsd:string ;
- 	nif:beginIndex 	 "425"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "425"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business_plan>.
- 
-<http://www.list.lu/document4#Koda/143>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "results"^^xsd:string ;
- 	nif:beginIndex 	 "282"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "282"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Result>.
- 
-<http://www.list.lu/document4#Koda/155>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "the entrepreneur"^^xsd:string ;
- 	nif:beginIndex 	 "668"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "668"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Entrepreneur>.
- 
-<http://www.list.lu/document4#Koda/148>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "tool"^^xsd:string ;
- 	nif:beginIndex 	 "482"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "482"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Tool>.
- 
-<http://www.list.lu/document4#Koda/137>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "a new phase"^^xsd:string ;
- 	nif:beginIndex 	 "77"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "77"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Phase_10>.
- 
-<http://www.list.lu/document4#Koda/152>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "the document"^^xsd:string ;
- 	nif:beginIndex 	 "611"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "611"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Document>.
- 
-<http://www.list.lu/document4#Koda/139>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "the answers"^^xsd:string ;
- 	nif:beginIndex 	 "265"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "265"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Answer>.
- 
-<http://www.list.lu/document4#Koda/151>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "different audiences"^^xsd:string ;
- 	nif:beginIndex 	 "577"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "577"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Audience>.
- 
-<http://www.list.lu/document4#Koda/156>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "sound project"^^xsd:string ;
- 	nif:beginIndex 	 "714"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "714"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Sound_Project>.
- 
-<http://www.list.lu/document4#Koda/147>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "communication"^^xsd:string ;
- 	nif:beginIndex 	 "468"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "468"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Communication>.
- 
-<http://www.list.lu/document4#Koda/146>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "the business plan"^^xsd:string ;
- 	nif:beginIndex 	 "425"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "425"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business_plan>.
- 
-<http://www.list.lu/document4#Koda/144>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "thinking process"^^xsd:string ;
- 	nif:beginIndex 	 "304"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "304"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Thought>.
- 
-<http://www.list.lu/document4#Koda/149>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "project"^^xsd:string ;
- 	nif:beginIndex 	 "416"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "416"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Sound_Project>.
- 
-<http://www.list.lu/document4#Koda/142>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "a business plan"^^xsd:string ;
- 	nif:beginIndex 	 "369"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "369"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business_plan>.
- 
-<http://www.list.lu/document4#Koda/138>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "an existing business"^^xsd:string ;
- 	nif:beginIndex 	 "147"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "147"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Existence>.
- 
-<http://www.list.lu/document4#Koda/140>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "business"^^xsd:string ;
- 	nif:beginIndex 	 "34"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "34"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document4#Koda/141>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "activity"^^xsd:string ;
- 	nif:beginIndex 	 "131"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "131"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Activity>.
- 
-<http://www.list.lu/document4#Koda/135>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "a new business"^^xsd:string ;
- 	nif:beginIndex 	 "28"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "28"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document4#Koda/136>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "a business"^^xsd:string ;
- 	nif:beginIndex 	 "56"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "56"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document4#Koda/145>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "document"^^xsd:string ;
- 	nif:beginIndex 	 "353"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "353"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Document>.
- 
-<http://www.list.lu/document4#Koda/153>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,728>; 
- 	nif:anchorOf 	 "each audience"^^xsd:string ;
- 	nif:beginIndex 	 "625"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "625"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Audience>.
- 
-<http:/www.list.lu/document10#char=0,1300>
-	a	nif:RFC5147String , nif:Phrase , nif:Context ;
-	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
- 	nif:endIndex 	"1300"^^xsd:nonNegativeInteger s;
- 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A09.txt>;
- 	nif:isString 	"Mezzanine financing generally takes the form of a medium-term subordinated loan and involves two parties: an investor and a business. Mezzanine financing represents an alternative to traditional borrowing methods, and the borrowed capital may be structured as either equity capital or loan capital. In general, this form of financing is obtained for a term of 7 to 10 years. It is usually repaid in full at the end of the contractual period.
-
-As it is becoming increasingly difficult to obtain credit from banks, which must comply with ever-stricter risk evaluation requirements, this form of fund-raising is attracting renewed interest in the business world.
-Businesses with lower funding requirements may make use of crowdfunding, a sub-form of mezzanine financing.
-
-In general, prior to contributing any funds, potential investors carry out an in-depth audit of the business either themselves or via a rating agency. In return for their investment, investors look for a share in the business' profits.
-However, if the business fails to generate a profit, the lender does not receive any remuneration.
-It is important to note that in general, if the borrowing business defaults, the invested capital will be lost. However, in most cases, this risk is offset by an appropriate share of the profits.
-"^^xsd:string .
- 
-<http://www.list.lu/document10#Koda/22>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "mezzanine financing"^^xsd:string ;
- 	nif:beginIndex 	 "747"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "747"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Mezzanine_capital>.
- 
-<http://www.list.lu/document10#Koda/7>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "the borrowed capital"^^xsd:string ;
- 	nif:beginIndex 	 "218"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "218"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Loanword>.
- 
-<http://www.list.lu/document10#Koda/31>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "business"^^xsd:string ;
- 	nif:beginIndex 	 "124"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "124"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document10#Koda/26>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "a rating agency"^^xsd:string ;
- 	nif:beginIndex 	 "903"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "903"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Credit_rating_agency>.
- 
-<http://www.list.lu/document10#Koda/18>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "evaluation"^^xsd:string ;
- 	nif:beginIndex 	 "555"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "555"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Evaluation>.
- 
-<http://www.list.lu/document10#Koda/11>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "financing"^^xsd:string ;
- 	nif:beginIndex 	 "10"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "10"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Finance>.
- 
-<http://www.list.lu/document10#Koda/35>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "any remuneration"^^xsd:string ;
- 	nif:beginIndex 	 "1086"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1086"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Remuneration>.
- 
-<http://www.list.lu/document10#Koda/8>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "equity capital"^^xsd:string ;
- 	nif:beginIndex 	 "267"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "267"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Equity_(finance)>.
- 
-<http://www.list.lu/document10#Koda/20>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "Businesses"^^xsd:string ;
- 	nif:beginIndex 	 "660"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "660"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document10#Koda/10>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "loan"^^xsd:string ;
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "Criteria"^^xsd:string ;
  	nif:beginIndex 	 "75"^^xsd:nonNegativeInteger ; 
  	nif:endIndex 	 "75"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Loan>.
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Criteria_(band)>.
  
-<http://www.list.lu/document10#Koda/6>
+<http://www.list.lu/document7#Koda/41>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "Mezzanine financing"^^xsd:string ;
- 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "0"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Mezzanine_capital>.
- 
-<http://www.list.lu/document10#Koda/24>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "requirements"^^xsd:string ;
- 	nif:beginIndex 	 "566"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "566"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Requirement>.
- 
-<http://www.list.lu/document10#Koda/2>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "two parties"^^xsd:string ;
- 	nif:beginIndex 	 "93"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "93"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Party>.
- 
-<http://www.list.lu/document10#Koda/38>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "business"^^xsd:string ;
- 	nif:beginIndex 	 "124"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "124"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document10#Koda/34>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "the lender"^^xsd:string ;
- 	nif:beginIndex 	 "1058"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1058"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Loan>.
- 
-<http://www.list.lu/document10#Koda/28>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "investors"^^xsd:string ;
- 	nif:beginIndex 	 "824"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "824"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Investor>.
- 
-<http://www.list.lu/document10#Koda/23>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "funding"^^xsd:string ;
- 	nif:beginIndex 	 "682"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "682"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Funding>.
- 
-<http://www.list.lu/document10#Koda/39>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "this risk"^^xsd:string ;
- 	nif:beginIndex 	 "1240"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1240"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Risk>.
- 
-<http://www.list.lu/document10#Koda/5>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "subordinated loan"^^xsd:string ;
- 	nif:beginIndex 	 "62"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "62"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Subordinated_debt>.
- 
-<http://www.list.lu/document10#Koda/3>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "an investor"^^xsd:string ;
- 	nif:beginIndex 	 "106"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "106"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Investor>.
- 
-<http://www.list.lu/document10#Koda/37>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "borrowing"^^xsd:string ;
- 	nif:beginIndex 	 "195"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "195"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Loanword>.
- 
-<http://www.list.lu/document10#Koda/17>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "risk"^^xsd:string ;
- 	nif:beginIndex 	 "550"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "550"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Risk>.
- 
-<http://www.list.lu/document10#Koda/30>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "investors"^^xsd:string ;
- 	nif:beginIndex 	 "824"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "824"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Investor>.
- 
-<http://www.list.lu/document10#Koda/32>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "the business"^^xsd:string ;
- 	nif:beginIndex 	 "640"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "640"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document10#Koda/12>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "10 years"^^xsd:string ;
- 	nif:beginIndex 	 "365"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "365"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/10_Years>.
- 
-<http://www.list.lu/document10#Koda/29>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "their investment"^^xsd:string ;
- 	nif:beginIndex 	 "934"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "934"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Investment>.
- 
-<http://www.list.lu/document10#Koda/16>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "the business world"^^xsd:string ;
- 	nif:beginIndex 	 "640"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "640"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/BusinessWorld>.
- 
-<http://www.list.lu/document10#Koda/1>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "Mezzanine financing"^^xsd:string ;
- 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "0"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Mezzanine_capital>.
- 
-<http://www.list.lu/document10#Koda/19>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "requirements"^^xsd:string ;
- 	nif:beginIndex 	 "566"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "566"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Requirement>.
- 
-<http://www.list.lu/document10#Koda/25>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "the business"^^xsd:string ;
- 	nif:beginIndex 	 "640"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "640"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document10#Koda/9>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "borrowing"^^xsd:string ;
- 	nif:beginIndex 	 "195"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "195"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Loanword>.
- 
-<http://www.list.lu/document10#Koda/4>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "a business"^^xsd:string ;
- 	nif:beginIndex 	 "122"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "122"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document10#Koda/14>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "banks"^^xsd:string ;
- 	nif:beginIndex 	 "506"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "506"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Bank>.
- 
-<http://www.list.lu/document10#Koda/36>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "the invested capital"^^xsd:string ;
- 	nif:beginIndex 	 "1181"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1181"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Invested_capital>.
- 
-<http://www.list.lu/document10#Koda/13>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "credit"^^xsd:string ;
- 	nif:beginIndex 	 "494"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "494"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Credit_card>.
- 
-<http://www.list.lu/document10#Koda/15>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "fund-raising"^^xsd:string ;
- 	nif:beginIndex 	 "593"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "593"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Fundraising>.
- 
-<http://www.list.lu/document10#Koda/21>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "crowdfunding"^^xsd:string ;
- 	nif:beginIndex 	 "719"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "719"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Crowd_funding>.
- 
-<http://www.list.lu/document10#Koda/33>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "a profit"^^xsd:string ;
- 	nif:beginIndex 	 "1048"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1048"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document10#Koda/27>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document10#char=0,1300>; 
- 	nif:anchorOf 	 "audit"^^xsd:string ;
- 	nif:beginIndex 	 "856"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "856"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Audit>.
- 
-<http:/www.list.lu/document7#char=0,1035>
-	a	nif:RFC5147String , nif:Phrase , nif:Context ;
-	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
- 	nif:endIndex 	"1035"^^xsd:nonNegativeInteger s;
- 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A06.txt>;
- 	nif:isString 	"Before making any financing decision, research should be carried out into the most suitable type and source of financing as regarding the creation or takeover of a business, an investment or the financing of working capital needs.
-
-Financing plays a key role in the success of a project or investment and its importance is often underestimated by entrepreneurs. Around half of all businesses created disappear after just a few years, often for financial reasons. It is therefore necessary to carry out prior in-depth analysis to determine your bank and non-bank financing requirements and sources.
-Bank and non-bank financing concerns any business set up in the form of a sole proprietorship or company that wishes to develop its commercial activity.
-The sources and types of financing used will differ depending on the phase of the business� life cycle. A young business does not have the same requirements nor does it have access to the same sources and types of financing as a business that has been in existence for several years.
-"^^xsd:string .
- 
-<http://www.list.lu/document7#Koda/241>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "activity"^^xsd:string ;
- 	nif:beginIndex 	 "741"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "741"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Activity>.
- 
-<http://www.list.lu/document7#Koda/249>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "existence"^^xsd:string ;
- 	nif:beginIndex 	 "1006"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1006"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Existence>.
- 
-<http://www.list.lu/document7#Koda/242>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "financing"^^xsd:string ;
- 	nif:beginIndex 	 "18"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "18"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Finance>.
- 
-<http://www.list.lu/document7#Koda/222>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "creation"^^xsd:string ;
- 	nif:beginIndex 	 "138"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "138"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Dragonlance>.
- 
-<http://www.list.lu/document7#Koda/230>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "role"^^xsd:string ;
- 	nif:beginIndex 	 "254"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "254"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
- 
-<http://www.list.lu/document7#Koda/225>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "financing"^^xsd:string ;
- 	nif:beginIndex 	 "18"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "18"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Finance>.
- 
-<http://www.list.lu/document7#Koda/232>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "just a few years"^^xsd:string ;
- 	nif:beginIndex 	 "416"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "416"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Year>.
- 
-<http://www.list.lu/document7#Koda/219>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "a business"^^xsd:string ;
- 	nif:beginIndex 	 "162"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "162"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document7#Koda/239>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "sole proprietorship"^^xsd:string ;
- 	nif:beginIndex 	 "672"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "672"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Sole_proprietorship>.
- 
-<http://www.list.lu/document7#Koda/238>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "any business"^^xsd:string ;
- 	nif:beginIndex 	 "635"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "635"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document7#Koda/233>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "your bank"^^xsd:string ;
- 	nif:beginIndex 	 "539"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "539"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Bank>.
- 
-<http://www.list.lu/document7#Koda/231>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "all businesses"^^xsd:string ;
- 	nif:beginIndex 	 "377"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "377"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document7#Koda/240>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "financing"^^xsd:string ;
- 	nif:beginIndex 	 "18"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "18"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Finance>.
- 
-<http://www.list.lu/document7#Koda/234>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "analysis"^^xsd:string ;
- 	nif:beginIndex 	 "517"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "517"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Analysis>.
- 
-<http://www.list.lu/document7#Koda/226>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "Financing"^^xsd:string ;
- 	nif:beginIndex 	 "232"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "232"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Finance>.
- 
-<http://www.list.lu/document7#Koda/245>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "sources"^^xsd:string ;
- 	nif:beginIndex 	 "589"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "589"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Source_(magazine)>.
- 
-<http://www.list.lu/document7#Koda/250>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "several years"^^xsd:string ;
- 	nif:beginIndex 	 "1020"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1020"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Year>.
- 
-<http://www.list.lu/document7#Koda/220>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "an investment"^^xsd:string ;
- 	nif:beginIndex 	 "174"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "174"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Investment>.
- 
-<http://www.list.lu/document7#Koda/229>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "project"^^xsd:string ;
- 	nif:beginIndex 	 "279"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "279"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
- 
-<http://www.list.lu/document7#Koda/228>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "entrepreneurs"^^xsd:string ;
- 	nif:beginIndex 	 "347"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "347"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Entrepreneur>.
- 
-<http://www.list.lu/document7#Koda/224>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "needs"^^xsd:string ;
- 	nif:beginIndex 	 "224"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "224"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Need>.
- 
-<http://www.list.lu/document7#Koda/235>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "financing"^^xsd:string ;
- 	nif:beginIndex 	 "18"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "18"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Finance>.
- 
-<http://www.list.lu/document7#Koda/247>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "financing"^^xsd:string ;
- 	nif:beginIndex 	 "18"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "18"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Finance>.
- 
-<http://www.list.lu/document7#Koda/251>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "business"^^xsd:string ;
- 	nif:beginIndex 	 "164"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "164"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document7#Koda/227>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "the success"^^xsd:string ;
- 	nif:beginIndex 	 "262"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "262"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Chingy>.
- 
-<http://www.list.lu/document7#Koda/223>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "working capital"^^xsd:string ;
- 	nif:beginIndex 	 "208"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "208"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Working_capital>.
- 
-<http://www.list.lu/document7#Koda/221>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "the financing"^^xsd:string ;
- 	nif:beginIndex 	 "191"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "191"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Finance>.
- 
-<http://www.list.lu/document7#Koda/244>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "business"^^xsd:string ;
- 	nif:beginIndex 	 "164"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "164"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document7#Koda/236>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "requirements"^^xsd:string ;
- 	nif:beginIndex 	 "572"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "572"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Requirement>.
- 
-<http://www.list.lu/document7#Koda/237>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "Bank"^^xsd:string ;
- 	nif:beginIndex 	 "598"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "598"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Bank>.
- 
-<http://www.list.lu/document7#Koda/216>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "research"^^xsd:string ;
- 	nif:beginIndex 	 "38"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "38"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Research>.
- 
-<http://www.list.lu/document7#Koda/218>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "financing"^^xsd:string ;
- 	nif:beginIndex 	 "18"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "18"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Finance>.
- 
-<http://www.list.lu/document7#Koda/217>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "source"^^xsd:string ;
- 	nif:beginIndex 	 "101"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "101"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Source_(magazine)>.
- 
-<http://www.list.lu/document7#Koda/248>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "a business"^^xsd:string ;
- 	nif:beginIndex 	 "162"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "162"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document7#Koda/243>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "the phase"^^xsd:string ;
- 	nif:beginIndex 	 "816"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "816"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Phase_10>.
- 
-<http://www.list.lu/document7#Koda/252>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "sources"^^xsd:string ;
- 	nif:beginIndex 	 "589"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "589"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Source_(magazine)>.
- 
-<http://www.list.lu/document7#Koda/246>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,1035>; 
- 	nif:anchorOf 	 "the same requirements"^^xsd:string ;
- 	nif:beginIndex 	 "886"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "886"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Requirement>.
- 
-<http:/www.list.lu/document8#char=0,1305>
-	a	nif:RFC5147String , nif:Phrase , nif:Context ;
-	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
- 	nif:endIndex 	"1305"^^xsd:nonNegativeInteger s;
- 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A07.txt>;
- 	nif:isString 	"
-Funding is needed at each stage in the business life cycle and as the economic activity develops, other projects may require financing as well. Entrepreneurs must analyse a potential project in order to best ascertain its profitability as well as the funding that it will require. Based on these 2 factors, both the amount and type of financing can be determined. The business manager must then seek information on the financing options available with respect to a project or activity in order to determine if he should use his own capital or resort to third party funds or bank financing. There are many different banking solutions available depending on the type of project.
-Bank financing concerns any business set up in the form of a sole proprietorship or company that wishes to develop its commercial activity.
-The type of guarantee and the guarantee requirements vary depending on the type of bank financing sought and the risks involved. Receiving a guarantee enables the bank to ensure that there will be no problems with the financing and that it will be fully repaid. The bank first looks at the client�s solvency as well as the profitability of the project to be financed. Beyond this, the bank may request one or more of the following guarantees( mortgage, pledge, surety, moral commitment)
-"^^xsd:string .
- 
-<http://www.list.lu/document8#Koda/52>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "bank financing"^^xsd:string ;
- 	nif:beginIndex 	 "575"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "575"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Loan>.
- 
-<http://www.list.lu/document8#Koda/62>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "Bank financing"^^xsd:string ;
- 	nif:beginIndex 	 "678"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "678"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Loan>.
- 
-<http://www.list.lu/document8#Koda/76>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "project"^^xsd:string ;
- 	nif:beginIndex 	 "105"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "105"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Project_management>.
- 
-<http://www.list.lu/document8#Koda/58>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "project"^^xsd:string ;
- 	nif:beginIndex 	 "105"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "105"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Project_management>.
- 
-<http://www.list.lu/document8#Koda/56>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "funds"^^xsd:string ;
- 	nif:beginIndex 	 "566"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "566"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Funding>.
- 
-<http://www.list.lu/document8#Koda/70>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "a guarantee"^^xsd:string ;
- 	nif:beginIndex 	 "957"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "957"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Guarantee_(filmmaking)>.
- 
-<http://www.list.lu/document8#Koda/78>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "the following guarantees"^^xsd:string ;
- 	nif:beginIndex 	 "1235"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1235"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Guarantee_(filmmaking)>.
- 
-<http://www.list.lu/document8#Koda/72>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "the financing"^^xsd:string ;
- 	nif:beginIndex 	 "416"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "416"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Finance>.
- 
-<http://www.list.lu/document8#Koda/61>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "any business"^^xsd:string ;
- 	nif:beginIndex 	 "702"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "702"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document8#Koda/47>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "project"^^xsd:string ;
- 	nif:beginIndex 	 "105"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "105"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Project_management>.
- 
-<http://www.list.lu/document8#Koda/73>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "bank"^^xsd:string ;
- 	nif:beginIndex 	 "575"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "575"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Bank>.
- 
-<http://www.list.lu/document8#Koda/59>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "banking"^^xsd:string ;
- 	nif:beginIndex 	 "616"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "616"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Bank>.
- 
-<http://www.list.lu/document8#Koda/44>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "business"^^xsd:string ;
- 	nif:beginIndex 	 "40"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "40"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document8#Koda/77>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "the bank"^^xsd:string ;
- 	nif:beginIndex 	 "977"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "977"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Bank>.
- 
-<http://www.list.lu/document8#Koda/60>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "solutions"^^xsd:string ;
- 	nif:beginIndex 	 "624"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "624"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Solution>.
- 
-<http://www.list.lu/document8#Koda/55>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "party"^^xsd:string ;
- 	nif:beginIndex 	 "560"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "560"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Party>.
- 
-<http://www.list.lu/document8#Koda/51>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "respect"^^xsd:string ;
- 	nif:beginIndex 	 "453"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "453"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Respect>.
- 
-<http://www.list.lu/document8#Koda/48>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "financing"^^xsd:string ;
- 	nif:beginIndex 	 "126"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "126"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Finance>.
- 
-<http://www.list.lu/document8#Koda/40>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "Funding"^^xsd:string ;
- 	nif:beginIndex 	 "1"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Funding>.
- 
-<http://www.list.lu/document8#Koda/57>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "project"^^xsd:string ;
- 	nif:beginIndex 	 "105"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "105"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Project_management>.
- 
-<http://www.list.lu/document8#Koda/69>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "requirements"^^xsd:string ;
- 	nif:beginIndex 	 "858"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "858"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Requirement>.
- 
-<http://www.list.lu/document8#Koda/49>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "amount"^^xsd:string ;
- 	nif:beginIndex 	 "317"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "317"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Quantity>.
- 
-<http://www.list.lu/document8#Koda/41>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "the economic activity"^^xsd:string ;
- 	nif:beginIndex 	 "67"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "67"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Economics>.
- 
-<http://www.list.lu/document8#Koda/54>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "financing"^^xsd:string ;
- 	nif:beginIndex 	 "126"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "126"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Finance>.
- 
-<http://www.list.lu/document8#Koda/74>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "The bank"^^xsd:string ;
- 	nif:beginIndex 	 "1080"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1080"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Bank>.
- 
-<http://www.list.lu/document8#Koda/65>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "guarantee"^^xsd:string ;
- 	nif:beginIndex 	 "830"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "830"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Guarantee_(filmmaking)>.
- 
-<http://www.list.lu/document8#Koda/45>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "Entrepreneurs"^^xsd:string ;
- 	nif:beginIndex 	 "145"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "145"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Entrepreneur>.
- 
-<http://www.list.lu/document8#Koda/43>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "financing"^^xsd:string ;
- 	nif:beginIndex 	 "126"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "126"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Finance>.
- 
-<http://www.list.lu/document8#Koda/68>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "guarantee"^^xsd:string ;
- 	nif:beginIndex 	 "830"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "830"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Guarantee_(filmmaking)>.
- 
-<http://www.list.lu/document8#Koda/63>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "sole proprietorship"^^xsd:string ;
- 	nif:beginIndex 	 "739"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "739"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Sole_proprietorship>.
- 
-<http://www.list.lu/document8#Koda/50>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "information"^^xsd:string ;
- 	nif:beginIndex 	 "401"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "401"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Information>.
- 
-<http://www.list.lu/document8#Koda/67>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "the risks"^^xsd:string ;
- 	nif:beginIndex 	 "927"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "927"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Risk_(game)>.
- 
-<http://www.list.lu/document8#Koda/46>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "the funding"^^xsd:string ;
- 	nif:beginIndex 	 "248"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "248"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Funding>.
- 
-<http://www.list.lu/document8#Koda/75>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "solvency"^^xsd:string ;
- 	nif:beginIndex 	 "1117"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1117"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Solvency>.
- 
-<http://www.list.lu/document8#Koda/64>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "activity"^^xsd:string ;
- 	nif:beginIndex 	 "80"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "80"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Activity>.
- 
-<http://www.list.lu/document8#Koda/42>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "other projects"^^xsd:string ;
- 	nif:beginIndex 	 "99"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "99"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
- 
-<http://www.list.lu/document8#Koda/53>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "business manager"^^xsd:string ;
- 	nif:beginIndex 	 "369"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "369"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business_manager>.
- 
-<http://www.list.lu/document8#Koda/66>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "bank financing"^^xsd:string ;
- 	nif:beginIndex 	 "575"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "575"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Loan>.
- 
-<http://www.list.lu/document8#Koda/71>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document8#char=0,1305>; 
- 	nif:anchorOf 	 "no problems"^^xsd:string ;
- 	nif:beginIndex 	 "1015"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "1015"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Problem>.
- 
-<http:/www.list.lu/document2#char=0,698>
-	a	nif:RFC5147String , nif:Phrase , nif:Context ;
-	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
- 	nif:endIndex 	"698"^^xsd:nonNegativeInteger s;
- 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A01.txt>;
- 	nif:isString 	"Any business whose activity has come to a standstill or has been significantly reduced following a natural disaster qualifying as an event of force majeure, i.e. destroying or damaging the production equipment, may apply for involuntary and temporary layoff.
-
-The involuntary and temporary layoff scheme may also be granted in the event of an interruption or significant reduction in activity due to roadworks or infrastructure developments being carried out by the authorities for a duration of more than one month and seriously impeding customer access to the business, provided that the reduction in activity leads to a considerable decrease in turnover compared to a period of normal activity.
-"^^xsd:string .
- 
-<http://www.list.lu/document2#Koda/301>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,698>; 
- 	nif:anchorOf 	 "the authorities"^^xsd:string ;
- 	nif:beginIndex 	 "462"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "462"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Authority>.
- 
-<http://www.list.lu/document2#Koda/308>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,698>; 
- 	nif:anchorOf 	 "temporary layoff"^^xsd:string ;
- 	nif:beginIndex 	 "241"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "241"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Layoff>.
- 
-<http://www.list.lu/document2#Koda/305>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,698>; 
- 	nif:anchorOf 	 "decrease"^^xsd:string ;
- 	nif:beginIndex 	 "636"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "636"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Decrease_(knitting)>.
- 
-<http://www.list.lu/document2#Koda/294>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,698>; 
- 	nif:anchorOf 	 "activity"^^xsd:string ;
- 	nif:beginIndex 	 "19"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "19"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Activity>.
- 
-<http://www.list.lu/document2#Koda/299>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,698>; 
- 	nif:anchorOf 	 "activity"^^xsd:string ;
- 	nif:beginIndex 	 "19"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "19"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Activity>.
- 
-<http://www.list.lu/document2#Koda/304>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,698>; 
- 	nif:anchorOf 	 "activity"^^xsd:string ;
- 	nif:beginIndex 	 "19"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "19"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Activity>.
- 
-<http://www.list.lu/document2#Koda/293>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,698>; 
- 	nif:anchorOf 	 "force majeure"^^xsd:string ;
- 	nif:beginIndex 	 "142"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "142"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Force_majeure>.
- 
-<http://www.list.lu/document2#Koda/307>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,698>; 
- 	nif:anchorOf 	 "activity"^^xsd:string ;
- 	nif:beginIndex 	 "19"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "19"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Activity>.
- 
-<http://www.list.lu/document2#Koda/295>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,698>; 
- 	nif:anchorOf 	 "equipment"^^xsd:string ;
- 	nif:beginIndex 	 "200"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "200"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Equipment>.
- 
-<http://www.list.lu/document2#Koda/303>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,698>; 
- 	nif:anchorOf 	 "the business"^^xsd:string ;
- 	nif:beginIndex 	 "558"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "558"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
- 
-<http://www.list.lu/document2#Koda/292>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,698>; 
- 	nif:anchorOf 	 "an event"^^xsd:string ;
- 	nif:beginIndex 	 "130"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "130"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Event>.
- 
-<http://www.list.lu/document2#Koda/296>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,698>; 
- 	nif:anchorOf 	 "temporary layoff"^^xsd:string ;
- 	nif:beginIndex 	 "241"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "241"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Layoff>.
- 
-<http://www.list.lu/document2#Koda/298>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,698>; 
- 	nif:anchorOf 	 "the event"^^xsd:string ;
- 	nif:beginIndex 	 "327"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "327"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Event>.
- 
-<http://www.list.lu/document2#Koda/297>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,698>; 
- 	nif:anchorOf 	 "business"^^xsd:string ;
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "roles"^^xsd:string ;
  	nif:beginIndex 	 "4"^^xsd:nonNegativeInteger ; 
  	nif:endIndex 	 "4"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
  
-<http://www.list.lu/document2#Koda/300>
+<http://www.list.lu/document7#Koda/43>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,698>; 
- 	nif:anchorOf 	 "roadworks or infrastructure"^^xsd:string ;
- 	nif:beginIndex 	 "400"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "400"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Roadworks>.
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "the experience"^^xsd:string ;
+ 	nif:beginIndex 	 "92"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "92"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Experience>.
  
-<http://www.list.lu/document2#Koda/291>
+<http://www.list.lu/document7#Koda/45>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,698>; 
- 	nif:anchorOf 	 "a natural disaster"^^xsd:string ;
- 	nif:beginIndex 	 "97"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "97"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Natural_disaster>.
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "role"^^xsd:string ;
+ 	nif:beginIndex 	 "4"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "4"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
  
-<http://www.list.lu/document2#Koda/302>
+<http://www.list.lu/document7#Koda/47>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,698>; 
- 	nif:anchorOf 	 "month"^^xsd:string ;
- 	nif:beginIndex 	 "510"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "510"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Month>.
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "role"^^xsd:string ;
+ 	nif:beginIndex 	 "4"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "4"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
  
-<http://www.list.lu/document2#Koda/306>
+<http://www.list.lu/document7#Koda/44>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,698>; 
- 	nif:anchorOf 	 "customer"^^xsd:string ;
- 	nif:beginIndex 	 "539"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "539"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Customer>.
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "the availability"^^xsd:string ;
+ 	nif:beginIndex 	 "149"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "149"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Availability>.
  
-<http:/www.list.lu/document1#char=0,494>
+<http:/www.list.lu/document1#char=0,140>
 	a	nif:RFC5147String , nif:Phrase , nif:Context ;
 	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
- 	nif:endIndex 	"494"^^xsd:nonNegativeInteger s;
- 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/Guichet/A00.txt>;
- 	nif:isString 	"In order to protect jobs and thus prevent redundancies, Luxembourg labour law allows businesses to resort to temporary involuntary layoff under certain conditions.
-
-A business can apply for involuntary and temporary layoff to the national employment administration in the event of an interruption to or a significant reduction in its activity due to a natural disaster affecting its production equipment or to road or infrastructure works seriously impeding client access to the establishment.
+ 	nif:endIndex 	"140"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/A00.txt>;
+ 	nif:isString 	"The role model distinguishes between the roles that are part of the core organization and roles that are part of the project organization. 
 "^^xsd:string .
  
-<http://www.list.lu/document1#Koda/309>
+<http://www.list.lu/document1#Koda/51>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,494>; 
- 	nif:anchorOf 	 "redundancies"^^xsd:string ;
- 	nif:beginIndex 	 "42"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "42"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Layoff>.
+	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,140>; 
+ 	nif:anchorOf 	 "roles"^^xsd:string ;
+ 	nif:beginIndex 	 "41"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "41"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
  
-<http://www.list.lu/document1#Koda/318>
+<http://www.list.lu/document1#Koda/55>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,494>; 
- 	nif:anchorOf 	 "equipment"^^xsd:string ;
- 	nif:beginIndex 	 "394"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "394"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Equipment>.
+	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,140>; 
+ 	nif:anchorOf 	 "organization"^^xsd:string ;
+ 	nif:beginIndex 	 "73"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "73"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
  
-<http://www.list.lu/document1#Koda/312>
+<http://www.list.lu/document1#Koda/52>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,494>; 
- 	nif:anchorOf 	 "labour law"^^xsd:string ;
- 	nif:beginIndex 	 "67"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "67"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Labour_law>.
+	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,140>; 
+ 	nif:anchorOf 	 "project"^^xsd:string ;
+ 	nif:beginIndex 	 "117"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "117"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
  
-<http://www.list.lu/document1#Koda/313>
+<http://www.list.lu/document1#Koda/50>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,494>; 
- 	nif:anchorOf 	 "layoff"^^xsd:string ;
- 	nif:beginIndex 	 "131"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "131"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Layoff>.
+	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,140>; 
+ 	nif:anchorOf 	 "the roles"^^xsd:string ;
+ 	nif:beginIndex 	 "37"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "37"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
  
-<http://www.list.lu/document1#Koda/316>
+<http://www.list.lu/document1#Koda/54>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,494>; 
- 	nif:anchorOf 	 "a natural disaster"^^xsd:string ;
- 	nif:beginIndex 	 "350"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "350"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Natural_disaster>.
+	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,140>; 
+ 	nif:anchorOf 	 "role model"^^xsd:string ;
+ 	nif:beginIndex 	 "4"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "4"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role_model>.
  
-<http://www.list.lu/document1#Koda/320>
+<http://www.list.lu/document1#Koda/53>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,494>; 
- 	nif:anchorOf 	 "business"^^xsd:string ;
+	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,140>; 
+ 	nif:anchorOf 	 "organization"^^xsd:string ;
+ 	nif:beginIndex 	 "73"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "73"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
+ 
+<http:/www.list.lu/document5#char=0,273>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"273"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/A05.txt>;
+ 	nif:isString 	"Specialists assume several different roles, not all of which are part of the general organizational chart. The three partners, namely the users, the developers, and the operators, are represented in the project organization.Every role is assigned to one or more partners.
+
+"^^xsd:string .
+ 
+<http://www.list.lu/document5#Koda/11>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,273>; 
+ 	nif:anchorOf 	 "the project"^^xsd:string ;
+ 	nif:beginIndex 	 "199"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "199"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document5#Koda/9>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,273>; 
+ 	nif:anchorOf 	 "several different roles"^^xsd:string ;
+ 	nif:beginIndex 	 "19"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "19"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
+ 
+<http://www.list.lu/document5#Koda/12>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,273>; 
+ 	nif:anchorOf 	 "role"^^xsd:string ;
+ 	nif:beginIndex 	 "37"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "37"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
+ 
+<http://www.list.lu/document5#Koda/8>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,273>; 
+ 	nif:anchorOf 	 "Specialists"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/The_Specialists>.
+ 
+<http://www.list.lu/document5#Koda/10>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,273>; 
+ 	nif:anchorOf 	 "organizational chart"^^xsd:string ;
  	nif:beginIndex 	 "85"^^xsd:nonNegativeInteger ; 
  	nif:endIndex 	 "85"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organizational_chart>.
  
-<http://www.list.lu/document1#Koda/314>
+<http://www.list.lu/document5#Koda/13>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,494>; 
- 	nif:anchorOf 	 "the event"^^xsd:string ;
- 	nif:beginIndex 	 "268"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "268"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Event>.
+	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,273>; 
+ 	nif:anchorOf 	 "The three"^^xsd:string ;
+ 	nif:beginIndex 	 "107"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "107"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/David's_Mighty_Warriors>.
  
-<http://www.list.lu/document1#Koda/315>
- 	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,494>; 
- 	nif:anchorOf 	 "its activity"^^xsd:string ;
- 	nif:beginIndex 	 "330"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "330"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Activity>.
+<http:/www.list.lu/document4#char=0,317>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"317"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/A04.txt>;
+ 	nif:isString 	"Every project must have a project sponsor, a project manager, and a specialist. Other roles are assigned depending on the requirements of the project.
+The three partners, namely the users, the developers, and the operators, are represented in the project organization. Every role is assigned to one or more partners.
+"^^xsd:string .
  
-<http://www.list.lu/document1#Koda/317>
+<http://www.list.lu/document4#Koda/65>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,494>; 
- 	nif:anchorOf 	 "temporary layoff"^^xsd:string ;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "project"^^xsd:string ;
+ 	nif:beginIndex 	 "6"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "6"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document4#Koda/60>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "the requirements"^^xsd:string ;
+ 	nif:beginIndex 	 "118"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "118"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Requirement>.
+ 
+<http://www.list.lu/document4#Koda/62>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "Other"^^xsd:string ;
+ 	nif:beginIndex 	 "80"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "80"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Other>.
+ 
+<http://www.list.lu/document4#Koda/66>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "organization"^^xsd:string ;
+ 	nif:beginIndex 	 "255"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "255"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
+ 
+<http://www.list.lu/document4#Koda/58>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "Every"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Every_(surname)>.
+ 
+<http://www.list.lu/document4#Koda/61>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "the project"^^xsd:string ;
+ 	nif:beginIndex 	 "138"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "138"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document4#Koda/68>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "role"^^xsd:string ;
+ 	nif:beginIndex 	 "86"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "86"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
+ 
+<http://www.list.lu/document4#Koda/56>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "a project sponsor"^^xsd:string ;
+ 	nif:beginIndex 	 "24"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "24"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Executive_sponsor>.
+ 
+<http://www.list.lu/document4#Koda/57>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "a project manager"^^xsd:string ;
+ 	nif:beginIndex 	 "43"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "43"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Project_manager>.
+ 
+<http://www.list.lu/document4#Koda/63>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "roles"^^xsd:string ;
+ 	nif:beginIndex 	 "86"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "86"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
+ 
+<http://www.list.lu/document4#Koda/64>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "The three"^^xsd:string ;
+ 	nif:beginIndex 	 "151"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "151"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/David's_Mighty_Warriors>.
+ 
+<http://www.list.lu/document4#Koda/59>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "project"^^xsd:string ;
+ 	nif:beginIndex 	 "6"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "6"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document4#Koda/67>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "Every"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Every_(surname)>.
+ 
+<http:/www.list.lu/document6#char=0,216>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"216"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/F01.txt>;
+ 	nif:isString 	"The user is a person who utilizes the product or IT system to handle business processes. Users are responsible for defining requirements, and they test and decide on the acceptance of the product system in question.
+"^^xsd:string .
+ 
+<http://www.list.lu/document6#Koda/1>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,216>; 
+ 	nif:anchorOf 	 "a person"^^xsd:string ;
+ 	nif:beginIndex 	 "12"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "12"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Person>.
+ 
+<http://www.list.lu/document6#Koda/5>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,216>; 
+ 	nif:anchorOf 	 "the acceptance"^^xsd:string ;
+ 	nif:beginIndex 	 "166"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "166"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Acceptance>.
+ 
+<http://www.list.lu/document6#Koda/4>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,216>; 
+ 	nif:anchorOf 	 "requirements"^^xsd:string ;
+ 	nif:beginIndex 	 "124"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "124"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Requirement>.
+ 
+<http://www.list.lu/document6#Koda/7>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,216>; 
+ 	nif:anchorOf 	 "system"^^xsd:string ;
+ 	nif:beginIndex 	 "52"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "52"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/System_of_a_Down>.
+ 
+<http://www.list.lu/document6#Koda/6>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,216>; 
+ 	nif:anchorOf 	 "question"^^xsd:string ;
  	nif:beginIndex 	 "206"^^xsd:nonNegativeInteger ; 
  	nif:endIndex 	 "206"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Layoff>.
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Question!>.
  
-<http://www.list.lu/document1#Koda/310>
+<http://www.list.lu/document6#Koda/2>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,494>; 
- 	nif:anchorOf 	 "businesses"^^xsd:string ;
- 	nif:beginIndex 	 "85"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "85"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business>.
+	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,216>; 
+ 	nif:anchorOf 	 "business processes"^^xsd:string ;
+ 	nif:beginIndex 	 "69"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "69"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business_process>.
  
-<http://www.list.lu/document1#Koda/311>
+<http://www.list.lu/document6#Koda/3>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,494>; 
- 	nif:anchorOf 	 "Luxembourg"^^xsd:string ;
- 	nif:beginIndex 	 "56"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "56"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Luxembourg>.
+	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,216>; 
+ 	nif:anchorOf 	 "system"^^xsd:string ;
+ 	nif:beginIndex 	 "52"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "52"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/System_of_a_Down>.
  
-<http://www.list.lu/document1#Koda/319>
+<http:/www.list.lu/document3#char=0,378>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"378"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/A03.txt>;
+ 	nif:isString 	"While a project is active, its project organization is continually adapted to meet the needs of the project. As it unfolds, other partners may be added to the project organization. The project organization consists of different roles which regulate the tasks, the authority, and the responsibilities of those involved in the project. Every role has a detailed role description.
+"^^xsd:string .
+ 
+<http://www.list.lu/document3#Koda/17>
  	a nif:Phrase;
-	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,494>; 
- 	nif:anchorOf 	 "employment"^^xsd:string ;
- 	nif:beginIndex 	 "239"^^xsd:nonNegativeInteger ; 
- 	nif:endIndex 	 "239"^^xsd:nonNegativeInteger ; 
- 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Employment>.
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "organization"^^xsd:string ;
+ 	nif:beginIndex 	 "39"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "39"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
+ 
+<http://www.list.lu/document3#Koda/24>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "Every"^^xsd:string ;
+ 	nif:beginIndex 	 "334"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "334"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Every_(surname)>.
+ 
+<http://www.list.lu/document3#Koda/21>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "the authority"^^xsd:string ;
+ 	nif:beginIndex 	 "260"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "260"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Authority>.
+ 
+<http://www.list.lu/document3#Koda/16>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "project"^^xsd:string ;
+ 	nif:beginIndex 	 "8"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "8"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document3#Koda/14>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "a project"^^xsd:string ;
+ 	nif:beginIndex 	 "6"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "6"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document3#Koda/20>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "different roles"^^xsd:string ;
+ 	nif:beginIndex 	 "218"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "218"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
+ 
+<http://www.list.lu/document3#Koda/15>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "the project"^^xsd:string ;
+ 	nif:beginIndex 	 "96"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "96"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document3#Koda/19>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "organization"^^xsd:string ;
+ 	nif:beginIndex 	 "39"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "39"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
+ 
+<http://www.list.lu/document3#Koda/25>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "role"^^xsd:string ;
+ 	nif:beginIndex 	 "228"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "228"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
+ 
+<http://www.list.lu/document3#Koda/23>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "organization"^^xsd:string ;
+ 	nif:beginIndex 	 "39"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "39"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
+ 
+<http://www.list.lu/document3#Koda/26>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "role"^^xsd:string ;
+ 	nif:beginIndex 	 "228"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "228"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
+ 
+<http://www.list.lu/document3#Koda/18>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "project"^^xsd:string ;
+ 	nif:beginIndex 	 "8"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "8"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document3#Koda/27>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "description"^^xsd:string ;
+ 	nif:beginIndex 	 "365"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "365"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Description>.
+ 
+<http://www.list.lu/document3#Koda/22>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "the project"^^xsd:string ;
+ 	nif:beginIndex 	 "96"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "96"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
  
 

@@ -106,6 +106,7 @@ public class KodaExtractor implements AnnotationExtractor {
 		    	annot.setDocument(doc);
 		    	annot.setindexa(doc.getDocText().indexOf(aList1.get(j).toString()));
 		    	annot.seturia("http://www.list.lu/"+aList1.get(j).toString().replaceAll("\\s", "_"));
+		    	annot.setlonga(aList1.get(j).toString().length());
 		    	adao.addAnnotation(annot);
 		    	AnnotANDdb.add(annot);			        	    
 		      }
