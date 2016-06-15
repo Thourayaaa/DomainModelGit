@@ -18,6 +18,7 @@ public class LaunchWithAlchemy {
 		// TODO Auto-generated method stub
 
 		String corpuspath = "/Users/thourayabouzidi/Desktop/HCorpus";
+		String CorpusName = "corpusdomain";
 		CorpusController cc = new CorpusController();
 		CorpusDao cdao = new CorpusDao();
 		List<Corpus> listcorpus = cdao.getAllCorpus(); //control adding the corpus if it already exists then don't add it !
@@ -25,14 +26,24 @@ public class LaunchWithAlchemy {
 		if (!(listcorpus.isEmpty())) //  the table corpus is not empty
 		{
 		for (Corpus cor : listcorpus) // check existing corpus in the database
-		{ if (cor.getpath().equals(corpuspath))
+		{ if (cor.getpath().equals(corpuspath) && cor.getCorpusName().equals(CorpusName))
 		{
 			idc = (int)cor.getIDc(); // if the corpus has been already added 
 		} 
 					
 		}
+		if (idc == 0) //no match between corpus we are going to add and the corpus in the database then we can add it !
+		{
+			try {
+				idc= cc.addCorpus(corpuspath, "corpusdomain");
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} 
 		}
-		else {
+		
+		}
+		else { // the corpus table is empty
 			try {
 				idc= cc.addCorpus(corpuspath, "corpusdomain");
 			} catch (IOException e) {
@@ -43,15 +54,6 @@ public class LaunchWithAlchemy {
 			
 		}
 
-		if (idc == 0)
-		{
-			try {
-				idc= cc.addCorpus(corpuspath, "corpusdomain");
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} 
-		}
 		
    //Alchemy
 		AlchemyExtractor alchem = new AlchemyExtractor();
@@ -63,9 +65,9 @@ public class LaunchWithAlchemy {
 		ConnectionAnnotRelation connectar = new ConnectionAnnotRelation();
 
 		try {
-			nifGenerator.nifRelationCorpus(idc, "OllieNif", "NifOllie");
-			nifGenerator.generateNifCorpusAnnotator(idc, "KodaNif", "NifKoda", "Koda");
-			connectar.writeRelationfile(idc, "OllieNif", "OllieNif", "corpusdomain");
+			nifGenerator.nifRelationCorpus(idc, "KodaAndAlchemy", "NifOllie");
+			nifGenerator.generateNifCorpusAnnotator(idc, "KodaAndAlchemy", "NifKoda", "Koda");
+			connectar.writeRelationfile(idc, "KodaAndAlchemy", "KodaAndAlchemy", "corpusdomain");
 
 			
 		} catch (FileNotFoundException e) {

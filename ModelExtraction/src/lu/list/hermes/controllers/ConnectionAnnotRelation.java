@@ -43,16 +43,18 @@ public class ConnectionAnnotRelation {
      {
 		AnnotationDao adao = new AnnotationDao();
 		List<Annotation> annot = adao.getAllAnnotationByCorpus("corpusdomain"); 
-		for (Annotation a : annot)
+		List<Annotation> annotintermediare = adao.getAllAnnotationByCorpus("corpusdomain");
+		for (Annotation a : annotintermediare)
 		{
 			//test if there is another similar annotation
 			int id = (int) a.getidAnn();
 			String annotation = a.getAnnotation();
 			for (int i = id ; i<annot.size();i++)
 			{
-				if (annotation.equals(annot.get(i)))
+				if (annotation.equals(annot.get(i).getAnnotation()))
 				{
-					annot.remove(annot.get(i).getidAnn());
+					annot.remove(annot.get(i));
+					
 				}
 			}
 			
@@ -214,10 +216,6 @@ public class ConnectionAnnotRelation {
         					 sb.append(RelKo);
         					 sb1.append(Reldb);
         				}
-        				
-        			
-       				    	
-    					        		
         			}
         		
         			sbolliekoda.append(sb.toString());
@@ -237,9 +235,9 @@ public class ConnectionAnnotRelation {
          out.println(sbolliekoda.toString());
          out.close();
          
-             PrintWriter out1 = new PrintWriter(pathOnlykoda+"/JustKodaRel.n3");
-	           out1.println(sbkoda.toString());
-	           out1.close();
+         PrintWriter out1 = new PrintWriter(pathOnlykoda+"/JustKodaRel.n3");
+	     out1.println(sbkoda.toString());
+	     out1.close();
 
          session.getTransaction().commit();
          session.close();
@@ -247,13 +245,6 @@ public class ConnectionAnnotRelation {
 		
 	}
 	
-//	public static void main(String[] args) {
-//		List<Annotation> annot = allAnnotationOnce("corpusdomain");
-//		for (Annotation a : annot)
-//		{
-//			System.out.print(a.getAnnotation()+"\n");
-//		}
-//	}
 	}
 
 	

@@ -8,19 +8,26 @@
     <nlptools.version>2.4.0</nlptools.version>
   </properties>
   <dependencies>
-  <dependency>
-    <groupId>com.likethecolor</groupId>
-    <artifactId>alchemy</artifactId>
-    <version>1.0.2</version>
-</dependency>
   <!-- http://mvnrepository.com/artifact/edu.washington.cs.knowitall.openie/openie_2.10 -->
+ <dependency>
+      <groupId>edu.washington.cs.knowitall.ollie</groupId>
+      <artifactId>ollie-core_2.9.2</artifactId>
+      <version>1.0.2</version>
+ </dependency>
 <dependency>
     <groupId>edu.washington.cs.knowitall.openie</groupId>
     <artifactId>openie_2.10</artifactId>
     <version>4.1</version>
-</dependency>
-  
-  <dependency>
+</dependency> 
+
+ 
+    <dependency>
+      <groupId>edu.washington.cs.knowitall.nlptools</groupId>
+      <artifactId>nlptools-parse-malt_2.9.2</artifactId>
+      <version>${nlptools.version}</version>
+    </dependency>
+
+   <dependency>
 		<groupId>log4j</groupId>
 		<artifactId>log4j</artifactId>
 		<version>1.2.17</version>
@@ -35,26 +42,25 @@
     <artifactId>jdom2</artifactId>
     <version>2.0.6</version>
 </dependency>
-<!-- http://mvnrepository.com/artifact/edu.stanford.nlp/stanford-corenlp -->
-<dependency>
-    <groupId>edu.stanford.nlp</groupId>
-    <artifactId>stanford-corenlp</artifactId>
-    <version>3.5.1</version>
-</dependency>
+ <!-- http://mvnrepository.com/artifact/edu.washington.cs.knowitall.openie/openie_2.10 -->
+
+
   <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
     <version>5.1.6</version>
 </dependency>
-  <dependency>
+   <dependency>
       <groupId>edu.washington.cs.knowitall.ollie</groupId>
       <artifactId>ollie-core_2.9.2</artifactId>
       <version>1.0.2</version>
+     
     </dependency>
     <dependency>
       <groupId>edu.washington.cs.knowitall.nlptools</groupId>
       <artifactId>nlptools-parse-malt_2.9.2</artifactId>
       <version>${nlptools.version}</version>
+      
     </dependency>
     <dependency>
       <groupId>ch.qos.logback</groupId>
@@ -71,7 +77,7 @@
     <artifactId>hibernate-validator</artifactId>
     <version>4.3.0.Final</version>
 </dependency>
-    
+   
   </dependencies>
   
   <build>

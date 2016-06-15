@@ -1,0 +1,862 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+<http:/www.list.lu/document1#char=0,140>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"140"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/A00.txt>;
+ 	nif:isString 	"The role model distinguishes between the roles that are part of the core organization and roles that are part of the project organization. 
+"^^xsd:string .
+ 
+kr:distinguishes
+ 	a rdf:Property;
+ 	rdfs:label "distinguishes". 
+<http://www.list.lu/document1#Ollie/Subject_75>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document1#char=0,140>; 
+ 	nif:anchorOf 	 "The role model"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "14"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_role_model_75>;
+ 	kr: distinguishes <http://www.list.lu/document1#Ollie/Object_76>. 
+
+<http://www.list.lu/document1#Ollie/Object_76>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document1#char=0,140>; 
+ 	nif:anchorOf 	 "29"^^xsd:string ;
+ 	nif:beginIndex 	 "29"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "95"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/between_the_roles_that_are_part_of_the_core_organization_and_roles_76>.
+ 
+<http://www.list.lu/document1#Ollie/Subject_81>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document1#char=0,140>; 
+ 	nif:anchorOf 	 "that"^^xsd:string ;
+ 	nif:beginIndex 	 "47"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "51"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/that_81>;
+ 	kr: are_part_of <http://www.list.lu/document1#Ollie/Object_82>. 
+
+<http://www.list.lu/document1#Ollie/Object_82>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document1#char=0,140>; 
+ 	nif:anchorOf 	 "113"^^xsd:string ;
+ 	nif:beginIndex 	 "113"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "137"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_project_organization_82>.
+ 
+<http://www.list.lu/document1#Ollie/Subject_77>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document1#char=0,140>; 
+ 	nif:anchorOf 	 "the roles that are part of the core organization and roles"^^xsd:string ;
+ 	nif:beginIndex 	 "37"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "95"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_roles_that_are_part_of_the_core_organization_and_roles_77>;
+ 	kr: are <http://www.list.lu/document1#Ollie/Object_78>. 
+
+<http://www.list.lu/document1#Ollie/Object_78>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document1#char=0,140>; 
+ 	nif:anchorOf 	 "105"^^xsd:string ;
+ 	nif:beginIndex 	 "105"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "137"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/part_of_the_project_organization_78>.
+ 
+kr:are_part_of
+ 	a rdf:Property;
+ 	rdfs:label "are part of". 
+<http://www.list.lu/document1#Ollie/Subject_79>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document1#char=0,140>; 
+ 	nif:anchorOf 	 "that"^^xsd:string ;
+ 	nif:beginIndex 	 "47"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "51"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/that_79>;
+ 	kr: are_part_of <http://www.list.lu/document1#Ollie/Object_80>. 
+
+<http://www.list.lu/document1#Ollie/Object_80>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document1#char=0,140>; 
+ 	nif:anchorOf 	 "64"^^xsd:string ;
+ 	nif:beginIndex 	 "64"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "95"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_core_organization_and_roles_80>.
+ 
+<http:/www.list.lu/document3#char=0,378>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"378"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/A03.txt>;
+ 	nif:isString 	"While a project is active, its project organization is continually adapted to meet the needs of the project. As it unfolds, other partners may be added to the project organization. The project organization consists of different roles which regulate the tasks, the authority, and the responsibilities of those involved in the project. Every role has a detailed role description.
+"^^xsd:string .
+ 
+kr:involved
+ 	a rdf:Property;
+ 	rdfs:label "involved". 
+<http://www.list.lu/document3#Ollie/Subject_51>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,378>; 
+ 	nif:anchorOf 	 "those"^^xsd:string ;
+ 	nif:beginIndex 	 "303"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "308"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/those_51>;
+ 	kr: involved <http://www.list.lu/document3#Ollie/Object_52>. 
+
+<http://www.list.lu/document3#Ollie/Object_52>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,378>; 
+ 	nif:anchorOf 	 "318"^^xsd:string ;
+ 	nif:beginIndex 	 "318"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "332"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/in_the_project_52>.
+ 
+kr:consists
+ 	a rdf:Property;
+ 	rdfs:label "consists". 
+<http://www.list.lu/document3#Ollie/Subject_45>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,378>; 
+ 	nif:anchorOf 	 "the project organization"^^xsd:string ;
+ 	nif:beginIndex 	 "155"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "179"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_project_organization_45>;
+ 	kr: consists <http://www.list.lu/document3#Ollie/Object_46>. 
+
+<http://www.list.lu/document3#Ollie/Object_46>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,378>; 
+ 	nif:anchorOf 	 "215"^^xsd:string ;
+ 	nif:beginIndex 	 "215"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "233"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/of_different_roles_46>.
+ 
+kr:regulate
+ 	a rdf:Property;
+ 	rdfs:label "regulate". 
+<http://www.list.lu/document3#Ollie/Subject_47>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,378>; 
+ 	nif:anchorOf 	 "different roles"^^xsd:string ;
+ 	nif:beginIndex 	 "218"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "233"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/different_roles_47>;
+ 	kr: regulate <http://www.list.lu/document3#Ollie/Object_48>. 
+
+<http://www.list.lu/document3#Ollie/Object_48>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,378>; 
+ 	nif:anchorOf 	 "249"^^xsd:string ;
+ 	nif:beginIndex 	 "249"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "308"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_tasks,_the_authority,_and_the_responsibilities_of_those_48>.
+ 
+kr:unfolds
+ 	a rdf:Property;
+ 	rdfs:label "unfolds". 
+<http://www.list.lu/document3#Ollie/Subject_53>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,378>; 
+ 	nif:anchorOf 	 "it"^^xsd:string ;
+ 	nif:beginIndex 	 "27"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "29"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/it_53>;
+ 	kr: unfolds <http://www.list.lu/document3#Ollie/Object_54>. 
+
+<http://www.list.lu/document3#Ollie/Object_54>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,378>; 
+ 	nif:anchorOf 	 "0"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/_54>.
+ 
+kr:to_meet
+ 	a rdf:Property;
+ 	rdfs:label "to meet". 
+<http://www.list.lu/document3#Ollie/Subject_49>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,378>; 
+ 	nif:anchorOf 	 "its project organization"^^xsd:string ;
+ 	nif:beginIndex 	 "27"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "51"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/its_project_organization_49>;
+ 	kr: to_meet <http://www.list.lu/document3#Ollie/Object_50>. 
+
+<http://www.list.lu/document3#Ollie/Object_50>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,378>; 
+ 	nif:anchorOf 	 "83"^^xsd:string ;
+ 	nif:beginIndex 	 "83"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "107"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_needs_of_the_project_50>.
+ 
+kr:may_be_added
+ 	a rdf:Property;
+ 	rdfs:label "may be added". 
+<http://www.list.lu/document3#Ollie/Subject_57>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,378>; 
+ 	nif:anchorOf 	 "other partners"^^xsd:string ;
+ 	nif:beginIndex 	 "124"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "138"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/other_partners_57>;
+ 	kr: may_be_added <http://www.list.lu/document3#Ollie/Object_58>. 
+
+<http://www.list.lu/document3#Ollie/Object_58>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,378>; 
+ 	nif:anchorOf 	 "152"^^xsd:string ;
+ 	nif:beginIndex 	 "152"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "179"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/to_the_project_organization_58>.
+ 
+kr:has
+ 	a rdf:Property;
+ 	rdfs:label "has". 
+<http://www.list.lu/document3#Ollie/Subject_55>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,378>; 
+ 	nif:anchorOf 	 "Every role"^^xsd:string ;
+ 	nif:beginIndex 	 "334"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "344"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Every_role_55>;
+ 	kr: has <http://www.list.lu/document3#Ollie/Object_56>. 
+
+<http://www.list.lu/document3#Ollie/Object_56>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,378>; 
+ 	nif:anchorOf 	 "349"^^xsd:string ;
+ 	nif:beginIndex 	 "349"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "376"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_detailed_role_description_56>.
+ 
+kr:is
+ 	a rdf:Property;
+ 	rdfs:label "is". 
+<http://www.list.lu/document3#Ollie/Subject_43>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,378>; 
+ 	nif:anchorOf 	 "a project"^^xsd:string ;
+ 	nif:beginIndex 	 "6"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "15"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_project_43>;
+ 	kr: is <http://www.list.lu/document3#Ollie/Object_44>. 
+
+<http://www.list.lu/document3#Ollie/Object_44>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,378>; 
+ 	nif:anchorOf 	 "19"^^xsd:string ;
+ 	nif:beginIndex 	 "19"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "25"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/active_44>.
+ 
+kr:is_continually_adapted
+ 	a rdf:Property;
+ 	rdfs:label "is continually adapted". 
+<http://www.list.lu/document3#Ollie/Subject_59>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,378>; 
+ 	nif:anchorOf 	 "its project organization"^^xsd:string ;
+ 	nif:beginIndex 	 "27"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "51"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/its_project_organization_59>;
+ 	kr: is_continually_adapted <http://www.list.lu/document3#Ollie/Object_60>. 
+
+<http://www.list.lu/document3#Ollie/Object_60>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document3#char=0,378>; 
+ 	nif:anchorOf 	 "75"^^xsd:string ;
+ 	nif:beginIndex 	 "75"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "107"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/to_meet_the_needs_of_the_project_60>.
+ 
+<http:/www.list.lu/document4#char=0,317>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"317"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/A04.txt>;
+ 	nif:isString 	"Every project must have a project sponsor, a project manager, and a specialist. Other roles are assigned depending on the requirements of the project.
+The three partners, namely the users, the developers, and the operators, are represented in the project organization. Every role is assigned to one or more partners.
+"^^xsd:string .
+ 
+<http://www.list.lu/document4#Ollie/Subject_27>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,317>; 
+ 	nif:anchorOf 	 "The three partners"^^xsd:string ;
+ 	nif:beginIndex 	 "151"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "169"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_three_partners_27>;
+ 	kr: are_represented <http://www.list.lu/document4#Ollie/Object_28>. 
+
+<http://www.list.lu/document4#Ollie/Object_28>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,317>; 
+ 	nif:anchorOf 	 "240"^^xsd:string ;
+ 	nif:beginIndex 	 "240"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "267"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/in_the_project_organization_28>.
+ 
+kr:are_assigned
+ 	a rdf:Property;
+ 	rdfs:label "are assigned". 
+<http://www.list.lu/document4#Ollie/Subject_29>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,317>; 
+ 	nif:anchorOf 	 "Other roles"^^xsd:string ;
+ 	nif:beginIndex 	 "80"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "91"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Other_roles_29>;
+ 	kr: are_assigned <http://www.list.lu/document4#Ollie/Object_30>. 
+
+<http://www.list.lu/document4#Ollie/Object_30>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,317>; 
+ 	nif:anchorOf 	 "0"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/_30>.
+ 
+<http://www.list.lu/document4#Ollie/Subject_25>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,317>; 
+ 	nif:anchorOf 	 "Every role"^^xsd:string ;
+ 	nif:beginIndex 	 "269"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "279"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Every_role_25>;
+ 	kr: is_assigned <http://www.list.lu/document4#Ollie/Object_26>. 
+
+<http://www.list.lu/document4#Ollie/Object_26>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,317>; 
+ 	nif:anchorOf 	 "292"^^xsd:string ;
+ 	nif:beginIndex 	 "292"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "315"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/to_one_or_more_partners_26>.
+ 
+kr:must_have
+ 	a rdf:Property;
+ 	rdfs:label "must have". 
+<http://www.list.lu/document4#Ollie/Subject_31>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,317>; 
+ 	nif:anchorOf 	 "Every project"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "13"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Every_project_31>;
+ 	kr: must_have <http://www.list.lu/document4#Ollie/Object_32>. 
+
+<http://www.list.lu/document4#Ollie/Object_32>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document4#char=0,317>; 
+ 	nif:anchorOf 	 "24"^^xsd:string ;
+ 	nif:beginIndex 	 "24"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "78"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_project_sponsor,_a_project_manager,_and_a_specialist_32>.
+ 
+<http:/www.list.lu/document5#char=0,273>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"273"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/A05.txt>;
+ 	nif:isString 	"Specialists assume several different roles, not all of which are part of the general organizational chart. The three partners, namely the users, the developers, and the operators, are represented in the project organization.Every role is assigned to one or more partners.
+
+"^^xsd:string .
+ 
+kr:are_represented
+ 	a rdf:Property;
+ 	rdfs:label "are represented". 
+<http://www.list.lu/document5#Ollie/Subject_3>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,273>; 
+ 	nif:anchorOf 	 "several different roles, not all of which are part of the general organizational chart. The three partners, namely the users, the developers, and the operators"^^xsd:string ;
+ 	nif:beginIndex 	 "19"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "178"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/several_different_roles,_not_all_of_which_are_part_of_the_general_organizational_chart._The_three_partners,_namely_the_users,_the_developers,_and_the_operators_3>;
+ 	kr: are_represented <http://www.list.lu/document5#Ollie/Object_4>. 
+
+<http://www.list.lu/document5#Ollie/Object_4>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,273>; 
+ 	nif:anchorOf 	 "196"^^xsd:string ;
+ 	nif:beginIndex 	 "196"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "223"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/in_the_project_organization_4>.
+ 
+kr:are
+ 	a rdf:Property;
+ 	rdfs:label "are". 
+<http://www.list.lu/document5#Ollie/Subject_1>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,273>; 
+ 	nif:anchorOf 	 "several different roles"^^xsd:string ;
+ 	nif:beginIndex 	 "19"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "42"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/several_different_roles_1>;
+ 	kr: are <http://www.list.lu/document5#Ollie/Object_2>. 
+
+<http://www.list.lu/document5#Ollie/Object_2>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,273>; 
+ 	nif:anchorOf 	 "65"^^xsd:string ;
+ 	nif:beginIndex 	 "65"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "105"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/part_of_the_general_organizational_chart_2>.
+ 
+kr:are_part_of
+ 	a rdf:Property;
+ 	rdfs:label "are part of". 
+<http://www.list.lu/document5#Ollie/Subject_9>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,273>; 
+ 	nif:anchorOf 	 "which"^^xsd:string ;
+ 	nif:beginIndex 	 "55"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "60"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/which_9>;
+ 	kr: are_part_of <http://www.list.lu/document5#Ollie/Object_10>. 
+
+<http://www.list.lu/document5#Ollie/Object_10>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,273>; 
+ 	nif:anchorOf 	 "73"^^xsd:string ;
+ 	nif:beginIndex 	 "73"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "105"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_general_organizational_chart_10>.
+ 
+kr:is_assigned
+ 	a rdf:Property;
+ 	rdfs:label "is assigned". 
+<http://www.list.lu/document5#Ollie/Subject_7>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,273>; 
+ 	nif:anchorOf 	 "Every role"^^xsd:string ;
+ 	nif:beginIndex 	 "224"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "234"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Every_role_7>;
+ 	kr: is_assigned <http://www.list.lu/document5#Ollie/Object_8>. 
+
+<http://www.list.lu/document5#Ollie/Object_8>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,273>; 
+ 	nif:anchorOf 	 "247"^^xsd:string ;
+ 	nif:beginIndex 	 "247"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "270"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/to_one_or_more_partners_8>.
+ 
+kr:assume
+ 	a rdf:Property;
+ 	rdfs:label "assume". 
+<http://www.list.lu/document5#Ollie/Subject_5>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,273>; 
+ 	nif:anchorOf 	 "Specialists"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "11"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Specialists_5>;
+ 	kr: assume <http://www.list.lu/document5#Ollie/Object_6>. 
+
+<http://www.list.lu/document5#Ollie/Object_6>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document5#char=0,273>; 
+ 	nif:anchorOf 	 "0"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/_6>.
+ 
+<http:/www.list.lu/document7#char=0,295>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"295"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/F09.txt>;
+ 	nif:isString 	"The roles are assigned to people based on the requirements of the project. Criteria include the experience required, the capacity needed, as well as the availability of prospective role holders. The final project organization and the role assignment are recorded in the project management plan.
+"^^xsd:string .
+ 
+kr:needed
+ 	a rdf:Property;
+ 	rdfs:label "needed". 
+<http://www.list.lu/document7#Ollie/Subject_41>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,295>; 
+ 	nif:anchorOf 	 "the experience required"^^xsd:string ;
+ 	nif:beginIndex 	 "92"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "115"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_experience_required_41>;
+ 	kr: needed <http://www.list.lu/document7#Ollie/Object_42>. 
+
+<http://www.list.lu/document7#Ollie/Object_42>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,295>; 
+ 	nif:anchorOf 	 "117"^^xsd:string ;
+ 	nif:beginIndex 	 "117"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "129"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_capacity_42>.
+ 
+kr:include
+ 	a rdf:Property;
+ 	rdfs:label "include". 
+<http://www.list.lu/document7#Ollie/Subject_37>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,295>; 
+ 	nif:anchorOf 	 "Criteria"^^xsd:string ;
+ 	nif:beginIndex 	 "75"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "83"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Criteria_37>;
+ 	kr: include <http://www.list.lu/document7#Ollie/Object_38>. 
+
+<http://www.list.lu/document7#Ollie/Object_38>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,295>; 
+ 	nif:anchorOf 	 "92"^^xsd:string ;
+ 	nif:beginIndex 	 "92"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "136"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_experience_required,_the_capacity_needed_38>.
+ 
+kr:are_recorded
+ 	a rdf:Property;
+ 	rdfs:label "are recorded". 
+<http://www.list.lu/document7#Ollie/Subject_33>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,295>; 
+ 	nif:anchorOf 	 "the availability of prospective role holders"^^xsd:string ;
+ 	nif:beginIndex 	 "149"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "193"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_availability_of_prospective_role_holders_33>;
+ 	kr: are_recorded <http://www.list.lu/document7#Ollie/Object_34>. 
+
+<http://www.list.lu/document7#Ollie/Object_34>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,295>; 
+ 	nif:anchorOf 	 "263"^^xsd:string ;
+ 	nif:beginIndex 	 "263"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "293"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/in_the_project_management_plan_34>.
+ 
+kr:based
+ 	a rdf:Property;
+ 	rdfs:label "based". 
+<http://www.list.lu/document7#Ollie/Subject_35>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,295>; 
+ 	nif:anchorOf 	 "people"^^xsd:string ;
+ 	nif:beginIndex 	 "26"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "32"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/people_35>;
+ 	kr: based <http://www.list.lu/document7#Ollie/Object_36>. 
+
+<http://www.list.lu/document7#Ollie/Object_36>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,295>; 
+ 	nif:anchorOf 	 "39"^^xsd:string ;
+ 	nif:beginIndex 	 "39"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "73"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/on_the_requirements_of_the_project_36>.
+ 
+kr:are_assigned
+ 	a rdf:Property;
+ 	rdfs:label "are assigned". 
+<http://www.list.lu/document7#Ollie/Subject_39>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,295>; 
+ 	nif:anchorOf 	 "The roles"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "9"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_roles_39>;
+ 	kr: are_assigned <http://www.list.lu/document7#Ollie/Object_40>. 
+
+<http://www.list.lu/document7#Ollie/Object_40>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document7#char=0,295>; 
+ 	nif:anchorOf 	 "23"^^xsd:string ;
+ 	nif:beginIndex 	 "23"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "32"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/to_people_40>.
+ 
+<http:/www.list.lu/document2#char=0,297>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"297"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/A02.txt>;
+ 	nif:isString 	" The core organization is the organization the project sponsor and the users belong to. This is where the project is embedded. It is a legal entity which determines strategies and requirements for projects. The core organization provides the necessary resources human, financial  for the project.
+"^^xsd:string .
+ 
+kr:determines
+ 	a rdf:Property;
+ 	rdfs:label "determines". 
+<http://www.list.lu/document2#Ollie/Subject_65>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,297>; 
+ 	nif:anchorOf 	 "a legal entity"^^xsd:string ;
+ 	nif:beginIndex 	 "133"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "147"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_legal_entity_65>;
+ 	kr: determines <http://www.list.lu/document2#Ollie/Object_66>. 
+
+<http://www.list.lu/document2#Ollie/Object_66>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,297>; 
+ 	nif:anchorOf 	 "165"^^xsd:string ;
+ 	nif:beginIndex 	 "165"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "205"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/strategies_and_requirements_for_projects_66>.
+ 
+kr:is_embedded
+ 	a rdf:Property;
+ 	rdfs:label "is embedded". 
+<http://www.list.lu/document2#Ollie/Subject_63>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,297>; 
+ 	nif:anchorOf 	 "the project"^^xsd:string ;
+ 	nif:beginIndex 	 "43"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "54"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_project_63>;
+ 	kr: is_embedded <http://www.list.lu/document2#Ollie/Object_64>. 
+
+<http://www.list.lu/document2#Ollie/Object_64>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,297>; 
+ 	nif:anchorOf 	 "0"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/_64>.
+ 
+kr:belong
+ 	a rdf:Property;
+ 	rdfs:label "belong". 
+<http://www.list.lu/document2#Ollie/Subject_61>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,297>; 
+ 	nif:anchorOf 	 "the organization"^^xsd:string ;
+ 	nif:beginIndex 	 "26"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "42"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_organization_61>;
+ 	kr: belong <http://www.list.lu/document2#Ollie/Object_62>. 
+
+<http://www.list.lu/document2#Ollie/Object_62>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,297>; 
+ 	nif:anchorOf 	 "84"^^xsd:string ;
+ 	nif:beginIndex 	 "84"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "86"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/to_62>.
+ 
+<http://www.list.lu/document2#Ollie/Subject_69>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,297>; 
+ 	nif:anchorOf 	 "It"^^xsd:string ;
+ 	nif:beginIndex 	 "127"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "129"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/It_69>;
+ 	kr: is <http://www.list.lu/document2#Ollie/Object_70>. 
+
+<http://www.list.lu/document2#Ollie/Object_70>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,297>; 
+ 	nif:anchorOf 	 "43"^^xsd:string ;
+ 	nif:beginIndex 	 "43"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "295"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_project_sponsor_and_the_users_belong_to._This_is_where_the_project_is_embedded._It_is_a_legal_entity_which_determines_strategies_and_requirements_for_projects._The_core_organization_provides_the_necessary_resources_human,_financial__for_the_project_70>.
+ 
+<http://www.list.lu/document2#Ollie/Subject_73>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,297>; 
+ 	nif:anchorOf 	 "The core organization"^^xsd:string ;
+ 	nif:beginIndex 	 "1"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "22"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_core_organization_73>;
+ 	kr: is <http://www.list.lu/document2#Ollie/Object_74>. 
+
+<http://www.list.lu/document2#Ollie/Object_74>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,297>; 
+ 	nif:anchorOf 	 "26"^^xsd:string ;
+ 	nif:beginIndex 	 "26"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "86"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_organization_the_project_sponsor_and_the_users_belong_to_74>.
+ 
+<http://www.list.lu/document2#Ollie/Subject_71>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,297>; 
+ 	nif:anchorOf 	 "This"^^xsd:string ;
+ 	nif:beginIndex 	 "88"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "92"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/This_71>;
+ 	kr: is <http://www.list.lu/document2#Ollie/Object_72>. 
+
+<http://www.list.lu/document2#Ollie/Object_72>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,297>; 
+ 	nif:anchorOf 	 "96"^^xsd:string ;
+ 	nif:beginIndex 	 "96"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "125"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/where_the_project_is_embedded_72>.
+ 
+kr:provides
+ 	a rdf:Property;
+ 	rdfs:label "provides". 
+<http://www.list.lu/document2#Ollie/Subject_67>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,297>; 
+ 	nif:anchorOf 	 "the project sponsor"^^xsd:string ;
+ 	nif:beginIndex 	 "43"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "62"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_project_sponsor_67>;
+ 	kr: provides <http://www.list.lu/document2#Ollie/Object_68>. 
+
+<http://www.list.lu/document2#Ollie/Object_68>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document2#char=0,297>; 
+ 	nif:anchorOf 	 "238"^^xsd:string ;
+ 	nif:beginIndex 	 "238"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "261"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_necessary_resources_68>.
+ 
+<http:/www.list.lu/document6#char=0,216>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"216"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/F01.txt>;
+ 	nif:isString 	"The user is a person who utilizes the product or IT system to handle business processes. Users are responsible for defining requirements, and they test and decide on the acceptance of the product system in question.
+"^^xsd:string .
+ 
+kr:is
+ 	a rdf:Property;
+ 	rdfs:label "is". 
+<http://www.list.lu/document6#Ollie/Subject_21>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,216>; 
+ 	nif:anchorOf 	 "The user"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "8"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/The_user_21>;
+ 	kr: is <http://www.list.lu/document6#Ollie/Object_22>. 
+
+<http://www.list.lu/document6#Ollie/Object_22>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,216>; 
+ 	nif:anchorOf 	 "12"^^xsd:string ;
+ 	nif:beginIndex 	 "12"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "58"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_person_who_utilizes_the_product_or_IT_system_22>.
+ 
+kr:are
+ 	a rdf:Property;
+ 	rdfs:label "are". 
+<http://www.list.lu/document6#Ollie/Subject_19>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,216>; 
+ 	nif:anchorOf 	 "Users"^^xsd:string ;
+ 	nif:beginIndex 	 "89"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "94"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Users_19>;
+ 	kr: are <http://www.list.lu/document6#Ollie/Object_20>. 
+
+<http://www.list.lu/document6#Ollie/Object_20>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,216>; 
+ 	nif:anchorOf 	 "99"^^xsd:string ;
+ 	nif:beginIndex 	 "99"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "136"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/responsible_for_defining_requirements_20>.
+ 
+kr:decide
+ 	a rdf:Property;
+ 	rdfs:label "decide". 
+<http://www.list.lu/document6#Ollie/Subject_17>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,216>; 
+ 	nif:anchorOf 	 "they"^^xsd:string ;
+ 	nif:beginIndex 	 "142"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "146"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/they_17>;
+ 	kr: decide <http://www.list.lu/document6#Ollie/Object_18>. 
+
+<http://www.list.lu/document6#Ollie/Object_18>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,216>; 
+ 	nif:anchorOf 	 "163"^^xsd:string ;
+ 	nif:beginIndex 	 "163"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "214"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/on_the_acceptance_of_the_product_system_in_question_18>.
+ 
+kr:utilizes
+ 	a rdf:Property;
+ 	rdfs:label "utilizes". 
+<http://www.list.lu/document6#Ollie/Subject_13>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,216>; 
+ 	nif:anchorOf 	 "a person"^^xsd:string ;
+ 	nif:beginIndex 	 "12"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "20"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_person_13>;
+ 	kr: utilizes <http://www.list.lu/document6#Ollie/Object_14>. 
+
+<http://www.list.lu/document6#Ollie/Object_14>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,216>; 
+ 	nif:anchorOf 	 "-1"^^xsd:string ;
+ 	nif:beginIndex 	 "-1"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "51"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/the_product_or_IT_systemto_handle_business_processes_14>.
+ 
+kr:for_defining
+ 	a rdf:Property;
+ 	rdfs:label "for defining". 
+<http://www.list.lu/document6#Ollie/Subject_23>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,216>; 
+ 	nif:anchorOf 	 "Users"^^xsd:string ;
+ 	nif:beginIndex 	 "89"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "94"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Users_23>;
+ 	kr: for_defining <http://www.list.lu/document6#Ollie/Object_24>. 
+
+<http://www.list.lu/document6#Ollie/Object_24>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,216>; 
+ 	nif:anchorOf 	 "124"^^xsd:string ;
+ 	nif:beginIndex 	 "124"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "136"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/requirements_24>.
+ 
+kr:utilizes_the_product_or_IT_system_to_handle
+ 	a rdf:Property;
+ 	rdfs:label "utilizes the product or IT system to handle". 
+<http://www.list.lu/document6#Ollie/Subject_15>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,216>; 
+ 	nif:anchorOf 	 "a person"^^xsd:string ;
+ 	nif:beginIndex 	 "12"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "20"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/a_person_15>;
+ 	kr: utilizes_the_product_or_IT_system_to_handle <http://www.list.lu/document6#Ollie/Object_16>. 
+
+<http://www.list.lu/document6#Ollie/Object_16>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,216>; 
+ 	nif:anchorOf 	 "69"^^xsd:string ;
+ 	nif:beginIndex 	 "69"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "87"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/business_processes_16>.
+ 
+kr:test
+ 	a rdf:Property;
+ 	rdfs:label "test". 
+<http://www.list.lu/document6#Ollie/Subject_11>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,216>; 
+ 	nif:anchorOf 	 "they"^^xsd:string ;
+ 	nif:beginIndex 	 "142"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "146"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/they_11>;
+ 	kr: test <http://www.list.lu/document6#Ollie/Object_12>. 
+
+<http://www.list.lu/document6#Ollie/Object_12>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document6#char=0,216>; 
+ 	nif:anchorOf 	 "0"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/_12>.
+ 
+

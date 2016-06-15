@@ -13,7 +13,7 @@ import lu.list.hermes.models.*;
 public interface RelationExtractor {
    
 	
-     public ArrayList<Relation>  generateSPOFromDocument (Document docc, String language);
+      public  ArrayList<Relation>  generateSPOFromDocument (Document docc, String language);
      public void extractRelationsCorpus (int idcorpus);
      public void extractRelationsDocument (Document document);
 

@@ -31,6 +31,16 @@ public class LaunchWithOpenie {
 		} 
 					
 		}
+		if (idc == 0)
+		{
+			try {
+				idc= cc.addCorpus(corpuspath, "corpusdomain");
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} 
+		}
+		
 		}
 		else {
 			try {
@@ -43,15 +53,6 @@ public class LaunchWithOpenie {
 			
 		}
 
-		if (idc == 0)
-		{
-			try {
-				idc= cc.addCorpus(corpuspath, "corpusdomain");
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} 
-		}
 		
    //OpenIE
 		OpenieExtractor openie = new OpenieExtractor();
@@ -62,9 +63,9 @@ public class LaunchWithOpenie {
 		ConnectionAnnotRelation connectar = new ConnectionAnnotRelation();
 
 		try {
-			nifGenerator.nifRelationCorpus(idc, "OllieNif", "NifOllie");
-			nifGenerator.generateNifCorpusAnnotator(idc, "KodaNif", "NifKoda", "Koda");
-			connectar.writeRelationfile(idc, "OllieNif", "OllieNif", "corpusdomain");
+			nifGenerator.nifRelationCorpus(idc, "KodaAndOpenie", "NifOllie");
+			nifGenerator.generateNifCorpusAnnotator(idc, "KodaAndOpenie", "NifKoda", "Koda");
+			connectar.writeRelationfile(idc, "KodaAndOpenie", "KodaAndOpenie", "corpusdomain");
 
 			
 		} catch (FileNotFoundException e) {

@@ -1,0 +1,12 @@
+@prefix kr:  <http://www.list.lu/kr#>. 
+ 
+<http://dbpedia.org/resource/Role>	kr:include	 <http://dbpedia.org/resource/Criteria_(band)>.
+<http://dbpedia.org/resource/Role>	kr:include	 <http://dbpedia.org/resource/Criteria_(band)>.
+<http://dbpedia.org/resource/Role>	kr:include	 <http://dbpedia.org/resource/Criteria_(band)>.
+<http://dbpedia.org/resource/Role>	kr:include	 <http://dbpedia.org/resource/Criteria_(band)>.
+<http://dbpedia.org/ontology/Person>	kr:to_handle	 <http://dbpedia.org/resource/Business_process>.
+<http://dbpedia.org/resource/Experience>	kr:include	 <http://dbpedia.org/resource/Criteria_(band)>.
+<http://dbpedia.org/resource/Availability>	kr:include	 <http://dbpedia.org/resource/Criteria_(band)>.
+<http://dbpedia.org/resource/Role>	kr:include	 <http://dbpedia.org/resource/Criteria_(band)>.
+<http://dbpedia.org/resource/Role>	kr:include	 <http://dbpedia.org/resource/Criteria_(band)>.
+

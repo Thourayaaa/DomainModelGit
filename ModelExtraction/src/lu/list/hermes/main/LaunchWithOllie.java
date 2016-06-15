@@ -31,6 +31,16 @@ public class LaunchWithOllie {
 		} 
 					
 		}
+		if (idc == 0)
+		{
+			try {
+				idc= cc.addCorpus(corpuspath, "corpusdomain");
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} 
+		}
+		
 		}
 		else {
 			try {
@@ -43,18 +53,9 @@ public class LaunchWithOllie {
 			
 		}
 
-		if (idc == 0)
-		{
-			try {
-				idc= cc.addCorpus(corpuspath, "corpusdomain");
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} 
-		}
 		
    //Ollie 
-		OllieExtractor ollie = new OllieExtractor("engmalt.linear-1.7.mco");
+		OllieExtractor ollie = new OllieExtractor();
 		ollie.extractRelationsCorpus(idc);
 		KodaExtractor kextractor = new KodaExtractor("http://smartdocs.list.lu/kodaweb/rest/koda-1.0/annotate?ontology=","DBPEDIA_EN_EN");
 		kextractor.AnnoteCorpus(idc);
@@ -62,9 +63,9 @@ public class LaunchWithOllie {
 		ConnectionAnnotRelation connectar = new ConnectionAnnotRelation();
 
 		try {
-			nifGenerator.nifRelationCorpus(idc, "OllieNif", "NifOllie");
-			nifGenerator.generateNifCorpusAnnotator(idc, "KodaNif", "NifKoda", "Koda");
-			connectar.writeRelationfile(idc, "OllieNif", "OllieNif", "corpusdomain");
+			nifGenerator.nifRelationCorpus(idc, "KodaAndOllie", "NifOllie");
+			nifGenerator.generateNifCorpusAnnotator(idc, "KodaAndOllie", "NifKoda", "Koda");
+			connectar.writeRelationfile(idc, "KodaAndOllie", "KodaAndOllie", "corpusdomain");
 
 			
 		} catch (FileNotFoundException e) {

@@ -1,0 +1,144 @@
+@prefix owl:  <http://www.w3.org/2002/07/owl#>.
+@prefix kr:  <http://www.list.lu/kr#>. 
+ 
+<http://www.list.lu/kr/document1#koda/47> 	 owl:sameAs 	 <http://www.list.lu/kr/document4#ollie/Subject_22>. 
+<http://www.list.lu/kr/document1#koda/21> 	 owl:sameAs 	 <http://www.list.lu/kr/document4#ollie/Object_22>. 
+<http://dbpedia.org/ontology/Project>	kr:_must_have	 <http://dbpedia.org/resource/Executive_sponsor>. 
+ 
+<http://www.list.lu/kr/document1#koda/48> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Subject_12>. 
+<http://www.list.lu/kr/document1#koda/34> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Object_12>. 
+<http://dbpedia.org/resource/Organization>	kr:_is	 <http://dbpedia.org/resource/Organization>. 
+ 
+<http://www.list.lu/kr/document1#koda/48> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_24>. 
+<http://www.list.lu/kr/document1#koda/2> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_24>. 
+<http://dbpedia.org/resource/Organization>	kr:_is_assigned	 <http://dbpedia.org/ontology/Project>. 
+ 
+<http://www.list.lu/kr/document1#koda/48> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_24>. 
+<http://www.list.lu/kr/document1#koda/9> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_24>. 
+<http://dbpedia.org/resource/Organization>	kr:_is_assigned	 <http://dbpedia.org/ontology/Project>. 
+ 
+<http://www.list.lu/kr/document1#koda/48> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_24>. 
+<http://www.list.lu/kr/document1#koda/18> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_24>. 
+<http://dbpedia.org/resource/Organization>	kr:_is_assigned	 <http://dbpedia.org/ontology/Project>. 
+ 
+<http://www.list.lu/kr/document1#koda/48> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_24>. 
+<http://www.list.lu/kr/document1#koda/26> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_24>. 
+<http://dbpedia.org/resource/Organization>	kr:_is_assigned	 <http://dbpedia.org/ontology/Project>. 
+ 
+<http://www.list.lu/kr/document1#koda/48> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_24>. 
+<http://www.list.lu/kr/document1#koda/35> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_24>. 
+<http://dbpedia.org/resource/Organization>	kr:_is_assigned	 <http://dbpedia.org/resource/Executive_sponsor>. 
+ 
+<http://www.list.lu/kr/document1#koda/48> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_24>. 
+<http://www.list.lu/kr/document1#koda/38> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_24>. 
+<http://dbpedia.org/resource/Organization>	kr:_is_assigned	 <http://dbpedia.org/resource/Executive_sponsor>. 
+ 
+<http://www.list.lu/kr/document1#koda/48> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_24>. 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_24>. 
+<http://dbpedia.org/resource/Organization>	kr:_is_assigned	 <http://dbpedia.org/resource/Executive_sponsor>. 
+ 
+<http://www.list.lu/kr/document1#koda/48> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_24>. 
+<http://www.list.lu/kr/document1#koda/52> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_24>. 
+<http://dbpedia.org/resource/Organization>	kr:_is_assigned	 <http://dbpedia.org/ontology/Project>. 
+ 
+<http://www.list.lu/kr/document1#koda/48> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_24>. 
+<http://www.list.lu/kr/document1#koda/58> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_24>. 
+<http://dbpedia.org/resource/Organization>	kr:_is_assigned	 <http://dbpedia.org/resource/Project_management_plan>. 
+ 
+<http://www.list.lu/kr/document1#koda/36> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Subject_12>. 
+<http://www.list.lu/kr/document1#koda/34> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Object_12>. 
+<http://dbpedia.org/resource/The_Core>	kr:_is	 <http://dbpedia.org/resource/Organization>. 
+ 
+<http://www.list.lu/kr/document1#koda/41> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Subject_9>. 
+<http://www.list.lu/kr/document1#koda/2> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Object_9>. 
+<http://dbpedia.org/resource/Resource>	kr:_human	 <http://dbpedia.org/ontology/Project>. 
+ 
+<http://www.list.lu/kr/document1#koda/41> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Subject_9>. 
+<http://www.list.lu/kr/document1#koda/9> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Object_9>. 
+<http://dbpedia.org/resource/Resource>	kr:_human	 <http://dbpedia.org/ontology/Project>. 
+ 
+<http://www.list.lu/kr/document1#koda/41> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Subject_9>. 
+<http://www.list.lu/kr/document1#koda/18> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Object_9>. 
+<http://dbpedia.org/resource/Resource>	kr:_human	 <http://dbpedia.org/ontology/Project>. 
+ 
+<http://www.list.lu/kr/document1#koda/41> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Subject_9>. 
+<http://www.list.lu/kr/document1#koda/26> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Object_9>. 
+<http://dbpedia.org/resource/Resource>	kr:_human	 <http://dbpedia.org/ontology/Project>. 
+ 
+<http://www.list.lu/kr/document1#koda/41> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Subject_9>. 
+<http://www.list.lu/kr/document1#koda/35> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Object_9>. 
+<http://dbpedia.org/resource/Resource>	kr:_human	 <http://dbpedia.org/resource/Executive_sponsor>. 
+ 
+<http://www.list.lu/kr/document1#koda/41> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Subject_9>. 
+<http://www.list.lu/kr/document1#koda/38> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Object_9>. 
+<http://dbpedia.org/resource/Resource>	kr:_human	 <http://dbpedia.org/resource/Executive_sponsor>. 
+ 
+<http://www.list.lu/kr/document1#koda/41> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Subject_9>. 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Object_9>. 
+<http://dbpedia.org/resource/Resource>	kr:_human	 <http://dbpedia.org/resource/Executive_sponsor>. 
+ 
+<http://www.list.lu/kr/document1#koda/41> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Subject_9>. 
+<http://www.list.lu/kr/document1#koda/52> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Object_9>. 
+<http://dbpedia.org/resource/Resource>	kr:_human	 <http://dbpedia.org/ontology/Project>. 
+ 
+<http://www.list.lu/kr/document1#koda/41> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Subject_9>. 
+<http://www.list.lu/kr/document1#koda/58> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Object_9>. 
+<http://dbpedia.org/resource/Resource>	kr:_human	 <http://dbpedia.org/resource/Project_management_plan>. 
+ 
+<http://www.list.lu/kr/document1#koda/43> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Subject_12>. 
+<http://www.list.lu/kr/document1#koda/34> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Object_12>. 
+<http://dbpedia.org/resource/The_Core>	kr:_is	 <http://dbpedia.org/resource/Organization>. 
+ 
+<http://www.list.lu/kr/document1#koda/13> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_7>. 
+<http://www.list.lu/kr/document1#koda/58> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_7>. 
+<http://dbpedia.org/resource/Role>	kr:_are_recorded	 <http://dbpedia.org/resource/Project_management_plan>. 
+ 
+<http://www.list.lu/kr/document1#koda/13> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_24>. 
+<http://www.list.lu/kr/document1#koda/2> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_24>. 
+<http://dbpedia.org/resource/Role>	kr:_is_assigned	 <http://dbpedia.org/ontology/Project>. 
+ 
+<http://www.list.lu/kr/document1#koda/13> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_24>. 
+<http://www.list.lu/kr/document1#koda/9> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_24>. 
+<http://dbpedia.org/resource/Role>	kr:_is_assigned	 <http://dbpedia.org/ontology/Project>. 
+ 
+<http://www.list.lu/kr/document1#koda/13> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_24>. 
+<http://www.list.lu/kr/document1#koda/18> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_24>. 
+<http://dbpedia.org/resource/Role>	kr:_is_assigned	 <http://dbpedia.org/ontology/Project>. 
+ 
+<http://www.list.lu/kr/document1#koda/13> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_24>. 
+<http://www.list.lu/kr/document1#koda/26> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_24>. 
+<http://dbpedia.org/resource/Role>	kr:_is_assigned	 <http://dbpedia.org/ontology/Project>. 
+ 
+<http://www.list.lu/kr/document1#koda/13> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_24>. 
+<http://www.list.lu/kr/document1#koda/35> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_24>. 
+<http://dbpedia.org/resource/Role>	kr:_is_assigned	 <http://dbpedia.org/resource/Executive_sponsor>. 
+ 
+<http://www.list.lu/kr/document1#koda/13> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_24>. 
+<http://www.list.lu/kr/document1#koda/38> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_24>. 
+<http://dbpedia.org/resource/Role>	kr:_is_assigned	 <http://dbpedia.org/resource/Executive_sponsor>. 
+ 
+<http://www.list.lu/kr/document1#koda/13> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_24>. 
+<http://www.list.lu/kr/document1#koda/42> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_24>. 
+<http://dbpedia.org/resource/Role>	kr:_is_assigned	 <http://dbpedia.org/resource/Executive_sponsor>. 
+ 
+<http://www.list.lu/kr/document1#koda/13> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_24>. 
+<http://www.list.lu/kr/document1#koda/52> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_24>. 
+<http://dbpedia.org/resource/Role>	kr:_is_assigned	 <http://dbpedia.org/ontology/Project>. 
+ 
+<http://www.list.lu/kr/document1#koda/13> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Subject_24>. 
+<http://www.list.lu/kr/document1#koda/58> 	 owl:sameAs 	 <http://www.list.lu/kr/document5#ollie/Object_24>. 
+<http://dbpedia.org/resource/Role>	kr:_is_assigned	 <http://dbpedia.org/resource/Project_management_plan>. 
+ 
+<http://www.list.lu/kr/document1#koda/65> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Subject_13>. 
+<http://www.list.lu/kr/document1#koda/39> 	 owl:sameAs 	 <http://www.list.lu/kr/document2#ollie/Object_13>. 
+<http://dbpedia.org/resource/Requirement>	kr:_determines	 <http://dbpedia.org/resource/Legal_personality>. 
+ 
+<http://www.list.lu/kr/document1#koda/55> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_7>. 
+<http://www.list.lu/kr/document1#koda/58> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_7>. 
+<http://dbpedia.org/resource/Experience>	kr:_are_recorded	 <http://dbpedia.org/resource/Project_management_plan>. 
+ 
+<http://www.list.lu/kr/document1#koda/56> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Subject_7>. 
+<http://www.list.lu/kr/document1#koda/58> 	 owl:sameAs 	 <http://www.list.lu/kr/document7#ollie/Object_7>. 
+<http://dbpedia.org/resource/Availability>	kr:_are_recorded	 <http://dbpedia.org/resource/Project_management_plan>. 
+ 
+

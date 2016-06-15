@@ -1,0 +1,607 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+<http:/www.list.lu/document4#char=0,317>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"317"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/A04.txt>;
+ 	nif:isString 	"Every project must have a project sponsor, a project manager, and a specialist. Other roles are assigned depending on the requirements of the project.
+The three partners, namely the users, the developers, and the operators, are represented in the project organization. Every role is assigned to one or more partners.
+"^^xsd:string .
+ 
+<http://www.list.lu/document4#Koda/41>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "Other"^^xsd:string ;
+ 	nif:beginIndex 	 "80"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "80"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Other>.
+ 
+<http://www.list.lu/document4#Koda/43>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "The three"^^xsd:string ;
+ 	nif:beginIndex 	 "151"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "151"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/David's_Mighty_Warriors>.
+ 
+<http://www.list.lu/document4#Koda/36>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "a project manager"^^xsd:string ;
+ 	nif:beginIndex 	 "43"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "43"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Project_manager>.
+ 
+<http://www.list.lu/document4#Koda/40>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "the project"^^xsd:string ;
+ 	nif:beginIndex 	 "138"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "138"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document4#Koda/39>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "the requirements"^^xsd:string ;
+ 	nif:beginIndex 	 "118"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "118"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Requirement>.
+ 
+<http://www.list.lu/document4#Koda/35>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "a project sponsor"^^xsd:string ;
+ 	nif:beginIndex 	 "24"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "24"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Executive_sponsor>.
+ 
+<http://www.list.lu/document4#Koda/38>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "project"^^xsd:string ;
+ 	nif:beginIndex 	 "6"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "6"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document4#Koda/45>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "organization"^^xsd:string ;
+ 	nif:beginIndex 	 "255"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "255"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
+ 
+<http://www.list.lu/document4#Koda/44>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "project"^^xsd:string ;
+ 	nif:beginIndex 	 "6"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "6"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document4#Koda/42>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "roles"^^xsd:string ;
+ 	nif:beginIndex 	 "86"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "86"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
+ 
+<http://www.list.lu/document4#Koda/47>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "role"^^xsd:string ;
+ 	nif:beginIndex 	 "86"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "86"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
+ 
+<http://www.list.lu/document4#Koda/46>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "Every"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Every_(surname)>.
+ 
+<http://www.list.lu/document4#Koda/37>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document4#char=0,317>; 
+ 	nif:anchorOf 	 "Every"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Every_(surname)>.
+ 
+<http:/www.list.lu/document5#char=0,273>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"273"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/A05.txt>;
+ 	nif:isString 	"Specialists assume several different roles, not all of which are part of the general organizational chart. The three partners, namely the users, the developers, and the operators, are represented in the project organization.Every role is assigned to one or more partners.
+
+"^^xsd:string .
+ 
+<http://www.list.lu/document5#Koda/20>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,273>; 
+ 	nif:anchorOf 	 "organizational chart"^^xsd:string ;
+ 	nif:beginIndex 	 "85"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "85"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organizational_chart>.
+ 
+<http://www.list.lu/document5#Koda/21>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,273>; 
+ 	nif:anchorOf 	 "the project"^^xsd:string ;
+ 	nif:beginIndex 	 "199"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "199"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document5#Koda/23>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,273>; 
+ 	nif:anchorOf 	 "role"^^xsd:string ;
+ 	nif:beginIndex 	 "37"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "37"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
+ 
+<http://www.list.lu/document5#Koda/19>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,273>; 
+ 	nif:anchorOf 	 "several different roles"^^xsd:string ;
+ 	nif:beginIndex 	 "19"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "19"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
+ 
+<http://www.list.lu/document5#Koda/22>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,273>; 
+ 	nif:anchorOf 	 "The three"^^xsd:string ;
+ 	nif:beginIndex 	 "107"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "107"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/David's_Mighty_Warriors>.
+ 
+<http://www.list.lu/document5#Koda/18>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document5#char=0,273>; 
+ 	nif:anchorOf 	 "Specialists"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/The_Specialists>.
+ 
+<http:/www.list.lu/document3#char=0,378>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"378"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/A03.txt>;
+ 	nif:isString 	"While a project is active, its project organization is continually adapted to meet the needs of the project. As it unfolds, other partners may be added to the project organization. The project organization consists of different roles which regulate the tasks, the authority, and the responsibilities of those involved in the project. Every role has a detailed role description.
+"^^xsd:string .
+ 
+<http://www.list.lu/document3#Koda/59>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "project"^^xsd:string ;
+ 	nif:beginIndex 	 "8"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "8"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document3#Koda/61>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "different roles"^^xsd:string ;
+ 	nif:beginIndex 	 "218"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "218"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
+ 
+<http://www.list.lu/document3#Koda/63>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "the project"^^xsd:string ;
+ 	nif:beginIndex 	 "96"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "96"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document3#Koda/62>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "the authority"^^xsd:string ;
+ 	nif:beginIndex 	 "260"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "260"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Authority>.
+ 
+<http://www.list.lu/document3#Koda/55>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "a project"^^xsd:string ;
+ 	nif:beginIndex 	 "6"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "6"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document3#Koda/60>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "organization"^^xsd:string ;
+ 	nif:beginIndex 	 "39"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "39"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
+ 
+<http://www.list.lu/document3#Koda/56>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "the project"^^xsd:string ;
+ 	nif:beginIndex 	 "96"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "96"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document3#Koda/66>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "description"^^xsd:string ;
+ 	nif:beginIndex 	 "365"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "365"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Description>.
+ 
+<http://www.list.lu/document3#Koda/65>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "role"^^xsd:string ;
+ 	nif:beginIndex 	 "228"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "228"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
+ 
+<http://www.list.lu/document3#Koda/57>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "project"^^xsd:string ;
+ 	nif:beginIndex 	 "8"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "8"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document3#Koda/64>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "organization"^^xsd:string ;
+ 	nif:beginIndex 	 "39"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "39"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
+ 
+<http://www.list.lu/document3#Koda/68>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "role"^^xsd:string ;
+ 	nif:beginIndex 	 "228"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "228"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
+ 
+<http://www.list.lu/document3#Koda/67>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "Every"^^xsd:string ;
+ 	nif:beginIndex 	 "334"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "334"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Every_(surname)>.
+ 
+<http://www.list.lu/document3#Koda/58>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document3#char=0,378>; 
+ 	nif:anchorOf 	 "organization"^^xsd:string ;
+ 	nif:beginIndex 	 "39"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "39"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
+ 
+<http:/www.list.lu/document7#char=0,295>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"295"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/F09.txt>;
+ 	nif:isString 	"The roles are assigned to people based on the requirements of the project. Criteria include the experience required, the capacity needed, as well as the availability of prospective role holders. The final project organization and the role assignment are recorded in the project management plan.
+"^^xsd:string .
+ 
+<http://www.list.lu/document7#Koda/24>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "the requirements"^^xsd:string ;
+ 	nif:beginIndex 	 "42"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "42"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Requirement>.
+ 
+<http://www.list.lu/document7#Koda/32>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "project"^^xsd:string ;
+ 	nif:beginIndex 	 "66"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "66"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document7#Koda/29>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "the availability"^^xsd:string ;
+ 	nif:beginIndex 	 "149"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "149"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Availability>.
+ 
+<http://www.list.lu/document7#Koda/27>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "Criteria"^^xsd:string ;
+ 	nif:beginIndex 	 "75"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "75"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Criteria_(band)>.
+ 
+<http://www.list.lu/document7#Koda/34>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "role"^^xsd:string ;
+ 	nif:beginIndex 	 "4"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "4"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
+ 
+<http://www.list.lu/document7#Koda/33>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "organization"^^xsd:string ;
+ 	nif:beginIndex 	 "213"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "213"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
+ 
+<http://www.list.lu/document7#Koda/30>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "role"^^xsd:string ;
+ 	nif:beginIndex 	 "4"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "4"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
+ 
+<http://www.list.lu/document7#Koda/31>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "the project management plan"^^xsd:string ;
+ 	nif:beginIndex 	 "266"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "266"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Project_management_plan>.
+ 
+<http://www.list.lu/document7#Koda/26>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "roles"^^xsd:string ;
+ 	nif:beginIndex 	 "4"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "4"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
+ 
+<http://www.list.lu/document7#Koda/25>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "the project"^^xsd:string ;
+ 	nif:beginIndex 	 "62"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "62"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document7#Koda/28>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document7#char=0,295>; 
+ 	nif:anchorOf 	 "the experience"^^xsd:string ;
+ 	nif:beginIndex 	 "92"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "92"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Experience>.
+ 
+<http:/www.list.lu/document2#char=0,297>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"297"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/A02.txt>;
+ 	nif:isString 	" The core organization is the organization the project sponsor and the users belong to. This is where the project is embedded. It is a legal entity which determines strategies and requirements for projects. The core organization provides the necessary resources human, financial  for the project.
+"^^xsd:string .
+ 
+<http://www.list.lu/document2#Koda/11>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "organization"^^xsd:string ;
+ 	nif:beginIndex 	 "10"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "10"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
+ 
+<http://www.list.lu/document2#Koda/6>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "a legal entity"^^xsd:string ;
+ 	nif:beginIndex 	 "133"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "133"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Legal_personality>.
+ 
+<http://www.list.lu/document2#Koda/9>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "the project"^^xsd:string ;
+ 	nif:beginIndex 	 "43"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "43"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Executive_sponsor>.
+ 
+<http://www.list.lu/document2#Koda/5>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "the project"^^xsd:string ;
+ 	nif:beginIndex 	 "43"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "43"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Executive_sponsor>.
+ 
+<http://www.list.lu/document2#Koda/1>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "the organization"^^xsd:string ;
+ 	nif:beginIndex 	 "26"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "26"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
+ 
+<http://www.list.lu/document2#Koda/8>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "the necessary resources"^^xsd:string ;
+ 	nif:beginIndex 	 "238"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "238"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Resource>.
+ 
+<http://www.list.lu/document2#Koda/4>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "organization"^^xsd:string ;
+ 	nif:beginIndex 	 "10"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "10"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
+ 
+<http://www.list.lu/document2#Koda/3>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "The core"^^xsd:string ;
+ 	nif:beginIndex 	 "1"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/The_Core>.
+ 
+<http://www.list.lu/document2#Koda/10>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "The core"^^xsd:string ;
+ 	nif:beginIndex 	 "1"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "1"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/The_Core>.
+ 
+<http://www.list.lu/document2#Koda/7>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "projects"^^xsd:string ;
+ 	nif:beginIndex 	 "197"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "197"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document2#Koda/2>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document2#char=0,297>; 
+ 	nif:anchorOf 	 "the project sponsor"^^xsd:string ;
+ 	nif:beginIndex 	 "43"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "43"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Executive_sponsor>.
+ 
+<http:/www.list.lu/document6#char=0,216>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"216"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/F01.txt>;
+ 	nif:isString 	"The user is a person who utilizes the product or IT system to handle business processes. Users are responsible for defining requirements, and they test and decide on the acceptance of the product system in question.
+"^^xsd:string .
+ 
+<http://www.list.lu/document6#Koda/52>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,216>; 
+ 	nif:anchorOf 	 "the acceptance"^^xsd:string ;
+ 	nif:beginIndex 	 "166"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "166"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Acceptance>.
+ 
+<http://www.list.lu/document6#Koda/54>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,216>; 
+ 	nif:anchorOf 	 "system"^^xsd:string ;
+ 	nif:beginIndex 	 "52"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "52"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/System_of_a_Down>.
+ 
+<http://www.list.lu/document6#Koda/49>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,216>; 
+ 	nif:anchorOf 	 "business processes"^^xsd:string ;
+ 	nif:beginIndex 	 "69"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "69"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Business_process>.
+ 
+<http://www.list.lu/document6#Koda/51>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,216>; 
+ 	nif:anchorOf 	 "requirements"^^xsd:string ;
+ 	nif:beginIndex 	 "124"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "124"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Requirement>.
+ 
+<http://www.list.lu/document6#Koda/50>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,216>; 
+ 	nif:anchorOf 	 "system"^^xsd:string ;
+ 	nif:beginIndex 	 "52"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "52"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/System_of_a_Down>.
+ 
+<http://www.list.lu/document6#Koda/53>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,216>; 
+ 	nif:anchorOf 	 "question"^^xsd:string ;
+ 	nif:beginIndex 	 "206"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "206"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Question!>.
+ 
+<http://www.list.lu/document6#Koda/48>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document6#char=0,216>; 
+ 	nif:anchorOf 	 "a person"^^xsd:string ;
+ 	nif:beginIndex 	 "12"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "12"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Person>.
+ 
+<http:/www.list.lu/document1#char=0,140>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"140"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/HCorpus/A00.txt>;
+ 	nif:isString 	"The role model distinguishes between the roles that are part of the core organization and roles that are part of the project organization. 
+"^^xsd:string .
+ 
+<http://www.list.lu/document1#Koda/14>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,140>; 
+ 	nif:anchorOf 	 "role model"^^xsd:string ;
+ 	nif:beginIndex 	 "4"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "4"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role_model>.
+ 
+<http://www.list.lu/document1#Koda/15>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,140>; 
+ 	nif:anchorOf 	 "project"^^xsd:string ;
+ 	nif:beginIndex 	 "117"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "117"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/ontology/Project>.
+ 
+<http://www.list.lu/document1#Koda/13>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,140>; 
+ 	nif:anchorOf 	 "roles"^^xsd:string ;
+ 	nif:beginIndex 	 "41"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "41"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
+ 
+<http://www.list.lu/document1#Koda/12>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,140>; 
+ 	nif:anchorOf 	 "the roles"^^xsd:string ;
+ 	nif:beginIndex 	 "37"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "37"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Role>.
+ 
+<http://www.list.lu/document1#Koda/17>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,140>; 
+ 	nif:anchorOf 	 "organization"^^xsd:string ;
+ 	nif:beginIndex 	 "73"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "73"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
+ 
+<http://www.list.lu/document1#Koda/16>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,140>; 
+ 	nif:anchorOf 	 "organization"^^xsd:string ;
+ 	nif:beginIndex 	 "73"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "73"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Organization>.
+ 
+

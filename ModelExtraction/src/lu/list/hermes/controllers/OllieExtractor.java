@@ -36,20 +36,24 @@ import edu.knowitall.tool.parse.graph.DependencyGraph;
 public class OllieExtractor implements RelationExtractor {
 	final static Logger logger = Logger.getLogger(OllieExtractor.class);
 
-
+    
 	// the extractor itself
     private Ollie ollie;
     public String language = "english";
+    
 
     // the parser--a step required before the extractor
     private MaltParser maltParser;
+    private static final String MALT_PARSER_FILENAME = "engmalt.linear-1.7.mco";
+
 
     // the path of the malt parser model file
     
-    public OllieExtractor(String Model_mco)  {
+    public OllieExtractor()   {
         // initialize MaltParser
-        maltParser = new MaltParser(new File(Model_mco));
 
+    	 scala.Option<File> nullOption = scala.Option.apply(null);
+         maltParser = new MaltParser(new File(MALT_PARSER_FILENAME));
         // initialize Ollie
         ollie = new Ollie();
     }
@@ -59,7 +63,7 @@ public class OllieExtractor implements RelationExtractor {
      * @param sentence
      * @return the set of ollie extractions
      */
-    public Iterable<OllieExtractionInstance> extract(String sentence) {
+    public  Iterable<OllieExtractionInstance> extract(String sentence) {
         // parse the sentence
         DependencyGraph graph = maltParser.dependencyGraph(sentence);
        
@@ -102,11 +106,12 @@ public class OllieExtractor implements RelationExtractor {
     }
 
 	@Override
-	public ArrayList<Relation> generateSPOFromDocument(Document doc, String language) {
+	public  ArrayList<Relation>  generateSPOFromDocument(Document doc, String language) {
 		// TODO Auto-generated method stub
 		
 		ArrayList<Relation> relations = new ArrayList<Relation>();
-		Iterable<OllieExtractionInstance> extrs = this.extract(doc.getDocText());
+		OllieExtractor oll = new OllieExtractor();
+		Iterable<OllieExtractionInstance> extrs = oll.extract(doc.getDocText());
         for (OllieExtractionInstance inst : extrs) {
         	 OllieExtraction extr = inst.extr();
         	 String subj = cleanollie(extr.arg1().text());
