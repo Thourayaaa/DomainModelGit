@@ -38,7 +38,11 @@ import lu.list.hermes.util.HibernateUtil;
 
 public class AlchemyExtractor implements RelationExtractor {
 	final static Logger logger = Logger.getLogger(AlchemyExtractor.class);
-	 private static String getStringFromDocument(org.w3c.dom.Document doc) {
+	 /** return a String from the input document
+	 * @param doc
+	 * @return
+	 */
+	private static String getStringFromDocument(org.w3c.dom.Document doc) {
 	        try {
 	            DOMSource domSource = new DOMSource(doc);
 	            StringWriter writer = new StringWriter();
@@ -90,11 +94,9 @@ public class AlchemyExtractor implements RelationExtractor {
                           EntityRel entsubj = new EntityRel();
  	                      Node firstnodee = listofnodes.item(j);
 
-                          if (firstnodee.getNodeName() == "object" && !(firstnodee.getTextContent().isEmpty()) &&
-                        		  firstnodee.getNodeName() == "subject" && !(firstnodee.getTextContent().isEmpty())
-                        		  && firstnodee.getNodeName() == "action" && !(firstnodee.getTextContent().isEmpty())){
 	                	  if (firstnodee.getNodeName() == "object")
 	                	  {
+	                		  logger.info("Save the object into the EntityRel table in the database");
 	                		  entobj.setEntitytext(firstnodee.getTextContent()); 
 	                		  entobj.setindexe(docc.getDocText().indexOf(firstnodee.getTextContent()));
 	                		  entobj.setlabel("Object");
@@ -103,6 +105,7 @@ public class AlchemyExtractor implements RelationExtractor {
 	                	  }
 	                	  if (firstnodee.getNodeName() == "subject" )
 	                	  {
+	                		  logger.info("save the subject into the EntityRel table in the database");
 	                		  entsubj.setEntitytext(firstnodee.getTextContent().replaceAll("\\s{2,}", "")); 
 	                		  entsubj.setindexe(docc.getDocText().indexOf(firstnodee.getTextContent().replaceAll("\\s{2,}", "")));
 	                		  entsubj.setlabel("Subject");
@@ -119,11 +122,14 @@ public class AlchemyExtractor implements RelationExtractor {
 	                        for(int k=0; k<childAction.getLength() ; k++) {
 	                        	if (childAction.item(k).getNodeName() == "text")
 	                      	  {
+	                        		logger.info("save the relation found in the text into the relation table in the database");
 	                        		relation.setDocument(docc);
 	                        		relation.setrelation(childAction.item(k).getTextContent());
 	                    	                         }
 	                         	if (childAction.item(k).getNodeName() == "lemmatized")
 	                        	  {
+	                        		logger.info("save the relation extracted by Alchemy into the relation table in the database");
+
 	                         		relation.setrelation(childAction.item(k).getNodeName());
 	                      	                         }
 	                        }
@@ -136,7 +142,7 @@ public class AlchemyExtractor implements RelationExtractor {
 	                		  relations.add(relation);
 	                	              	  }
 	                  } }
-	            }
+	            
 
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -171,6 +177,8 @@ public class AlchemyExtractor implements RelationExtractor {
 		 
 		 for (lu.list.hermes.models.Document doo :dc)
 		 {
+			logger.info("Extract SPO from the document"+doo.getIdDoc());
+			 
 			 extractRelationsDocument(doo); //save SPO into database	 
 		 }
 		
@@ -212,6 +220,7 @@ public class AlchemyExtractor implements RelationExtractor {
 	                    
 	                	  if (firstnodee.getNodeName() == "object")
 	                	  {
+	                		  logger.info("save the object into the EntityRel table in the database ");
 	                		  entobj.setEntitytext(firstnodee.getTextContent().replaceAll("\\s{2,}", "")); 
 	                		  entobj.setindexe(document.getDocText().indexOf(firstnodee.getTextContent().replaceAll("\\s{2,}", "")));
 	                		  entobj.setlabel("Object");
@@ -220,6 +229,8 @@ public class AlchemyExtractor implements RelationExtractor {
 	                	  }
 	                	  if (firstnodee.getNodeName() == "subject" )
 	                	  {
+	                		  logger.info("save the subject into the EntityRel table in the database ");
+
 	                		  entsubj.setEntitytext(firstnodee.getTextContent().replaceAll("\\s{2,}", "")); 
 	                		  entsubj.setindexe(document.getDocText().indexOf(firstnodee.getTextContent().replaceAll("\\s{2,}", "")));
 	                		  entsubj.setlabel("Subject");
@@ -231,18 +242,21 @@ public class AlchemyExtractor implements RelationExtractor {
 	                	  }
 	                	  if (firstnodee.getNodeName() == "action" )
 	                	  {
-	                		NodeList childAction =  firstnodee.getChildNodes();  
+	                		
+	                		  NodeList childAction =  firstnodee.getChildNodes();  
 	                		
 	                        for(int k=0; k<childAction.getLength() ; k++) {
 	                        	if (childAction.item(k).getNodeName() == "text" )
 	                      	  {
+	  	                		  logger.info("save the relation found in the text into the relation table in the database ");
+
 		                        		  relation.setrelationNL(childAction.item(k).getTextContent());
 
 
 	                    	                         }
 	                         	if (childAction.item(k).getNodeName() == "lemmatized")
 	                        	  {
-	                      		  //System.out.print(childAction.item(k).getTextContent()+"**************"+"\n");
+	  	                		  logger.info("save the relation extracted by Alchemy into the relation table in the database ");
 	                         		relation.setrelation(childAction.item(k).getTextContent());
 	                      	                         }
 	                        }

@@ -97,7 +97,6 @@ public class ConnectionAnnotRelation {
 		return ListSubjKoda;
 		
 	}
-	// if an annotation is found , then search if there is a match between object outputs of ollie and annotations
 	
 	
 	
@@ -137,7 +136,13 @@ public class ConnectionAnnotRelation {
 		return Listobj;
 	}
 	
-	// function for the format used to write the relation in a RDF file
+	/** Write the match using owl:SameAs between annotations and the relation extractor outputs(sujbects and objects)
+	 * @param idrel
+	 * @param a1
+	 * @param a2
+	 * @param iddo
+	 * @return
+	 */
 	public String writeRelation (int idrel, Annotation a1,Annotation a2, int iddo) 
 	
 	{
@@ -158,7 +163,6 @@ public class ConnectionAnnotRelation {
 	    return relationdb;
 	}
 	
-	// match is found is the object and the subject, we can write relation between annotations
 
 	
 	/** This class tests if the match is found is the database then write relations between annotations
@@ -205,6 +209,7 @@ public class ConnectionAnnotRelation {
         				//now we are sure we have a relation detected
         				for (int idko: LobjKoda)
         				{   
+        					logger.info("the match is found: write relations between annotations");
         					Annotation a1 = adao.getAnnotationById(idko);
         					RelationDao  rdao = new RelationDao();
         					EntityRelDao entdao = new EntityRelDao();
@@ -231,11 +236,12 @@ public class ConnectionAnnotRelation {
         	 
          }
          
-         PrintWriter out = new PrintWriter(pathrelKodaoll+"/RelationKodaOllie.n3");
+         logger.info("Write the output files");
+         PrintWriter out = new PrintWriter(pathrelKodaoll+"/RelationKodaOllie.html");
          out.println(sbolliekoda.toString());
          out.close();
          
-         PrintWriter out1 = new PrintWriter(pathOnlykoda+"/JustKodaRel.n3");
+         PrintWriter out1 = new PrintWriter(pathOnlykoda+"/JustKodaRel.html");
 	     out1.println(sbkoda.toString());
 	     out1.close();
 

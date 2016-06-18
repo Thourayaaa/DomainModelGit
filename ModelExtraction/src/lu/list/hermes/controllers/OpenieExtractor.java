@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
+import org.apache.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
@@ -27,8 +28,14 @@ import lu.list.hermes.util.HibernateUtil;
 import scala.collection.JavaConversions;
 import scala.collection.Seq;
 
+/** this class implements RelationExtractor class: generates (the subject, relation, object) triplets for a document or a corpus 
+ *  and save it into the database using OpenIE tool
+ * @author thourayabouzidi
+ *
+ */
 public class OpenieExtractor implements RelationExtractor
 {
+	final static Logger logger = Logger.getLogger(OpenieExtractor.class);
 
 		
 	@Override
@@ -40,7 +47,8 @@ public class OpenieExtractor implements RelationExtractor
 		   Seq<Instance> extractions = openIE.extract(doc.getDocText());
 		   List<Instance> list_extractions = JavaConversions.seqAsJavaList(extractions);
 	        for(Instance instance : list_extractions) {
-	        	
+	        	 logger.info("Find subject, object and relation in the ollie outputs");
+
 	        	String subj = instance.extr().arg1().text();
 	        	String rel = instance.extr().rel().text();
 	        	
@@ -51,6 +59,7 @@ public class OpenieExtractor implements RelationExtractor
 	        	 relation.setrelationNL(rel);
 	        	 relation.setDocument(doc);
 	         	 rdao.addRelation(relation);
+
 	         	 // Write the object in a String
 	         	 StringBuilder sb = new StringBuilder();
 	         	List<Part> list_arg2s = JavaConversions.seqAsJavaList(instance.extr().arg2s());
@@ -60,6 +69,7 @@ public class OpenieExtractor implements RelationExtractor
 	        	 sb.append(argument.text());
 	            }
 	            String obj =sb.toString();
+	        	 logger.info("inset the subject,object and relation into the database");
 
 
 	        	 EntityRel entityobj = new EntityRel();    //save object as an entity
@@ -90,12 +100,15 @@ public class OpenieExtractor implements RelationExtractor
 		 session.beginTransaction();
 		 CorpusDao cdao = new CorpusDao();
 		 Corpus c = cdao.getCorpusById(idcorpus);
-		 
+		 logger.info("Extract relations from the whole corpus");
+
 		 Set<lu.list.hermes.models.Document> dc = c.getDocuments();
 		 
 		 
 		 for (lu.list.hermes.models.Document doo :dc)
-		 {
+		 { 
+			 logger.info("extract relations from the document"+doo.getIdDoc());
+
 			 extractRelationsDocument(doo); //save SPO into database	 
 		 }
 		
@@ -109,7 +122,8 @@ public class OpenieExtractor implements RelationExtractor
 		   Seq<Instance> extractions = openIE.extract(doc.getDocText());
 		   List<Instance> list_extractions = JavaConversions.seqAsJavaList(extractions);
 	        for(Instance instance : list_extractions) {
-	        	
+	        	 logger.info("find subject, object and relation in the ollie outputs");
+
 	        	String subj = instance.extr().arg1().text();
 	        	String rel = instance.extr().rel().text();
 	        	
@@ -130,6 +144,7 @@ public class OpenieExtractor implements RelationExtractor
 	            }
 	            String obj =sb.toString();
 
+	        	 logger.info("insert subject object relation into the database");
 
 	        	 EntityRel entityobj = new EntityRel();    //save object as an entity
 	        	 entityobj.setEntitytext(obj); entityobj.setindexe(doc.getDocText().indexOf(obj));entityobj.setlongent(obj.length());

@@ -17,8 +17,8 @@ public class LaunchWithAlchemy {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String corpuspath = "/Users/thourayabouzidi/Desktop/HCorpus";
-		String CorpusName = "corpusdomain";
+		String corpuspath = "/Users/thourayabouzidi/Desktop/Guichet";
+		String CorpusName = "guichetdomain";
 		CorpusController cc = new CorpusController();
 		CorpusDao cdao = new CorpusDao();
 		List<Corpus> listcorpus = cdao.getAllCorpus(); //control adding the corpus if it already exists then don't add it !
@@ -35,7 +35,7 @@ public class LaunchWithAlchemy {
 		if (idc == 0) //no match between corpus we are going to add and the corpus in the database then we can add it !
 		{
 			try {
-				idc= cc.addCorpus(corpuspath, "corpusdomain");
+				idc= cc.addCorpus(corpuspath, "GuichetDomain");
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

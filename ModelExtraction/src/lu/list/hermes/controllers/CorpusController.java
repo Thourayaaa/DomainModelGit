@@ -23,6 +23,11 @@ public class CorpusController {
 	final static Logger logger = Logger.getLogger(CorpusController.class);
 
 
+		/** Read the file from in the input path and returns a string 
+		 * @param pathname
+		 * @return
+		 * @throws IOException
+		 */
 		public String readFile(String pathname) throws IOException {
 
 
@@ -54,7 +59,13 @@ public class CorpusController {
 		
 		}
 		
-		 public int addCorpus (String path, String Corpusname) throws IOException
+		 /** Add the corpus and its documents to the database based on the path and the corpus name
+		 * @param path
+		 * @param Corpusname
+		 * @return
+		 * @throws IOException
+		 */
+		public int addCorpus (String path, String Corpusname) throws IOException
 		 {
 			 //add the Corpus First
 			 SessionFactory sf = HibernateUtil.getSessionFactory();

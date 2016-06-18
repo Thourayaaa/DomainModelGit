@@ -13,9 +13,20 @@ import lu.list.hermes.models.*;
 public interface RelationExtractor {
    
 	
-      public  ArrayList<Relation>  generateSPOFromDocument (Document docc, String language);
-     public void extractRelationsCorpus (int idcorpus);
-     public void extractRelationsDocument (Document document);
+     /** generate (subject, relation,object) triplets from the input document and returns the list of relations
+     * @param docc
+     * @param language
+     * @return
+     */
+    public  ArrayList<Relation>  generateSPOFromDocument (Document docc, String language);
+     /** Apply the extractRelationDocument to all the corpus document 
+     * @param idcorpus
+     */
+    public void extractRelationsCorpus (int idcorpus);
+     /** Extract (subject, relation,object) triplets from the input document and save it into the database
+     * @param document
+     */
+    public void extractRelationsDocument (Document document);
 
      
 	

@@ -15,8 +15,20 @@ public interface AnnotationExtractor {
 	
 
 	
+	/**Annotate the input document text using an annotation tool such as KODA and returns list of relations
+	 * @param doc
+	 * @param language
+	 * @return
+	 */
 	public ArrayList<Annotation> generateAnnotationFromDocument(Document doc, String language);
+	
+	/**Annotate the whole corpus found by the input id 
+	 * @param idcorpus
+	 */
 	public void AnnoteCorpus (int idcorpus);
+	/**Annotate the input document text using an annotation tool such as KODA
+	 * @param doc
+	 */
 	public void AnnoteDocument (Document doc);
 
 

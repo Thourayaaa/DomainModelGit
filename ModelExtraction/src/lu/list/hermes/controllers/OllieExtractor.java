@@ -59,7 +59,7 @@ public class OllieExtractor implements RelationExtractor {
     }
 
     /**
-     * Gets Ollie extractions from a single sentence.
+     * returns Ollie extractions from a single sentence.
      * @param sentence
      * @return the set of ollie extractions
      */
@@ -75,6 +75,11 @@ public class OllieExtractor implements RelationExtractor {
     
        
     
+    /** Ollie adds white spaces to the subject and object outputs, this function will remove it in order to find the 
+     * correct index in the input text
+     * @param input
+     * @return
+     */
     public String cleanollie (String input)
     {input=input.replaceAll("\\s+,", ",");
 	  input=input.replaceAll("\\s+:", ":");
@@ -85,6 +90,10 @@ public class OllieExtractor implements RelationExtractor {
 
     	return input;
     }
+    /** find the real relation in the text based on the OllieExtraction : ollie outputs 
+     * @param extr
+     * @return
+     */
     public String findRelationNL( OllieExtraction extr)
     {
     	String RelationLN="";
@@ -113,6 +122,7 @@ public class OllieExtractor implements RelationExtractor {
 		OllieExtractor oll = new OllieExtractor();
 		Iterable<OllieExtractionInstance> extrs = oll.extract(doc.getDocText());
         for (OllieExtractionInstance inst : extrs) {
+        	 logger.info("Find subject, object and relation in the ollie outputs");
         	 OllieExtraction extr = inst.extr();
         	 String subj = cleanollie(extr.arg1().text());
         	 String obj = cleanollie(extr.arg2().text());
@@ -127,6 +137,7 @@ public class OllieExtractor implements RelationExtractor {
         	 relation.setDocument(doc);
          	 rdao.addRelation(relation);
          	 
+        	 logger.info("inset the subject,object and relation into the database");
 
         	 EntityRel entityobj = new EntityRel();    //save object as an entity
         	 entityobj.setEntitytext(obj); entityobj.setindexe(doc.getDocText().indexOf(obj));entityobj.setlongent(obj.length());
@@ -148,7 +159,8 @@ public class OllieExtractor implements RelationExtractor {
 	public void extractRelationsCorpus(int idcorpus) {
 		// TODO Auto-generated method stub
 		
-		SessionFactory sf = HibernateUtil.getSessionFactory();
+		 logger.info("Extract relations from the whole corpus");
+		 SessionFactory sf = HibernateUtil.getSessionFactory();
 		 Session session = sf.openSession();
 		 session.beginTransaction();
 		 CorpusDao cdao = new CorpusDao();
@@ -159,6 +171,7 @@ public class OllieExtractor implements RelationExtractor {
 		 
 		 for (lu.list.hermes.models.Document doo :dc)
 		 {
+			 logger.info("extract relations from the document"+doo.getIdDoc());
 			 extractRelationsDocument(doo); //save SPO into database	 
 		 }
 		
@@ -171,6 +184,7 @@ public class OllieExtractor implements RelationExtractor {
 		ArrayList<Relation> relations = new ArrayList<Relation>();
 		Iterable<OllieExtractionInstance> extrs = this.extract(doc.getDocText());
         for (OllieExtractionInstance inst : extrs) {
+        	 logger.info("find subject, object and relation in the ollie outputs");
         	 OllieExtraction extr = inst.extr();
         	 String subj = cleanollie(extr.arg1().text());
         	 String obj = cleanollie(extr.arg2().text());
@@ -183,6 +197,7 @@ public class OllieExtractor implements RelationExtractor {
         	 relation.setrelation(rel);
         	 relation.setrelationNL(relnl);
         	 relation.setDocument(doc);
+        	 logger.info("insert subject object relation into the database");
         	 EntityRel entityobj = new EntityRel();    //save object as an entity
         	 entityobj.setEntitytext(obj); entityobj.setindexe(doc.getDocText().indexOf(obj));entityobj.setlongent(obj.length());
         	 entityobj.seturient("http://www.list.lu/"+obj.replaceAll("\\s", "_")); entityobj.setlabel("Object");

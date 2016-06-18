@@ -13,6 +13,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
+import org.apache.log4j.Logger;
+
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -28,10 +30,13 @@ import lu.list.hermes.util.HibernateUtil;
  * @author thourayabouzidi
  *
  */
+
 public class KodaExtractor implements AnnotationExtractor {
+	final static Logger logger = Logger.getLogger(KodaExtractor.class);
+
 	String UR;
 	String ontology;
-	
+
 	public KodaExtractor (String urKoda, String ontologyk)
 	
 	{
@@ -80,6 +85,7 @@ public class KodaExtractor implements AnnotationExtractor {
 		in.close();
 		} catch (Exception e) {
 			throw new RuntimeException("Exception while calling URL:"+ myURL, e);
+			
 		} 
 		
 		// The ouput is a Stringbuilder we should write something to take only the words we  need
@@ -95,7 +101,9 @@ public class KodaExtractor implements AnnotationExtractor {
 		      ArrayList<String> aList1= new ArrayList(Arrays.asList((((String) aList.get(i)).split("\":\""))));
 	    	  
 		      for(int j=0 ;j<aList1.size()-1;j++)
-		      {   
+		      {  
+		       logger.info("insert the annotations and its Dbpedia into the database");
+		    	
 		    	Annotation annot = new Annotation();
 		    	AnnotationDao adao = new AnnotationDao();		    	  
 		    	  
@@ -120,6 +128,7 @@ public class KodaExtractor implements AnnotationExtractor {
 	public void AnnoteCorpus(int idcorpus) {
 		// TODO Auto-generated method stub
 		
+		 logger.info("Annotate the whole corpus");
 		 SessionFactory sf = HibernateUtil.getSessionFactory();
 		 Session session = sf.openSession();
 		 session.beginTransaction();
@@ -131,6 +140,7 @@ public class KodaExtractor implements AnnotationExtractor {
 		 
 		 for (Document doo :dc)
 		 {
+			 logger.info("Annotate the document"+doo.getIdDoc());
 			 AnnoteDocument(doo);
 		
 		
@@ -195,6 +205,7 @@ public class KodaExtractor implements AnnotationExtractor {
 	    	  
 		      for(int j=0 ;j<aList1.size()-1;j++)
 		      {   
+		    	logger.info("insert the annotation and its dbpedia into the database");
 		    	Annotation annot = new Annotation();
 		    	AnnotationDao adao = new AnnotationDao();		    	  
 		    	  

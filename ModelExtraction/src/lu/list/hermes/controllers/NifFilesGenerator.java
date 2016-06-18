@@ -23,14 +23,11 @@ import org.hibernate.SessionFactory;
 
 
 /** this class implements functions that write the outputs of the Annotator 
- * and the extractor and save it into .rdf files in the input folders
+ * and the extractor in a NIF format and save it .rdf files in the input folders
  * @author thourayabouzidi
  *
  */
-/**
- * @author thourayabouzidi
- *
- */
+
 
 public class NifFilesGenerator {
 	final static Logger logger = Logger.getLogger(NifFilesGenerator.class);
@@ -44,7 +41,13 @@ public class NifFilesGenerator {
 	
 	
 	
+	/** write the document in a NIF format based the database
+	 * @param dc
+	 * @return
+	 */
 	public  String createNIFDoc (Document dc) 	 { 
+		
+		    logger.info("write the document in a NIF format");
 		    SessionFactory sf = HibernateUtil.getSessionFactory();
 		    Session session = sf.openSession();
 		    session.beginTransaction();
@@ -86,6 +89,7 @@ public class NifFilesGenerator {
 	    {  
 	    	// For each document i create a NIF file and save it into the input path
     	  //starting with creating the doc entete
+	    	logger.info("write NIF format for the document"+docc.getIdDoc());
           String docentet =  createNIFDoc (docc);
           sb.append(docentet);
 
@@ -96,7 +100,9 @@ public class NifFilesGenerator {
         //save output into a file
         
        }
-	      PrintWriter out = new PrintWriter(path+"/"+filename+".rdf");
+	      
+	     logger.info("Write the output RDF file foe the whole corpus");
+	     PrintWriter out = new PrintWriter(path+"/"+filename+".rdf");
          out.println(Docnif);
          out.close();
          sb.delete(0, sb.length());
@@ -136,8 +142,8 @@ public class NifFilesGenerator {
          Docnif = sb.toString();
         //save output into a file
         
-       
-	      PrintWriter out = new PrintWriter(path+"/"+filename+".rdf");
+         logger.info("Write the output RDF file for the document"+iddocument);
+	     PrintWriter out = new PrintWriter(path+"/"+filename+".rdf");
          out.println(Docnif);
          System.out.println(Docnif);
          out.close();
@@ -150,11 +156,18 @@ public class NifFilesGenerator {
 	}
 	
 	
-	 public String nifAnnotation (Annotation a, Document d, String tool) // this method is for koda output annotations (tool = koda)
+	 /** Write the NIF format for the annotation saved into the database
+	 * @param a
+	 * @param d
+	 * @param tool
+	 * @return
+	 */
+	public String nifAnnotation (Annotation a, Document d, String tool) // this method is for koda output annotations (tool = koda)
 	 {   
 		    SessionFactory sf = HibernateUtil.getSessionFactory();
 		    Session session = sf.openSession();
 		    session.beginTransaction();
+		    logger.info("write the annotation in a NIF format");
 		
 	    	int end = a.getindexa()+ a.getlonga();
 		 
@@ -173,11 +186,19 @@ public class NifFilesGenerator {
 		 
 		}
 	
-	 public String nifEntityObject (EntityRel ent, Document d, String tool, String uri)  // for Ollie Entities
+	 /** Write the object in a NIF format
+	 * @param ent
+	 * @param d
+	 * @param tool
+	 * @param uri
+	 * @return
+	 */
+	public String nifEntityObject (EntityRel ent, Document d, String tool, String uri)  // for Ollie Entities
 	 {   
 		    SessionFactory sf = HibernateUtil.getSessionFactory();
 		    Session session = sf.openSession();
 		    session.beginTransaction();
+		    logger.info("write the object in a NIF format");
 		
 	    	int end = ent.getindexe()+ ent.getlongent();
 		 
@@ -195,10 +216,20 @@ public class NifFilesGenerator {
 		 return NIFAnn ;
 		 
 		}
-	 public String nifEntitySubject (EntityRel entsubj, Document d, String tool, String r, int idobj, String uri)
+	
+	 /**Write the subject in a NIF format with the relation kr:relation
+	 * @param entsubj
+	 * @param d
+	 * @param tool
+	 * @param r
+	 * @param idobj
+	 * @param uri
+	 * @return
+	 */
+	public String nifEntitySubject (EntityRel entsubj, Document d, String tool, String r, int idobj, String uri)
 	 
 	 {
-		 
+		  logger.info("write the subject in a NIF format");
 		  int end = entsubj.getindexe() + entsubj.getlongent();
 		 
 		  String NIFAnn ="<http://www.list.lu/document"+d.getIdDoc()+"#"+tool+"/Subject_"+entsubj.getiDe()+">\n \t"
@@ -217,7 +248,13 @@ public class NifFilesGenerator {
 	 }
 	
 	 
-	 public String makeNifFileAnnotator (Document d, String tool) //this makes the nif format the set of annotations( single document)
+	 /** write the whole document in a NIF format : entete - document in a nif format - annotations related to
+	  * the input document in a NIF format
+	 * @param d
+	 * @param tool
+	 * @return
+	 */
+	public String makeNifFileAnnotator (Document d, String tool) //this makes the nif format the set of annotations( single document)
 	 {
 		    SessionFactory sf = HibernateUtil.getSessionFactory();
 		    Session session = sf.openSession();
@@ -225,12 +262,13 @@ public class NifFilesGenerator {
 		    Set <Annotation> annots = d.getAnnotations();
 		     String Niftext = "";
 			 StringBuilder sb = new StringBuilder();
+			 logger.info("Write into a NIF format the document"+d.getDocText()+" based on its annotations");
 		     
 		 for (Annotation a : annots)
 		 {
-			    // Annotation a, Document d, String tool
+			    
 	    	     Niftext = nifAnnotation (a,d,tool);
-         //concatener les r�sultats
+               //concatener les résultats
 	            sb.append(Niftext);
 	     
 		 }
@@ -264,6 +302,7 @@ public class NifFilesGenerator {
 	    	if (iter.next().getrelationNL().equals(rel.getrelationNL()))
 	    	{
 	    		relat = iter.next().getrelationNL();
+	    		logger.info("relation alreday exists!");
 	    	}
 	      }
 	     session.getTransaction().commit();
@@ -274,7 +313,11 @@ public class NifFilesGenerator {
 
 	 
 	 
-	 public String makeRelationObjSubj ( int iddoc) 
+	 /** Write the subject relation object in a correct NIF format : adding the relation to the subject 
+	 * @param iddoc
+	 * @return
+	 */
+	public String makeRelationObjSubj ( int iddoc) 
 		{
 
 			 String NiftextO = "";
@@ -307,7 +350,8 @@ public class NifFilesGenerator {
 		       String rexist = checkRelationExist(re);
 		       if (rexist.equals(""))
 		       { 
-		    	    NiftextS= nifEntitySubject(subject,Dc, "Ollie", re.getrelationNL(),(int)object.getiDe(), uri1);//Subject we should add something here
+		    	    logger.info("Add the subject with the correct relation and the new relation");
+		    	   NiftextS= nifEntitySubject(subject,Dc, "Ollie", re.getrelationNL(),(int)object.getiDe(), uri1);//Subject we should add something here
 			       
 		            String Relation = "kr:"+ re.getrelationNL().replaceAll("\\s", "_")+"\n \t"
 		    		 +"a rdf:Property;"+"\n \t"
@@ -320,6 +364,7 @@ public class NifFilesGenerator {
 		       }
 		       else 
 		       {
+		    	   logger.info("relation already exists"+"\n add the relation to the subject NIF format ");
 		    	   NiftextS= nifEntitySubject(subject,Dc, "Ollie", re.getrelationNL(),(int)object.getiDe(), uri1);//Subject we should add something here
 		    	   NiftextO = nifEntityObject (object,Dc,"Ollie",uri2);//object
 			   
@@ -343,7 +388,7 @@ public class NifFilesGenerator {
 		}
 		
 
-	 /** Generate Nif file for the whole koda corpus
+	 /** Generate NIF format file for the whole corpus based on the annotator outputs
 	 * @param idc
 	 * @param path
 	 * @param filename
@@ -355,6 +400,7 @@ public class NifFilesGenerator {
 		      SessionFactory sf = HibernateUtil.getSessionFactory();
 		      Session session = sf.openSession();
 		      session.beginTransaction();
+		      logger.info("generate NIF format for the whole corpus");
 		      CorpusDao cdao = new CorpusDao();
 		      Corpus c = cdao.getCorpusById(idc);
 		      Set <Document> docs = c.getDocuments();
@@ -365,13 +411,17 @@ public class NifFilesGenerator {
 		    for (Document docc : docs)
 		    {
 
-			    String docentet =  createNIFDoc(docc); //entete du document
+			   logger.info("generate NIF format for the document"+docc.getIdDoc());
+
+		    	String docentet =  createNIFDoc(docc); //entete du document
 	           sb.append(docentet);
 	           String Ann = makeNifFileAnnotator (docc, tool) ; // set of annotations
 	           sb.append(Ann);
 	            Docnif = sb.toString();
 	          //save output into a file
 	         		          }
+		      logger.info("Write the output files");
+
 		       PrintWriter out = new PrintWriter(path+"/"+filename+".rdf");
 	           out.println(Docnif);
 
@@ -412,7 +462,8 @@ public class NifFilesGenerator {
            sb.append(Ann);
             Docnif = sb.toString();
           //save output into a file
-         		          
+         		     
+            logger.info("Write the NIF format file for the input document");
 	       PrintWriter out = new PrintWriter(path+"/"+filename+".rdf");
            out.println(Docnif);
 
