@@ -1,6 +1,6 @@
 @prefix kr:  <http://www.list.lu/kr#>. 
  
-<http://dbpedia.org/resource/Business>	kr:fails_to_generate	 <http://dbpedia.org/resource/Business>.
+<http://dbpedia.org/resource/Business>  kr:fails_to_generate  <http://dbpedia.org/resource/Business>.
 <http://dbpedia.org/resource/Profession>	kr:require	 <http://dbpedia.org/resource/Authorization>.
 <http://dbpedia.org/resource/Profession>	kr:require	 <http://dbpedia.org/resource/Authorization>.
 <http://dbpedia.org/ontology/Person>	kr:can_only_revoke	 <http://dbpedia.org/resource/The_Representative_(newspaper)>.
