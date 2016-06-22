@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.hibernate.Query;
+import org.hibernate.Transaction;
+
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
@@ -12,7 +14,8 @@ import lu.list.hermes.models.*;
 
 public class RelationDao {
 
-    public void addRelation(Relation Relation) {
+	
+	public void addRelation(Relation Relation) {
         Transaction trns = null;
         Session session = HibernateUtil.getSessionFactory().openSession();
         try {

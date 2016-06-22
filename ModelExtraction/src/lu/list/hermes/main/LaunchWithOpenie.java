@@ -57,15 +57,15 @@ public class LaunchWithOpenie {
    //OpenIE
 		OpenieExtractor openie = new OpenieExtractor();
 		openie.extractRelationsCorpus(idc);
-		KodaExtractor kextractor = new KodaExtractor("http://smartdocs.list.lu/kodaweb/rest/koda-1.0/annotate?ontology=","DBPEDIA_EN_EN");
+		KodaExtractor kextractor = new KodaExtractor("http://smartdocs.list.lu/kodaweb/rest/koda-1.0/annotate?ontology=","YAGO-EN");
 		kextractor.AnnoteCorpus(idc);
 		NifFilesGenerator nifGenerator = new NifFilesGenerator();
 		ConnectionAnnotRelation connectar = new ConnectionAnnotRelation();
 
 		try {
-			nifGenerator.nifRelationCorpus(idc, "KodaAndOpenie", "NifOllie");
-			nifGenerator.generateNifCorpusAnnotator(idc, "KodaAndOpenie", "NifKoda", "Koda");
-			connectar.writeRelationfile(idc, "KodaAndOpenie", "KodaAndOpenie", "corpusdomain");
+			nifGenerator.nifRelationCorpus(idc, "YAGO/OpenIE", "NifOllie");
+			nifGenerator.generateNifCorpusAnnotator(idc, "YAGO/OpenIE", "NifKoda", "Koda");
+			connectar.writeRelationfile(idc, "YAGO/OpenIE", "YAGO/OpenIE", "corpusdomain");
 
 			
 		} catch (FileNotFoundException e) {

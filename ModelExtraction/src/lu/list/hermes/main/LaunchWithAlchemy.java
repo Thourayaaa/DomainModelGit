@@ -18,7 +18,7 @@ public class LaunchWithAlchemy {
 		// TODO Auto-generated method stub
 
 		String corpuspath = "/Users/thourayabouzidi/Desktop/Guichet";
-		String CorpusName = "guichetdomain";
+		String CorpusName = "GuichetLuxembourg";
 		CorpusController cc = new CorpusController();
 		CorpusDao cdao = new CorpusDao();
 		List<Corpus> listcorpus = cdao.getAllCorpus(); //control adding the corpus if it already exists then don't add it !
@@ -35,7 +35,7 @@ public class LaunchWithAlchemy {
 		if (idc == 0) //no match between corpus we are going to add and the corpus in the database then we can add it !
 		{
 			try {
-				idc= cc.addCorpus(corpuspath, "GuichetDomain");
+				idc= cc.addCorpus(corpuspath, CorpusName);
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -45,7 +45,7 @@ public class LaunchWithAlchemy {
 		}
 		else { // the corpus table is empty
 			try {
-				idc= cc.addCorpus(corpuspath, "corpusdomain");
+				idc= cc.addCorpus(corpuspath, CorpusName);
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -57,17 +57,17 @@ public class LaunchWithAlchemy {
 		
    //Alchemy
 		AlchemyExtractor alchem = new AlchemyExtractor();
-		
-		alchem.extractRelationsCorpus(idc);
 		KodaExtractor kextractor = new KodaExtractor("http://smartdocs.list.lu/kodaweb/rest/koda-1.0/annotate?ontology=","DBPEDIA_EN_EN");
 		kextractor.AnnoteCorpus(idc);
+		
+		alchem.extractRelationsCorpus(idc);
 		NifFilesGenerator nifGenerator = new NifFilesGenerator();
 		ConnectionAnnotRelation connectar = new ConnectionAnnotRelation();
 
 		try {
-			nifGenerator.nifRelationCorpus(idc, "KodaAndAlchemy", "NifOllie");
-			nifGenerator.generateNifCorpusAnnotator(idc, "KodaAndAlchemy", "NifKoda", "Koda");
-			connectar.writeRelationfile(idc, "KodaAndAlchemy", "KodaAndAlchemy", "corpusdomain");
+			nifGenerator.nifRelationCorpus(idc, "YAGO/Alchemy", "NifOllie");
+			nifGenerator.generateNifCorpusAnnotator(idc, "YAGO/Alchemy", "NifKoda", "Koda");
+			connectar.writeRelationfile(idc, "YAGO/Alchemy", "YAGO/Alchemy", "corpusdomain");
 
 			
 		} catch (FileNotFoundException e) {

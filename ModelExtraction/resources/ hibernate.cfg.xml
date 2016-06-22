@@ -34,6 +34,14 @@
         <mapping class="lu.list.hermes.models.Annotation" />
         <mapping class="lu.list.hermes.models.Relation" />
         <mapping class="lu.list.hermes.models.EntityRel" />
+        <mapping class="lu.list.hermes.models.Domain" />
+        <mapping class="lu.list.hermes.models.Range" />
+        <mapping class="lu.list.hermes.models.ModelRelation" />
+        
+        
+        
+       
+        
   
       </session-factory>
 </hibernate-configuration>

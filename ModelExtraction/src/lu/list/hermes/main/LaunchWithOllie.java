@@ -57,15 +57,15 @@ public class LaunchWithOllie {
    //Ollie 
 		OllieExtractor ollie = new OllieExtractor();
 		ollie.extractRelationsCorpus(idc);
-		KodaExtractor kextractor = new KodaExtractor("http://smartdocs.list.lu/kodaweb/rest/koda-1.0/annotate?ontology=","DBPEDIA_EN_EN");
+		KodaExtractor kextractor = new KodaExtractor("http://smartdocs.list.lu/kodaweb/rest/koda-1.0/annotate?ontology=","YAGO-EN");
 		kextractor.AnnoteCorpus(idc);
 		NifFilesGenerator nifGenerator = new NifFilesGenerator();
 		ConnectionAnnotRelation connectar = new ConnectionAnnotRelation();
 
 		try {
-			nifGenerator.nifRelationCorpus(idc, "KodaAndOllie", "NifOllie");
-			nifGenerator.generateNifCorpusAnnotator(idc, "KodaAndOllie", "NifKoda", "Koda");
-			connectar.writeRelationfile(idc, "KodaAndOllie", "KodaAndOllie", "corpusdomain");
+			nifGenerator.nifRelationCorpus(idc, "YAGO/Ollie", "NifOllie");
+			nifGenerator.generateNifCorpusAnnotator(idc, "YAGO/Ollie", "NifKoda", "Koda");
+			connectar.writeRelationfile(idc, "YAGO/Ollie", "YAGO/Ollie", "corpusdomain");
 
 			
 		} catch (FileNotFoundException e) {

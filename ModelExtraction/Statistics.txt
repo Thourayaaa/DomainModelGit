@@ -1,4 +1,9 @@
-Ollie :** totalSpo is 433 **all used relations : 7514 **duplicated spo :100**relations only used once: 41**Subjects only used once : 38**Objects only used once : 36
-Alchmey :** totalSpo is 52 **all used relations : 571 **duplicated spo :53**relations only used once: 18**Subjects only used once : 24**Objects only used once : 40
-OpenIE :** totalSpo is 125 **all used relations : 34146 **duplicated spo :2457**relations only used once: 23**Subjects only used once : 23**Objects only used once : 179
+Ollie :** totalSpo is 7514 **all used relations : 433 
+**duplicated spo :100**relations only used once: 41**Subjects only used once : 38**Objects only used once : 36
+
+Alchmey :** totalSpo is 571 **all used relations : 52 **duplicated spo :53**relations only used once: 18
+**Subjects only used once : 24**Objects only used once : 40
+
+OpenIE :** totalSpo is 34146 **all used relations : 125 **duplicated spo :2457
+**relations only used once: 23**Subjects only used once : 23**Objects only used once : 179
 
