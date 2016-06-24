@@ -6,7 +6,7 @@
     <session-factory>
         <!-- Database connection settings -->
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="connection.url">jdbc:mysql://localhost:3306/DataHermes</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/DomainData</property>
         <property name="connection.username">root</property>
         <property name="connection.password"></property>
 
@@ -23,7 +23,7 @@
         <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
 
         <!-- Echo all executed SQL to stdout -->
-        <property name="show_sql">true</property>
+        <property name="show_sql">false</property>
 
         <!-- Drop and re-create the database schema on startup -->
         <property name="hbm2ddl.auto">create</property>
@@ -34,14 +34,13 @@
         <mapping class="lu.list.hermes.models.Annotation" />
         <mapping class="lu.list.hermes.models.Relation" />
         <mapping class="lu.list.hermes.models.EntityRel" />
-        <mapping class="lu.list.hermes.models.Domain" />
-        <mapping class="lu.list.hermes.models.Range" />
         <mapping class="lu.list.hermes.models.ModelRelation" />
+        <mapping class="lu.list.hermes.models.Domain" />
+        <mapping class="lu.list.hermes.models.RelationRange" />
         
         
         
-       
-        
+
   
       </session-factory>
 </hibernate-configuration>

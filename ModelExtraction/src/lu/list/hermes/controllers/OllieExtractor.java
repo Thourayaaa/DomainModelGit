@@ -175,7 +175,7 @@ public class OllieExtractor implements RelationExtractor {
 			 extractRelationsDocument(doo); //save SPO into database	 
 		 }
 		
-		
+		session.close();
 	}
 
 	@Override

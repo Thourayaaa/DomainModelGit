@@ -36,13 +36,13 @@ public class Domain {
     	return domainURI;
     }
     @ManyToOne
-    @JoinColumn(name="IDmr")
-    private ModelRelation modelRelation;
-	public ModelRelation getmodelRelation() {
-		return this.modelRelation;
+    @JoinColumn(name="IDr")
+    private ModelRelation modelrelation;
+	public ModelRelation getmodelrelation() {
+		return this.modelrelation;
 	}
-	public void setmodelRelation(ModelRelation mr)
+	public void setmodelrelation(ModelRelation mr)
 	{
-		this.modelRelation = mr;
+		this.modelrelation = mr;
 	}
 }

@@ -12,7 +12,7 @@ import lu.list.hermes.models.*;
 
 public class RangeDao {
 
-    public void addRange(Range Range) {
+    public void addRange(RelationRange Range) {
         Transaction trns = null;
         Session session = HibernateUtil.getSessionFactory().openSession();
         try {
@@ -35,7 +35,7 @@ public class RangeDao {
         Session session = HibernateUtil.getSessionFactory().openSession();
         try {
             trns = session.beginTransaction();
-            Range Range = (Range) session.load(Range.class, new Integer(Rangeid));
+            RelationRange Range = (RelationRange) session.load(RelationRange.class, new Integer(Rangeid));
             session.delete(Range);
             session.getTransaction().commit();
         } catch (RuntimeException e) {
@@ -49,7 +49,7 @@ public class RangeDao {
         }
     }
 
-    public void updateRange(Range Range) {
+    public void updateRange(RelationRange Range) {
         Transaction trns = null;
         Session session = HibernateUtil.getSessionFactory().openSession();
         try {
@@ -67,13 +67,13 @@ public class RangeDao {
         }
     }
 
-    public List<Range> getAllRange() {
-        List<Range> Ranges = new ArrayList<Range>();
+    public List<RelationRange> getAllRange() {
+        List<RelationRange> Ranges = new ArrayList<RelationRange>();
         Transaction trns = null;
         Session session = HibernateUtil.getSessionFactory().openSession();
         try {
             trns = session.beginTransaction();
-            Ranges = session.createQuery("from Range").list();
+            Ranges = session.createQuery("from RelationRange").list();
         } catch (RuntimeException e) {
             e.printStackTrace();
         } finally {
@@ -83,8 +83,8 @@ public class RangeDao {
         return Ranges;
     }
 
-    public Range getRangeById(int Rangeid) {
-        Range Range = null;
+    public RelationRange getRangeById(int Rangeid) {
+        RelationRange Range = null;
         Transaction trns = null;
         Session session = HibernateUtil.getSessionFactory().openSession();
         try {
@@ -92,7 +92,7 @@ public class RangeDao {
             String queryString = "from Range where id = :id";
             Query query = session.createQuery(queryString);
             query.setInteger("id", Rangeid);
-            Range = (Range) query.uniqueResult();
+            Range = (RelationRange) query.uniqueResult();
         } catch (RuntimeException e) {
             e.printStackTrace();
         } finally {

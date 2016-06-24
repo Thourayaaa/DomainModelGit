@@ -10,23 +10,28 @@ import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+import org.apache.log4j.Logger;
 import lu.list.hermes.dao.DomainDao;
 import lu.list.hermes.dao.ModelRelationDao;
 import lu.list.hermes.dao.RangeDao;
 import lu.list.hermes.models.Domain;
 import lu.list.hermes.models.ModelRelation;
-import lu.list.hermes.models.Range;
+import lu.list.hermes.models.RelationRange;
+import lu.list.hermes.util.HibernateUtil;
 
 import org.apache.commons.compress.utils.Charsets;
 import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
 
 import edu.smu.tspell.wordnet.SynsetType;
 import edu.smu.tspell.wordnet.WordNetDatabase;
 import edu.smu.tspell.wordnet.impl.file.Morphology;
+import edu.stanford.nlp.trees.WordStemmer;
 
 /** this class organize ollie relations: identifier, range and domain.
  * @author thourayabouzidi
@@ -34,48 +39,51 @@ import edu.smu.tspell.wordnet.impl.file.Morphology;
  */
 public class ModelExtractor {
 	
-	
+	final static Logger logger = Logger.getLogger(ModelExtractor.class);
+
 	/** get the base form of the verbs in the relation part
 	 * @param relation
 	 * @return
 	 */
-	public static String getBareinfinitive(String relation)
+	public  String getBareinfinitive(String relation)
 	{
 		System.setProperty("wordnet.database.dir", "dict/");
 		WordNetDatabase database = WordNetDatabase.getFileInstance();
- 
+		
 		Morphology id = Morphology.getInstance();
 		StringBuilder sb = new StringBuilder();
-
-		for (String word : relation.substring(3,relation.length()).split("\n|\\s"))
+		for (String word : relation.split("\n|\\s"))
 		{
-
 		    String[] arr = id.getBaseFormCandidates(word, SynsetType.VERB);
-		   
+		    
+		    
+		   logger.info(word);
 		    if (arr.length != 0)
 		    		{
 			String verb = arr[0].toString();
 		   
 		    sb.append(verb+" ");
+		   
 		    		}
+		    else
+		    {
+		    	sb.append(word+" ");
+		    }
 		    
 			}
 
 		
 		return sb.toString();
 	}
-	public static void main(String[] args) {
-				List<String> list = unifyRelations("KodaAndAlchemy/JustKodaRel.txt");
-		 
-	}
-
 	
 	/** delete duplicated lines
 	 * @param pathname
 	 * @return
 	 */
-	public static List<String>  cleanRelations (String pathname)
+	public  List<String>  cleanRelations (String pathname)
 	{
+		   logger.info(" start Clean relations ..");
+
 		List<String> lines = null;
 		try {
 	      lines = Files.readAllLines(Paths.get(pathname), Charsets.UTF_8);
@@ -96,14 +104,15 @@ public class ModelExtractor {
 		}
 
 		
-		
+		   logger.info("  clean relations done ..");
+
 	   return spoLines;
 	}
 	/**check if the relation has been added or not and returns the relation that matches the input base form .
 	 * @param baseform
 	 * @return
 	 */
-	public static int checkRelationExist(String baseform)
+	public  int checkRelationExist(String baseform)
 
 	{
 		ModelRelationDao mdao = new ModelRelationDao();
@@ -126,7 +135,7 @@ public class ModelExtractor {
 	 * @param subjuri
 	 * @return
 	 */
-	public static boolean checkDomainExist (String subjuri)
+	public  boolean checkDomainExist (String subjuri)
 	{
 		DomainDao  ddao = new DomainDao();
 		List<Domain> listDomain = ddao.getAllDomain();
@@ -150,13 +159,13 @@ public class ModelExtractor {
 	 * @param subjuri
 	 * @return
 	 */
-	public static boolean checkRangeExist (String objuri)
+	public  boolean checkRangeExist (String objuri)
 	{
 		RangeDao  ddao = new RangeDao();
-		List<Range> listrange = ddao.getAllRange();
+		List<RelationRange> listrange = ddao.getAllRange();
 		    Boolean exist = false;
 
-		for (Range range: listrange)
+		for (RelationRange range: listrange)
 			if (range.getrangeURI().equals(objuri))
 			{
 				exist = true;
@@ -172,18 +181,18 @@ public class ModelExtractor {
 	 * @param uri
 	 * @return
 	 */
-	public static List<String> getRDFtype(String uri)
+	public  List<String> getRDFtype(String uri)
 	{
 		List<String> rdfType = new ArrayList<String>();
 		String service = "http://dbpedia.org/sparql";
 
 		String query  = "PREFIX owl: <http://www.w3.org/2002/07/owl#>"
-			    +"PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>"
+			   // +"PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>"
 				+"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
 				+"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
-				+"PREFIX foaf: <http://xmlns.com/foaf/0.1/>"
-				+"PREFIX dc: <http://purl.org/dc/elements/1.1/>"
-				+"PREFIX skos: <http://www.w3.org/2004/02/skos/core#>"
+//				+"PREFIX foaf: <http://xmlns.com/foaf/0.1/>"
+//				+"PREFIX dc: <http://purl.org/dc/elements/1.1/>"
+//				+"PREFIX skos: <http://www.w3.org/2004/02/skos/core#>"
 				+"PREFIX : <http://dbpedia.org/resource/>"
 				+"PREFIX ru: <http://ru.dbpedia.org/resource/>"
 				+"PREFIX dbpedia2: <http://dbpedia.org/property/>"
@@ -201,9 +210,14 @@ public class ModelExtractor {
 		return rdfType;
 	}
 	
-	public static List<String> unifyRelations(String pathname) 
+	public void unifyRelations(String pathname) 
 	
-	{  List<String> spoLines = cleanRelations(pathname);
+	{ 
+//		SessionFactory sf = HibernateUtil.getSessionFactory();
+//		 Session session = sf.openSession();
+//		 session.beginTransaction();
+		
+		List<String> spoLines = cleanRelations(pathname);
 	 
 	for (String line :spoLines)
 	{
@@ -233,8 +247,8 @@ public class ModelExtractor {
 	         ModelRelation  mr = new ModelRelation();
 	         ModelRelationDao mddao= new ModelRelationDao();
 	         
-	         //int idmr = checkRelationExist(infinitive);
-	         int idmr = 0;
+	         int idmr = checkRelationExist(infinitive);
+	         
 	         if (idmr == 0)
 	        	 
 	         {
@@ -247,6 +261,7 @@ public class ModelExtractor {
 	        	 idmr = (int)mr.getiDr();
 	        	 
 	         }
+	         ModelRelation Modelr = mddao.getModelRelationById(idmr);
 	        
 	      // add domain entities 
         	 for (String dom: domainlist )
@@ -258,7 +273,7 @@ public class ModelExtractor {
         		{
         			Domain d = new Domain();
         			d.setdomainURI(dom);
-        			d.setmodelRelation(mr);
+        			d.setmodelrelation(Modelr);
         			ddao.addDomain(d);
         		}
         	 }
@@ -266,22 +281,24 @@ public class ModelExtractor {
         	 //add range entities
         	 for (String range: rangelist )
         	 {
-        			RangeDao ddao = new RangeDao();
+        			RangeDao randao = new RangeDao();
 
         		Boolean exist = checkRangeExist(range);
         		if (!exist)
         		{
-        			Range r = new Range();
+        			RelationRange r = new RelationRange();
         			r.setrangeURI(range);
-        			r.setmodelRelation(mr);
-        			ddao.addRange(r);
+        			r.setmodelrelation(Modelr);
+        			randao.addRange(r);
         		}
         	 }
 	  
 		}
 	}
-		
-		return null;
+	
+	
+	//session.close();
+
 		
 		
 	}

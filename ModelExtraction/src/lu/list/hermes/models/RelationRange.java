@@ -9,8 +9,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "Range")
-public class Range {
+@Table(name = "RelationRange")
+public class RelationRange {
 
 	@Id
     @GeneratedValue
@@ -24,14 +24,14 @@ public class Range {
 
 	private String rangeURI;
     @ManyToOne
-    @JoinColumn(name="IDmr")
-    private ModelRelation modelRelation;
-	public ModelRelation getmodelRelation() {
-		return this.modelRelation;
+    @JoinColumn(name="IDrela")
+    private ModelRelation modelrelation;
+	public ModelRelation getmodelrelation() {
+    		return this.modelrelation;
 	}
-	public void setmodelRelation(ModelRelation mr)
+	public void setmodelrelation(ModelRelation mr)
 	{
-		this.modelRelation = mr;
+		this.modelrelation = mr;
 	}
     
   

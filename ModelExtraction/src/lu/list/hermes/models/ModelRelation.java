@@ -37,26 +37,26 @@ public class ModelRelation {
     @Column(name = "Identifier", length = 100000)
 
 	private String Identifier;
-    @OneToMany(fetch = FetchType.EAGER,mappedBy="ModelRelation")
-    private Set<Range> range;
+    @OneToMany(fetch = FetchType.EAGER,mappedBy="modelrelation")
+    private Set<RelationRange> relationrange;
 
-	public Set<Range> getrange() {
-		return this.range;
+	public Set<RelationRange> getrelationrange() {
+		return this.relationrange;
 	}
 
-	public void setrange(Set<Range> range) {
-		this.range = range;
+	public void setrelationrange(Set<RelationRange> relationranges) {
+		this.relationrange = relationranges;
 	}
     
-	 @OneToMany(fetch = FetchType.EAGER,mappedBy="ModelRelation")
-	    private Set<Domain> domain;
+	 @OneToMany(fetch = FetchType.EAGER,mappedBy="modelrelation")
+	    private Set<Domain> domains;
 
-		public Set<Domain> getdomain() {
-			return this.domain;
+		public Set<Domain> getdomains() {
+			return this.domains;
 		}
 
-		public void setdomain(Set<Domain> domain) {
-			this.domain = domain;
+		public void setdomains(Set<Domain> domainss) {
+			this.domains = domainss;
 		}
 	
 	

@@ -58,9 +58,10 @@ public class LaunchWithAlchemy {
    //Alchemy
 		AlchemyExtractor alchem = new AlchemyExtractor();
 		KodaExtractor kextractor = new KodaExtractor("http://smartdocs.list.lu/kodaweb/rest/koda-1.0/annotate?ontology=","DBPEDIA_EN_EN");
+		alchem.extractRelationsCorpus(idc);
 		kextractor.AnnoteCorpus(idc);
 		
-		alchem.extractRelationsCorpus(idc);
+		
 		NifFilesGenerator nifGenerator = new NifFilesGenerator();
 		ConnectionAnnotRelation connectar = new ConnectionAnnotRelation();
 
