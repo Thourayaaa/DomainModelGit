@@ -68,7 +68,7 @@ public class NifFilesGenerator {
 
 	
 	
-	/**Write Nif file for the whole corpus
+	/**Write NIF file for the whole corpus
 	 * @param idc
 	 * @param path
 	 * @param filename
@@ -162,7 +162,7 @@ public class NifFilesGenerator {
 	 * @param tool
 	 * @return
 	 */
-	public String nifAnnotation (Annotation a, Document d, String tool) // this method is for koda output annotations (tool = koda)
+	public String nifAnnotation (Annotation a, Document d, String tool) // this method is for KODA output annotations (tool = KODA)
 	 {   
 		    SessionFactory sf = HibernateUtil.getSessionFactory();
 		    Session session = sf.openSession();
@@ -200,7 +200,7 @@ public class NifFilesGenerator {
 		    session.beginTransaction();
 		    logger.info("write the object in a NIF format");
 		
-	    	int end = ent.getindexe()+ ent.getlongent();
+	    	int end = ent.getindexe()+ent.getlongent();
 		 
 		   String NIFAnn ="<http://www.list.lu/document"+d.getIdDoc()+"#"+tool+"/"+ent.getlabel()+"_"+ent.getiDe()+">\n \t"
 				 +"a nif:Phrase;"+"\n\t"

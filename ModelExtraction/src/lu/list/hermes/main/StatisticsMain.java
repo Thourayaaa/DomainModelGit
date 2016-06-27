@@ -15,7 +15,7 @@ public class StatisticsMain {
 		StatisticsGenerator sg = new StatisticsGenerator();
 		StringBuilder sb = new StringBuilder();
 		/*ollie values */
-		logger.info("This is what Ollie gives: ");
+		logger.info(" Main :This is what Ollie gives: ");
 		int totalspo = sg.calculateSPO("KodaAndOllie/JustKodaRel.txt");
 		int allrelations = sg.calculateRelations("KodaAndOllie/JustKodaRel.txt");
 		int duplicatedSpo = sg.calculateSpoDuplication("KodaAndOllie/JustKodaRel.txt");
@@ -27,7 +27,7 @@ public class StatisticsMain {
 		sb.append("Ollie :** totalSpo is "+totalspo+" **all used relations : "+allrelations+ " **duplicated spo :"+ duplicatedSpo
 				+"**relations only used once: "+uniqueRel+"**Subjects only used once : "+uniqueSubj+"**Objects only used once : "+uniqueObj+"\n");
 		/*Alchemy values */
-		logger.info("This is what Alchmey gives: ");
+		logger.info(" Main : This is what Alchmey gives: ");
 		int totalspo1 = sg.calculateSPO("KodaAndAlchemy/JustKodaRel.txt");
 		int allrelations1 = sg.calculateRelations("KodaAndAlchemy/JustKodaRel.txt");
 		int duplicatedSpo1 = sg.calculateSpoDuplication("KodaAndAlchemy/JustKodaRel.txt");
@@ -43,7 +43,7 @@ public class StatisticsMain {
 
 		
 		/*OpenIE values */
-		logger.info("This is what OpenIE gives: ");
+		logger.info(" Main :This is what OpenIE gives: ");
 		int totalspo2 = sg.calculateSPO("KodaAndOpenie/JustKodaRel.txt");
 		int allrelations2 = sg.calculateRelations("KodaAndOpenie/JustKodaRel.txt");
 		int duplicatedSpo2 = sg.calculateSpoDuplication("KodaAndOpenie/JustKodaRel.txt");

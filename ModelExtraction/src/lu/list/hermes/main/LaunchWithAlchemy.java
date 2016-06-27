@@ -45,6 +45,7 @@ public class LaunchWithAlchemy {
 		}
 		else { // the corpus table is empty
 			try {
+				logger.info("add the corpus ..");
 				idc= cc.addCorpus(corpuspath, CorpusName);
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
@@ -57,15 +58,20 @@ public class LaunchWithAlchemy {
 		
    //Alchemy
 		AlchemyExtractor alchem = new AlchemyExtractor();
+		logger.info(" Main : extract relations ..");
 		KodaExtractor kextractor = new KodaExtractor("http://smartdocs.list.lu/kodaweb/rest/koda-1.0/annotate?ontology=","DBPEDIA_EN_EN");
 		alchem.extractRelationsCorpus(idc);
+		logger.info(" Main : extract annotations ..");
+
 		kextractor.AnnoteCorpus(idc);
 		
-		
+		logger.info("Main : generate NIF files ");
 		NifFilesGenerator nifGenerator = new NifFilesGenerator();
 		ConnectionAnnotRelation connectar = new ConnectionAnnotRelation();
 
 		try {
+			logger.info("Main : Generate  files containg relations between ollie and koda outputs...");
+
 			nifGenerator.nifRelationCorpus(idc, "YAGO/Alchemy", "NifOllie");
 			nifGenerator.generateNifCorpusAnnotator(idc, "YAGO/Alchemy", "NifKoda", "Koda");
 			connectar.writeRelationfile(idc, "YAGO/Alchemy", "YAGO/Alchemy", "corpusdomain");

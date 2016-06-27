@@ -115,6 +115,7 @@ public class ModelExtractor {
 	public  int checkRelationExist(String baseform)
 
 	{
+		logger.info("check if relation has been already found ..");
 		ModelRelationDao mdao = new ModelRelationDao();
 		List<ModelRelation> listmr = mdao.getAllModelRelation();
 		Boolean exist = false;
@@ -137,6 +138,7 @@ public class ModelExtractor {
 	 */
 	public  boolean checkDomainExist (String subjuri)
 	{
+		logger.info("check if this domain has been already added to the relation domain ..");
 		DomainDao  ddao = new DomainDao();
 		List<Domain> listDomain = ddao.getAllDomain();
 		    Boolean exist = false;
@@ -161,6 +163,8 @@ public class ModelExtractor {
 	 */
 	public  boolean checkRangeExist (String objuri)
 	{
+		
+		logger.info("check if this range has been already added to the relation range ");
 		RangeDao  ddao = new RangeDao();
 		List<RelationRange> listrange = ddao.getAllRange();
 		    Boolean exist = false;
@@ -183,6 +187,8 @@ public class ModelExtractor {
 	 */
 	public  List<String> getRDFtype(String uri)
 	{
+		
+		logger.info("get RDF type of : "+ uri);
 		List<String> rdfType = new ArrayList<String>();
 		String service = "http://dbpedia.org/sparql";
 
@@ -210,13 +216,13 @@ public class ModelExtractor {
 		return rdfType;
 	}
 	
+	/** Unify relations found in the input file : delete duplications, unify based on the base form, find range and domain
+	 * @param pathname
+	 */
 	public void unifyRelations(String pathname) 
 	
 	{ 
-//		SessionFactory sf = HibernateUtil.getSessionFactory();
-//		 Session session = sf.openSession();
-//		 session.beginTransaction();
-		
+        logger.info("start unifying relations in this file"+ pathname);
 		List<String> spoLines = cleanRelations(pathname);
 	 
 	for (String line :spoLines)
@@ -233,7 +239,7 @@ public class ModelExtractor {
 		if(matcher.find() && (matcher1.find()) && (matcher2.find()))
 		{
 	         
-			 String relation = matcher.group(0).replace("_", "\n").substring(3, matcher.group(0).replace("_", "\n").length());
+			 String relation = matcher.group(0).replace("_", "\\S").substring(4, matcher.group(0).replace("_", "\\S").length());
 	         String subject = matcher1.group(0);
 	         String object = matcher2.group(0).substring(0, matcher2.group(0).length() -1);
             
@@ -254,7 +260,7 @@ public class ModelExtractor {
 	         {
 	        	 // add relation
 	        	 mr.setRelationName(relation);
-	        	 mr.setIdentifier(relation);
+	        	 mr.setIdentifier(relation.replaceAll("_", ""));
 	        	 mr.setBaseform(infinitive);
 	        	 mddao.addModelRelation(mr);
 	        	 
@@ -264,6 +270,7 @@ public class ModelExtractor {
 	         ModelRelation Modelr = mddao.getModelRelationById(idmr);
 	        
 	      // add domain entities 
+	         logger.info("add the domain ..");
         	 for (String dom: domainlist )
         	 {
         			DomainDao ddao = new DomainDao();
@@ -279,6 +286,8 @@ public class ModelExtractor {
         	 }
         		 
         	 //add range entities
+	         logger.info("add the range ..");
+
         	 for (String range: rangelist )
         	 {
         			RangeDao randao = new RangeDao();
@@ -297,7 +306,6 @@ public class ModelExtractor {
 	}
 	
 	
-	//session.close();
 
 		
 		

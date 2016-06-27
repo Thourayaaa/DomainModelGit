@@ -32,32 +32,7 @@ public class StatisticsGenerator {
 	final static Logger logger = Logger.getLogger(StatisticsGenerator.class);
 
 
-	/** read a file from the input path and returns its content in a String
-	 * @param pathname
-	 * @return
-	 * @throws IOException
-	 */
-	public String readFile(String pathname) throws IOException {
 
-
-        File file = new File(pathname);
-        StringBuilder contents = new StringBuilder();
-
-        BufferedReader input = new BufferedReader(new FileReader(file));
-
-        try {
-            String line = null;
-
-            while ((line = input.readLine()) != null) {
-                contents.append(line);
-                contents.append(System.getProperty("line.separator"));
-            }
-        } finally {
-            input.close();
-        }
-
-        return contents.toString();
-	}
 
 	
 	/** Calculate number of total relations in the output file
@@ -87,7 +62,7 @@ public class StatisticsGenerator {
 						e.printStackTrace();
 					}
 		          
-		  logger.info("total relations number is"+ spoNumber);
+		  logger.info("triplets number is"+ spoNumber);
 		return spoNumber;
 	}
 	
@@ -188,7 +163,7 @@ public class StatisticsGenerator {
 		}
 		
 		duplicatedSpoNum = duplicatedSpo.size();
-		logger.info("number of duplicated spo is:"+ duplicatedSpoNum);
+		logger.info("number of duplicated triplets is:"+ duplicatedSpoNum);
 		
 		return duplicatedSpoNum  ;
 	}
@@ -232,6 +207,10 @@ public class StatisticsGenerator {
 	}
 	
 	
+	/** calculate the number of dbpedia uri used once as a subject
+	 * @param pathname
+	 * @return
+	 */
 	public int calculateUniqueSubject(String pathname)
 	{
 		int uniqueSubjectsNum =0;
@@ -263,6 +242,10 @@ public class StatisticsGenerator {
 		
 	}
 	
+	/** calculate the number of dbpedia uri used once as an object
+	 * @param pathname
+	 * @return
+	 */
 	public int calculateUniqueObject(String pathname)
 	{
 		int uniqueObjectsNum =0;
@@ -290,7 +273,7 @@ public class StatisticsGenerator {
 		}
 		HashSet<String> uniqueObjects = new HashSet<String>(allObjects);
 		uniqueObjectsNum = uniqueObjects.size();
-		logger.info("The number of subjects used only once in the output file is: "+ uniqueObjectsNum);
+		logger.info("The number of objects used only once in the output file is: "+ uniqueObjectsNum);
 		return uniqueObjectsNum;
 		
 		

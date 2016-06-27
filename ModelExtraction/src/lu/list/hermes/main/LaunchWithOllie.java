@@ -34,6 +34,8 @@ public class LaunchWithOllie {
 		if (idc == 0)
 		{
 			try {
+				logger.info("add the corpus ..");
+
 				idc= cc.addCorpus(corpuspath, "GuichetDomain");
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
@@ -44,6 +46,8 @@ public class LaunchWithOllie {
 		}
 		else {
 			try {
+				logger.info("add the corpus ..");
+
 				idc= cc.addCorpus(corpuspath, "corpusdomain");
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
@@ -56,13 +60,21 @@ public class LaunchWithOllie {
 		
    //Ollie 
 		OllieExtractor ollie = new OllieExtractor();
+		logger.info(" Main : extract relations ..");
+
 		ollie.extractRelationsCorpus(idc);
 		KodaExtractor kextractor = new KodaExtractor("http://smartdocs.list.lu/kodaweb/rest/koda-1.0/annotate?ontology=","YAGO-EN");
+		logger.info(" Main : extract annotations ..");
+
 		kextractor.AnnoteCorpus(idc);
+		logger.info("Main : generate NIF files ");
+
 		NifFilesGenerator nifGenerator = new NifFilesGenerator();
 		ConnectionAnnotRelation connectar = new ConnectionAnnotRelation();
 
 		try {
+			logger.info("Main : Generate  files containg relations between ollie and koda outputs...");
+
 			nifGenerator.nifRelationCorpus(idc, "YAGO/Ollie", "NifOllie");
 			nifGenerator.generateNifCorpusAnnotator(idc, "YAGO/Ollie", "NifKoda", "Koda");
 			connectar.writeRelationfile(idc, "YAGO/Ollie", "YAGO/Ollie", "corpusdomain");
