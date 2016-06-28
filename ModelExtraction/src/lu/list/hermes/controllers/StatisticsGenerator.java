@@ -8,6 +8,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.LineNumberReader;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -74,6 +76,7 @@ public class StatisticsGenerator {
 	public int calculateRelations (String pathname)
 	{
 		int relationsNumber=0;
+		List<String> AllRelations = new ArrayList<String>();
 		List<String> lines = null;
 		try {
 	      lines = Files.readAllLines(Paths.get(pathname), Charsets.UTF_8);
@@ -82,55 +85,45 @@ public class StatisticsGenerator {
 			e.printStackTrace();
 		}
 
-		List<String> calculatedRelations = new ArrayList<String>();
 		for (String line :lines)
 		{
 			
 			Pattern pattern = Pattern.compile("kr:.* ");
 			Matcher matcher = pattern.matcher(line);
-			Boolean b = false;// relation doesn't exist
-			String relation = null;
 
 
 			if (matcher.find())
 			{
-
-				 relation = matcher.group(0);
-
-				 if (calculatedRelations.isEmpty())
-				 {
-					 calculatedRelations.add(relation);
-	            	 relationsNumber ++;
-				 }
-				for (String rel : calculatedRelations)
-				{
-					
-					if ( !(relation.equals(rel)))
-					{
-						b = false;
-					}
-					else {
-						b = true;
-
+                AllRelations.add(matcher.group(0));
+				 
 					}
 						
 				}
 				
-			}
-             if (b == false)
-             {
-            	 relationsNumber ++;
-            	 calculatedRelations.add(relation);
-            	 
-             }
+		HashSet<String> set = new HashSet<>();
+		List<String> result = new ArrayList<>();
+
+
+		// Loop over argument list.
+		for (String item : AllRelations) {
+
+		    // If String is not in set, add it to the list and the set.
+		    if (!set.contains(item)) {
+			result.add(item);
+			set.add(item);
+		    }
+		}
+		AllRelations.remove("kr:<http://wwwlistlu/kr#>");
+		AllRelations.remove("<http://wwwlistlu/kr#>");
+             
 
 			
-		}		
 		
-   	 logger.info("number of total used relations without duplication is"+relationsNumber);
+		
+   	 logger.info("number of total used relations without duplication is"+result.size());
 
 		
-		return relationsNumber;
+		return result.size();
 		
 	}
 	

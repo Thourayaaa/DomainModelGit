@@ -164,7 +164,7 @@ public class ModelExtractor {
 	public  boolean checkRangeExist (String objuri)
 	{
 		
-		logger.info("check if this range has been already added to the relation range ");
+		logger.info("check if this range has been already added to the relation range .. ");
 		RangeDao  ddao = new RangeDao();
 		List<RelationRange> listrange = ddao.getAllRange();
 		    Boolean exist = false;
@@ -239,7 +239,7 @@ public class ModelExtractor {
 		if(matcher.find() && (matcher1.find()) && (matcher2.find()))
 		{
 	         
-			 String relation = matcher.group(0).replace("_", "\\S").substring(4, matcher.group(0).replace("_", "\\S").length());
+			 String relation = matcher.group(0).replaceAll("_", " ").substring(4, matcher.group(0).replaceAll("_", " ").length());
 	         String subject = matcher1.group(0);
 	         String object = matcher2.group(0).substring(0, matcher2.group(0).length() -1);
             
@@ -260,7 +260,7 @@ public class ModelExtractor {
 	         {
 	        	 // add relation
 	        	 mr.setRelationName(relation);
-	        	 mr.setIdentifier(relation.replaceAll("_", ""));
+	        	 mr.setIdentifier(relation.replaceAll("\\s", ""));
 	        	 mr.setBaseform(infinitive);
 	        	 mddao.addModelRelation(mr);
 	        	 

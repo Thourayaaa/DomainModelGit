@@ -1,0 +1,23 @@
+set the match is :http://dbpedia.org/property/set
+set the match is :http://dbpedia.org/resource/Set
+set the match is :http://dbpedia.org/resource/SeT
+set the match is :http://dbpedia.org/resource/SET
+set the match is :http://dbpedia.org/resource/Set
+set the match is :http://dbpedia.org/resource/Set
+set the match is :http://dbpedia.org/resource/Set
+set the match is :http://dbpedia.org/resource/Set
+set the match is :http://dbpedia.org/resource/Set
+set the match is :http://dbpedia.org/resource/Set
+called the match is :http://dbpedia.org/property/called
+called the match is :http://dbpedia.org/resource/Called
+manages the match is :http://dbpedia.org/property/manages
+used the match is :http://dbpedia.org/property/used
+used the match is :http://dbpedia.org/resource/Used
+used the match is :http://dbpedia.org/resource/Used
+used the match is :http://dbpedia.org/resource/Used,_Zaragoza
+used the match is :http://dbpedia.org/resource/Used,_Zaragoza
+involved the match is :http://dbpedia.org/resource/Involved
+appoint the match is :http://dbpedia.org/resource/Appoint
+selected the match is :http://dbpedia.org/property/selected
+selected the match is :http://dbpedia.org/resource/Selected
+

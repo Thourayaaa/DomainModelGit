@@ -86,7 +86,7 @@ public class OllieExtractor implements RelationExtractor {
 	  input=input.replaceAll("\\s+\\.", ".");
 	  input=input.replaceAll("\\(\\s+", "\\(");
 	  input=input.replaceAll("\n", "\\s");
-	  input=input.replaceAll("\t", "\\s");
+	  input=input.replaceAll("\t", "");
 
     	return input;
     }

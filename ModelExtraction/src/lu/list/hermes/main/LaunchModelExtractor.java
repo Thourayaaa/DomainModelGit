@@ -13,12 +13,10 @@ public class LaunchModelExtractor {
 
 	public static void main(String[] args) {
 		
-		System.out.print("hey");
 		logger.info("Build the domain model : relation - range - domain");
 		ModelExtractor me = new ModelExtractor();
 	    me.unifyRelations("KodaAndOllie/JustKodaRel.txt");
 	    logger.info("done !");
-		System.out.print("hey");
 
  
 }
