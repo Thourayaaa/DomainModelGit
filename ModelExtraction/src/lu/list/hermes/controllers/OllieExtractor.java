@@ -127,7 +127,7 @@ public class OllieExtractor implements RelationExtractor {
         	 String subj = cleanollie(extr.arg1().text());
         	 String obj = cleanollie(extr.arg2().text());
         	 String relnl = findRelationNL( extr);
-        	 String rel = extr.rel().text();
+        	 String rel = extr.rel().text().replaceAll("^\\s+|\\s+$", "");
         	 Relation relation = new Relation();
         	 RelationDao rdao = new RelationDao();
         	 EntityRelDao edao = new EntityRelDao();

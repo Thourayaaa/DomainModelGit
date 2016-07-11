@@ -1,21 +1,27 @@
 package lu.list.hermes.controllers;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 import org.apache.log4j.Logger;
+
 import lu.list.hermes.dao.DomainDao;
 import lu.list.hermes.dao.ModelRelationDao;
 import lu.list.hermes.dao.RangeDao;
 import lu.list.hermes.models.Domain;
 import lu.list.hermes.models.ModelRelation;
+import lu.list.hermes.models.Relation;
 import lu.list.hermes.models.RelationRange;
 import lu.list.hermes.util.HibernateUtil;
 
@@ -26,7 +32,6 @@ import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-
 
 import edu.smu.tspell.wordnet.SynsetType;
 import edu.smu.tspell.wordnet.WordNetDatabase;
@@ -57,11 +62,9 @@ public class ModelExtractor {
 		    String[] arr = id.getBaseFormCandidates(word, SynsetType.VERB);
 		    
 		    
-		   logger.info(word);
 		    if (arr.length != 0)
 		    		{
 			String verb = arr[0].toString();
-		   
 		    sb.append(verb+" ");
 		   
 		    		}
@@ -120,14 +123,18 @@ public class ModelExtractor {
 		List<ModelRelation> listmr = mdao.getAllModelRelation();
 		Boolean exist = false;
 		int idmr = 0;
-		for (ModelRelation mr : listmr)
-		{
-			if (mr.getBaseForm().equals(baseform))
+		 Iterator<ModelRelation> iter = listmr.iterator();
+		 while (iter.hasNext())
+				 {
+			 ModelRelation mr = iter.next();
+			if ((mr.getBaseForm().equals(baseform)))
 			{
-				exist = true;
-				idmr = (int)mr.getiDr();
+				exist = true; 
+				idmr = (int) mr.getiDr();
 				
 			}
+			if ((exist == true) && (idmr != 0)) break;
+				
 		}
 		return idmr;
 	}
@@ -144,14 +151,16 @@ public class ModelExtractor {
 		    Boolean exist = false;
 
 		for (Domain domain: listDomain)
+		{
 			if (domain.getdomainURI().equals(subjuri))
 			{
 				exist = true;
-				break;
+				
 				
 			}
-		
-		
+			if (exist) break;
+
+		}
 		return exist;
 		
 	}
@@ -170,13 +179,15 @@ public class ModelExtractor {
 		    Boolean exist = false;
 
 		for (RelationRange range: listrange)
+		{
 			if (range.getrangeURI().equals(objuri))
 			{
 				exist = true;
-				break;
 				
 			}
-		
+			if (exist) break;
+
+		}
 		
 		return exist;
 		
@@ -224,7 +235,8 @@ public class ModelExtractor {
 	{ 
         logger.info("start unifying relations in this file"+ pathname);
 		List<String> spoLines = cleanRelations(pathname);
-	 
+        StringBuilder sbb = new StringBuilder();
+
 	for (String line :spoLines)
 	{
 		Pattern patternrel = Pattern.compile("kr:.* ");
@@ -239,7 +251,7 @@ public class ModelExtractor {
 		if(matcher.find() && (matcher1.find()) && (matcher2.find()))
 		{
 	         
-			 String relation = matcher.group(0).replaceAll("_", " ").substring(4, matcher.group(0).replaceAll("_", " ").length());
+			 String relation = matcher.group(0).replaceAll("_", " ").substring(3, matcher.group(0).replaceAll("_", " ").length());
 	         String subject = matcher1.group(0);
 	         String object = matcher2.group(0).substring(0, matcher2.group(0).length() -1);
             
@@ -260,16 +272,20 @@ public class ModelExtractor {
 	         {
 	        	 // add relation
 	        	 mr.setRelationName(relation);
-	        	 mr.setIdentifier(relation.replaceAll("\\s", ""));
+	        	 mr.setIdentifier(relation.replaceAll("\\s", "")); //the relation identifier is the relation without white spaces
 	        	 mr.setBaseform(infinitive);
 	        	 mddao.addModelRelation(mr);
 	        	 
 	        	 idmr = (int)mr.getiDr();
 	        	 
 	         }
-	         ModelRelation Modelr = mddao.getModelRelationById(idmr);
+	         else {
+	        	 sbb.append(idmr + "****"+ infinitive+"********"+ relation+"\n");
+	         }
+		ModelRelation Modelr = mddao.getModelRelationById(idmr);
+	         
 	        
-	      // add domain entities 
+	      // add domain entities related to the relation
 	         logger.info("add the domain ..");
         	 for (String dom: domainlist )
         	 {
@@ -285,7 +301,7 @@ public class ModelExtractor {
         		}
         	 }
         		 
-        	 //add range entities
+        	 //add range entities related to the relation
 	         logger.info("add the range ..");
 
         	 for (String range: rangelist )
@@ -305,8 +321,16 @@ public class ModelExtractor {
 		}
 	}
 	
-	
-
+	PrintWriter out1;
+	try {
+		  out1 = new PrintWriter("chekMatch.txt");
+		  out1.println(sbb.toString());
+		  out1.close();
+		
+	} catch (FileNotFoundException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
 		
 		
 	}

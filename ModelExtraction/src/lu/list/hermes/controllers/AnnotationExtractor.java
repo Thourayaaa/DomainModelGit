@@ -6,13 +6,11 @@ import java.util.List;
 import lu.list.hermes.models.*;
 
 /** The interface for the Annotation task: All classes responsible for
- * annotation must implement from this interface
+ * annotations must implement from this interface.
  * @author thourayabouzidi
  *
  */
 public interface AnnotationExtractor {
-	
-	
 
 	
 	/**Annotate the input document text using an annotation tool such as KODA and returns list of relations

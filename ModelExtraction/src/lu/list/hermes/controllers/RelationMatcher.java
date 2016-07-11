@@ -42,7 +42,7 @@ public class RelationMatcher {
 		String query  = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
                         +"PREFIX dbo: <http://dbpedia.org/ontology/>"
 				        +"PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>"+
-                         "SELECT ?uri ?namespace "+
+                         "SELECT DISTINCT ?uri  "+
                         "WHERE { "+
                          "?uri rdfs:label ?namespace . "+
                         "?namespace <bif:contains> \""+relation+"\"@en ."
@@ -64,8 +64,108 @@ public class RelationMatcher {
 	}
 	
 
+	/** search using yago predicates for a match between our relations and Yago uris
+	 * @param relation
+	 * @return
+	 */
+	public  List<String> searchYagoRelation(String relation)
+	
+	{
+		logger.info("search for yago relations ...");
+		String service = "http://linkeddata1.calcul.u-psud.fr/sparql";
+
+		List<String> yagoURIs = new ArrayList<String>();
+		String[] words = relation.split("\\s+|_");
+		StringBuilder sb = new StringBuilder();
+		sb.append(words[0]);
+		for (int i = 1; i < words.length; i++) {
+			logger.info(words[i]);
+			if (words[i].length() > 1)
+			{
+			sb.append(words[i].substring(0, 1).toUpperCase() +words[i].substring(1));
+			} 
+			else if ( words[i].length() == 1)
+			{
+				sb.append(words[i].substring(0, 1).toUpperCase());
+
+			}
+			
+		}
+		String yagoRelation = sb.toString();
+		System.out.println(yagoRelation);
+
+		String query  = "PREFIX yago: <http://yago-knowledge.org/resource/>"+
+                        "SELECT DISTINCT ?p2  WHERE { ?p1 ?p2 ?p3. FILTER (?p2 = yago:"+yagoRelation+")}";
+		
+		System.out.println(query);
+
+
+
+		QueryExecution qe=QueryExecutionFactory.sparqlService(service, query);
+		ResultSet rs = qe.execSelect();
+		while (rs.hasNext()){
+		    QuerySolution s= rs.nextSolution();
+		    System.out.println(s.getResource("?p2").toString());
+		    
+
+		    
+		}
+
+		
+		  
+		return yagoURIs;
+	}
+
 	
 	
+	
+	
+	
+/** Look for a match for the whole relations in the input file and save the match in the output path
+ * @param pathname
+ * @param outputpath
+ */
+public void searchYagoLinkForAll(String pathname, String outputpath)
+	
+	{
+		ModelExtractor mextract = new ModelExtractor();
+		List<String> spoLines = cleanRelations(pathname);
+		 StringBuilder sb = new StringBuilder();
+		for (String relation :spoLines)
+		{
+
+
+		      List<String> dbpediaMatchingRelations = searchYagoRelation(relation);
+		      for (int i=0; i<dbpediaMatchingRelations.size();i++)
+		      {
+		      sb.append(relation+" the match is :" + dbpediaMatchingRelations.get(i) +"\n");
+		      }
+		      
+		      
+		//	}
+
+				}
+		
+		logger.info("save the existing relations ..");
+		PrintWriter out1;
+		try {
+			  out1 = new PrintWriter(outputpath+"/Yagorelations.txt");
+			  out1.println(sb.toString());
+			  out1.close();
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+      
+	}
+	
+	
+
+	/** clean the relation : extract just the namespace in order to use it in the research process 
+	 * @param pathname
+	 * @return
+	 */
 	public  List<String>  cleanRelations (String pathname)
 	{
 
@@ -86,7 +186,7 @@ public class RelationMatcher {
 				if(matcher.find())
 				{
 				  String namespace = matcher.group(0).replaceAll("\\.|,|\\(|\\)", "").replaceAll("\\s+", "");
-				  String relation = namespace.replaceAll("^kr:_|^kr:", "");
+				  String relation = namespace.replaceAll("^kr:", "");
 			      //String relation = namespace.substring(3, namespace.length());
 			      AllRelations.add(relation);
 			    
@@ -101,13 +201,16 @@ public class RelationMatcher {
 			hs.addAll(AllRelations);
 			AllRelations.clear();
 			AllRelations.addAll(hs);
-			AllRelations.remove("kr:<http://wwwlistlu/kr#>");
 			AllRelations.remove("<http://wwwlistlu/kr#>");
 
 		
 	   return AllRelations;
 	}
 	
+	/**Look for a match for the whole relations in the input file and save the match in the output path
+	 * @param pathname
+	 * @param outputpath
+	 */
 	public void searchdbpediaLinkForAll(String pathname, String outputpath)
 	
 	{
@@ -115,9 +218,9 @@ public class RelationMatcher {
 		List<String> spoLines = cleanRelations(pathname);
 		 StringBuilder sb = new StringBuilder();
 		for (String relation :spoLines)
-		{
+		{		      
 
-			System.out.println("********************"+relation);
+
 
 		      List<String> dbpediaMatchingRelations = searchDBpediaRelation(relation);
 		      for (int i=0; i<dbpediaMatchingRelations.size();i++)
@@ -129,7 +232,7 @@ public class RelationMatcher {
 		//	}
 
 				}
-		
+		logger.info("save relations into the file ...");
 		PrintWriter out1;
 		try {
 			  out1 = new PrintWriter(outputpath+"/dbpediarelations.txt");

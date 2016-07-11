@@ -3,7 +3,9 @@ package lu.list.hermes.controllers;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.StringReader;
 import java.io.UnsupportedEncodingException;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
 import java.net.URLEncoder;
@@ -13,11 +15,18 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+
 import org.apache.log4j.Logger;
-
-
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
 
 import lu.list.hermes.dao.AnnotationDao;
 import lu.list.hermes.dao.CorpusDao;
@@ -60,66 +69,72 @@ public class KodaExtractor implements AnnotationExtractor {
 			e1.printStackTrace();
 		}
 
-		StringBuilder sb = new StringBuilder();
-		URLConnection urlConn = null;
-		InputStreamReader in = null;
+		
+		String output = null;
 		try {
-			URL url = new URL(myURL);
-			urlConn = url.openConnection();
-			if (urlConn != null)
-				urlConn.setReadTimeout(60 * 1000);
-			if (urlConn != null && urlConn.getInputStream() != null) {
-				in = new InputStreamReader(urlConn.getInputStream(),
-						Charset.defaultCharset());
-				BufferedReader bufferedReader = new BufferedReader(in);
-				if (bufferedReader != null) {
-					int cp;
-					while ((cp = bufferedReader.read()) != -1) {
-						sb.append((char) cp);
-					}
-					bufferedReader.close();
-				}
-			}
-		
-			
-		in.close();
+			output = doHttpUrlConnectionAction(myURL);
 		} catch (Exception e) {
-			throw new RuntimeException("Exception while calling URL:"+ myURL, e);
-			
-		} 
-		
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		// The ouput is a Stringbuilder we should write something to take only the words we  need
-		ArrayList<String> arrayList = new ArrayList(Arrays.asList((sb.toString().split("\",\""))));
-		ArrayList<String> aList= arrayList;
-	    
-        String s1= ((String) aList.get(0)).replace("{\"",""); aList.set(0,s1);
-	    String s2= ((String) aList.get(aList.size()-1)).replace("}",""); aList.set(aList.size()-1,s2);
+		InputSource source = new InputSource(new StringReader(output));
 
-	      
-	      for(int i=0;i<aList.size();i++)
-	      {   
-		      ArrayList<String> aList1= new ArrayList(Arrays.asList((((String) aList.get(i)).split("\":\""))));
-	    	  
-		      for(int j=0 ;j<aList1.size()-1;j++)
-		      {  
-		       logger.info("insert the annotations and its Dbpedia into the database");
-		    	
+		 
+		DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
+	    DocumentBuilder docBuilder = null;
+		try {
+			docBuilder = docBuilderFactory.newDocumentBuilder();
+		} catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	    org.w3c.dom.Document document = null;
+		try {
+			document = docBuilder.parse(source);
+		} catch (SAXException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	    NodeList listOfRelations = document.getElementsByTagName("annotation");
+
+        for(int i=0; i<listOfRelations.getLength() ; i++) {
+
+            Node firstRelation = listOfRelations.item(i); //the relation
+            
+                  NodeList listofnodes = firstRelation.getChildNodes();
+                  for(int j=0; j< listofnodes.getLength() ; j++) {
+                	  String term = null;
+                	  String dbpedia = null;
+	                      Node firstnodee = listofnodes.item(j);
+
+	                      if (firstnodee.getNodeName() == "term")
+	                	  {
+	                			 term = firstnodee.getTextContent();
+
+	                	  }
+	                      if (firstnodee.getNodeName() == "disambiguation")
+	                	  {
+	                			 dbpedia = firstnodee.getTextContent();
+
+	                	  }
+		    	logger.info("insert the annotation and its dbpedia into the database");
 		    	Annotation annot = new Annotation();
 		    	AnnotationDao adao = new AnnotationDao();		    	  
 		    	  
-		    	annot.setAnnotation(aList1.get(j).toString());
-		    	annot.setdb(aList1.get(j+1).toString());
+		    	annot.setAnnotation(term);
+		    	annot.setdb(dbpedia);
 		    	annot.setDocument(doc);
-		    	annot.setindexa(doc.getDocText().indexOf(aList1.get(j).toString()));
-		    	annot.seturia("http://www.list.lu/"+aList1.get(j).toString().replaceAll("\\s", "_"));
-		    	annot.setlonga(aList1.get(j).toString().length());
+		    	annot.setindexa(doc.getDocText().indexOf(term));
+		    	annot.seturia("http://www.list.lu/"+term.replaceAll("\\s", "_"));
 		    	adao.addAnnotation(annot);
+		    	annot.setlonga(term.length());
+
 		    	AnnotANDdb.add(annot);			        	    
 		      }
 
 
 	      }}
-	   
 		return AnnotANDdb;
 	
 	}
@@ -141,7 +156,12 @@ public class KodaExtractor implements AnnotationExtractor {
 		 for (Document doo :dc)
 		 {
 			 logger.info("Annotate the document"+doo.getIdDoc());
-			 AnnoteDocument(doo);
+			 try {
+				AnnoteDocument(doo);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		
 		
 
@@ -153,7 +173,6 @@ public class KodaExtractor implements AnnotationExtractor {
 	@Override
 	public void AnnoteDocument(Document doc) {
 		// TODO Auto-generated method stub
-		ArrayList<Annotation> AnnotANDdb = new ArrayList<Annotation>(); //structure to use to save annotation and db
 
 		{			
 		String myURL = null;
@@ -164,61 +183,136 @@ public class KodaExtractor implements AnnotationExtractor {
 			e1.printStackTrace();
 		}
 
-		StringBuilder sb = new StringBuilder();
-		URLConnection urlConn = null;
-		InputStreamReader in = null;
+		
+		String output = null;
 		try {
-			URL url = new URL(myURL);
-			urlConn = url.openConnection();
-			if (urlConn != null)
-				urlConn.setReadTimeout(60 * 1000);
-			if (urlConn != null && urlConn.getInputStream() != null) {
-				in = new InputStreamReader(urlConn.getInputStream(),
-						Charset.defaultCharset());
-				BufferedReader bufferedReader = new BufferedReader(in);
-				if (bufferedReader != null) {
-					int cp;
-					while ((cp = bufferedReader.read()) != -1) {
-						sb.append((char) cp);
-					}
-					bufferedReader.close();
-				}
-			}
-		
-			
-		in.close();
+			output = doHttpUrlConnectionAction(myURL);
 		} catch (Exception e) {
-			throw new RuntimeException("Exception while calling URL:"+ myURL, e);
-		} 
-		
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		// The ouput is a Stringbuilder we should write something to take only the words we  need
-		ArrayList<String> arrayList = new ArrayList(Arrays.asList((sb.toString().split("\",\""))));
-		ArrayList<String> aList= arrayList;
-	    
-        String s1= ((String) aList.get(0)).replace("{\"",""); aList.set(0,s1);
-	    String s2= ((String) aList.get(aList.size()-1)).replace("}",""); aList.set(aList.size()-1,s2);
+		InputSource source = new InputSource(new StringReader(output));
 
-	      
-	      for(int i=0;i<aList.size();i++)
-	      {   
-		      ArrayList<String> aList1= new ArrayList(Arrays.asList((((String) aList.get(i)).split("\":\""))));
-	    	  
-		      for(int j=0 ;j<aList1.size()-1;j++)
-		      {   
+		 
+		DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
+	    DocumentBuilder docBuilder = null;
+		try {
+			docBuilder = docBuilderFactory.newDocumentBuilder();
+		} catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	    org.w3c.dom.Document document = null;
+		try {
+			document = docBuilder.parse(source);
+		} catch (SAXException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	    NodeList listOfRelations = document.getElementsByTagName("annotation");
+
+        for(int i=0; i<listOfRelations.getLength() ; i++) {
+
+            Node firstRelation = listOfRelations.item(i); //the relation
+            
+                  NodeList listofnodes = firstRelation.getChildNodes();
+                  String term = null;
+            	  String dbpedia = null;
+                  
+                  for(int j=0; j< listofnodes.getLength() ; j++) {
+                	      Node firstnodee = listofnodes.item(j);
+
+	                      if (firstnodee.getNodeName() == "term")
+	                	  {
+	                			 term = firstnodee.getTextContent(); 
+	                			 logger.info("************"+term);
+	                			 
+
+	                	  }
+	                      if (firstnodee.getNodeName() == "disambiguation")
+	                	  {
+	                			 dbpedia = firstnodee.getTextContent();
+
+	                	  }
+                  }
 		    	logger.info("insert the annotation and its dbpedia into the database");
 		    	Annotation annot = new Annotation();
 		    	AnnotationDao adao = new AnnotationDao();		    	  
 		    	  
-		    	annot.setAnnotation(aList1.get(j).toString());
-		    	annot.setdb(aList1.get(j+1).toString());
+		    	annot.setAnnotation(term);
+		    	annot.setdb(dbpedia);
 		    	annot.setDocument(doc);
-		    	annot.setindexa(doc.getDocText().indexOf(aList1.get(j).toString()));
-		    	annot.seturia("http://www.list.lu/"+aList1.get(j).toString().replaceAll("\\s", "_"));
+		    	annot.setindexa(doc.getDocText().indexOf(term));
+		    	annot.seturia("http://www.list.lu/"+term.replaceAll("\\s", "_"));
+		    	annot.setlonga(term.length());
 		    	adao.addAnnotation(annot);
-		    	AnnotANDdb.add(annot);			        	    
-		      }
+		      
 
 
 	      }}
 		
-	}}
+	}
+	
+
+	public String doHttpUrlConnectionAction(String desiredUrl)
+			  throws Exception
+			  {
+			    URL url = null;
+			    BufferedReader reader = null;
+			    StringBuilder stringBuilder;
+
+			    try
+			    {
+			      // create the HttpURLConnection
+			      url = new URL(desiredUrl);
+			      HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+			      
+			      // just want to do an HTTP GET here
+			      connection.setRequestMethod("GET");
+			      
+			      // uncomment this if you want to write output to this url
+			      //connection.setDoOutput(true);
+			      
+			      // give it 90 seconds to respond
+			      connection.setReadTimeout(90*1000);
+
+			      connection.connect();
+
+			      // read the output from the server
+			      reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+			      stringBuilder = new StringBuilder();
+
+			      String line = null;
+			      while ((line = reader.readLine()) != null)
+			      {
+			        stringBuilder.append(line + "\n");
+			      }
+			      return stringBuilder.toString();
+			    }
+			    catch (Exception e)
+			    {
+			      e.printStackTrace();
+			      throw e;
+			    }
+			    finally
+			    {
+			      // close the reader; this can throw an exception too, so
+			      // wrap it in another try/catch block.
+			      if (reader != null)
+			      {
+			        try
+			        {
+			          reader.close();
+			        }
+			        catch (IOException ioe)
+			        {
+			          ioe.printStackTrace();
+			        }
+			      }
+
+
+
+			    }}
+
+}

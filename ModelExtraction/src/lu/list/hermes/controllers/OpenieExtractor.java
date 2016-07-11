@@ -46,11 +46,11 @@ public class OpenieExtractor implements RelationExtractor
 				new ClearSrl(), false);
 		   Seq<Instance> extractions = openIE.extract(doc.getDocText());
 		   List<Instance> list_extractions = JavaConversions.seqAsJavaList(extractions);
-	        for(Instance instance : list_extractions) {
-	        	 logger.info("Find subject, object and relation in the ollie outputs");
+	       for(Instance instance : list_extractions) {
+	       logger.info("Find subject, object and relation in the ollie outputs");
 
 	        	String subj = instance.extr().arg1().text();
-	        	String rel = instance.extr().rel().text();
+	        	String rel = instance.extr().rel().text().replaceAll("^\\s+|\\s+$", "");
 	        	
 	        	 Relation relation = new Relation();
 	        	 RelationDao rdao = new RelationDao();
@@ -69,7 +69,7 @@ public class OpenieExtractor implements RelationExtractor
 	        	 sb.append(argument.text());
 	            }
 	            String obj =sb.toString();
-	        	 logger.info("inset the subject,object and relation into the database");
+	        	 logger.info("insert the subject,object and relation into the database");
 
 
 	        	 EntityRel entityobj = new EntityRel();    //save object as an entity

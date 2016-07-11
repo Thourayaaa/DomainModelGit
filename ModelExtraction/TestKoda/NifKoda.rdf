@@ -1,0 +1,45 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+<http:/www.list.lu/document1#char=0,131>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"131"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/guichetL/A04.txt>;
+ 	nif:isString 	"Luxembourg is very attached to the importance of sustainable development of the national economy and the environmental protection.
+"^^xsd:string .
+ 
+<http://www.list.lu/document1#Koda/2>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,131>; 
+ 	nif:anchorOf 	 "sustainable development"^^xsd:string ;
+ 	nif:beginIndex 	 "49"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "72"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Sustainable_development>.
+ 
+<http://www.list.lu/document1#Koda/1>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,131>; 
+ 	nif:anchorOf 	 "Luxembourg"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "10"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Luxembourg>.
+ 
+<http://www.list.lu/document1#Koda/3>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,131>; 
+ 	nif:anchorOf 	 "the national economy"^^xsd:string ;
+ 	nif:beginIndex 	 "76"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "96"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Economy>.
+ 
+<http://www.list.lu/document1#Koda/4>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Koda/document1#char=0,131>; 
+ 	nif:anchorOf 	 "the environmental protection"^^xsd:string ;
+ 	nif:beginIndex 	 "101"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "129"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://dbpedia.org/resource/Environmental_protection>.
+ 
+

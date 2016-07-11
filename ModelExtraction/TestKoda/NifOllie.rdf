@@ -1,0 +1,33 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+<http:/www.list.lu/document1#char=0,131>
+	a	nif:RFC5147String , nif:Phrase , nif:Context ;
+	nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+ 	nif:endIndex 	"131"^^xsd:nonNegativeInteger s;
+ 	itsrdf:taIdentRef 	 <file:/Users/thourayabouzidi/Desktop/guichetL/A04.txt>;
+ 	nif:isString 	"Luxembourg is very attached to the importance of sustainable development of the national economy and the environmental protection.
+"^^xsd:string .
+ 
+kr:is_very_attached
+ 	a rdf:Property;
+ 	rdfs:label "is very attached". 
+<http://www.list.lu/document1#Ollie/Subject_1>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document1#char=0,131>; 
+ 	nif:anchorOf 	 "Luxembourg"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "10"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/Luxembourg_1>;
+ 	kr: is_very_attached <http://www.list.lu/document1#Ollie/Object_2>. 
+
+<http://www.list.lu/document1#Ollie/Object_2>
+ 	a nif:Phrase;
+	nif:referenceContext <http://www.list.lu/Ollie/document1#char=0,131>; 
+ 	nif:anchorOf 	 "0"^^xsd:string ;
+ 	nif:beginIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	nif:endIndex 	 "0"^^xsd:nonNegativeInteger ; 
+ 	itsrdf:taIdentRef 	 <http://www.list.lu/_2>.
+ 
+

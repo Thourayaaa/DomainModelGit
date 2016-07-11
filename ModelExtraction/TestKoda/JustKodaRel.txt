@@ -1,0 +1,3 @@
+@prefix kr:  <http://www.list.lu/kr#>. 
+ 
+

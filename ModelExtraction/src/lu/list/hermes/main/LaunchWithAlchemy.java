@@ -17,7 +17,7 @@ public class LaunchWithAlchemy {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String corpuspath = "/Users/thourayabouzidi/Desktop/Guichet";
+		String corpuspath = "/Users/thourayabouzidi/Desktop/guichetL";
 		String CorpusName = "GuichetLuxembourg";
 		CorpusController cc = new CorpusController();
 		CorpusDao cdao = new CorpusDao();
@@ -72,9 +72,9 @@ public class LaunchWithAlchemy {
 		try {
 			logger.info("Main : Generate  files containg relations between ollie and koda outputs...");
 
-			nifGenerator.nifRelationCorpus(idc, "YAGO/Alchemy", "NifOllie");
-			nifGenerator.generateNifCorpusAnnotator(idc, "YAGO/Alchemy", "NifKoda", "Koda");
-			connectar.writeRelationfile(idc, "YAGO/Alchemy", "YAGO/Alchemy", "corpusdomain");
+			nifGenerator.nifRelationCorpus(idc, "TestKoda", "NifOllie");
+			nifGenerator.generateNifCorpusAnnotator(idc, "TestKoda", "NifKoda", "Koda");
+			connectar.writeRelationfile(idc, "TestKoda", "TestKoda", "corpusdomain");
 
 			
 		} catch (FileNotFoundException e) {

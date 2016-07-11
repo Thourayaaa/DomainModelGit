@@ -13,9 +13,9 @@ public class LaunchModelExtractor {
 
 	public static void main(String[] args) {
 		
-		logger.info("Build the domain model : relation - range - domain");
+		logger.info("Build the domain model: relation - range - domain");
 		ModelExtractor me = new ModelExtractor();
-	    me.unifyRelations("KodaAndOllie/JustKodaRel.txt");
+	    me.unifyRelations("KodaAndOpenie/JustKodaRel.txt");
 	    logger.info("done !");
 
  

@@ -87,9 +87,7 @@ public class CorpusController {
 	        String ext = getFileExtension(files[i]); 
 	         if ((ext.equals("txt")))
 	       {		 
-	         	
-	        	 
-	    		 
+	         	 
 	        	 String uridoc = new File(files[i].getAbsolutePath()).toURI().toURL().toString();
 	             String sentence = readFile(files[i].getAbsolutePath());
 	             Document d = new Document();
@@ -101,7 +99,7 @@ public class CorpusController {
 	         }
 		 }
 
-		logger.info("Corpus successfully added");
+		logger.info("Corpus successfully added !");
 	         }
 	         session.getTransaction().commit();
 	         session.close();

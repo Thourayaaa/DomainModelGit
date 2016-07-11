@@ -82,7 +82,7 @@ public class ConnectionAnnotRelation {
 	    List<Integer> ListSubjKoda = new ArrayList<Integer>(); // koda annotations id 
 	    for (EntityRel entity : Listsubj)
 	    {
-	    	if (entity.getEntitytext().contains(a.getAnnotation()))
+	    	if (entity.getEntitytext().equals(a.getAnnotation()))
 	    	{
 	    		 ListSubjKoda.add((int)entity.getiDe());
 	    		 
@@ -122,7 +122,7 @@ public class ConnectionAnnotRelation {
 	
          {    if (!(obj.getEntitytext() == null))
          {
-             if (a.getAnnotation().contains(obj.getEntitytext()))
+             if (a.getAnnotation().equals(obj.getEntitytext()))
              {
             	 Listobj.add((int) a.getidAnn());
              }
@@ -207,6 +207,7 @@ public class ConnectionAnnotRelation {
         			{
         				
         				//now we are sure we have a relation detected
+
         				for (int idko: LobjKoda)
         				{   
         					logger.info("the match is found: write relations between annotations");
@@ -218,6 +219,8 @@ public class ConnectionAnnotRelation {
         					int iddco = (int)rel.getDocument().getIdDoc();
         					 RelKo = writeRelation ( idrelation, a,a1, iddco) ;
         					 Reldb=writedbRelation(a,a1, idrelation);
+          					 logger.info("********************************************************"+RelKo);
+
         					 sb.append(RelKo);
         					 sb1.append(Reldb);
         				}
@@ -235,15 +238,16 @@ public class ConnectionAnnotRelation {
         	 }
         	 
          }
-         
          logger.info("Write the output files");
-         PrintWriter out = new PrintWriter(pathrelKodaoll+"/RelationKodaOllie.html");
+         PrintWriter out = new PrintWriter(pathrelKodaoll+"/RelationKodaOllie.txt");
          out.println(sbolliekoda.toString());
          out.close();
          
-         PrintWriter out1 = new PrintWriter(pathOnlykoda+"/JustKodaRel.html");
+         PrintWriter out1 = new PrintWriter(pathOnlykoda+"/JustKodaRel.txt");
 	     out1.println(sbkoda.toString());
 	     out1.close();
+         logger.info(" done Writing the output files");
+
 
          session.getTransaction().commit();
          session.close();

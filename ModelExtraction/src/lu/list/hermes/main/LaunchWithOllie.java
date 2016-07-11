@@ -17,7 +17,7 @@ public class LaunchWithOllie {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String corpuspath = "/Users/thourayabouzidi/Desktop/Guichet";
+		String corpuspath = "/Users/thourayabouzidi/Desktop/guichetL";
 		CorpusController cc = new CorpusController();
 		CorpusDao cdao = new CorpusDao();
 		List<Corpus> listcorpus = cdao.getAllCorpus(); //control adding the corpus if it already exists then don't add it !
@@ -63,7 +63,7 @@ public class LaunchWithOllie {
 		logger.info(" Main : extract relations ..");
 
 		ollie.extractRelationsCorpus(idc);
-		KodaExtractor kextractor = new KodaExtractor("http://smartdocs.list.lu/kodaweb/rest/koda-1.0/annotate?ontology=","YAGO-EN");
+		KodaExtractor kextractor = new KodaExtractor("http://smartdocs.list.lu/kodaweb/rest/koda-1.0/annotate?ontology=","DBPEDIA_EN_EN");
 		logger.info(" Main : extract annotations ..");
 
 		kextractor.AnnoteCorpus(idc);
@@ -75,9 +75,9 @@ public class LaunchWithOllie {
 		try {
 			logger.info("Main : Generate  files containg relations between ollie and koda outputs...");
 
-			nifGenerator.nifRelationCorpus(idc, "YAGO/Ollie", "NifOllie");
-			nifGenerator.generateNifCorpusAnnotator(idc, "YAGO/Ollie", "NifKoda", "Koda");
-			connectar.writeRelationfile(idc, "YAGO/Ollie", "YAGO/Ollie", "corpusdomain");
+			nifGenerator.nifRelationCorpus(idc, "TestKoda", "NifOllie");
+			nifGenerator.generateNifCorpusAnnotator(idc, "TestKoda", "NifKoda", "Koda");
+			connectar.writeRelationfile(idc, "TestKoda", "TestKoda", "corpusdomain");
 
 			
 		} catch (FileNotFoundException e) {
