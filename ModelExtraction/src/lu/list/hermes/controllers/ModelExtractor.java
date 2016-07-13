@@ -133,7 +133,7 @@ public class ModelExtractor {
 				idmr = (int) mr.getiDr();
 				
 			}
-			if ((exist == true) && (idmr != 0)) break;
+			if (exist == true) break;
 				
 		}
 		return idmr;
@@ -216,7 +216,10 @@ public class ModelExtractor {
 				+"PREFIX dbpedia: <http://dbpedia.org/>"
 				+"PREFIX dbo: <http://dbpedia.org/ontology/>"
                 + "SELECT ?type "
-                + "WHERE { "+uri+" rdf:type ?type. }";
+                + "WHERE { "+uri+" rdf:type ?type. "
+                + "FILTER( regex(str(?type), \"^http://dbpedia.org/\"))}";
+
+		System.out.println(query);
 		QueryExecution qe=QueryExecutionFactory.sparqlService(service, query);
 		ResultSet rs = qe.execSelect();
 		while (rs.hasNext()){

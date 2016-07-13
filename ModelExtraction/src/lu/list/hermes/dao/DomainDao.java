@@ -49,6 +49,27 @@ public class DomainDao {
         }
     }
 
+    public  List<Domain> getAllDomainsByRelid(int  relationid) {
+        List<Domain> DomainsubClasses = new ArrayList<Domain>();
+        Transaction trns = null;
+        Session session = HibernateUtil.getSessionFactory().openSession();
+        try {
+            trns = session.beginTransaction();
+            String queryString = " Select d  from Domain d  where  d.IDr = :relationid";
+            		
+            Query query = session.createQuery(queryString);
+            query.setParameter("relationid", relationid);
+
+            DomainsubClasses = (List<Domain>) query.list();
+            
+        } catch (RuntimeException e) {
+            e.printStackTrace();
+        } finally {
+            session.flush();
+            session.close();
+        }
+        return DomainsubClasses;
+    }
     public void updateDomain(Domain Domain) {
         Transaction trns = null;
         Session session = HibernateUtil.getSessionFactory().openSession();

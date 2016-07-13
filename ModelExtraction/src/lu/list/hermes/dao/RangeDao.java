@@ -49,6 +49,7 @@ public class RangeDao {
         }
     }
 
+
     public void updateRange(RelationRange Range) {
         Transaction trns = null;
         Session session = HibernateUtil.getSessionFactory().openSession();
@@ -82,7 +83,27 @@ public class RangeDao {
         }
         return Ranges;
     }
+    public  List<RelationRange> getAllRangesByRelid(int  relationid) {
+        List<RelationRange> RangesubClasses = new ArrayList<RelationRange>();
+        Transaction trns = null;
+        Session session = HibernateUtil.getSessionFactory().openSession();
+        try {
+            trns = session.beginTransaction();
+            String queryString = " Select r from RelationRange r  where  r.IDrela = :relationid";
+            		
+            Query query = session.createQuery(queryString);
+            query.setParameter("relationid", relationid);
 
+            RangesubClasses = (List<RelationRange>) query.list();
+            
+        } catch (RuntimeException e) {
+            e.printStackTrace();
+        } finally {
+            session.flush();
+            session.close();
+        }
+        return RangesubClasses;
+    }
     public RelationRange getRangeById(int Rangeid) {
         RelationRange Range = null;
         Transaction trns = null;
@@ -101,4 +122,5 @@ public class RangeDao {
         }
         return Range;
     }
+    
 }
