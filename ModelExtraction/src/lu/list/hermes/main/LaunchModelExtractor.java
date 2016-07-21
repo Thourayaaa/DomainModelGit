@@ -1,11 +1,7 @@
 package lu.list.hermes.main;
 
-import java.util.List;
 
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
-
-import lu.list.hermes.controllers.KodaExtractor;
 import lu.list.hermes.controllers.ModelExtractor;
 
 public class LaunchModelExtractor {
@@ -17,6 +13,7 @@ public class LaunchModelExtractor {
 		ModelExtractor me = new ModelExtractor();
 	    me.unifyRelations("KodaAndOpenie/JustKodaRel.txt");
 	    logger.info("done !");
+	    logger.info("the installation is done");
 
  
 }

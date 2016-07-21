@@ -52,10 +52,8 @@ public class LaunchWithAlchemy {
 				e.printStackTrace();
 			} 
 
-			
 		}
 
-		
    //Alchemy
 		AlchemyExtractor alchem = new AlchemyExtractor();
 		logger.info(" Main : extract relations ..");
@@ -80,9 +78,7 @@ public class LaunchWithAlchemy {
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
-		
-		
+		} 
 		
 
 	}

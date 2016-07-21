@@ -31,7 +31,7 @@ public class LaunchWithOpenie {
 		} 
 					
 		}
-		if (idc == 0)
+		if (idc == 0) //test if the corpus is not saved
 		{
 			try {
 				logger.info("add the corpus ..");

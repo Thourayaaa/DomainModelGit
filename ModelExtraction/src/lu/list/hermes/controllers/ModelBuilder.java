@@ -10,6 +10,7 @@ import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
 
 import lu.list.hermes.dao.DomainDao;
+import lu.list.hermes.dao.ModelRelationDao;
 import lu.list.hermes.dao.RangeDao;
 import lu.list.hermes.models.Domain;
 import lu.list.hermes.models.ModelRelation;
@@ -77,6 +78,10 @@ public class ModelBuilder {
 	
 	
 	
+	/** generate the range superclasses of the input relation
+	 * @param idrel
+	 * @return
+	 */
 	public List<String> generatesubclassesRange (int idrel)
 	{
 		List<String> subClasses = new ArrayList<String>();
@@ -90,7 +95,7 @@ public class ModelBuilder {
 				 {
 			 RelationRange rr = iter.next();
 			 String uri = rr.getrangeURI();
-		String query  = "PREFIX owl: <http://www.w3.org/2002/07/owl#>"
+		     String query  = "PREFIX owl: <http://www.w3.org/2002/07/owl#>"
 			   // +"PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>"
 				+"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
 				+"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
@@ -117,26 +122,31 @@ public class ModelBuilder {
 				 }
 		
 		return subClasses;
+
 		
 	}
+	
+    /** based on the approach that if two relations has the same
+     * (or almost) the same
+     * 
+     */
+    public void findSimilarRelations ()
+    {
+    	ModelRelationDao mrdao = new ModelRelationDao();
+    	List<ModelRelation> listrelation = mrdao.getAllModelRelation();
+		
+		Iterator<ModelRelation> iter = listrelation.iterator();
+		 while (iter.hasNext())
+				 {
+			 ModelRelation mr = iter.next();
+			 int id = (int) mr.getiDr();
+			 List<String> rlist = generatesubclassesRange(id);
+			 List<String> dlist  = generatesubclassesDomain (id);
+
+			 
+				 }
+    }
 			
-	
-	public List<String> generatesubclassesDomain ()
-	{
-		List<String> subClasses = new ArrayList<String>();
-		
-		
-		return subClasses;
-		
-	}
-		
-	
-	
-	
-	
-			public static void main(String[] args) {
-				
-			}
 		}
 
 

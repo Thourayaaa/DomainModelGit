@@ -14,9 +14,6 @@ public class LaunchRelationMatcher {
 		 RelationMatcher Reldbpedia = new RelationMatcher();
 		 Reldbpedia.searchdbpediaLinkForAll("KodaAndOllie/JustKodaRel.txt", "RelationsMatch/");
 		 Reldbpedia.searchYagoLinkForAll("KodaAndOllie/JustKodaRel.txt", "RelationsMatch/");
-
-		
-		
 		
 	}
 
