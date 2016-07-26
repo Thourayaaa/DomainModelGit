@@ -14,6 +14,7 @@ import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
+import org.apache.log4j.Logger;
 
 import edu.smu.tspell.wordnet.Synset;
 import edu.smu.tspell.wordnet.SynsetType;
@@ -21,7 +22,13 @@ import edu.smu.tspell.wordnet.WordNetDatabase;
 import edu.smu.tspell.wordnet.impl.file.Morphology;
 
 
+/** this class implements functions to find similar relations 
+ * relations with the same meaning 
+ * @author thourayabouzidi
+ *
+ */
 public class SimilarRelationsFinder {
+	final static Logger logger = Logger.getLogger(SimilarRelationsFinder.class);
 
 	/** find verb using WordNet dict directory
 	 * @param relation
@@ -30,6 +37,7 @@ public class SimilarRelationsFinder {
 	public String findVerb (String relation)
 	{
 
+		logger.info("find the verb in the relation :"+ relation);
 		String verb = null;
 		System.setProperty("wordnet.database.dir", "dict/");
 		WordNetDatabase database = WordNetDatabase.getFileInstance();
@@ -48,8 +56,14 @@ public class SimilarRelationsFinder {
 		return verb;
 	}
 	
+	/** for the input verb find its synonyms using WordNet
+	 * @param verb
+	 * @return
+	 */
 	public List<String> findSynonyms (String verb)
 	{
+		
+		logger.info("find synonyms of the verb: "+verb);
 		List<String> synonyms = new ArrayList<String>();
 		System.setProperty("wordnet.database.dir", "dict/");
 		WordNetDatabase database = WordNetDatabase.getFileInstance();
@@ -69,16 +83,23 @@ public class SimilarRelationsFinder {
 		}
 		else
 		{
-			System.err.println("No synsets exist that contain " +
+			logger.error("No synsets exist that contain " +
 					"the word form '" + verb + "'");
+			
 		}
 	
 		return synonyms;
 		
 	}
 	
+	/** Use SPARQL query to find superclasses of the domain uris of the input relation
+	 * @param relationid
+	 * @return
+	 */
 	public List<String> generateSuperClassesDomain (int relationid)
 	{
+		logger.info("generate super classes of this relation domain ...");
+		
 		List<String> superclassesDomain = new ArrayList<String>();
 		
 		DomainDao rdao = new DomainDao();
@@ -122,8 +143,15 @@ public class SimilarRelationsFinder {
 	}
 	
 	
+	/** Use SPARQL query to find superclasses of the range uris of the input relation
+	 * @param idrel
+	 * @return
+	 */
 	public List<String> generateSuperClassesRange (int idrel)
 	{
+		logger.info("generate super classes of this relation range ...");
+
+		
 		List<String> subClassesrange = new ArrayList<String>();
 		RangeDao rdao = new RangeDao();
 		List<RelationRange> rlist =  rdao.getAllRangesByRelid(idrel);
@@ -176,6 +204,7 @@ public class SimilarRelationsFinder {
 	 */
 	public int calculateSimilarity (List<String> Domainrela1, List<String> Domainrela2)
 	{
+		logger.info("calculate similarity ... ");
 		int commonRelNumber =0;
 		int similarityPourcentage =0;
 		for (int i= 1;i<Domainrela1.size();i++)
@@ -189,12 +218,18 @@ public class SimilarRelationsFinder {
 		return similarityPourcentage;
 	}
 	
+	/** before adding the relation, test if it  has been already added to the final model
+	 * @param relation
+	 * @param wholeModel
+	 * @return
+	 */
 	public List<String> testRelationadded (String relation, List<List<String>> wholeModel)
 
 	{
 		
 		// look for the verb in the sentence : parcourir  tout le tableau to find a match ! 
 		//we suppose that a sentence contains one causal verb
+		logger.info("test if the relation has been already to final model ...");
 		Boolean added = false;
 		List<String> existingList = new ArrayList<String>();
 		for (int i =0; i< wholeModel.size();i++)
@@ -220,7 +255,9 @@ public class SimilarRelationsFinder {
 		return existingList;		
 	}
 	
-	/** for the input relation the 
+	/** for the input relation test if the relation has been already added or not 
+	 * then see if there is synonyms of it in the rest of the relation
+	 * finally add the relation
 	 * @param idrel
 	 * @param wholeModel
 	 * @return
@@ -228,6 +265,7 @@ public class SimilarRelationsFinder {
 	public List<List<String>> buildModel (int idrel, List<List<String>> wholeModel)
 	{
 		
+		logger.info("buil the model ..");
 		List<String> similarRelations = new ArrayList<String>();
 		
 		ModelRelationDao mrdao = new ModelRelationDao();

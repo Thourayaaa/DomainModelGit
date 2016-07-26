@@ -128,7 +128,8 @@ public class NifFilesGenerator {
 	      DocumentDao cdao = new DocumentDao();
 	      Document docc = cdao.getDocumentById(iddocument);
 	      StringBuilder sb = new StringBuilder();
-          sb.append(entete);
+          sb.append(entete+"\n");
+          sb.append("@prefix kr:  <http://www.list.lu/kr#>."+"\n");
 		  String Docnif = "";
 	     
 	    	// For each document i create a NIF file and save it into the input path
